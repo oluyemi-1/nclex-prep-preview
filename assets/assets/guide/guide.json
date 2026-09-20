@@ -5,7 +5,7 @@
    "id": "tour",
    "title": "Find your way around",
    "summary": "The four tabs, your dashboard, and the voice guide.",
-   "seconds": 104,
+   "seconds": 121,
    "steps": [
     {
      "title": "Welcome to NCLEX Prep",
@@ -53,9 +53,14 @@
      "image": "assets/guide/tour/9.jpg"
     },
     {
-     "title": "The voice guide",
-     "say": "Finally, the speaker at the top of each tab is the voice guide. It reads questions and explanations aloud as you study. Tap it to mute or unmute.",
+     "title": "Set the speaking speed",
+     "say": "The app can read aloud as you study. In the Learn tab, open Voice and narration, and slide to set how fast it speaks, from slower to fastest. If you study in a web browser, you can pick which voice reads to you as well.",
      "image": "assets/guide/tour/10.jpg"
+    },
+    {
+     "title": "The voice guide",
+     "say": "Finally, the speaker at the top of every tab switches that narration on and off. Tap it whenever you want quiet, and again when you want the explanations read to you.",
+     "image": "assets/guide/tour/11.jpg"
     }
    ]
   },
