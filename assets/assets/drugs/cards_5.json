@@ -1,0 +1,962 @@
+[
+  {
+    "id": "fluoxetine",
+    "generic": "Fluoxetine",
+    "brands": ["Prozac", "Sarafem"],
+    "drugClass": "Selective serotonin reuptake inhibitor (SSRI)",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "reuptakeBlock",
+    "rx": true,
+    "uses": ["Major depression", "Obsessive-compulsive disorder", "Bulimia nervosa", "Panic disorder and PMDD"],
+    "quickTip": "Longest-lasting SSRI: wait at least 5 weeks after the last dose before starting an MAOI, and watch patients under 25 for new suicidal thinking in the first months.",
+    "administration": "Orally once daily in the morning, with or without food; a bedtime dose often keeps patients awake. Larger daily doses can be split between morning and noon.",
+    "sideEffects": [
+      {"label": "Insomnia", "icon": "insomnia"},
+      {"label": "Nervousness and jitteriness", "icon": "anxiety"},
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Sexual dysfunction", "icon": "sexual"},
+      {"label": "Headache", "icon": "headache"},
+      {"label": "Low sodium in older adults", "icon": "hyponatremia"}
+    ],
+    "mechanism": "Inhibits the serotonin transporter on the presynaptic neuron; an active metabolite, norfluoxetine, keeps that block going for weeks after dosing ends.",
+    "simplified": "The SSRI with a long tail: it keeps working, and keeps interacting, weeks after the last capsule.",
+    "nursing": [
+      "Allow 5 weeks after stopping fluoxetine before an MAOI, and 14 days after stopping an MAOI before fluoxetine; never give with pimozide or thioridazine.",
+      "Hold and report fever, sweating, agitation, tremor, muscle jerking, or diarrhea after adding another serotonergic drug: possible serotonin syndrome.",
+      "Review the medication list: it strongly inhibits CYP2D6 and can raise levels of tricyclics, some antipsychotics, and some beta blockers.",
+      "Black box warning: assess mood and suicide risk at every contact in children, teens, and young adults, especially after dose changes.",
+      "Weigh regularly; appetite loss and weight loss can occur, which matters in patients treated for bulimia or who are underweight."
+    ]
+  },
+  {
+    "id": "escitalopram",
+    "generic": "Escitalopram",
+    "brands": ["Lexapro"],
+    "drugClass": "Selective serotonin reuptake inhibitor (SSRI)",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "reuptakeBlock",
+    "rx": true,
+    "uses": ["Major depression", "Generalized anxiety disorder"],
+    "quickTip": "Never pair it with citalopram (its parent drug) or an MAOI, and use caution with other QT-prolonging drugs; young patients need close suicide-risk monitoring early on.",
+    "administration": "Orally once daily at the same time, morning or evening, with or without food. Tablets and an oral solution are available; the usual adult maximum is 20 mg a day.",
+    "sideEffects": [
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Daytime sleepiness", "icon": "drowsiness"},
+      {"label": "Trouble sleeping", "icon": "insomnia"},
+      {"label": "Delayed ejaculation and low libido", "icon": "sexual"},
+      {"label": "Increased sweating", "icon": "sweating"},
+      {"label": "QT prolongation", "icon": "arrhythmia"}
+    ],
+    "mechanism": "The purified active mirror-image half of citalopram; it binds the serotonin transporter very selectively, so serotonin stays in the synapse longer.",
+    "simplified": "A precision SSRI: citalopram's working half, with few drug interactions.",
+    "nursing": [
+      "Allow a 14-day gap before or after any MAOI, including linezolid and IV methylene blue.",
+      "Obtain an ECG and correct low potassium or magnesium in patients with heart disease or on other QT-prolonging drugs.",
+      "Explain that anxiety often eases in 1-2 weeks but mood takes 4-6 weeks; continue the drug and taper rather than stopping.",
+      "Black box warning: screen for worsening depression, agitation, or suicidal thoughts in patients under 25, especially in the first weeks.",
+      "Watch for bruising or bleeding when combined with aspirin, NSAIDs, or warfarin."
+    ]
+  },
+  {
+    "id": "venlafaxine",
+    "generic": "Venlafaxine",
+    "brands": ["Effexor XR"],
+    "drugClass": "Serotonin-norepinephrine reuptake inhibitor (SNRI)",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "reuptakeBlock",
+    "rx": true,
+    "uses": ["Major depression", "Generalized anxiety disorder", "Panic disorder and social anxiety"],
+    "quickTip": "Blood pressure rises with the dose, and a missed dose can bring on harsh discontinuation symptoms; check BP regularly and taper slowly over weeks.",
+    "administration": "Extended-release capsules once daily with food at the same time; swallow whole or sprinkle the contents on applesauce without chewing. Immediate-release tablets are split into 2-3 doses with food.",
+    "sideEffects": [
+      {"label": "Sustained high blood pressure", "icon": "hypertension"},
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Heavy sweating", "icon": "sweating"},
+      {"label": "Insomnia", "icon": "insomnia"},
+      {"label": "Sexual dysfunction", "icon": "sexual"},
+      {"label": "Dizziness", "icon": "dizziness"}
+    ],
+    "mechanism": "Blocks serotonin reuptake at lower doses and adds norepinephrine reuptake blockade as the dose climbs, boosting both signals in the synapse.",
+    "simplified": "Two recycling pumps jammed at once: the extra norepinephrine is why blood pressure creeps up.",
+    "nursing": [
+      "Measure BP at baseline and at each follow-up; report sustained readings above the patient's baseline, since the dose may need lowering.",
+      "Warn that stopping suddenly causes dizziness, electric-shock sensations, nausea, irritability, and flu-like feelings; its short half-life makes this worse than with fluoxetine.",
+      "Allow 7 days after stopping venlafaxine before starting an MAOI, and 14 days after an MAOI before venlafaxine.",
+      "Black box warning: monitor children, teens, and young adults for emerging suicidal thoughts or behavior.",
+      "Report eye pain or halos (angle-closure glaucoma) and check sodium in older adults."
+    ]
+  },
+  {
+    "id": "bupropion",
+    "generic": "Bupropion",
+    "brands": ["Wellbutrin SR", "Wellbutrin XL", "Zyban"],
+    "drugClass": "Norepinephrine-dopamine reuptake inhibitor (aminoketone antidepressant)",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "reuptakeBlock",
+    "rx": true,
+    "uses": ["Major depression", "Prevention of seasonal affective disorder", "Smoking cessation"],
+    "quickTip": "Lowers the seizure threshold: do not give to anyone with a seizure disorder, bulimia or anorexia, or who is abruptly stopping alcohol, benzodiazepines, or barbiturates.",
+    "administration": "Swallow SR and XL tablets whole; crushing dumps the dose and raises seizure risk. Give XL in the morning; space twice-daily SR doses at least 8 hours apart with the last one well before bedtime.",
+    "sideEffects": [
+      {"label": "Seizures (dose-related)", "icon": "seizure"},
+      {"label": "Insomnia", "icon": "insomnia"},
+      {"label": "Dry mouth", "icon": "dry_mouth"},
+      {"label": "Agitation and anxiety", "icon": "anxiety"},
+      {"label": "Headache", "icon": "headache"},
+      {"label": "Tremor", "icon": "tremor"}
+    ],
+    "mechanism": "Blocks reuptake of norepinephrine and dopamine with almost no effect on serotonin, raising alertness and motivation signals.",
+    "simplified": "The antidepressant that skips serotonin: no weight gain or sexual side effects, but more jitters and a lower seizure threshold.",
+    "nursing": [
+      "Screen for seizures, head injury, eating disorders, and heavy alcohol or sedative use before the first dose.",
+      "Wellbutrin and Zyban are the same drug; confirm the patient is not taking both, and never double up after a missed dose.",
+      "For smoking cessation, start 1-2 weeks before the quit date and watch for agitation, hostility, or depressed mood.",
+      "Black box warning: monitor young patients for suicidal thinking; allow 14 days between bupropion and an MAOI.",
+      "Check BP, especially when it is combined with nicotine patches, and teach to limit alcohol."
+    ]
+  },
+  {
+    "id": "clozapine",
+    "generic": "Clozapine",
+    "brands": ["Clozaril", "Versacloz"],
+    "drugClass": "Second-generation (atypical) antipsychotic",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "dopamineBlock",
+    "rx": true,
+    "uses": ["Treatment-resistant schizophrenia", "Reducing suicidal behavior in schizophrenia or schizoaffective disorder"],
+    "quickTip": "Agranulocytosis risk: baseline ANC must be at least 1,500/mcL, ANC is checked weekly for the first 6 months, and fever or sore throat needs same-day evaluation.",
+    "administration": "Orally starting at 12.5 mg once or twice daily and increased slowly to limit fainting and seizures. If 2 or more days of doses are missed, restart at 12.5 mg rather than the prior dose.",
+    "sideEffects": [
+      {"label": "Agranulocytosis and severe infection", "icon": "infection"},
+      {"label": "Seizures", "icon": "seizure"},
+      {"label": "Severe constipation and ileus", "icon": "constipation"},
+      {"label": "Myocarditis and cardiomyopathy", "icon": "heart_failure"},
+      {"label": "Orthostatic hypotension and fainting", "icon": "hypotension"},
+      {"label": "Weight gain and high glucose", "icon": "weight_gain"}
+    ],
+    "mechanism": "Weakly blocks dopamine D2 receptors while strongly blocking serotonin 5-HT2A and several other receptors, relieving psychosis that other drugs could not touch with very little EPS.",
+    "simplified": "The last-resort antipsychotic that works when others fail, as long as the blood counts stay safe.",
+    "nursing": [
+      "Follow the ANC schedule (weekly for 6 months, every 2 weeks to month 12, then monthly); hold and notify for ANC under 1,000/mcL or any sign of infection.",
+      "Report chest pain, resting tachycardia, fever, or shortness of breath in the first 2 months: possible myocarditis.",
+      "Start a bowel regimen and ask about stools every shift; untreated constipation can progress to fatal bowel obstruction.",
+      "Seizure risk climbs with dose; quitting smoking raises clozapine levels, so report any change in smoking habits.",
+      "Black box warning: increased death in older adults with dementia-related psychosis; also watch for NMS and protect the pillow from nighttime drooling."
+    ]
+  },
+  {
+    "id": "olanzapine",
+    "generic": "Olanzapine",
+    "brands": ["Zyprexa", "Zyprexa Zydis", "Zyprexa Relprevv"],
+    "drugClass": "Second-generation (atypical) antipsychotic",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "dopamineBlock",
+    "rx": true,
+    "uses": ["Schizophrenia", "Bipolar I mania and maintenance", "Acute agitation (short-acting IM)", "Treatment-resistant depression (with fluoxetine)"],
+    "quickTip": "Among the highest risks for weight gain, high blood sugar, and high lipids: weigh the patient and check fasting glucose and lipids at baseline and regularly.",
+    "administration": "Orally once daily with or without food; orally disintegrating tablets dissolve on the tongue. The long-acting pamoate injection requires at least 3 hours of observation afterward in a registered facility.",
+    "sideEffects": [
+      {"label": "Significant weight gain", "icon": "weight_gain"},
+      {"label": "High blood sugar and new diabetes", "icon": "hyperglycemia"},
+      {"label": "Sedation", "icon": "drowsiness"},
+      {"label": "Orthostatic hypotension", "icon": "hypotension"},
+      {"label": "Constipation", "icon": "constipation"},
+      {"label": "Dry mouth", "icon": "dry_mouth"}
+    ],
+    "mechanism": "Blocks dopamine D2 and serotonin 5-HT2A receptors; its strong histamine and muscarinic blockade explains the sedation, hunger, and anticholinergic effects.",
+    "simplified": "Settles psychosis and mania well but switches on appetite, so the scale and glucose meter tell the story.",
+    "nursing": [
+      "Record weight, BMI, and waist size, plus fasting glucose and lipids, before starting, at 12 weeks, and then periodically.",
+      "Teach signs of high glucose (thirst, frequent urination, fatigue) and encourage diet and activity from day one.",
+      "Do not give IM olanzapine together with an IM or IV benzodiazepine; dangerous cardiorespiratory depression can result.",
+      "After a long-acting injection, watch for post-injection delirium and sedation syndrome: confusion, slurred speech, and excessive sleepiness.",
+      "Black box warning: higher mortality in older adults with dementia-related psychosis; report fever with rigid muscles (NMS)."
+    ]
+  },
+  {
+    "id": "quetiapine",
+    "generic": "Quetiapine",
+    "brands": ["Seroquel", "Seroquel XR"],
+    "drugClass": "Second-generation (atypical) antipsychotic",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "dopamineBlock",
+    "rx": true,
+    "uses": ["Schizophrenia", "Bipolar mania and bipolar depression", "Add-on therapy for major depression (XR)"],
+    "quickTip": "Expect strong sedation and orthostatic dizziness during dose titration; it carries two black box warnings: dementia-related mortality and suicidality in young people.",
+    "administration": "Immediate-release tablets usually twice daily, titrated upward over several days. Extended-release tablets once daily in the evening, swallowed whole, without food or with a light meal.",
+    "sideEffects": [
+      {"label": "Sedation", "icon": "drowsiness"},
+      {"label": "Orthostatic hypotension", "icon": "hypotension"},
+      {"label": "Weight gain", "icon": "weight_gain"},
+      {"label": "Raised glucose and lipids", "icon": "hyperglycemia"},
+      {"label": "Dry mouth", "icon": "dry_mouth"},
+      {"label": "Cataracts with long-term use", "icon": "vision"}
+    ],
+    "mechanism": "Blocks dopamine D2 receptors loosely and briefly while firmly blocking serotonin 5-HT2A and histamine H1 receptors, so movement side effects are uncommon but drowsiness is prominent.",
+    "simplified": "A light grip on dopamine and a heavy grip on histamine: few tremors, lots of yawns.",
+    "nursing": [
+      "Take lying and standing BP during titration; have the patient sit on the bed edge before standing.",
+      "Monitor weight, fasting glucose, and lipids; in children and teens also track blood pressure, which can rise.",
+      "Arrange an eye exam for cataracts at the start of therapy and about every 6 months.",
+      "Avoid combining with other QT-prolonging drugs; ask about alcohol and other sedatives.",
+      "Taper rather than stopping suddenly, which can cause insomnia, nausea, and vomiting."
+    ]
+  },
+  {
+    "id": "carbamazepine",
+    "generic": "Carbamazepine",
+    "brands": ["Tegretol", "Tegretol-XR", "Carbatrol", "Equetro"],
+    "drugClass": "Anticonvulsant (iminostilbene) / mood stabilizer",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "sodiumChannel",
+    "rx": true,
+    "uses": ["Focal and generalized tonic-clonic seizures", "Trigeminal neuralgia", "Bipolar I mania (Equetro)"],
+    "quickTip": "Therapeutic level 4-12 mcg/mL. Black box warnings: test at-risk Asian patients for HLA-B*1502 before starting (SJS/TEN), and watch for aplastic anemia and agranulocytosis.",
+    "administration": "Orally with meals; swallow extended-release tablets whole. Do not give the oral suspension at the same time as other liquid medicines, and avoid grapefruit juice, which raises levels.",
+    "sideEffects": [
+      {"label": "Stevens-Johnson syndrome or TEN", "icon": "rash"},
+      {"label": "Low blood counts and infection", "icon": "infection"},
+      {"label": "Dizziness", "icon": "dizziness"},
+      {"label": "Double vision and nystagmus", "icon": "vision"},
+      {"label": "Low sodium (SIADH)", "icon": "hyponatremia"},
+      {"label": "Nausea", "icon": "nausea"}
+    ],
+    "mechanism": "Binds voltage-gated sodium channels in their inactive state, preventing the rapid repetitive neuron firing that spreads a seizure or a neuralgia pain burst.",
+    "simplified": "Holds the sodium gates shut between sparks, while revving up the liver so many drugs, itself included, clear faster.",
+    "nursing": [
+      "Get CBC, liver enzymes, and sodium at baseline and periodically; hold and report fever, sore throat, mouth ulcers, petechiae, or easy bruising.",
+      "It induces its own metabolism, so levels drop over the first few weeks; recheck levels and watch for ataxia and double vision (toxicity).",
+      "As a strong enzyme inducer it weakens oral contraceptives, warfarin, and many other drugs; teach a nonhormonal backup method since it causes neural tube defects.",
+      "Stop and report any rash immediately, especially in the first months of therapy.",
+      "Never stop abruptly; use fall precautions and check sodium if confusion or headache appears."
+    ]
+  },
+  {
+    "id": "valproic_acid",
+    "generic": "Valproic acid",
+    "brands": ["Depakote", "Depakote ER", "Depakene"],
+    "drugClass": "Anticonvulsant (valproate) / mood stabilizer",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "sodiumChannel",
+    "rx": true,
+    "uses": ["Absence, focal, and generalized seizures", "Bipolar mania", "Migraine prevention"],
+    "quickTip": "Therapeutic level 50-100 mcg/mL. Black box warnings: liver failure, pancreatitis, and major birth defects such as neural tube defects.",
+    "administration": "Orally with food to limit stomach upset; swallow delayed- and extended-release tablets whole and do not chew capsules. IV doses are diluted and infused over 60 minutes, no faster than 20 mg/min.",
+    "sideEffects": [
+      {"label": "Liver toxicity", "icon": "liver"},
+      {"label": "Pancreatitis (abdominal pain, vomiting)", "icon": "vomiting"},
+      {"label": "Low platelets and bruising", "icon": "bruising"},
+      {"label": "Tremor", "icon": "tremor"},
+      {"label": "Weight gain", "icon": "weight_gain"},
+      {"label": "Hair thinning", "icon": "hair"}
+    ],
+    "mechanism": "Blocks voltage-gated sodium channels and T-type calcium channels and raises brain GABA levels, calming neurons through several routes at once.",
+    "simplified": "A broad-spectrum seizure calmer whose cost falls on the liver, the pancreas, and an unborn baby.",
+    "nursing": [
+      "Check liver enzymes at baseline and often during the first 6 months; report malaise, loss of appetite, vomiting, jaundice, or facial swelling.",
+      "Severe abdominal pain radiating to the back with vomiting needs amylase and lipase checked promptly: pancreatitis can be fatal.",
+      "Monitor platelets before surgery or dental work, and check ammonia if the patient becomes lethargic or confused.",
+      "Women who could become pregnant need effective contraception and folic acid; it is not used for migraine prevention in pregnancy.",
+      "It roughly doubles lamotrigine levels, and carbapenem antibiotics can drop valproate levels sharply; review every new drug."
+    ]
+  },
+  {
+    "id": "lamotrigine",
+    "generic": "Lamotrigine",
+    "brands": ["Lamictal", "Lamictal XR", "Lamictal ODT"],
+    "drugClass": "Anticonvulsant (phenyltriazine) / mood stabilizer",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "sodiumChannel",
+    "rx": true,
+    "uses": ["Focal and generalized tonic-clonic seizures", "Lennox-Gastaut syndrome", "Bipolar I maintenance"],
+    "quickTip": "Black box warning: life-threatening rash such as Stevens-Johnson syndrome, most likely when the dose is raised too fast or valproate is added; titrate slowly over weeks.",
+    "administration": "Follow the starter-kit titration exactly, with or without food. Swallow XR tablets whole; place orally disintegrating tablets on the tongue; chewable dispersible tablets can be chewed or mixed in a little water.",
+    "sideEffects": [
+      {"label": "Serious rash (SJS/TEN)", "icon": "rash"},
+      {"label": "Dizziness", "icon": "dizziness"},
+      {"label": "Double or blurred vision", "icon": "vision"},
+      {"label": "Headache", "icon": "headache"},
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Unsteady gait", "icon": "ataxia"}
+    ],
+    "mechanism": "Blocks voltage-sensitive sodium channels and reduces glutamate release, steadying neurons that fire too easily.",
+    "simplified": "Low and slow: a well-tolerated stabilizer whose one big danger is a rash from rushing the dose.",
+    "nursing": [
+      "Teach to hold the dose and call right away for any rash, especially with fever, mouth sores, or swollen glands, most often 2-8 weeks in.",
+      "With valproate the lamotrigine dose is roughly halved; carbamazepine, phenytoin, and estrogen birth control lower its levels.",
+      "If doses stop for more than about 5 half-lives (roughly a week), restart the titration from the beginning instead of resuming the full dose.",
+      "Double-check the label: Lamictal is easily confused with Lamisil, lamivudine, and labetalol.",
+      "Taper over at least 2 weeks and monitor mood for depression or suicidal thoughts."
+    ]
+  },
+  {
+    "id": "diazepam",
+    "generic": "Diazepam",
+    "brands": ["Valium", "Diastat", "Valtoco"],
+    "drugClass": "Long-acting benzodiazepine (Schedule IV)",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "gabaBoost",
+    "rx": true,
+    "uses": ["Anxiety disorders", "Acute alcohol withdrawal", "Skeletal muscle spasm", "Seizure clusters and status epilepticus"],
+    "quickTip": "Black box warning: with opioids it can cause fatal respiratory depression. Flumazenil reverses it, but diazepam outlasts the antidote, so sedation can return.",
+    "administration": "IV undiluted, slowly (no faster than 5 mg/min) into a large vein; do not mix with other drugs or fluids. IM absorption is erratic. Rectal gel or nasal spray treats seizure clusters at home.",
+    "sideEffects": [
+      {"label": "Prolonged drowsiness", "icon": "drowsiness"},
+      {"label": "Respiratory depression", "icon": "respiratory_depression"},
+      {"label": "Poor coordination and falls", "icon": "ataxia"},
+      {"label": "Confusion in older adults", "icon": "confusion"},
+      {"label": "Physical dependence", "icon": "dependence"},
+      {"label": "Hypotension with IV use", "icon": "hypotension"}
+    ],
+    "mechanism": "Attaches to the benzodiazepine site on GABA-A receptors so each GABA signal opens the chloride channel more often, making neurons harder to fire.",
+    "simplified": "The long-haul benzo: calms quickly and lingers for days, which smooths withdrawal but builds up in older adults.",
+    "nursing": [
+      "During IV use, monitor RR, oxygen saturation, and BP, with bag-valve mask and suction ready.",
+      "After flumazenil, keep monitoring for resedation; the antidote can also trigger seizures in long-term benzodiazepine users.",
+      "Active metabolites last for days, so older adults accumulate the drug; it is on the Beers list and needs strict fall precautions.",
+      "Taper gradually after regular use; withdrawal (tremor, anxiety, seizures) may appear days after the last dose.",
+      "Teach caregivers how and when to give the rectal gel for a seizure cluster, and when to call 911."
+    ]
+  },
+  {
+    "id": "alprazolam",
+    "generic": "Alprazolam",
+    "brands": ["Xanax", "Xanax XR"],
+    "drugClass": "Short-acting benzodiazepine (Schedule IV)",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "gabaBoost",
+    "rx": true,
+    "uses": ["Generalized anxiety disorder", "Panic disorder"],
+    "quickTip": "Its quick on-and-off action drives rebound anxiety between doses and high dependence risk; never stop it suddenly (withdrawal seizures) and never combine with opioids or alcohol.",
+    "administration": "Immediate-release tablets usually 3 times daily; XR once daily, usually in the morning, swallowed whole. Discontinue only by a gradual taper, often no faster than 0.5 mg every 3 days.",
+    "sideEffects": [
+      {"label": "Drowsiness", "icon": "drowsiness"},
+      {"label": "Dependence and misuse", "icon": "dependence"},
+      {"label": "Rebound anxiety between doses", "icon": "anxiety"},
+      {"label": "Respiratory depression with opioids", "icon": "respiratory_depression"},
+      {"label": "Memory problems", "icon": "confusion"},
+      {"label": "Lightheadedness", "icon": "dizziness"}
+    ],
+    "mechanism": "Enhances GABA-A receptor response to GABA; it is absorbed fast and cleared fast, so the calming effect rises and falls within hours.",
+    "simplified": "Fast on, fast off: quick relief for panic, but the quick drop-off feeds cravings and rebound.",
+    "nursing": [
+      "Assess for misuse, early refill requests, and use with alcohol or opioids; count and secure doses as a controlled substance.",
+      "Watch for withdrawal during any taper: insomnia, tremor, rebound panic, and seizures.",
+      "Ketoconazole and itraconazole are contraindicated; other CYP3A4 inhibitors such as clarithromycin and grapefruit also raise levels.",
+      "Check RR and level of sedation; flumazenil is the reversal agent for overdose.",
+      "Pair drug therapy with teaching on breathing techniques and counseling so the patient is not relying on the pill alone."
+    ]
+  },
+  {
+    "id": "zolpidem",
+    "generic": "Zolpidem",
+    "brands": ["Ambien", "Ambien CR", "Edluar"],
+    "drugClass": "Nonbenzodiazepine sedative-hypnotic (Schedule IV)",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "gabaBoost",
+    "rx": true,
+    "uses": ["Short-term insomnia with trouble falling asleep", "Trouble staying asleep (extended-release)"],
+    "quickTip": "Black box warning: complex sleep behaviors (sleepwalking, sleep-driving) can injure or kill; take it right before bed with 7-8 hours left for sleep, and stop it after any episode.",
+    "administration": "Orally immediately before bed, not with or right after a meal, which delays the effect. Starting dose is lower for women and older adults (5 mg immediate-release, 6.25 mg extended-release); swallow CR tablets whole.",
+    "sideEffects": [
+      {"label": "Next-morning drowsiness", "icon": "drowsiness"},
+      {"label": "Dizziness", "icon": "dizziness"},
+      {"label": "Sleep-driving and memory gaps", "icon": "confusion"},
+      {"label": "Headache", "icon": "headache"},
+      {"label": "Diarrhea", "icon": "diarrhea"},
+      {"label": "Dependence with long-term use", "icon": "dependence"}
+    ],
+    "mechanism": "Binds selectively to the benzodiazepine site on GABA-A receptors that contain the alpha-1 subunit, producing sleep with little anti-anxiety, muscle-relaxing, or anticonvulsant effect.",
+    "simplified": "A sleep-only GABA booster: it flips the brain into sleep mode but does nothing for anxiety or seizures.",
+    "nursing": [
+      "Give only when the patient is in bed and ready to sleep; no driving or tasks needing full alertness the next morning.",
+      "Women clear it more slowly, so they and older adults get the lower dose; use night-time fall precautions.",
+      "Ask patients and bed partners about eating, driving, or walking with no memory of it; stop the drug if it happens.",
+      "No alcohol or other sedatives; flumazenil can reverse an overdose.",
+      "Intended for short-term use; reassess if insomnia persists beyond 7-10 days and warn of rebound insomnia when stopping."
+    ]
+  },
+  {
+    "id": "benztropine",
+    "generic": "Benztropine",
+    "brands": ["Cogentin"],
+    "drugClass": "Anticholinergic antiparkinson agent",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "anticholinergic",
+    "rx": true,
+    "uses": ["Drug-induced extrapyramidal symptoms (acute dystonia, parkinsonism)", "Adjunct therapy for Parkinson disease"],
+    "quickTip": "Relieves acute dystonia and drug-induced parkinsonism, often within minutes by injection, but it does not treat tardive dyskinesia and can make it worse.",
+    "administration": "Orally once daily at bedtime or in divided doses, with food if the stomach is upset. For an acute dystonic reaction, give 1-2 mg IM or IV as ordered.",
+    "sideEffects": [
+      {"label": "Dry mouth", "icon": "dry_mouth"},
+      {"label": "Constipation", "icon": "constipation"},
+      {"label": "Urinary retention", "icon": "urination"},
+      {"label": "Blurred vision", "icon": "vision"},
+      {"label": "Fast heart rate", "icon": "tachycardia"},
+      {"label": "Confusion in older adults", "icon": "confusion"}
+    ],
+    "mechanism": "Blocks muscarinic acetylcholine receptors in the basal ganglia, restoring the dopamine-acetylcholine balance that antipsychotics tip toward acetylcholine.",
+    "simplified": "Rebalances the seesaw: when dopamine is blocked, lowering acetylcholine eases the stiffness and spasms.",
+    "nursing": [
+      "Assess for neck twisting, eyes rolling upward, tongue protrusion, and shuffling gait; reassess within 15-30 min after an injection.",
+      "It reduces sweating, so heatstroke is a risk: limit hot environments and strenuous exercise and encourage fluids.",
+      "Track urine output and bowel movements; report urinary retention, especially in older men with enlarged prostates.",
+      "Offer sugar-free gum or candy for dry mouth and a high-fiber diet; caution in glaucoma.",
+      "Watch for delirium when it is combined with other anticholinergic drugs such as antihistamines or tricyclics."
+    ]
+  },
+  {
+    "id": "rivastigmine",
+    "generic": "Rivastigmine",
+    "brands": ["Exelon", "Exelon Patch"],
+    "drugClass": "Cholinesterase inhibitor",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "enzymeBlock",
+    "rx": true,
+    "uses": ["Mild to severe Alzheimer dementia (patch)", "Mild to moderate Parkinson disease dementia"],
+    "quickTip": "Remove yesterday's patch before applying today's and rotate sites; wearing more than one patch has caused overdoses with vomiting, slow heart rate, and collapse.",
+    "administration": "Apply one patch daily to clean, dry, hairless skin on the upper or lower back, upper arm, or chest, not reusing a site for 14 days. Capsules are taken twice daily with breakfast and dinner, swallowed whole.",
+    "sideEffects": [
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Vomiting", "icon": "vomiting"},
+      {"label": "Slow heart rate", "icon": "bradycardia"},
+      {"label": "Diarrhea", "icon": "diarrhea"},
+      {"label": "Patch-site redness and itching", "icon": "rash"},
+      {"label": "Dizziness", "icon": "dizziness"}
+    ],
+    "mechanism": "Inhibits both acetylcholinesterase and butyrylcholinesterase, so acetylcholine is broken down more slowly and memory circuits get a stronger signal.",
+    "simplified": "Blocks two cleanup enzymes instead of one; the patch releases it gently to spare the stomach.",
+    "nursing": [
+      "Label each patch with date, time, and initials; fold the removed patch sticky sides together and discard it out of reach of children and pets.",
+      "Check apical pulse before dosing and report a rate under 60, fainting, or dizziness, especially with beta blockers.",
+      "Weigh weekly; GI effects peak with dose increases and are stronger with capsules than the patch.",
+      "If more than 3 days of doses are missed, restart at the lowest strength to avoid severe vomiting.",
+      "Report black stools or worsening tremor in Parkinson patients."
+    ]
+  },
+  {
+    "id": "fentanyl",
+    "generic": "Fentanyl",
+    "brands": ["Duragesic", "Sublimaze", "Actiq"],
+    "drugClass": "Opioid agonist (Schedule II)",
+    "system": "Pain",
+    "diagram": "synapse",
+    "mode": "opioidAgonist",
+    "rx": true,
+    "uses": ["Severe chronic pain in opioid-tolerant patients (patch)", "Anesthesia and procedural sedation (IV)", "Breakthrough cancer pain (transmucosal)"],
+    "quickTip": "Patches are only for opioid-tolerant patients; heat from fever, heating pads, or hot tubs speeds absorption to possibly fatal levels, and naloxone may need repeating.",
+    "administration": "Patch on intact, hairless skin of the chest, back, flank, or upper arm; clip hair (do not shave), press for 30 seconds, and change every 72 hours. Full effect takes 12-24 hours. IV doses are pushed slowly.",
+    "sideEffects": [
+      {"label": "Respiratory depression", "icon": "respiratory_depression"},
+      {"label": "Sedation", "icon": "drowsiness"},
+      {"label": "Constipation", "icon": "constipation"},
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Chest wall rigidity with rapid IV push", "icon": "muscle_pain"},
+      {"label": "Dependence and misuse", "icon": "dependence"}
+    ],
+    "mechanism": "A highly fat-soluble mu-opioid agonist, roughly 50-100 times more potent than morphine, that reaches the brain within minutes by IV or builds up slowly from a skin depot.",
+    "simplified": "A tiny dose with huge power: it slips into the brain fast by IV or seeps in steadily from the skin for 3 days.",
+    "nursing": [
+      "Confirm opioid tolerance (for example, at least 60 mg oral morphine daily for a week) before the first patch; never use it for acute or postoperative pain.",
+      "Keep heat sources off the patch and report fever; for slow shallow breathing, remove the patch, stimulate the patient, and give naloxone.",
+      "Drug keeps releasing from the skin for about a day after removal, so continue monitoring sedation and respirations.",
+      "Fold used patches sticky sides together and flush or use a take-back program; a discarded patch can kill a child or pet.",
+      "CYP3A4 inhibitors such as clarithromycin, ketoconazole, and ritonavir can push levels to fatal range; also start a bowel regimen."
+    ]
+  },
+  {
+    "id": "hydromorphone",
+    "generic": "Hydromorphone",
+    "brands": ["Dilaudid"],
+    "drugClass": "Opioid agonist (Schedule II)",
+    "system": "Pain",
+    "diagram": "synapse",
+    "mode": "opioidAgonist",
+    "rx": true,
+    "uses": ["Moderate to severe acute pain", "Cancer pain", "Patient-controlled analgesia (PCA)"],
+    "quickTip": "Roughly 5-7 times stronger than morphine milligram for milligram; mix-ups between hydromorphone and morphine, or with the high-potency concentration, have caused fatal overdoses.",
+    "administration": "IV push slowly over at least 2-3 minutes; also given orally, subcut, IM, or by PCA. The high-potency 10 mg/mL product is only for opioid-tolerant patients.",
+    "sideEffects": [
+      {"label": "Respiratory depression", "icon": "respiratory_depression"},
+      {"label": "Sedation", "icon": "drowsiness"},
+      {"label": "Constipation", "icon": "constipation"},
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Low blood pressure", "icon": "hypotension"},
+      {"label": "Dizziness", "icon": "dizziness"}
+    ],
+    "mechanism": "A semisynthetic relative of morphine that binds mu-opioid receptors in the brain and spinal cord with much greater strength per milligram.",
+    "simplified": "Morphine's stronger cousin: small numbers on the syringe, big effect in the body.",
+    "nursing": [
+      "Use an independent double-check with a second nurse for IV and PCA doses; confirm the drug name and concentration match the order.",
+      "Rate sedation with a scale before and 15-30 min after IV doses; increasing sleepiness is the warning sign before breathing slows.",
+      "For respiratory depression give naloxone in small titrated doses in patients on long-term opioids to avoid sudden withdrawal and pain crisis.",
+      "Pair every scheduled dose with a stimulant laxative and softener, and ask about the last bowel movement each shift.",
+      "Rise slowly and use fall precautions; no alcohol or other sedatives with any form, including extended-release tablets."
+    ]
+  },
+  {
+    "id": "oxycodone",
+    "generic": "Oxycodone",
+    "brands": ["OxyContin", "Roxicodone", "Percocet (with acetaminophen)"],
+    "drugClass": "Opioid agonist (Schedule II)",
+    "system": "Pain",
+    "diagram": "synapse",
+    "mode": "opioidAgonist",
+    "rx": true,
+    "uses": ["Moderate to severe acute pain (immediate-release)", "Severe persistent pain needing around-the-clock opioid (extended-release)", "Combination products with acetaminophen"],
+    "quickTip": "Never crush, chew, or split OxyContin, which releases 12 hours of drug at once; for combination tablets, keep total acetaminophen within the daily limit (4 g for healthy adults).",
+    "administration": "Immediate-release tablets every 4-6 hours as needed. Extended-release tablets every 12 hours, one at a time with enough water to swallow right away; do not pre-soak, lick, or wet them first.",
+    "sideEffects": [
+      {"label": "Respiratory depression", "icon": "respiratory_depression"},
+      {"label": "Constipation", "icon": "constipation"},
+      {"label": "Drowsiness", "icon": "drowsiness"},
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Dizziness", "icon": "dizziness"},
+      {"label": "Addiction and misuse", "icon": "dependence"}
+    ],
+    "mechanism": "A semisynthetic mu-opioid agonist that is well absorbed by mouth, with oral potency about 1.5 times that of oral morphine.",
+    "simplified": "The oral workhorse opioid: the extended-release safety lock only works if the tablet stays whole.",
+    "nursing": [
+      "Screen for misuse risk and check the prescription monitoring program; teach locked storage and take-back disposal.",
+      "Teach family to recognize overdose (pinpoint pupils, unresponsiveness, slow breathing) and use naloxone nasal spray at home.",
+      "Add up acetaminophen from every source, including OTC cold and sleep products, when a combination tablet is ordered.",
+      "Start a stool softener with a stimulant laxative and report no bowel movement in 3 days.",
+      "Avoid benzodiazepines and alcohol; CYP3A4 inhibitors such as erythromycin and azole antifungals raise oxycodone levels."
+    ]
+  },
+  {
+    "id": "naproxen",
+    "generic": "Naproxen",
+    "brands": ["Aleve", "Naprosyn", "Anaprox DS"],
+    "drugClass": "NSAID (nonselective COX inhibitor)",
+    "system": "Pain",
+    "diagram": "cox",
+    "mode": "nsaid",
+    "rx": false,
+    "uses": ["Osteoarthritis and rheumatoid arthritis", "Menstrual cramps", "Acute gout flares", "Mild to moderate pain"],
+    "quickTip": "Black box warnings for heart attack, stroke, and GI bleeding; take with food and a full glass of water, and never use around coronary bypass (CABG) surgery.",
+    "administration": "Orally every 12 hours with food or milk and a full glass of water. OTC naproxen sodium is limited to 3 tablets (660 mg) in 24 hours unless a provider directs otherwise.",
+    "sideEffects": [
+      {"label": "GI bleeding and ulcers", "icon": "gi_bleed"},
+      {"label": "Heartburn and stomach pain", "icon": "gi_upset"},
+      {"label": "Kidney injury", "icon": "kidney"},
+      {"label": "Fluid retention", "icon": "edema"},
+      {"label": "Raised blood pressure", "icon": "hypertension"},
+      {"label": "Easy bruising", "icon": "bruising"}
+    ],
+    "mechanism": "Reversibly blocks both cyclooxygenase enzymes for about 12 hours, lowering the prostaglandins that sensitize pain nerves and inflame joints.",
+    "simplified": "A longer-lasting ibuprofen: one dose covers half the day, so the stomach and kidneys are exposed longer too.",
+    "nursing": [
+      "Report black stools, bloody vomit, or epigastric pain; risk climbs with age, steroids, anticoagulants, SSRIs, alcohol, and prior ulcers.",
+      "Monitor BP, weight, edema, BUN, and creatinine; it blunts diuretics and ACE inhibitors.",
+      "Teach not to add OTC ibuprofen or aspirin-containing products, which doubles the NSAID load.",
+      "Avoid in aspirin-sensitive asthma and late in pregnancy.",
+      "It raises lithium and methotrexate levels; watch for toxicity signs."
+    ]
+  },
+  {
+    "id": "celecoxib",
+    "generic": "Celecoxib",
+    "brands": ["Celebrex"],
+    "drugClass": "NSAID (COX-2 selective inhibitor)",
+    "system": "Pain",
+    "diagram": "cox",
+    "mode": "nsaid",
+    "rx": true,
+    "uses": ["Osteoarthritis and rheumatoid arthritis", "Ankylosing spondylitis", "Acute pain and menstrual cramps"],
+    "quickTip": "Ask about sulfonamide allergy before the first dose; it is gentler on the stomach, but the black box heart attack, stroke, and GI bleeding warnings still apply.",
+    "administration": "Orally once or twice daily, with food if the stomach is upset. Capsules can be opened and sprinkled on a spoonful of applesauce, taken right away with water.",
+    "sideEffects": [
+      {"label": "Indigestion", "icon": "gi_upset"},
+      {"label": "GI bleeding (less than older NSAIDs)", "icon": "gi_bleed"},
+      {"label": "Swelling of legs and feet", "icon": "edema"},
+      {"label": "High blood pressure", "icon": "hypertension"},
+      {"label": "Kidney injury", "icon": "kidney"},
+      {"label": "Allergic rash in sulfa-sensitive patients", "icon": "rash"}
+    ],
+    "mechanism": "Selectively blocks COX-2, the enzyme switched on at sites of inflammation, while largely sparing the COX-1 that protects the stomach lining and helps platelets clump.",
+    "simplified": "Aims at inflammation's COX-2 and mostly leaves the stomach's COX-1 alone, but tipping the clotting balance raises heart risk.",
+    "nursing": [
+      "Screen for sulfonamide allergy and for asthma, hives, or reactions to aspirin or other NSAIDs.",
+      "It does not protect the heart like low-dose aspirin; patients prescribed aspirin continue it, knowing GI bleeding risk rises.",
+      "Monitor BP, weight, and renal function; avoid in severe heart failure and right around CABG surgery.",
+      "Teach stroke and heart attack warning signs: chest pain, shortness of breath, one-sided weakness, slurred speech.",
+      "Check INR with warfarin and levels with lithium, both of which it can raise."
+    ]
+  },
+  {
+    "id": "pantoprazole",
+    "generic": "Pantoprazole",
+    "brands": ["Protonix", "Protonix IV"],
+    "drugClass": "Proton pump inhibitor (PPI)",
+    "system": "GI",
+    "diagram": "parietal",
+    "mode": "ppi",
+    "rx": true,
+    "uses": ["GERD and erosive esophagitis", "Zollinger-Ellison syndrome", "Upper GI bleeding and stress ulcer prevention (IV)"],
+    "quickTip": "The PPI most often given IV; months to years of use bring low magnesium (tremor, arrhythmias), fractures, and C. difficile, so step down when the reason for it ends.",
+    "administration": "Delayed-release tablets once daily, typically before breakfast, swallowed whole without crushing or splitting; use granules in apple juice for feeding tubes. IV over about 2 minutes or as a 15-minute infusion.",
+    "sideEffects": [
+      {"label": "Headache", "icon": "headache"},
+      {"label": "C. difficile diarrhea", "icon": "diarrhea"},
+      {"label": "Hip, wrist, and spine fractures", "icon": "bone"},
+      {"label": "Low magnesium (cramps, tremor)", "icon": "cramps"},
+      {"label": "B12 deficiency with years of use", "icon": "fatigue"},
+      {"label": "Interstitial nephritis", "icon": "kidney"}
+    ],
+    "mechanism": "Activated in the acidic space of the parietal cell, it bonds tightly to the H+/K+ ATPase so that pump can no longer push acid into the stomach.",
+    "simplified": "Switches off the stomach's acid pumps one at a time; only newly built pumps can restart acid.",
+    "nursing": [
+      "Check magnesium before and during long-term use, especially with digoxin or diuretics; report cramps, tremor, or palpitations.",
+      "Report frequent watery stools that do not improve; send a C. difficile test as ordered.",
+      "Encourage calcium, vitamin D, and weight-bearing activity, and assess fall risk in older adults.",
+      "Preferred PPI with clopidogrel because it interferes least with clopidogrel activation.",
+      "Switch from IV to oral as soon as the patient can swallow; it can cause a false-positive urine THC screen."
+    ]
+  },
+  {
+    "id": "metoclopramide",
+    "generic": "Metoclopramide",
+    "brands": ["Reglan", "Gimoti"],
+    "drugClass": "Dopamine antagonist prokinetic / antiemetic",
+    "system": "GI",
+    "diagram": "synapse",
+    "mode": "dopamineBlock",
+    "rx": true,
+    "uses": ["Diabetic gastroparesis", "Short-term treatment of refractory GERD", "Prevention of chemotherapy and postoperative nausea"],
+    "quickTip": "Black box warning: tardive dyskinesia, which can be permanent; avoid use longer than 12 weeks and stop at the first involuntary face, tongue, or limb movements.",
+    "administration": "Orally 30 minutes before meals and at bedtime. IV doses of 10 mg or less are pushed slowly over 1-2 minutes; larger doses are diluted and infused over at least 15 minutes.",
+    "sideEffects": [
+      {"label": "Tardive dyskinesia and dystonia", "icon": "eps"},
+      {"label": "Restlessness (akathisia)", "icon": "anxiety"},
+      {"label": "Drowsiness and fatigue", "icon": "drowsiness"},
+      {"label": "Depression and suicidal thoughts", "icon": "mood"},
+      {"label": "Diarrhea", "icon": "diarrhea"},
+      {"label": "Fever with rigidity (NMS)", "icon": "fever"}
+    ],
+    "mechanism": "Blocks dopamine D2 receptors in the vomiting center and makes gut muscle more responsive to acetylcholine, so the stomach empties faster without extra acid.",
+    "simplified": "Blocks dopamine to push the stomach forward and settle nausea, but the brain's movement centers feel it too.",
+    "nursing": [
+      "Screen for abnormal movements at baseline and during therapy; older women and people with diabetes have the highest tardive dyskinesia risk.",
+      "Contraindicated with GI obstruction, perforation, or bleeding, pheochromocytoma, and seizure disorders.",
+      "Push IV doses slowly to prevent sudden anxiety and restlessness; keep diphenhydramine available for acute dystonia.",
+      "In diabetes, faster stomach emptying changes when food is absorbed; monitor glucose and adjust insulin timing as ordered.",
+      "Reduce the dose in kidney impairment and report new depression; avoid alcohol and other sedatives."
+    ]
+  },
+  {
+    "id": "prochlorperazine",
+    "generic": "Prochlorperazine",
+    "brands": ["Compazine", "Compro"],
+    "drugClass": "Phenothiazine antiemetic / first-generation antipsychotic",
+    "system": "GI",
+    "diagram": "synapse",
+    "mode": "dopamineBlock",
+    "rx": true,
+    "uses": ["Severe nausea and vomiting", "Migraine-associated nausea (off-label)", "Schizophrenia"],
+    "quickTip": "Watch for extrapyramidal symptoms, especially acute dystonia and akathisia in children and young adults; treat with diphenhydramine or benztropine, and never use under age 2 or 20 lb.",
+    "administration": "Orally, as a rectal suppository, deep IM into a large muscle, or IV no faster than 5 mg/min and never as a bolus. Avoid subcut injection and wear gloves, since the solution irritates skin.",
+    "sideEffects": [
+      {"label": "Extrapyramidal symptoms", "icon": "eps"},
+      {"label": "Drowsiness", "icon": "drowsiness"},
+      {"label": "Low blood pressure after injection", "icon": "hypotension"},
+      {"label": "Dry mouth", "icon": "dry_mouth"},
+      {"label": "Blurred vision", "icon": "vision"},
+      {"label": "Sun sensitivity", "icon": "photosensitivity"}
+    ],
+    "mechanism": "Blocks dopamine D2 receptors in the chemoreceptor trigger zone, with lesser histamine, muscarinic, and alpha-adrenergic blockade.",
+    "simplified": "A low dose of an old antipsychotic that shuts the brain's nausea gate, with the same movement side effects.",
+    "nursing": [
+      "Assess for jaw, neck, or eye spasms and inner restlessness after each dose, and keep diphenhydramine on hand.",
+      "Check BP after an injection and have the patient stay lying down briefly, then rise slowly.",
+      "Teach sunscreen and protective clothing, and caution against overheating since heat regulation is impaired.",
+      "Black box warning: increased mortality in older adults with dementia-related psychosis; report fever with muscle rigidity.",
+      "Avoid alcohol and other sedatives; no driving until the drowsiness is known."
+    ]
+  },
+  {
+    "id": "scopolamine",
+    "generic": "Scopolamine",
+    "brands": ["Transderm Scop"],
+    "drugClass": "Anticholinergic antiemetic (transdermal)",
+    "system": "GI",
+    "diagram": "synapse",
+    "mode": "anticholinergic",
+    "rx": true,
+    "uses": ["Motion sickness prevention", "Prevention of postoperative nausea and vomiting"],
+    "quickTip": "Place one patch behind the ear at least 4 hours before travel and wash hands well afterward, since drug rubbed into an eye dilates the pupil and blurs vision; avoid in angle-closure glaucoma.",
+    "administration": "One patch on clean, dry, hairless skin behind one ear, left in place up to 3 days; replace behind the other ear if still needed. For surgery it goes on the evening before and comes off 24 hours after. Do not cut the patch.",
+    "sideEffects": [
+      {"label": "Dry mouth", "icon": "dry_mouth"},
+      {"label": "Drowsiness", "icon": "drowsiness"},
+      {"label": "Blurred vision and dilated pupils", "icon": "vision"},
+      {"label": "Confusion and hallucinations in older adults", "icon": "confusion"},
+      {"label": "Urinary retention", "icon": "urination"},
+      {"label": "Dizziness", "icon": "dizziness"}
+    ],
+    "mechanism": "Blocks muscarinic acetylcholine receptors along the inner-ear balance pathway and in the vomiting center, so motion signals do not set off nausea.",
+    "simplified": "Mutes the inner ear's acetylcholine chatter so the motion message never reaches the vomiting center.",
+    "nursing": [
+      "Screen for glaucoma, urinary retention or enlarged prostate, and bowel obstruction before applying.",
+      "Wash hands with soap and water after touching the patch, and wash the skin site after removal; fold the used patch sticky sides together.",
+      "Remove the patch before an MRI because its backing contains metal that can burn the skin.",
+      "After several days of use, dizziness, nausea, and headache can occur for a day or more after removal.",
+      "No driving or hazardous activity until the effect is known; report eye pain or seeing halos."
+    ]
+  },
+  {
+    "id": "ceftriaxone",
+    "generic": "Ceftriaxone",
+    "brands": ["Rocephin"],
+    "drugClass": "Third-generation cephalosporin antibiotic",
+    "system": "Anti-infective",
+    "diagram": "bacteria",
+    "mode": "wall",
+    "rx": true,
+    "uses": ["Pneumonia and sepsis", "Bacterial meningitis", "Gonorrhea (single IM dose)", "Pyelonephritis and surgical prophylaxis"],
+    "quickTip": "Never give with calcium-containing IV solutions (lactated Ringer's, calcium gluconate, calcium-containing TPN) in neonates, since fatal precipitates can form in the lungs and kidneys.",
+    "administration": "IV infusion over about 30 minutes, usually once or twice daily. For IM use, inject deep into a large muscle; when reconstituted with lidocaine to ease pain, that solution must never be given IV.",
+    "sideEffects": [
+      {"label": "Diarrhea, including C. difficile", "icon": "diarrhea"},
+      {"label": "Allergic rash", "icon": "rash"},
+      {"label": "Anaphylaxis", "icon": "angioedema"},
+      {"label": "Gallbladder sludge", "icon": "liver"},
+      {"label": "Injection-site pain", "icon": "muscle_pain"},
+      {"label": "Prolonged bleeding time", "icon": "bleeding"}
+    ],
+    "mechanism": "Binds penicillin-binding proteins and halts cell wall cross-linking; it resists many beta-lactamases and crosses into the spinal fluid.",
+    "simplified": "A once-a-day wall breaker that reaches the spinal fluid, which makes it a meningitis mainstay.",
+    "nursing": [
+      "Ask exactly what happened with any penicillin reaction; a history of anaphylaxis needs provider review before the first dose, with epinephrine ready.",
+      "In children and adults, flush the line thoroughly with a compatible fluid between ceftriaxone and any calcium-containing solution, and never run them together.",
+      "Contraindicated in neonates with high bilirubin, since it displaces bilirubin from albumin.",
+      "Report right upper abdominal pain (gallbladder sludge) and check PT/INR in malnourished patients or those on warfarin.",
+      "After a single IM dose for gonorrhea, teach abstinence for 7 days and treatment of partners."
+    ]
+  },
+  {
+    "id": "cephalexin",
+    "generic": "Cephalexin",
+    "brands": ["Keflex"],
+    "drugClass": "First-generation cephalosporin antibiotic",
+    "system": "Anti-infective",
+    "diagram": "bacteria",
+    "mode": "wall",
+    "rx": true,
+    "uses": ["Skin and soft tissue infections such as cellulitis", "Uncomplicated urinary tract infections", "Strep throat and ear infections", "Bone infections"],
+    "quickTip": "Its side chain resembles amoxicillin's, so ask about penicillin allergy first; a history of anaphylaxis or hives to amoxicillin or ampicillin means hold and check with the provider.",
+    "administration": "Orally every 6-12 hours with or without food (food eases stomach upset), spaced evenly. Shake the suspension, keep it refrigerated, and discard after 14 days.",
+    "sideEffects": [
+      {"label": "Diarrhea", "icon": "diarrhea"},
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Abdominal pain", "icon": "gi_upset"},
+      {"label": "Rash and hives", "icon": "rash"},
+      {"label": "Anaphylaxis (rare)", "icon": "angioedema"},
+      {"label": "Vaginal yeast infection", "icon": "infection"}
+    ],
+    "mechanism": "Blocks the enzymes that cross-link peptidoglycan in the cell wall; first-generation drugs hit gram-positive staph and strep hardest.",
+    "simplified": "The oral first-generation wall breaker aimed mostly at the skin's staph and strep.",
+    "nursing": [
+      "Outline the edge of cellulitis with a skin marker and report redness spreading past the line or new fever; it does not cover MRSA.",
+      "Teach to finish every dose even after the skin or urine symptoms clear.",
+      "Report several watery or bloody stools a day, even weeks after the course ends.",
+      "Doses are reduced when creatinine clearance is low; check renal function in older adults.",
+      "It can cause a false-positive copper-reduction urine glucose test and a positive Coombs test."
+    ]
+  },
+  {
+    "id": "piperacillin_tazobactam",
+    "generic": "Piperacillin-tazobactam",
+    "brands": ["Zosyn"],
+    "drugClass": "Extended-spectrum penicillin with beta-lactamase inhibitor",
+    "system": "Anti-infective",
+    "diagram": "bacteria",
+    "mode": "wall",
+    "rx": true,
+    "uses": ["Hospital-acquired and ventilator-associated pneumonia", "Complicated intra-abdominal infections", "Diabetic foot and complicated skin infections", "Empiric therapy in febrile neutropenia"],
+    "quickTip": "It is a penicillin: confirm there is no penicillin allergy before the first dose, and remember each dose carries a sizable sodium load for heart failure and kidney patients.",
+    "administration": "IV infusion over 30 minutes every 6-8 hours, or extended over 4 hours per hospital protocol. Give separately from aminoglycosides and flush between, because mixing inactivates the aminoglycoside.",
+    "sideEffects": [
+      {"label": "Diarrhea and C. difficile", "icon": "diarrhea"},
+      {"label": "Rash and allergic reactions", "icon": "rash"},
+      {"label": "Low potassium", "icon": "hypokalemia"},
+      {"label": "Sodium and fluid overload", "icon": "edema"},
+      {"label": "Acute kidney injury", "icon": "kidney"},
+      {"label": "Bleeding from platelet dysfunction", "icon": "bleeding"}
+    ],
+    "mechanism": "Piperacillin blocks cell wall cross-linking, including in Pseudomonas; tazobactam binds the beta-lactamase enzymes that would otherwise destroy piperacillin.",
+    "simplified": "A wall breaker with a bodyguard: tazobactam disarms the bacterial enzyme that would chew up piperacillin.",
+    "nursing": [
+      "Draw blood cultures before the first dose, then start it on time; observe the first infusion for hives, wheezing, or hypotension.",
+      "Track sodium, potassium, daily weight, and lung sounds in heart failure or kidney disease.",
+      "Monitor BUN and creatinine, especially in critically ill patients also receiving vancomycin.",
+      "Report 3 or more loose stools in 24 hours; test for C. difficile and do not give antidiarrheals.",
+      "Monitor for bleeding and check coagulation studies in patients with kidney failure or on long courses."
+    ]
+  },
+  {
+    "id": "azithromycin",
+    "generic": "Azithromycin",
+    "brands": ["Zithromax", "Z-Pak"],
+    "drugClass": "Macrolide antibiotic",
+    "system": "Anti-infective",
+    "diagram": "bacteria",
+    "mode": "ribosome",
+    "rx": true,
+    "uses": ["Community-acquired pneumonia", "Chlamydia and other sexually transmitted infections", "Pertussis", "COPD flares and sinus or ear infections"],
+    "quickTip": "Prolongs the QT interval and can trigger torsades de pointes: avoid with other QT-prolonging drugs, low potassium or magnesium, or known long QT.",
+    "administration": "Orally once daily with or without food; the 5-day pack is 500 mg on day 1 then 250 mg daily. Do not take at the same time as aluminum or magnesium antacids. IV doses are diluted and infused over at least 60 minutes, never as a bolus or IM.",
+    "sideEffects": [
+      {"label": "Diarrhea", "icon": "diarrhea"},
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Abdominal cramping", "icon": "gi_upset"},
+      {"label": "QT prolongation", "icon": "arrhythmia"},
+      {"label": "Liver injury", "icon": "liver"},
+      {"label": "Hearing loss or ringing in ears", "icon": "ototoxicity"}
+    ],
+    "mechanism": "Binds the 50S ribosomal subunit and stops the growing protein chain from moving forward; it concentrates in tissues and has a very long half-life.",
+    "simplified": "Jams the bacterial protein factory and lingers in tissue for days after the last pill.",
+    "nursing": [
+      "Get a baseline ECG and potassium and magnesium in cardiac patients or those taking amiodarone, ondansetron, or haloperidol.",
+      "Report yellow skin, dark urine, or right upper abdominal pain, and any new hearing change.",
+      "Check the IV site for phlebitis and confirm the infusion concentration and time.",
+      "After a single 1 g dose for chlamydia, teach abstinence for 7 days and partner treatment.",
+      "Watch for worsening muscle weakness in myasthenia gravis and for watery diarrhea."
+    ]
+  },
+  {
+    "id": "clindamycin",
+    "generic": "Clindamycin",
+    "brands": ["Cleocin"],
+    "drugClass": "Lincosamide antibiotic",
+    "system": "Anti-infective",
+    "diagram": "bacteria",
+    "mode": "ribosome",
+    "rx": true,
+    "uses": ["Serious anaerobic infections such as lung abscess and intra-abdominal infection", "Skin, bone, and joint infections, including some MRSA", "Toxin suppression in necrotizing fasciitis", "Bacterial vaginosis (vaginal cream)"],
+    "quickTip": "Black box warning: C. difficile diarrhea, which can start up to 2 months after the last dose; report frequent watery or bloody stools and avoid antidiarrheal drugs.",
+    "administration": "Capsules with a full glass of water, staying upright to prevent esophageal ulcers. IV doses are always diluted and infused no faster than 30 mg/min, never pushed; single IM injections stay at 600 mg or less.",
+    "sideEffects": [
+      {"label": "C. difficile colitis", "icon": "diarrhea"},
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Metallic taste", "icon": "taste"},
+      {"label": "Rash, including severe skin reactions", "icon": "rash"},
+      {"label": "Jaundice and liver enzyme rise", "icon": "liver"},
+      {"label": "Esophageal irritation", "icon": "gi_upset"}
+    ],
+    "mechanism": "Binds the 50S ribosomal subunit and blocks peptide bond formation, which also shuts down toxin production by strep and staph.",
+    "simplified": "Shuts the protein factory, toxin line included, but also wipes out the gut bacteria that keep C. diff in check.",
+    "nursing": [
+      "Track stool number and consistency during therapy and for 2 months after; send a C. difficile test for 3 or more unformed stools in 24 hours.",
+      "With confirmed C. difficile, use contact precautions and soap-and-water handwashing, since alcohol gel does not kill spores.",
+      "Rapid IV infusion can cause hypotension and cardiac arrest; verify the dilution and rate on the pump.",
+      "Report rash, fever, or jaundice, and check liver and kidney function on long courses.",
+      "It enhances neuromuscular blocking agents, so monitor breathing closely after surgery."
+    ]
+  },
+  {
+    "id": "sulfamethoxazole_trimethoprim",
+    "generic": "Sulfamethoxazole-trimethoprim",
+    "brands": ["Bactrim", "Bactrim DS", "Septra"],
+    "drugClass": "Sulfonamide and folate antagonist combination antibiotic",
+    "system": "Anti-infective",
+    "diagram": "bacteria",
+    "mode": "folate",
+    "rx": true,
+    "uses": ["Urinary tract infections", "Pneumocystis pneumonia treatment and prevention", "Community-acquired MRSA skin infections", "Traveler's diarrhea and shigellosis"],
+    "quickTip": "Push fluids to prevent crystals in the urine and stop at the first rash, which can progress to Stevens-Johnson syndrome; the trimethoprim part also raises potassium.",
+    "administration": "Orally, usually every 12 hours, with a full glass of water and 2-3 L of fluid a day unless restricted. IV doses are diluted and infused over 60-90 minutes, never by rapid infusion or bolus.",
+    "sideEffects": [
+      {"label": "Stevens-Johnson syndrome and TEN", "icon": "rash"},
+      {"label": "Sunburn easily", "icon": "photosensitivity"},
+      {"label": "High potassium", "icon": "hyperkalemia"},
+      {"label": "Crystals in urine and kidney injury", "icon": "kidney"},
+      {"label": "Nausea and appetite loss", "icon": "nausea"},
+      {"label": "Low platelets and white cells", "icon": "bruising"}
+    ],
+    "mechanism": "Sulfamethoxazole blocks bacteria from using PABA to start folate, and trimethoprim blocks a later step, so bacteria cannot make the folate they need for DNA.",
+    "simplified": "Two roadblocks on the same folate highway, so bacteria cannot build new DNA.",
+    "nursing": [
+      "Ask about sulfa allergy; teach to stop and report rash, fever, sore throat, mouth sores, or blisters.",
+      "Monitor potassium and creatinine, especially in older adults or with ACE inhibitors, ARBs, or spironolactone.",
+      "Teach sunscreen, protective clothing, and avoiding tanning beds.",
+      "It raises INR with warfarin and increases hypoglycemia risk with sulfonylureas; check INR and glucose more often.",
+      "Avoid in infants under 2 months and near term in pregnancy because of kernicterus risk; check CBC on long courses."
+    ]
+  },
+  {
+    "id": "nitrofurantoin",
+    "generic": "Nitrofurantoin",
+    "brands": ["Macrobid", "Macrodantin"],
+    "drugClass": "Urinary anti-infective (nitrofuran)",
+    "system": "Anti-infective",
+    "diagram": "bacteria",
+    "mode": "dna",
+    "rx": true,
+    "uses": ["Uncomplicated bladder infections (cystitis)", "Long-term prevention of recurrent UTIs"],
+    "quickTip": "Treats the bladder only; avoid it when creatinine clearance is low (the label cutoff is under 60 mL/min), and warn that rust-yellow to brown urine is expected and harmless.",
+    "administration": "Orally with food or milk, which improves absorption and eases nausea; Macrobid is typically every 12 hours for 5-7 days. Avoid antacids containing magnesium trisilicate.",
+    "sideEffects": [
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Brown or rust-colored urine", "icon": "orange_fluids"},
+      {"label": "Cough, chest pain, and dyspnea (lung reaction)", "icon": "cough"},
+      {"label": "Liver injury", "icon": "liver"},
+      {"label": "Headache", "icon": "headache"},
+      {"label": "Diarrhea", "icon": "diarrhea"}
+    ],
+    "mechanism": "Bacterial enzymes convert it into reactive fragments that damage bacterial DNA and ribosomes; it concentrates in urine but barely reaches the blood.",
+    "simplified": "A bladder-only drug that bacteria activate themselves, turning it into shrapnel that shreds their own DNA.",
+    "nursing": [
+      "Check creatinine clearance before starting; with poor kidney function it fails to reach the urine and builds up toward toxic levels.",
+      "Teach to report fever, chills, cough, chest pain, or shortness of breath, which can appear within days; long-term use can cause lung fibrosis.",
+      "Stop and report numbness or tingling in the hands or feet, which signals peripheral neuropathy.",
+      "Not for kidney infections (pyelonephritis) because tissue levels are too low.",
+      "Avoid at term pregnancy, during labor, and in infants under 1 month because of hemolytic anemia risk."
+    ]
+  },
+  {
+    "id": "levofloxacin",
+    "generic": "Levofloxacin",
+    "brands": ["Levaquin"],
+    "drugClass": "Fluoroquinolone antibiotic (respiratory)",
+    "system": "Anti-infective",
+    "diagram": "bacteria",
+    "mode": "dna",
+    "rx": true,
+    "uses": ["Community-acquired and hospital-acquired pneumonia", "Complicated UTIs and pyelonephritis", "Chronic bacterial prostatitis", "Inhalational anthrax and plague"],
+    "quickTip": "Space antacids, calcium, iron, zinc, magnesium, and multivitamins at least 2 hours before or after each dose, and stop at the first tendon pain (black box warning).",
+    "administration": "Orally once daily with plenty of fluid; tablets with or without food, oral solution 1 hour before or 2 hours after eating. IV infused over 60 minutes (90 minutes for 750 mg), never rapidly or as a bolus.",
+    "sideEffects": [
+      {"label": "Tendon pain or rupture", "icon": "muscle_pain"},
+      {"label": "QT prolongation", "icon": "arrhythmia"},
+      {"label": "High or low blood sugar", "icon": "hypoglycemia"},
+      {"label": "Agitation, confusion, or seizures", "icon": "confusion"},
+      {"label": "Sun sensitivity", "icon": "photosensitivity"},
+      {"label": "C. difficile diarrhea", "icon": "diarrhea"}
+    ],
+    "mechanism": "Traps DNA gyrase and topoisomerase IV on cut bacterial DNA so replication stalls and the chromosome fragments; its spectrum covers typical and atypical pneumonia bacteria.",
+    "simplified": "The respiratory fluoroquinolone: one daily dose reaches the lungs, the urine, and, unfortunately, the tendons.",
+    "nursing": [
+      "Ask about tendon pain at every contact; risk is highest over age 60, with corticosteroids, and after kidney, heart, or lung transplant.",
+      "Black box warnings also cover peripheral neuropathy, CNS effects, and myasthenia gravis flares; avoid in myasthenia gravis.",
+      "Obtain an ECG and correct potassium and magnesium in at-risk patients; avoid pairing with amiodarone or antipsychotics.",
+      "Check glucose often in diabetics on insulin or sulfonylureas; severe hypoglycemia has caused coma.",
+      "Reduce the dose when creatinine clearance is under 50 mL/min, and teach sunscreen and good hydration."
+    ]
+  }
+]

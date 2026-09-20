@@ -1,0 +1,1135 @@
+{
+  "figures": [
+    {
+      "id": "shock-types",
+      "title": "Three kinds of shock",
+      "kind": "table",
+      "caption": "All three lower blood pressure and urine output; the heart rate, skin, neck veins and lungs tell them apart. Cardiogenic shock is the one where a large fluid bolus makes the client worse.",
+      "match": {
+        "topics": [
+          "Shock",
+          "Cardiogenic Shock",
+          "Hypovolemic Shock"
+        ],
+        "terms": [
+          "hypovolemic shock",
+          "hemorrhagic shock",
+          "cardiogenic shock",
+          "distributive shock",
+          "neurogenic shock",
+          "anaphylactic shock",
+          "types? of shock",
+          "(compensat\\w*|progressive|refractory) stage of (hypovolemic )?shock"
+        ]
+      },
+      "columns": [
+        "",
+        "Hypovolemic",
+        "Cardiogenic",
+        "Distributive"
+      ],
+      "rows": [
+        [
+          "Cause",
+          "Blood or fluid loss: hemorrhage, burns, vomiting, diarrhea",
+          "Pump failure: large MI, severe heart failure, dysrhythmia",
+          "Vessels dilate: sepsis, anaphylaxis, spinal cord injury (neurogenic)"
+        ],
+        [
+          "Heart rate",
+          "Fast and thready, the earliest sign; BP holds until late",
+          "Fast, often irregular",
+          "Fast; slow in neurogenic shock"
+        ],
+        [
+          "Skin",
+          "Cool, pale, clammy",
+          "Cool, pale, clammy",
+          "Warm and flushed early; warm and dry in neurogenic shock"
+        ],
+        [
+          "Neck veins, CVP",
+          "Flat; CVP low",
+          "Distended; CVP high",
+          "Flat; CVP low"
+        ],
+        [
+          "Lungs",
+          "Clear",
+          "Crackles, pink frothy sputum",
+          "Clear; wheezes or stridor in anaphylaxis"
+        ],
+        [
+          "First treatment",
+          "Stop the bleeding; rapid isotonic fluids or blood",
+          "Oxygen, inotropes, reperfusion; no large fluid boluses",
+          "Fluids and vasopressors; antibiotics for sepsis, IM epinephrine for anaphylaxis"
+        ]
+      ]
+    },
+    {
+      "id": "sepsis-first-hour",
+      "title": "Sepsis: the first hour",
+      "kind": "steps",
+      "caption": "Start every step within the first hour: each hour antibiotics are delayed raises the risk of death. Cultures come before antibiotics, but never hold the antibiotic up.",
+      "match": {
+        "topics": [
+          "Sepsis",
+          "Postoperative Sepsis",
+          "Sepsis Resuscitation",
+          "Lactate and Sepsis",
+          "Sepsis Recognition",
+          "Sepsis Response"
+        ],
+        "terms": [
+          "sepsis",
+          "septic( shock)?",
+          "urosepsis",
+          "lactate",
+          "lactic acid",
+          "30 mL/kg",
+          "systemic inflammatory response",
+          "SIRS"
+        ],
+        "exclude": [
+          "newborns?",
+          "neonat\\w*",
+          "infants?",
+          "child(ren)?",
+          "pediatric",
+          "DIC",
+          "disseminated intravascular"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Spot it early",
+          "detail": "Infection plus a fast heart rate and breathing, fever or a low temperature, low BP or new confusion. An older adult may show only confusion."
+        },
+        {
+          "title": "Measure lactate",
+          "detail": "Above 2 mmol/L means tissues are underperfused. Remeasure within 2 to 4 hours if it is high; a falling lactate means treatment is working."
+        },
+        {
+          "title": "Blood cultures before antibiotics",
+          "detail": "Two sets from two sites, drawn first so the organism can be found, but never let them delay the first dose."
+        },
+        {
+          "title": "Broad-spectrum IV antibiotics",
+          "detail": "Within 1 hour of recognition. Narrow the drug later, once culture and sensitivity results return."
+        },
+        {
+          "title": "Fluids: 30 mL/kg for low BP or lactate",
+          "detail": "For hypotension or a lactate of 4 or more, give 30 mL/kg of normal saline or lactated Ringer's within 3 hours. A 70 kg adult gets 2,100 mL."
+        },
+        {
+          "title": "Vasopressors to a MAP of 65 or higher",
+          "detail": "If BP stays low with fluids, start norepinephrine, peripherally if no central line is ready yet, for a mean arterial pressure of 65 or higher."
+        },
+        {
+          "title": "Reassess perfusion",
+          "detail": "Improving: MAP 65 or higher, urine output at least 0.5 mL/kg/hr, falling lactate, clearer thinking, faster capillary refill."
+        }
+      ]
+    },
+    {
+      "id": "heart-failure-left-right",
+      "title": "Left- vs right-sided heart failure",
+      "kind": "table",
+      "caption": "Left backs up into the lungs, right into the rest of the body. Daily weight is the best check on fluid: report a gain of 2 to 3 lb (about 1 kg) in a day or 5 lb (2.3 kg) in a week.",
+      "match": {
+        "topics": [
+          "Heart Failure",
+          "Acute Heart Failure",
+          "Heart Failure Monitoring"
+        ],
+        "terms": [
+          "heart failure",
+          "HF",
+          "(left|right)[- ]sided (heart )?failure",
+          "(left|right) ventricular failure",
+          "cor pulmonale",
+          "pulmonary edema",
+          "pink,? frothy",
+          "orthopnea",
+          "paroxysmal nocturnal dyspnea",
+          "BNP",
+          "B-type natriuretic peptide"
+        ],
+        "exclude": [
+          "newborns?",
+          "infants?",
+          "child(ren)?",
+          "pediatric",
+          "\\d+-month-old",
+          "readmi\\w*",
+          "program"
+        ]
+      },
+      "columns": [
+        "",
+        "Left-sided",
+        "Right-sided"
+      ],
+      "rows": [
+        [
+          "Backs up into",
+          "The lungs",
+          "The body's veins and organs"
+        ],
+        [
+          "Breathing",
+          "Dyspnea, orthopnea, waking breathless at night",
+          "Less breathless; the signs show in the body"
+        ],
+        [
+          "Lungs",
+          "Crackles, cough, pink frothy sputum in pulmonary edema",
+          "Usually clear"
+        ],
+        [
+          "Body",
+          "Fatigue, confusion, low urine output, S3 heart sound",
+          "Neck vein distension, dependent edema, weight gain, enlarged liver, ascites"
+        ],
+        [
+          "Common causes",
+          "MI, hypertension, aortic or mitral valve disease",
+          "Left-sided failure, COPD (cor pulmonale), pulmonary hypertension"
+        ],
+        [
+          "Nursing focus",
+          "High Fowler's, oxygen, IV diuretic, watch potassium",
+          "Daily weight, sodium limit, skin care over swollen legs"
+        ]
+      ]
+    },
+    {
+      "id": "cardiac-biomarkers",
+      "title": "Cardiac markers after an MI",
+      "kind": "curves",
+      "caption": "Troponin is the marker of choice: specific to heart muscle and high for up to 2 weeks. Draw it on arrival and repeat it, because one early normal result does not rule out an MI.",
+      "match": {
+        "topics": [
+          "Troponin Interpretation",
+          "Acute Myocardial Injury"
+        ],
+        "terms": [
+          "troponins?( [IT])?",
+          "CK-MB",
+          "myoglobin",
+          "cardiac (bio)?markers?",
+          "cardiac enzymes?",
+          "creatine kinase",
+          "NSTEMI",
+          "non-ST[- ](segment[- ])?elevation"
+        ],
+        "exclude": [
+          "rhabdomyolysis",
+          "crush"
+        ]
+      },
+      "xLabel": "Days after the MI began",
+      "yLabel": "Rise above normal (schematic)",
+      "xMax": 14,
+      "yMax": 1,
+      "xTicks": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        10,
+        14
+      ],
+      "series": [
+        {
+          "label": "Myoglobin",
+          "note": "First to rise, within 1 to 3 hours, and normal again within about a day. It is in all muscle, so it is not specific to the heart.",
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0.08,
+              0.15
+            ],
+            [
+              0.4,
+              0.7
+            ],
+            [
+              0.7,
+              0.25
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "label": "CK-MB",
+          "note": "Rises in 3 to 6 hours, peaks at 12 to 24 hours, normal in 2 to 3 days, so a fresh rise after that points to a new infarction.",
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0.2,
+              0.05
+            ],
+            [
+              0.75,
+              0.55
+            ],
+            [
+              1.5,
+              0.3
+            ],
+            [
+              2.4,
+              0.06
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        {
+          "label": "Troponin I or T",
+          "note": "Most specific to heart muscle. Rises in 3 to 6 hours, peaks around 24 hours, stays high 7 to 14 days, so it catches a late MI.",
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0.2,
+              0.05
+            ],
+            [
+              1,
+              0.95
+            ],
+            [
+              2,
+              0.82
+            ],
+            [
+              4,
+              0.52
+            ],
+            [
+              7,
+              0.25
+            ],
+            [
+              10,
+              0.1
+            ],
+            [
+              14,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acute-mi-first-actions",
+      "title": "Suspected MI: first actions",
+      "kind": "steps",
+      "caption": "The ECG and aspirin come first. Oxygen is for a saturation below 90%, not for everyone, and nitroglycerin can crash the BP of a client who is hypotensive or took an erectile dysfunction drug.",
+      "match": {
+        "topics": [
+          "Myocardial Infarction",
+          "Chest Pain in the ED",
+          "Cardiac - Myocardial Infarction"
+        ],
+        "terms": [
+          "myocardial infarction",
+          "MI",
+          "N?STEMI",
+          "ST[- ](segment )?elevation",
+          "acute coronary syndrome",
+          "ACS",
+          "(crushing|substernal|squeezing) chest",
+          "chest (pressure|tightness|heaviness)",
+          "radiat\\w* to (the )?(jaw|left arm|arm|left shoulder)",
+          "door-to-balloon",
+          "PCI",
+          "percutaneous coronary intervention",
+          "reperfusion",
+          "(chew\\w*|chewable) aspirin",
+          "aspirin,? chewed"
+        ],
+        "exclude": [
+          "pericard\\w*",
+          "friction rub",
+          "pleuritic",
+          "pulmonary embol\\w*",
+          "weeks after",
+          "stress test",
+          "Kawasaki",
+          "child(ren)?"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Stop, rest and call for help",
+          "detail": "Stay with the client, sit them up in semi-Fowler's, and call the rapid response team or 911. Take vital signs and SpO2."
+        },
+        {
+          "title": "12-lead ECG within 10 minutes",
+          "detail": "ST elevation means a STEMI and starts the reperfusion clock. Start an IV and draw a troponin at the same time."
+        },
+        {
+          "title": "Aspirin, chewed",
+          "detail": "162 to 325 mg of non-enteric-coated aspirin, chewed so it works faster, unless the client is allergic or actively bleeding."
+        },
+        {
+          "title": "Oxygen only if SpO2 is below 90%",
+          "detail": "Routine oxygen does not help a client whose saturation is normal. Give it for SpO2 below 90% or respiratory distress."
+        },
+        {
+          "title": "Nitroglycerin, if BP allows",
+          "detail": "0.4 mg sublingual every 5 minutes, up to 3 doses. Hold for systolic BP below 90 or a PDE-5 inhibitor (sildenafil) taken within 24 to 48 hours."
+        },
+        {
+          "title": "Reperfusion",
+          "detail": "STEMI: PCI with door-to-balloon within 90 minutes, or a fibrinolytic within 30 minutes of arrival if PCI is not available."
+        }
+      ]
+    },
+    {
+      "id": "increased-icp",
+      "title": "Increased intracranial pressure",
+      "kind": "table",
+      "caption": "A change in level of consciousness is the earliest sign. Cushing triad comes late and means the brainstem is being compressed. Keep the head of the bed at 30 degrees and the neck midline.",
+      "match": {
+        "topics": [
+          "Increased ICP",
+          "Increased Intracranial Pressure",
+          "Intracranial Bleeding"
+        ],
+        "terms": [
+          "intracranial (pressure|bleed\\w*|hemorrhage|hypertension)",
+          "ICP",
+          "Cushing'?s? (triad|response|reflex)",
+          "brainstem compression",
+          "(brain|uncal|tentorial) herniation",
+          "herniation",
+          "widen\\w* pulse pressure",
+          "decorticate",
+          "decerebrate",
+          "external ventricular drain",
+          "ventriculostomy",
+          "(epidural|subdural) hematoma",
+          "traumatic brain injury",
+          "TBI"
+        ],
+        "exclude": [
+          "infants?",
+          "newborns?",
+          "fontanels?",
+          "head circumference",
+          "disk herniation",
+          "herniated",
+          "alteplase",
+          "thrombolytic"
+        ]
+      },
+      "columns": [
+        "",
+        "Early",
+        "Late"
+      ],
+      "rows": [
+        [
+          "Alertness",
+          "Restless, irritable or newly confused: the first sign",
+          "Hard to arouse, then unresponsive; Glasgow score 8 or below"
+        ],
+        [
+          "Pupils",
+          "Sluggish on one side",
+          "Fixed and dilated on one side, then both"
+        ],
+        [
+          "Vital signs",
+          "Close to baseline",
+          "Cushing triad: rising systolic BP, wide pulse pressure, slow pulse, irregular breathing"
+        ],
+        [
+          "Movement",
+          "New weakness or drift on one side",
+          "Decorticate, then decerebrate posturing"
+        ],
+        [
+          "Other",
+          "Headache, vomiting, blurred or double vision",
+          "Seizures, loss of gag and corneal reflexes"
+        ],
+        [
+          "Action",
+          "Head of bed 30 degrees, neck midline, quiet room, space out care, prevent straining",
+          "Call the provider at once: herniation may be close. Protect the airway."
+        ]
+      ]
+    },
+    {
+      "id": "glasgow-coma-scale",
+      "title": "Glasgow Coma Scale",
+      "kind": "table",
+      "caption": "Add the best eye, verbal and motor responses. 15 is fully alert and 3 is the lowest possible score. A score of 8 or below means the client cannot protect the airway; a drop of 2 points is a change to report.",
+      "match": {
+        "topics": [
+          "Glasgow Coma Scale"
+        ],
+        "terms": [
+          "Glasgow( Coma Scale)?",
+          "GCS",
+          "opens? (the |their |his |her )?eyes",
+          "withdraws?( the \\w+)? from (pain|a painful stimulus)",
+          "incomprehensible",
+          "neuro(logic(al)?)? checks?",
+          "head strike"
+        ]
+      },
+      "columns": [
+        "",
+        "Best response",
+        "Lower scores"
+      ],
+      "rows": [
+        [
+          "Eyes",
+          "4: open on their own",
+          "3: to voice. 2: to pain. 1: none"
+        ],
+        [
+          "Verbal",
+          "5: oriented",
+          "4: confused. 3: inappropriate words. 2: sounds only. 1: none"
+        ],
+        [
+          "Motor",
+          "6: obeys commands",
+          "5: localizes pain. 4: withdraws. 3: abnormal flexion. 2: extension. 1: none"
+        ],
+        [
+          "Total",
+          "15: fully awake and oriented",
+          "3 is the lowest. 8 or below: coma; protect the airway"
+        ]
+      ]
+    },
+    {
+      "id": "stroke-left-right",
+      "title": "Stroke: left vs right hemisphere",
+      "kind": "table",
+      "caption": "Deficits land on the side opposite the damaged hemisphere. With a field cut, put things in the seeing field at first, then teach the client to turn the head and scan the blind side.",
+      "match": {
+        "topics": [],
+        "terms": [
+          "stroke",
+          "CVA",
+          "cerebrovascular accident",
+          "aphasi\\w*",
+          "hemianops\\w*",
+          "hemianopia",
+          "(left|unilateral|one-sided|spatial|visual)[- ]neglect",
+          "(left|right)[- ]hemispher\\w*",
+          "dysphagia"
+        ],
+        "exclude": [
+          "epiglottitis",
+          "drooling",
+          "child(ren)?",
+          "sudden(ly)?",
+          "alteplase",
+          "tPA",
+          "thrombolytic",
+          "facial droop",
+          "last known well",
+          "range[- ]of[- ]motion",
+          "atrial fibrillation",
+          "heat ?stroke"
+        ]
+      },
+      "columns": [
+        "",
+        "Left hemisphere",
+        "Right hemisphere"
+      ],
+      "rows": [
+        [
+          "Weak side",
+          "Right arm, leg and face",
+          "Left arm, leg and face"
+        ],
+        [
+          "Language",
+          "Aphasia: trouble speaking (expressive), understanding (receptive) or both",
+          "Usually intact"
+        ],
+        [
+          "Behavior",
+          "Slow and cautious, aware of deficits, often anxious or depressed",
+          "Impulsive, denies deficits, overestimates abilities"
+        ],
+        [
+          "Vision and space",
+          "Right-sided field loss in both eyes",
+          "Left field loss, left neglect, misjudges distance"
+        ],
+        [
+          "Talking with them",
+          "Short phrases, yes-or-no questions, gestures, picture board; allow time",
+          "Brief step-by-step cues; check each task is done safely"
+        ],
+        [
+          "Safety",
+          "Call light and items on the unaffected left side at first",
+          "Close supervision, bed alarm, cue to scan to the left"
+        ],
+        [
+          "Transfers",
+          "Chair on the stronger left side; lead with the left leg",
+          "Chair on the stronger right side; lead with the right leg"
+        ],
+        [
+          "Swallowing",
+          "Screen swallowing before any food, fluid or pills",
+          "Same risk: eat fully upright, chin tucked, small bites"
+        ]
+      ]
+    },
+    {
+      "id": "acute-stroke-first-hour",
+      "title": "Acute stroke: the first hour",
+      "kind": "steps",
+      "caption": "Time lost is brain lost. The last known well time decides alteplase, the CT must rule out bleeding first, and nothing goes by mouth until the client passes a swallow screen.",
+      "match": {
+        "topics": [
+          "Stroke",
+          "Sudden Weakness",
+          "Stroke Screening"
+        ],
+        "terms": [
+          "facial droop",
+          "slurred speech",
+          "arm (drift|weakness)",
+          "unilateral (arm )?weakness",
+          "alteplase",
+          "tPA",
+          "thrombolytic",
+          "tenecteplase",
+          "last[- ]known[- ]well",
+          "ischemic stroke",
+          "hemorrhagic stroke",
+          "stroke (team|alert|scale|response)",
+          "NIHSS"
+        ],
+        "exclude": [
+          "pulmonary embol\\w*",
+          "myocardial infarction",
+          "STEMI",
+          "chest pain",
+          "weeks after",
+          "rehabilitation",
+          "recovering",
+          "child(ren)?"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Call a stroke alert",
+          "detail": "Sudden face droop, arm drift, slurred speech, vision loss or loss of balance. Activate the stroke team and score a stroke scale (NIHSS)."
+        },
+        {
+          "title": "Establish the last known well time",
+          "detail": "When the client was last seen normal, not when found. It decides whether alteplase can be given."
+        },
+        {
+          "title": "Check glucose; keep NPO",
+          "detail": "Low glucose can mimic a stroke. Nothing by mouth, not even aspirin or pills, until bleeding is ruled out and a swallow screen is passed."
+        },
+        {
+          "title": "Noncontrast head CT, stat",
+          "detail": "It must rule out bleeding before any clot-dissolving drug. Aim to start imaging within 20 minutes of arrival."
+        },
+        {
+          "title": "BP below 185/110 and no exclusions",
+          "detail": "Screen for active bleeding, recent head trauma or brain surgery, and anticoagulant use. Lower the BP first if it is too high."
+        },
+        {
+          "title": "Alteplase within 4.5 hours",
+          "detail": "IV bolus, then a 60-minute infusion, within 4.5 hours of last known well. Aim for 60 minutes or less from door to needle."
+        },
+        {
+          "title": "Watch for bleeding in the brain",
+          "detail": "Neuro checks and BP every 15 minutes at first; keep BP at or below 180/105. Severe headache or drowsiness: stop the infusion and call."
+        }
+      ]
+    },
+    {
+      "id": "chest-tube-troubleshooting",
+      "title": "Chest tube troubleshooting",
+      "kind": "table",
+      "caption": "Keep the unit below the chest and the tubing free of loops. Don't strip the tube or clamp it except briefly to find a leak. Brief water-seal bubbles as a client with a pneumothorax coughs are expected.",
+      "match": {
+        "topics": [
+          "Chest Tubes",
+          "Chest Tube",
+          "Chest Tube Complications",
+          "Chest Tube Drainage",
+          "Chest Drainage System",
+          "Dislodged Chest Tube"
+        ],
+        "terms": [
+          "chest tubes?",
+          "chest drain(age)?( system| unit)?",
+          "water[- ]seal",
+          "tidal(l)?ing",
+          "suction[- ]control chamber",
+          "mediastinal (chest )?tube"
+        ],
+        "exclude": [
+          "restraints?"
+        ]
+      },
+      "columns": [
+        "",
+        "What it means",
+        "What to do"
+      ],
+      "rows": [
+        [
+          "Tidaling in water seal",
+          "Normal: rises on inhaling, falls on exhaling (reversed on a ventilator)",
+          "Nothing; it shows the system is open to the chest"
+        ],
+        [
+          "Gentle bubbling in suction chamber",
+          "Wet suction is working",
+          "Nothing; if it stops, check the suction source"
+        ],
+        [
+          "Tidaling stops",
+          "Lung has re-expanded, or the tubing is kinked, clotted or looped",
+          "Check for kinks and loops; report so an x-ray can confirm"
+        ],
+        [
+          "Continuous bubbling in water seal",
+          "Air leak in the client or the system",
+          "Check the dressing and connections from the chest down; report a new leak"
+        ],
+        [
+          "Drainage above 100 mL/hr or bright red",
+          "Possible hemorrhage",
+          "Notify the provider at once; check BP and heart rate"
+        ],
+        [
+          "Drainage suddenly stops",
+          "Blocked tube; after heart surgery, possible tamponade",
+          "Check the tubing, never strip it; low BP with distended neck veins: call at once"
+        ],
+        [
+          "Tube disconnected",
+          "Air can be drawn into the chest",
+          "Reconnect cleanly at once; if the unit broke, put the tube end 2 to 5 cm in sterile water"
+        ],
+        [
+          "Tube pulled out",
+          "Open wound into the chest",
+          "Sterile occlusive dressing taped on 3 sides; assess breathing; call the provider"
+        ]
+      ]
+    },
+    {
+      "id": "oxygen-delivery-devices",
+      "title": "Oxygen delivery devices",
+      "kind": "table",
+      "caption": "Match the device to how much oxygen the client needs and how exact it must be. Titrate to the SpO2 target, not to 100%, and keep smoking, flames and sparks away: oxygen feeds fire.",
+      "match": {
+        "topics": [
+          "Home Oxygen Teaching",
+          "Oxygen Therapy"
+        ],
+        "terms": [
+          "nasal cannula",
+          "venturi( mask)?",
+          "non-?rebreather( mask)?",
+          "partial rebreather",
+          "simple (face )?mask",
+          "FiO2",
+          "high-flow nasal( cannula)?",
+          "oxygen (delivery )?devices?",
+          "L/min (of oxygen|by|via)",
+          "88%? (to|and) 92%",
+          "(home|continuous) oxygen"
+        ],
+        "exclude": [
+          "newborns?",
+          "neonat\\w*",
+          "infants?",
+          "fetal",
+          "FHR",
+          "labor",
+          "pregnan\\w*",
+          "postpartum",
+          "tachysystole",
+          "terbutaline",
+          "uterine",
+          "delegat\\w*",
+          "assistive personnel",
+          "UAP",
+          "MRI",
+          "sedation",
+          "capnography",
+          "end-tidal"
+        ]
+      },
+      "columns": [
+        "",
+        "Flow and oxygen delivered",
+        "Nursing point"
+      ],
+      "rows": [
+        [
+          "Nasal cannula",
+          "1 to 6 L/min; about 24% to 44%",
+          "Client can eat and talk. Humidify above 4 L/min; pad the ears and check the nares"
+        ],
+        [
+          "Simple face mask",
+          "6 to 10 L/min; about 40% to 60%",
+          "Never below 5 L/min, or the client rebreathes exhaled carbon dioxide"
+        ],
+        [
+          "Venturi mask",
+          "Set by the adapter; 24% to 50%",
+          "Most precise. Choose it when an exact percentage is prescribed, as in COPD"
+        ],
+        [
+          "Nonrebreather mask",
+          "10 to 15 L/min; about 60% to 90%",
+          "Highest without intubation. Keep the reservoir bag from collapsing on inhaling"
+        ],
+        [
+          "High-flow nasal cannula",
+          "Up to 60 L/min; 21% to 100%",
+          "Heated and humidified; for acute respiratory failure"
+        ],
+        [
+          "COPD",
+          "Low flow, often 1 to 2 L/min, or Venturi 24% to 28%",
+          "Target SpO2 88% to 92%. New drowsiness can mean carbon dioxide is building up"
+        ]
+      ]
+    },
+    {
+      "id": "burns-first-24-hours",
+      "title": "Major burns: the first 24 hours",
+      "kind": "steps",
+      "caption": "Airway comes before fluids: soot, singed nasal hair or hoarseness means the airway can swell shut within hours. Parkland's first 8 hours count from the time of the burn, not from arrival.",
+      "match": {
+        "topics": [
+          "Burns"
+        ],
+        "terms": [
+          "burns?",
+          "burned",
+          "Parkland",
+          "TBSA",
+          "(total )?body surface area",
+          "rule of nines",
+          "soot",
+          "singed",
+          "inhalation injury",
+          "carbon monoxide",
+          "carboxyhemoglobin",
+          "escharotomy",
+          "eschar"
+        ],
+        "exclude": [
+          "child(ren)?",
+          "toddler",
+          "infants?",
+          "pediatric",
+          "([1-9]|1[0-7])-year-old",
+          "scald",
+          "heating pad",
+          "mastectomy",
+          "lightning",
+          "chemotherapy"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Stop the burning",
+          "detail": "Remove smoldering clothing and all jewelry before swelling starts. Cool water only for small burns; cover large burns and keep the client warm."
+        },
+        {
+          "title": "Airway: look for inhalation injury",
+          "detail": "Soot at the mouth or nose, singed nasal hair, hoarseness, stridor or facial burns: give 100% oxygen and prepare for early intubation."
+        },
+        {
+          "title": "Suspect carbon monoxide",
+          "detail": "Headache and confusion after a fire. Pulse oximetry reads falsely normal, so check carboxyhemoglobin and keep 100% oxygen by nonrebreather."
+        },
+        {
+          "title": "Estimate the burn size",
+          "detail": "Adult rule of nines: head 9%, each arm 9%, front 18%, back 18%, each leg 18%, perineum 1%. Count partial and full thickness only."
+        },
+        {
+          "title": "Parkland: 4 mL × kg × %TBSA",
+          "detail": "Lactated Ringer's over 24 hours; %TBSA is the percent of skin burned. Half in the first 8. 80 kg, 40%: 12,800 mL; 6,400 mL (800 mL/hr) by hour 8."
+        },
+        {
+          "title": "Titrate to urine output",
+          "detail": "Aim for 0.5 mL/kg/hr, about 30 to 50 mL/hr in an adult. Less means more fluid is needed; much more risks fluid overload."
+        },
+        {
+          "title": "Pain, warmth and infection control",
+          "detail": "IV opioids (IM absorbs poorly), a warm room, sterile dressing technique, tetanus if due. Check pulses under circumferential burns."
+        }
+      ]
+    },
+    {
+      "id": "neutropenic-precautions",
+      "title": "Neutropenia: precautions and fever",
+      "kind": "steps",
+      "caption": "With few neutrophils, an infection may show only as fever, with no pus and little redness. So treat any fever as an emergency, and keep infection sources out of the room.",
+      "match": {
+        "topics": [
+          "Neutropenia",
+          "Neutropenic Fever Coordination",
+          "Protective Environment"
+        ],
+        "terms": [
+          "neutropeni\\w*",
+          "absolute neutrophil count",
+          "ANC",
+          "nadir",
+          "protective (environment|isolation)",
+          "reverse isolation",
+          "febrile neutropenia"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Check the ANC",
+          "detail": "WBC × (% neutrophils + % bands) ÷ 100. Below 1,000/mm3 calls for neutropenic precautions; below 500 the infection risk is severe."
+        },
+        {
+          "title": "Private room, clean hands",
+          "detail": "Strict hand hygiene; positive-pressure, HEPA-filtered room after a stem cell transplant. No fresh flowers, plants or standing water."
+        },
+        {
+          "title": "Remove other infection sources",
+          "detail": "No raw meat, eggs or unwashed produce. No rectal temperatures, suppositories or enemas. Keep ill visitors and staff away."
+        },
+        {
+          "title": "Check temperature often",
+          "detail": "Fever may be the only sign. A temperature of 38 C (100.4 F) or higher, or chills, is reported at once."
+        },
+        {
+          "title": "Fever: cultures, then antibiotics",
+          "detail": "Draw blood cultures, from any central line and a vein, then give broad-spectrum IV antibiotics within 1 hour."
+        },
+        {
+          "title": "Teach for home",
+          "detail": "Hand hygiene, avoid crowds and sick contacts, no live vaccines, no litter boxes or bird cages, call for a fever of 100.4 F (38 C)."
+        }
+      ]
+    },
+    {
+      "id": "sickle-cell-crisis",
+      "title": "Sickle cell crisis",
+      "kind": "steps",
+      "caption": "Dehydration, cold, low oxygen and infection make red cells sickle and block small vessels. Relieve pain fast and fully, hydrate, keep warm, and treat new chest pain with fever as acute chest syndrome.",
+      "match": {
+        "topics": [
+          "Sickle Cell Disease",
+          "Sickle Cell",
+          "Sickle Cell Pain Crisis",
+          "Pain Assessment in Sickle Cell Disease",
+          "Acute Chest Syndrome",
+          "Sickle Cell Outcomes"
+        ],
+        "terms": [
+          "sickle( cell)?",
+          "vaso-?occlusive",
+          "acute chest syndrome",
+          "splenic sequestration"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Treat pain fast, on a schedule",
+          "detail": "IV opioids within 1 hour of arrival, then around the clock or by PCA, not as needed. Believe the client's pain rating."
+        },
+        {
+          "title": "Hydrate",
+          "detail": "IV and oral fluids ease sickling. Listen to the lungs: too much fluid can bring on acute chest syndrome."
+        },
+        {
+          "title": "Oxygen if SpO2 is below 95%",
+          "detail": "Treat hypoxemia, which drives sickling; oxygen for a normal saturation does not end a crisis."
+        },
+        {
+          "title": "Warmth, not cold",
+          "detail": "Warm packs and a warm room. Cold narrows vessels and worsens sickling, so never apply ice."
+        },
+        {
+          "title": "Watch for acute chest syndrome",
+          "detail": "New chest pain, fever, cough or falling SpO2: report at once. Incentive spirometry every 2 hours while awake helps prevent it."
+        },
+        {
+          "title": "Watch for stroke and sequestration",
+          "detail": "Sudden weakness or speech change means stroke. In a child, a rapidly enlarging spleen with pallor and low BP is an emergency."
+        },
+        {
+          "title": "Prevent the next crisis",
+          "detail": "Plenty of fluids; avoid cold, high altitude and overexertion; keep vaccines current; take hydroxyurea as prescribed."
+        }
+      ]
+    },
+    {
+      "id": "upper-gi-bleed",
+      "title": "Upper GI bleed: first actions",
+      "kind": "steps",
+      "caption": "The first sign of a large bleed is usually a rising heart rate, not a falling BP or hemoglobin. Circulation comes first: two large IVs and volume before the search for the source.",
+      "match": {
+        "topics": [
+          "GI Bleed",
+          "Upper GI Bleed",
+          "Melena and Dizziness"
+        ],
+        "terms": [
+          "(upper |lower )?GI bleed\\w*",
+          "gastrointestinal (bleed\\w*|hemorrhage)",
+          "hematemesis",
+          "melena",
+          "coffee[- ]ground",
+          "black,? tarry",
+          "tarry stools?",
+          "bleeding (peptic )?ulcer",
+          "esophageal varices",
+          "variceal"
+        ],
+        "exclude": [
+          "newborns?",
+          "infants?",
+          "child(ren)?",
+          "iron",
+          "ferrous",
+          "bismuth",
+          "warfarin",
+          "apixaban",
+          "rivaroxaban",
+          "dabigatran",
+          "anticoagulants?"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Recognize the bleed",
+          "detail": "Coffee-ground or bright red vomit, black tarry stools, dizziness on standing and a climbing heart rate. NSAIDs and ulcers are common causes."
+        },
+        {
+          "title": "Protect the airway",
+          "detail": "Turn the client to the side or raise the head of the bed so vomited blood is not aspirated. Keep the client NPO."
+        },
+        {
+          "title": "Two large-bore IVs",
+          "detail": "18 gauge or larger. Draw a type and crossmatch, CBC, clotting studies and BUN at the same time."
+        },
+        {
+          "title": "Restore volume",
+          "detail": "Isotonic crystalloid first, then packed red cells as prescribed, usually for a hemoglobin below 7 g/dL (8 with heart disease)."
+        },
+        {
+          "title": "Stop the bleeding",
+          "detail": "IV proton pump inhibitor as prescribed and endoscopy within 24 hours. Variceal bleeding adds octreotide and banding."
+        },
+        {
+          "title": "Monitor closely",
+          "detail": "Vital signs, orthostatic changes, output and stools. Hemoglobin lags behind acute loss; a high BUN with a normal creatinine means digested blood."
+        }
+      ]
+    },
+    {
+      "id": "tamponade-vs-tension-pneumo",
+      "title": "Tamponade vs tension pneumothorax",
+      "kind": "table",
+      "caption": "Both squeeze the heart: low BP, distended neck veins and a racing pulse. Listen to tell them apart. Muffled heart sounds point to tamponade; absent breath sounds on one side point to tension pneumothorax.",
+      "match": {
+        "topics": [
+          "Cardiac Tamponade",
+          "Pneumothorax"
+        ],
+        "terms": [
+          "(cardiac |pericardial )?tamponade",
+          "(tension |spontaneous )?pneumothorax",
+          "muffled heart sounds",
+          "pulsus paradoxus",
+          "Beck'?s? triad",
+          "tracheal (deviation|shift)",
+          "pericardiocentesis",
+          "needle decompression",
+          "pericardial effusion"
+        ],
+        "exclude": [
+          "newborns?",
+          "infants?",
+          "water[- ]seal",
+          "tidal(l)?ing"
+        ]
+      },
+      "columns": [
+        "",
+        "Tamponade",
+        "Tension pneumothorax"
+      ],
+      "rows": [
+        [
+          "Cause",
+          "Blood or fluid fills the sac around the heart: heart surgery, chest trauma, pericarditis",
+          "Air trapped in the pleural space: chest trauma, ventilator, blocked chest tube"
+        ],
+        [
+          "Heart sounds",
+          "Muffled and distant",
+          "Usually normal"
+        ],
+        [
+          "Breath sounds",
+          "Present on both sides",
+          "Absent on the affected side"
+        ],
+        [
+          "Trachea",
+          "Midline",
+          "Shifts away from the affected side (a late sign)"
+        ],
+        [
+          "Other clues",
+          "Pulsus paradoxus; chest tube drainage may stop suddenly",
+          "Uneven chest rise, rising ventilator pressures, low SpO2"
+        ],
+        [
+          "Treatment",
+          "Pericardiocentesis, or a return to surgery after heart surgery",
+          "Needle decompression, then a chest tube"
+        ]
+      ]
+    }
+  ]
+}

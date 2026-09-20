@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "metoprolol",
+    "generic": "Metoprolol",
+    "brands": [
+      "Lopressor",
+      "Toprol-XL"
+    ],
+    "drugClass": "Beta blocker (beta-1 selective)",
+    "system": "Cardiovascular",
+    "diagram": "heart",
+    "mode": "betaBlock",
+    "rx": true,
+    "uses": [
+      "Hypertension",
+      "Angina",
+      "Heart failure",
+      "Post-MI protection"
+    ],
+    "quickTip": "Check apical pulse for a full minute before each dose; hold if HR under 60 or SBP under 90 and notify the provider.",
+    "administration": "Give tartrate (Lopressor) with or right after meals; succinate (Toprol-XL) once daily, swallowed whole. IV push slowly over 2-5 minutes with cardiac monitoring.",
+    "sideEffects": [
+      {
+        "label": "Bradycardia",
+        "icon": "bradycardia"
+      },
+      {
+        "label": "Hypotension",
+        "icon": "hypotension"
+      },
+      {
+        "label": "Fatigue",
+        "icon": "fatigue"
+      },
+      {
+        "label": "Dizziness",
+        "icon": "dizziness"
+      },
+      {
+        "label": "Masked hypoglycemia",
+        "icon": "hypoglycemia"
+      },
+      {
+        "label": "Worsening heart failure",
+        "icon": "heart_failure"
+      }
+    ],
+    "mechanism": "Blocks beta-1 receptors in the heart so it beats slower and with less force, lowering blood pressure and oxygen demand.",
+    "simplified": "Takes the heart's foot off the gas pedal.",
+    "nursing": [
+      "Hold for HR under 60 or SBP under 90; assess apical pulse before every dose.",
+      "Never stop abruptly - taper over 1-2 weeks to avoid rebound tachycardia, angina, or MI.",
+      "Diabetics: masks tachycardia and tremor of hypoglycemia; sweating still occurs, so check glucose.",
+      "Teach to rise slowly and report shortness of breath, edema, or sudden weight gain.",
+      "Preferred over nonselective agents in asthma/COPD, but still use cautiously."
+    ]
+  },
+  {
+    "id": "propranolol",
+    "generic": "Propranolol",
+    "brands": [
+      "Inderal",
+      "Inderal LA"
+    ],
+    "drugClass": "Beta blocker (nonselective)",
+    "system": "Cardiovascular",
+    "diagram": "heart",
+    "mode": "betaBlock",
+    "rx": true,
+    "uses": [
+      "Hypertension",
+      "Migraine prevention",
+      "Essential tremor",
+      "Performance anxiety"
+    ],
+    "quickTip": "Nonselective means it blocks beta-2 in the lungs too - contraindicated in asthma and COPD because it can trigger bronchospasm.",
+    "administration": "Give consistently with food to improve absorption; extended-release once daily, do not crush. IV only for emergencies with continuous ECG.",
+    "sideEffects": [
+      {
+        "label": "Bradycardia",
+        "icon": "bradycardia"
+      },
+      {
+        "label": "Bronchospasm",
+        "icon": "respiratory_depression"
+      },
+      {
+        "label": "Hypotension",
+        "icon": "hypotension"
+      },
+      {
+        "label": "Fatigue",
+        "icon": "fatigue"
+      },
+      {
+        "label": "Depression",
+        "icon": "mood"
+      },
+      {
+        "label": "Masked hypoglycemia",
+        "icon": "hypoglycemia"
+      }
+    ],
+    "mechanism": "Blocks both beta-1 (heart) and beta-2 (lungs, vessels) receptors, slowing the heart and blunting the body's adrenaline response.",
+    "simplified": "Mutes adrenaline everywhere - heart, lungs, and nerves.",
+    "nursing": [
+      "Assess lung sounds and respiratory history; avoid in asthma, COPD, and heart block.",
+      "Hold for HR under 60 or SBP under 90 and notify the provider.",
+      "Taper gradually - abrupt withdrawal can cause rebound hypertension and angina.",
+      "Monitor diabetics closely; hypoglycemia warning signs are hidden except sweating.",
+      "Screen for mood changes; report new depression or vivid dreams."
+    ]
+  },
+  {
+    "id": "lisinopril",
+    "generic": "Lisinopril",
+    "brands": [
+      "Zestril",
+      "Prinivil"
+    ],
+    "drugClass": "ACE inhibitor",
+    "system": "Cardiovascular",
+    "diagram": "raas",
+    "mode": "ace",
+    "rx": true,
+    "uses": [
+      "Hypertension",
+      "Heart failure",
+      "Post-MI",
+      "Diabetic nephropathy"
+    ],
+    "quickTip": "Dry hacking cough is the classic side effect; angioedema (facial or tongue swelling) is the emergency - stop the drug and call for help immediately.",
+    "administration": "Once daily, with or without food. Give the first dose at bedtime to reduce first-dose hypotension.",
+    "sideEffects": [
+      {
+        "label": "Dry cough",
+        "icon": "cough"
+      },
+      {
+        "label": "Angioedema",
+        "icon": "angioedema"
+      },
+      {
+        "label": "Hyperkalemia",
+        "icon": "hyperkalemia"
+      },
+      {
+        "label": "Hypotension",
+        "icon": "hypotension"
+      },
+      {
+        "label": "Dizziness",
+        "icon": "dizziness"
+      },
+      {
+        "label": "Kidney injury",
+        "icon": "kidney"
+      }
+    ],
+    "mechanism": "Stops the enzyme that turns angiotensin I into angiotensin II, so vessels relax and the body holds less sodium and water.",
+    "simplified": "Cuts the wire that tells vessels to squeeze.",
+    "nursing": [
+      "Monitor BP, potassium, BUN, and creatinine; hold and notify for K+ above 5.0.",
+      "Absolutely contraindicated in pregnancy - teach reliable contraception.",
+      "Avoid potassium supplements, salt substitutes, and NSAIDs.",
+      "Teach that a persistent dry cough is expected; swelling of lips or tongue is an emergency.",
+      "Rise slowly; first-dose hypotension is common, especially with diuretics."
+    ]
+  },
+  {
+    "id": "losartan",
+    "generic": "Losartan",
+    "brands": [
+      "Cozaar"
+    ],
+    "drugClass": "Angiotensin II receptor blocker (ARB)",
+    "system": "Cardiovascular",
+    "diagram": "raas",
+    "mode": "arb",
+    "rx": true,
+    "uses": [
+      "Hypertension",
+      "Heart failure",
+      "Diabetic nephropathy",
+      "Stroke risk reduction"
+    ],
+    "quickTip": "Same benefits and precautions as ACE inhibitors but without the cough - it is the go-to switch when a patient cannot tolerate lisinopril.",
+    "administration": "Once daily with or without food; may be split into two doses if BP control is uneven.",
+    "sideEffects": [
+      {
+        "label": "Dizziness",
+        "icon": "dizziness"
+      },
+      {
+        "label": "Hypotension",
+        "icon": "hypotension"
+      },
+      {
+        "label": "Hyperkalemia",
+        "icon": "hyperkalemia"
+      },
+      {
+        "label": "Kidney injury",
+        "icon": "kidney"
+      },
+      {
+        "label": "Fatigue",
+        "icon": "fatigue"
+      }
+    ],
+    "mechanism": "Blocks angiotensin II from binding to its receptors, so vessels cannot constrict and aldosterone release drops.",
+    "simplified": "Plugs the keyhole so angiotensin cannot turn the lock.",
+    "nursing": [
+      "Monitor BP, potassium, and renal function; hold for K+ above 5.0 or rising creatinine.",
+      "Contraindicated in pregnancy - stop as soon as pregnancy is detected.",
+      "Avoid salt substitutes containing potassium and routine NSAID use.",
+      "Full effect takes 3-6 weeks; do not adjust the dose early.",
+      "Angioedema is rare but possible even without prior ACE inhibitor reaction."
+    ]
+  },
+  {
+    "id": "amlodipine",
+    "generic": "Amlodipine",
+    "brands": [
+      "Norvasc"
+    ],
+    "drugClass": "Calcium channel blocker (dihydropyridine)",
+    "system": "Cardiovascular",
+    "diagram": "vessel",
+    "mode": "calciumBlock",
+    "rx": true,
+    "uses": [
+      "Hypertension",
+      "Chronic stable angina",
+      "Vasospastic angina"
+    ],
+    "quickTip": "Works mostly on blood vessels, not the heart, so expect ankle swelling and flushing rather than bradycardia.",
+    "administration": "Once daily, any time of day, with or without food. Avoid grapefruit juice, which raises drug levels.",
+    "sideEffects": [
+      {
+        "label": "Peripheral edema",
+        "icon": "edema"
+      },
+      {
+        "label": "Flushing",
+        "icon": "flushing"
+      },
+      {
+        "label": "Headache",
+        "icon": "headache"
+      },
+      {
+        "label": "Dizziness",
+        "icon": "dizziness"
+      },
+      {
+        "label": "Reflex tachycardia",
+        "icon": "tachycardia"
+      },
+      {
+        "label": "Gum overgrowth",
+        "icon": "gum"
+      }
+    ],
+    "mechanism": "Blocks calcium from entering smooth muscle in artery walls, so the vessels relax and blood pressure falls.",
+    "simplified": "Loosens the belt around the arteries.",
+    "nursing": [
+      "Check BP and pulse before giving; hold for SBP under 90.",
+      "Ankle edema is dose-related and not fluid overload; elevate legs and report if severe.",
+      "Teach to avoid grapefruit and to rise slowly from sitting.",
+      "Encourage good oral hygiene to limit gingival hyperplasia.",
+      "Long half-life - missed doses can be taken the same day but never doubled."
+    ]
+  },
+  {
+    "id": "diltiazem",
+    "generic": "Diltiazem",
+    "brands": [
+      "Cardizem",
+      "Cardizem CD",
+      "Tiazac"
+    ],
+    "drugClass": "Calcium channel blocker (non-dihydropyridine)",
+    "system": "Cardiovascular",
+    "diagram": "vessel",
+    "mode": "calciumBlock",
+    "rx": true,
+    "uses": [
+      "Atrial fibrillation rate control",
+      "SVT",
+      "Angina",
+      "Hypertension"
+    ],
+    "quickTip": "Slows the heart as well as relaxing vessels, so hold for HR under 60 - and never combine with a beta blocker IV without a clear order.",
+    "administration": "Extended-release capsules swallowed whole, do not crush or chew. IV bolus over 2 minutes, then continuous infusion with ECG monitoring.",
+    "sideEffects": [
+      {
+        "label": "Bradycardia",
+        "icon": "bradycardia"
+      },
+      {
+        "label": "Hypotension",
+        "icon": "hypotension"
+      },
+      {
+        "label": "Heart block",
+        "icon": "arrhythmia"
+      },
+      {
+        "label": "Edema",
+        "icon": "edema"
+      },
+      {
+        "label": "Constipation",
+        "icon": "constipation"
+      },
+      {
+        "label": "Headache",
+        "icon": "headache"
+      }
+    ],
+    "mechanism": "Blocks calcium channels in both the heart's conduction system and vessel walls, slowing AV conduction and dilating arteries.",
+    "simplified": "Puts the brakes on the heart and loosens the pipes at once.",
+    "nursing": [
+      "Assess HR, BP, and rhythm before dosing; hold for HR under 60 or SBP under 90.",
+      "Watch for AV block on the monitor, especially with digoxin or beta blockers.",
+      "Avoid grapefruit juice; teach to rise slowly.",
+      "Contraindicated in heart failure with reduced ejection fraction.",
+      "Increase fluids and fiber to manage constipation."
+    ]
+  },
+  {
+    "id": "digoxin",
+    "generic": "Digoxin",
+    "brands": [
+      "Lanoxin"
+    ],
+    "drugClass": "Cardiac glycoside",
+    "system": "Cardiovascular",
+    "diagram": "heart",
+    "mode": "digoxin",
+    "rx": true,
+    "uses": [
+      "Heart failure",
+      "Atrial fibrillation rate control"
+    ],
+    "quickTip": "Narrow therapeutic range 0.5-2.0 ng/mL. Low potassium makes toxicity more likely; early toxicity looks like nausea, anorexia, and yellow-green halos.",
+    "administration": "Take apical pulse for one full minute before each dose. Give at the same time daily; IV over at least 5 minutes.",
+    "sideEffects": [
+      {
+        "label": "Bradycardia",
+        "icon": "bradycardia"
+      },
+      {
+        "label": "Nausea, anorexia",
+        "icon": "nausea"
+      },
+      {
+        "label": "Yellow-green vision",
+        "icon": "vision"
+      },
+      {
+        "label": "Arrhythmias",
+        "icon": "arrhythmia"
+      },
+      {
+        "label": "Confusion",
+        "icon": "confusion"
+      },
+      {
+        "label": "Headache",
+        "icon": "headache"
+      }
+    ],
+    "mechanism": "Inhibits the sodium-potassium pump in heart cells so more calcium stays inside, making each beat stronger while slowing conduction through the AV node.",
+    "simplified": "Makes the heart squeeze harder but beat slower.",
+    "nursing": [
+      "Hold for apical HR under 60 (adult), under 70 (child), or under 90-110 (infant) and notify.",
+      "Monitor digoxin level, potassium, magnesium, and renal function; hypokalemia raises toxicity risk.",
+      "Antidote for severe toxicity is digoxin immune Fab (Digibind/DigiFab).",
+      "Teach to report anorexia, nausea, or visual halos - these appear before dangerous rhythms.",
+      "Loop and thiazide diuretics lower potassium; older adults need lower doses."
+    ]
+  },
+  {
+    "id": "nitroglycerin",
+    "generic": "Nitroglycerin",
+    "brands": [
+      "Nitrostat",
+      "Nitro-Dur",
+      "Nitro-Bid"
+    ],
+    "drugClass": "Nitrate vasodilator",
+    "system": "Cardiovascular",
+    "diagram": "vessel",
+    "mode": "dilate",
+    "rx": true,
+    "uses": [
+      "Acute angina",
+      "Angina prevention",
+      "Acute MI",
+      "Hypertensive emergency (IV)"
+    ],
+    "quickTip": "Sublingual: one tablet every 5 minutes, up to 3 doses. Call 911 if pain is not relieved after the first dose. Never with sildenafil or similar drugs.",
+    "administration": "Sublingual tablet dissolved under the tongue, not swallowed; sit down first. Patch on hairless skin, rotated daily with a 10-12 hour nitrate-free interval. IV via glass bottle and non-PVC tubing, titrated to BP.",
+    "sideEffects": [
+      {
+        "label": "Headache",
+        "icon": "headache"
+      },
+      {
+        "label": "Hypotension",
+        "icon": "hypotension"
+      },
+      {
+        "label": "Dizziness",
+        "icon": "dizziness"
+      },
+      {
+        "label": "Flushing",
+        "icon": "flushing"
+      },
+      {
+        "label": "Reflex tachycardia",
+        "icon": "tachycardia"
+      }
+    ],
+    "mechanism": "Converts to nitric oxide, which relaxes vein and artery walls, lowering the heart's workload and opening coronary vessels.",
+    "simplified": "Opens the pipes so the heart works less.",
+    "nursing": [
+      "Check BP before and after each dose; hold for SBP under 90 and notify.",
+      "Headache is expected and means the drug is working; acetaminophen may help.",
+      "Contraindicated within 24-48 hours of PDE-5 inhibitors (sildenafil, tadalafil) - severe hypotension.",
+      "Store tablets in the original dark glass bottle; replace every 6 months; a tingle under the tongue means it is active.",
+      "Remove the old patch before applying a new one; wear gloves to avoid absorbing the drug."
+    ]
+  },
+  {
+    "id": "furosemide",
+    "generic": "Furosemide",
+    "brands": [
+      "Lasix"
+    ],
+    "drugClass": "Loop diuretic",
+    "system": "Cardiovascular",
+    "diagram": "nephron",
+    "mode": "loop",
+    "rx": true,
+    "uses": [
+      "Edema from heart failure, liver, or kidney disease",
+      "Pulmonary edema",
+      "Hypertension",
+      "Hypercalcemia"
+    ],
+    "quickTip": "Potent diuretic that wastes potassium - watch K+ closely, and give IV slowly (no faster than 20 mg/min) to prevent ototoxicity.",
+    "administration": "Oral in the morning (second dose no later than mid-afternoon) to avoid nocturia. IV push over 1-2 minutes; large doses by infusion.",
+    "sideEffects": [
+      {
+        "label": "Hypokalemia",
+        "icon": "hypokalemia"
+      },
+      {
+        "label": "Hypotension",
+        "icon": "hypotension"
+      },
+      {
+        "label": "Dehydration",
+        "icon": "thirst"
+      },
+      {
+        "label": "Ototoxicity",
+        "icon": "ototoxicity"
+      },
+      {
+        "label": "Hyponatremia",
+        "icon": "hyponatremia"
+      },
+      {
+        "label": "Hyperglycemia",
+        "icon": "hyperglycemia"
+      }
+    ],
+    "mechanism": "Blocks sodium and chloride reabsorption in the loop of Henle, so large amounts of water follow salt out in the urine.",
+    "simplified": "Pulls the plug on the body's extra water.",
+    "nursing": [
+      "Monitor potassium, sodium, BP, and daily weight; report a gain of 2 lb in a day or 5 lb in a week.",
+      "Hold for SBP under 90 or K+ under 3.5 and notify the provider.",
+      "Teach potassium-rich foods (bananas, oranges, potatoes) or give supplements as ordered.",
+      "Hypokalemia increases digoxin toxicity risk - check both when co-prescribed.",
+      "Sulfa allergy is a relative contraindication; rise slowly to prevent falls."
+    ]
+  },
+  {
+    "id": "hydrochlorothiazide",
+    "generic": "Hydrochlorothiazide",
+    "brands": [
+      "Microzide",
+      "HydroDIURIL"
+    ],
+    "drugClass": "Thiazide diuretic",
+    "system": "Cardiovascular",
+    "diagram": "nephron",
+    "mode": "thiazide",
+    "rx": true,
+    "uses": [
+      "Hypertension",
+      "Mild edema",
+      "Kidney stone prevention (calcium)"
+    ],
+    "quickTip": "First-line for hypertension but loses potassium and raises glucose, uric acid, and calcium - ask about gout and diabetes.",
+    "administration": "Once daily in the morning with food to reduce nocturia and GI upset.",
+    "sideEffects": [
+      {
+        "label": "Hypokalemia",
+        "icon": "hypokalemia"
+      },
+      {
+        "label": "Hyponatremia",
+        "icon": "hyponatremia"
+      },
+      {
+        "label": "Hyperglycemia",
+        "icon": "hyperglycemia"
+      },
+      {
+        "label": "Gout flare",
+        "icon": "muscle_pain"
+      },
+      {
+        "label": "Photosensitivity",
+        "icon": "photosensitivity"
+      },
+      {
+        "label": "Dizziness",
+        "icon": "dizziness"
+      }
+    ],
+    "mechanism": "Blocks sodium reabsorption in the distal tubule so the kidney excretes more salt and water, gently lowering blood volume.",
+    "simplified": "A slow leak that eases pressure in the pipes.",
+    "nursing": [
+      "Monitor potassium, sodium, glucose, uric acid, and BP.",
+      "Hold for K+ under 3.5 or SBP under 90 and notify.",
+      "Teach sunscreen and protective clothing; the drug increases sun sensitivity.",
+      "Not effective once GFR falls below about 30 mL/min - loop diuretics are used instead.",
+      "Sulfa-based - screen for sulfonamide allergy."
+    ]
+  },
+  {
+    "id": "spironolactone",
+    "generic": "Spironolactone",
+    "brands": [
+      "Aldactone",
+      "CaroSpir"
+    ],
+    "drugClass": "Potassium-sparing diuretic (aldosterone antagonist)",
+    "system": "Cardiovascular",
+    "diagram": "nephron",
+    "mode": "kSparing",
+    "rx": true,
+    "uses": [
+      "Heart failure",
+      "Hypertension",
+      "Ascites from cirrhosis",
+      "Hyperaldosteronism"
+    ],
+    "quickTip": "The opposite potassium problem - it RETAINS potassium, so avoid salt substitutes and watch for hyperkalemia, especially with ACE inhibitors or ARBs.",
+    "administration": "Once daily with food to improve absorption; take in the morning. Full diuretic effect takes 2-3 days.",
+    "sideEffects": [
+      {
+        "label": "Hyperkalemia",
+        "icon": "hyperkalemia"
+      },
+      {
+        "label": "Gynecomastia",
+        "icon": "sexual"
+      },
+      {
+        "label": "Menstrual changes",
+        "icon": "sexual"
+      },
+      {
+        "label": "Dizziness",
+        "icon": "dizziness"
+      },
+      {
+        "label": "GI upset",
+        "icon": "gi_upset"
+      },
+      {
+        "label": "Hyponatremia",
+        "icon": "hyponatremia"
+      }
+    ],
+    "mechanism": "Blocks aldosterone in the collecting duct, so the kidney dumps sodium and water but holds onto potassium.",
+    "simplified": "Lets water out while keeping potassium in.",
+    "nursing": [
+      "Monitor potassium closely; hold and notify for K+ above 5.0.",
+      "Teach to avoid potassium-rich foods, potassium supplements, and salt substitutes.",
+      "Report muscle weakness, palpitations, or irregular pulse - signs of high potassium.",
+      "Breast tenderness or enlargement in men is reversible after stopping.",
+      "Weak diuretic alone; often paired with a loop or thiazide diuretic."
+    ]
+  },
+  {
+    "id": "amiodarone",
+    "generic": "Amiodarone",
+    "brands": [
+      "Pacerone",
+      "Nexterone"
+    ],
+    "drugClass": "Class III antiarrhythmic",
+    "system": "Cardiovascular",
+    "diagram": "heart",
+    "mode": "rhythm",
+    "rx": true,
+    "uses": [
+      "Ventricular tachycardia / fibrillation",
+      "Atrial fibrillation",
+      "Cardiac arrest (ACLS)"
+    ],
+    "quickTip": "Toxic to lungs, liver, thyroid, and eyes - baseline and periodic PFTs, LFTs, TFTs, and eye exams. Very long half-life means effects linger for weeks.",
+    "administration": "Oral with meals for consistent absorption. IV through a central line when possible, using an in-line filter; monitor for hypotension during loading.",
+    "sideEffects": [
+      {
+        "label": "Pulmonary fibrosis",
+        "icon": "cough"
+      },
+      {
+        "label": "Bradycardia",
+        "icon": "bradycardia"
+      },
+      {
+        "label": "Hypotension (IV)",
+        "icon": "hypotension"
+      },
+      {
+        "label": "Liver toxicity",
+        "icon": "liver"
+      },
+      {
+        "label": "Photosensitivity, blue-gray skin",
+        "icon": "photosensitivity"
+      },
+      {
+        "label": "Corneal deposits",
+        "icon": "vision"
+      }
+    ],
+    "mechanism": "Prolongs the heart's repolarization phase by blocking potassium channels, which lengthens the refractory period and stops re-entry rhythms.",
+    "simplified": "Stretches out each heartbeat so the rhythm cannot race.",
+    "nursing": [
+      "Continuous ECG during IV use; hold for HR under 60, new heart block, or QT prolongation.",
+      "Report new cough, dyspnea, or chest pain immediately - possible pulmonary toxicity.",
+      "Teach sunscreen and protective clothing; skin may turn blue-gray with long-term use.",
+      "Raises digoxin and warfarin levels - those doses usually need to be reduced.",
+      "Avoid grapefruit juice; report vision changes, tremor, or weight changes (thyroid)."
+    ]
+  },
+  {
+    "id": "atorvastatin",
+    "generic": "Atorvastatin",
+    "brands": [
+      "Lipitor"
+    ],
+    "drugClass": "HMG-CoA reductase inhibitor (statin)",
+    "system": "Cardiovascular",
+    "diagram": "liver",
+    "mode": "statin",
+    "rx": true,
+    "uses": [
+      "High LDL cholesterol",
+      "Prevention of MI and stroke",
+      "Coronary artery disease"
+    ],
+    "quickTip": "Unexplained muscle pain or weakness plus dark urine means possible rhabdomyolysis - stop the drug and check CK. Monitor liver enzymes.",
+    "administration": "Once daily at any time (atorvastatin's long half-life does not require bedtime dosing). Avoid large amounts of grapefruit juice.",
+    "sideEffects": [
+      {
+        "label": "Muscle pain",
+        "icon": "muscle_pain"
+      },
+      {
+        "label": "Liver enzyme elevation",
+        "icon": "liver"
+      },
+      {
+        "label": "GI upset",
+        "icon": "gi_upset"
+      },
+      {
+        "label": "Headache",
+        "icon": "headache"
+      },
+      {
+        "label": "Raised blood glucose",
+        "icon": "hyperglycemia"
+      }
+    ],
+    "mechanism": "Blocks the liver enzyme that makes cholesterol, so the liver pulls more LDL out of the blood to compensate.",
+    "simplified": "Shuts down the liver's cholesterol factory.",
+    "nursing": [
+      "Baseline and periodic LFTs; hold and notify for muscle pain, weakness, or dark urine.",
+      "Contraindicated in pregnancy, breastfeeding, and active liver disease.",
+      "Teach to limit alcohol and report yellow skin or eyes.",
+      "Lifestyle changes (diet, exercise) continue alongside the drug.",
+      "Recheck lipid panel in 4-12 weeks after starting or changing dose."
+    ]
+  },
+  {
+    "id": "warfarin",
+    "generic": "Warfarin",
+    "brands": [
+      "Coumadin",
+      "Jantoven"
+    ],
+    "drugClass": "Vitamin K antagonist anticoagulant",
+    "system": "Anticoagulants",
+    "diagram": "clot",
+    "mode": "warfarin",
+    "rx": true,
+    "uses": [
+      "DVT / PE treatment and prevention",
+      "Atrial fibrillation stroke prevention",
+      "Mechanical heart valves"
+    ],
+    "quickTip": "Monitor PT/INR - therapeutic INR is usually 2-3 (2.5-3.5 for mechanical valves). Antidote is vitamin K (phytonadione). Takes 3-5 days to reach full effect.",
+    "administration": "Once daily at the same time, usually in the evening, so the day's INR result can adjust the dose. Overlap with heparin until INR is therapeutic.",
+    "sideEffects": [
+      {
+        "label": "Bleeding",
+        "icon": "bleeding"
+      },
+      {
+        "label": "Bruising",
+        "icon": "bruising"
+      },
+      {
+        "label": "GI bleeding",
+        "icon": "gi_bleed"
+      },
+      {
+        "label": "Hair thinning",
+        "icon": "hair"
+      },
+      {
+        "label": "Skin necrosis (rare)",
+        "icon": "rash"
+      }
+    ],
+    "mechanism": "Blocks vitamin K recycling in the liver, so the clotting factors that depend on it (II, VII, IX, X) are made in inactive form.",
+    "simplified": "Starves the liver of the vitamin it needs to build clots.",
+    "nursing": [
+      "Check INR before dosing; hold and notify if above target range or if bleeding is present.",
+      "Keep vitamin K intake CONSISTENT (leafy greens) - do not eliminate, just avoid big swings.",
+      "Many drug interactions: antibiotics, amiodarone, and NSAIDs raise bleeding risk; report new prescriptions.",
+      "Teach soft toothbrush, electric razor, and reporting black stools, blood in urine, or unusual bruising.",
+      "Contraindicated in pregnancy; heparin or LMWH is used instead."
+    ]
+  },
+  {
+    "id": "heparin",
+    "generic": "Heparin",
+    "brands": [
+      "Heparin sodium"
+    ],
+    "drugClass": "Unfractionated heparin anticoagulant",
+    "system": "Anticoagulants",
+    "diagram": "clot",
+    "mode": "heparin",
+    "rx": true,
+    "uses": [
+      "DVT / PE treatment",
+      "Acute coronary syndrome",
+      "Clot prevention in dialysis and surgery",
+      "Line patency (flush)"
+    ],
+    "quickTip": "Monitor aPTT - therapeutic is 1.5-2.5 times control (about 60-80 seconds). Antidote is protamine sulfate. Watch platelets for HIT.",
+    "administration": "Subcutaneous in the abdomen, 2 inches from the umbilicus, 90-degree angle, no aspiration, no massage. IV infusion by weight-based protocol on a pump; always double-check dose with a second nurse.",
+    "sideEffects": [
+      {
+        "label": "Bleeding",
+        "icon": "bleeding"
+      },
+      {
+        "label": "Bruising at injection site",
+        "icon": "bruising"
+      },
+      {
+        "label": "Low platelets (HIT)",
+        "icon": "infection"
+      },
+      {
+        "label": "Hyperkalemia",
+        "icon": "hyperkalemia"
+      },
+      {
+        "label": "Osteoporosis (long-term)",
+        "icon": "bone"
+      }
+    ],
+    "mechanism": "Boosts antithrombin III, which quickly inactivates thrombin and factor Xa so new clots cannot form and existing ones cannot grow.",
+    "simplified": "Supercharges the body's own clot-stopper.",
+    "nursing": [
+      "Monitor aPTT every 6 hours during IV therapy until stable; check platelets every 2-3 days.",
+      "Platelet drop over 50% or below 100,000 suggests HIT - stop heparin and notify immediately.",
+      "Protamine sulfate reverses it; keep it available on the unit.",
+      "Rotate abdominal SubQ sites; do not aspirate or rub.",
+      "Does not cross the placenta - safe anticoagulant choice in pregnancy."
+    ]
+  },
+  {
+    "id": "enoxaparin",
+    "generic": "Enoxaparin",
+    "brands": [
+      "Lovenox"
+    ],
+    "drugClass": "Low molecular weight heparin",
+    "system": "Anticoagulants",
+    "diagram": "clot",
+    "mode": "heparin",
+    "rx": true,
+    "uses": [
+      "DVT prophylaxis after surgery",
+      "DVT / PE treatment",
+      "Acute coronary syndrome",
+      "Bridge to warfarin"
+    ],
+    "quickTip": "Do NOT expel the air bubble from the prefilled syringe - it seals the dose. No routine aPTT needed; check platelets and renal function.",
+    "administration": "Deep subcutaneous in the abdominal 'love handles', 2 inches from the umbilicus, 90-degree angle, air bubble left in, no aspiration or massage. Alternate sides.",
+    "sideEffects": [
+      {
+        "label": "Bleeding",
+        "icon": "bleeding"
+      },
+      {
+        "label": "Injection-site bruising",
+        "icon": "bruising"
+      },
+      {
+        "label": "Low platelets",
+        "icon": "infection"
+      },
+      {
+        "label": "Injection-site pain",
+        "icon": "muscle_pain"
+      },
+      {
+        "label": "Anemia",
+        "icon": "fatigue"
+      }
+    ],
+    "mechanism": "A smaller form of heparin that mainly inactivates factor Xa, giving a predictable effect with once- or twice-daily injections.",
+    "simplified": "Heparin's precise little cousin - no drip, no aPTT.",
+    "nursing": [
+      "Monitor CBC and platelets; anti-Xa levels only in pregnancy, obesity, or renal impairment.",
+      "Reduce dose or avoid when creatinine clearance is under 30 mL/min.",
+      "Epidural or spinal catheters increase risk of spinal hematoma - report back pain or leg weakness.",
+      "Protamine partially reverses it.",
+      "Teach self-injection technique and bleeding precautions for home use."
+    ]
+  },
+  {
+    "id": "clopidogrel",
+    "generic": "Clopidogrel",
+    "brands": [
+      "Plavix"
+    ],
+    "drugClass": "P2Y12 antiplatelet",
+    "system": "Anticoagulants",
+    "diagram": "clot",
+    "mode": "antiplatelet",
+    "rx": true,
+    "uses": [
+      "Post-stent thrombosis prevention",
+      "Acute coronary syndrome",
+      "Recent MI or stroke",
+      "Peripheral artery disease"
+    ],
+    "quickTip": "After a coronary stent it must NOT be stopped without cardiology approval - stent thrombosis can be fatal. Hold 5-7 days before elective surgery only when instructed.",
+    "administration": "Once daily with or without food; often paired with low-dose aspirin (dual antiplatelet therapy).",
+    "sideEffects": [
+      {
+        "label": "Bleeding",
+        "icon": "bleeding"
+      },
+      {
+        "label": "Bruising",
+        "icon": "bruising"
+      },
+      {
+        "label": "GI bleeding",
+        "icon": "gi_bleed"
+      },
+      {
+        "label": "Rash",
+        "icon": "rash"
+      },
+      {
+        "label": "Low platelets (TTP, rare)",
+        "icon": "infection"
+      }
+    ],
+    "mechanism": "A prodrug the liver activates; it permanently blocks the ADP receptor on platelets so they cannot clump together for their lifespan.",
+    "simplified": "Makes platelets too slippery to stick together.",
+    "nursing": [
+      "Monitor for bleeding and bruising; check CBC and platelets.",
+      "Omeprazole and esomeprazole reduce activation - pantoprazole is preferred if a PPI is needed.",
+      "Some patients are poor metabolizers (CYP2C19) and get little effect; genetic testing may be ordered.",
+      "Teach to report black stools, blood in urine, or purple skin spots.",
+      "Carry a card or bracelet stating antiplatelet therapy and stent date."
+    ]
+  },
+  {
+    "id": "aspirin",
+    "generic": "Aspirin",
+    "brands": [
+      "Bayer",
+      "Ecotrin",
+      "Bufferin"
+    ],
+    "drugClass": "Salicylate antiplatelet / NSAID",
+    "system": "Anticoagulants",
+    "diagram": "clot",
+    "mode": "antiplatelet",
+    "rx": false,
+    "uses": [
+      "MI and stroke prevention",
+      "Acute MI (chew 162-325 mg)",
+      "Pain, fever, inflammation",
+      "Kawasaki disease"
+    ],
+    "quickTip": "Never give to children or teens with viral illness - Reye syndrome. Tinnitus is the early sign of salicylate toxicity.",
+    "administration": "Chew non-enteric tablets during suspected MI for fastest effect. Otherwise take with food or a full glass of water; do not crush enteric-coated tablets.",
+    "sideEffects": [
+      {
+        "label": "GI bleeding",
+        "icon": "gi_bleed"
+      },
+      {
+        "label": "GI upset",
+        "icon": "gi_upset"
+      },
+      {
+        "label": "Bleeding",
+        "icon": "bleeding"
+      },
+      {
+        "label": "Tinnitus (toxicity)",
+        "icon": "ototoxicity"
+      },
+      {
+        "label": "Bruising",
+        "icon": "bruising"
+      },
+      {
+        "label": "Bronchospasm (sensitive patients)",
+        "icon": "respiratory_depression"
+      }
+    ],
+    "mechanism": "Permanently blocks the COX-1 enzyme in platelets so they cannot make thromboxane, the signal that makes them clump.",
+    "simplified": "Switches off the platelet's stick-together signal for its whole life.",
+    "nursing": [
+      "Hold 7 days before elective surgery only when ordered - platelet effect lasts the platelet's lifetime.",
+      "Assess for ulcer history, bleeding disorders, and asthma before starting.",
+      "Teach to report ringing in the ears, black stools, or coffee-ground vomit.",
+      "Avoid combining with other NSAIDs or alcohol; ibuprofen can block aspirin's heart benefit.",
+      "Low dose (81 mg) is used for cardiac protection; higher doses are for pain and fever."
+    ]
+  },
+  {
+    "id": "alteplase",
+    "generic": "Alteplase (tPA)",
+    "brands": [
+      "Activase",
+      "Cathflo Activase"
+    ],
+    "drugClass": "Thrombolytic (tissue plasminogen activator)",
+    "system": "Anticoagulants",
+    "diagram": "clot",
+    "mode": "thrombolytic",
+    "rx": true,
+    "uses": [
+      "Acute ischemic stroke",
+      "Acute MI (STEMI)",
+      "Massive pulmonary embolism",
+      "Occluded central lines (Cathflo)"
+    ],
+    "quickTip": "Ischemic stroke window is within 3 hours of symptom onset (up to 4.5 hours in selected patients). Rule out hemorrhage with a CT scan first - the drug dissolves ALL clots.",
+    "administration": "IV bolus followed by infusion on a dedicated line; stroke dose is weight-based (0.9 mg/kg, max 90 mg) with 10% given as a bolus over 1 minute.",
+    "sideEffects": [
+      {
+        "label": "Intracranial hemorrhage",
+        "icon": "bleeding"
+      },
+      {
+        "label": "Bleeding at puncture sites",
+        "icon": "bruising"
+      },
+      {
+        "label": "GI bleeding",
+        "icon": "gi_bleed"
+      },
+      {
+        "label": "Hypotension",
+        "icon": "hypotension"
+      },
+      {
+        "label": "Reperfusion arrhythmias",
+        "icon": "arrhythmia"
+      },
+      {
+        "label": "Angioedema",
+        "icon": "angioedema"
+      }
+    ],
+    "mechanism": "Converts plasminogen into plasmin, the enzyme that breaks fibrin strands apart and dissolves the clot that is already formed.",
+    "simplified": "Sends in the demolition crew to break up an existing clot.",
+    "nursing": [
+      "Screen for contraindications: recent surgery, trauma, bleeding, hemorrhagic stroke, uncontrolled BP above 185/110.",
+      "Insert all IV lines and draw labs BEFORE starting; avoid injections, IM shots, and venipuncture for 24 hours.",
+      "Neuro checks and vital signs every 15 minutes during infusion and for the first 2 hours after.",
+      "Sudden headache, vomiting, or drop in level of consciousness - stop the infusion and call the provider (possible bleed).",
+      "Hold anticoagulants and antiplatelets for 24 hours after stroke dosing until a repeat CT is clear."
+    ]
+  },
+  {
+    "id": "potassium_chloride",
+    "generic": "Potassium chloride",
+    "brands": [
+      "K-Dur",
+      "Klor-Con",
+      "Micro-K"
+    ],
+    "drugClass": "Electrolyte replacement",
+    "system": "Cardiovascular",
+    "diagram": "heart",
+    "mode": "potassium",
+    "rx": true,
+    "uses": [
+      "Hypokalemia treatment",
+      "Prevention of potassium loss with diuretics",
+      "Digoxin toxicity risk reduction"
+    ],
+    "quickTip": "NEVER give IV push - it stops the heart. IV must be diluted and infused by pump, typically no faster than 10 mEq/hour on a regular unit.",
+    "administration": "Oral with a full glass of water and food; do not crush extended-release tablets. Liquid or powder must be diluted. IV only via pump, ideally through a central line at higher concentrations.",
+    "sideEffects": [
+      {
+        "label": "Hyperkalemia",
+        "icon": "hyperkalemia"
+      },
+      {
+        "label": "Arrhythmias",
+        "icon": "arrhythmia"
+      },
+      {
+        "label": "GI upset",
+        "icon": "gi_upset"
+      },
+      {
+        "label": "Nausea, vomiting",
+        "icon": "nausea"
+      },
+      {
+        "label": "IV site pain, phlebitis",
+        "icon": "muscle_pain"
+      },
+      {
+        "label": "Diarrhea",
+        "icon": "diarrhea"
+      }
+    ],
+    "mechanism": "Directly replaces potassium, the main ion inside cells that sets the resting electrical charge of heart and muscle tissue.",
+    "simplified": "Refills the battery that keeps the heart's rhythm steady.",
+    "nursing": [
+      "Check serum potassium and urine output before giving; hold if K+ above 5.0 or urine output under 30 mL/hr.",
+      "Confirm adequate renal function - the kidneys must be able to excrete the extra potassium.",
+      "Continuous ECG for IV infusions above 10 mEq/hr; watch for peaked T waves.",
+      "Assess IV site frequently - potassium is very irritating; slow or stop for burning.",
+      "Teach to report muscle weakness, palpitations, or numbness, and to sit upright for 30 minutes after oral doses."
+    ]
+  }
+]

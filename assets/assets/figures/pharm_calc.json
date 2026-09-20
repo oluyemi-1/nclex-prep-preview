@@ -1,0 +1,1346 @@
+{
+  "figures": [
+    {
+      "id": "dose-desired-have",
+      "title": "Desired over have",
+      "kind": "formula",
+      "caption": "Put the order and the supply in the same unit (1 g = 1,000 mg; 1 mg = 1,000 mcg), then divide what is ordered by what is on hand. Sanity-check the answer: an unusual amount, such as more than 3 tablets, means recalculate before giving it.",
+      "match": {
+        "topics": [],
+        "terms": [
+          "how many (tablets?|capsules?|caplets?)",
+          "how many mL(?!/)",
+          "desired over (have|on hand)",
+          "Available:",
+          "supply is",
+          "on hand is",
+          "[\\d.,]+ ?(mg|mcg|g|units?|mEq)(/| per | in )[\\d.,]+ ?mL",
+          "[\\d.,]+ ?(mg|mcg|g|units?|mEq) per mL",
+          "(tablets?|capsules?) (are )?(labeled|available|contain)",
+          "[\\d.,]+ ?(mg|mcg|g) (tablets?|capsules?)",
+          "reconstitut\\w*",
+          "concentration of [\\d.,]+ ?(mg|mcg|g|units?)"
+        ],
+        "exclude": [
+          "units/h(r|our)|mg/h(r|our)|mcg/kg/min|mcg/min|mg/min",
+          "mL/h(r|our)",
+          "gtt/min",
+          "drop factor",
+          "mg/kg",
+          "units/kg"
+        ]
+      },
+      "lines": [
+        {
+          "label": "Tablets or capsules",
+          "result": "tablets",
+          "numerator": "Desired dose (D)",
+          "denominator": "Dose on hand (H)",
+          "example": "Ordered 1,000 mg, tablets are 500 mg: 1,000 ÷ 500 = 2 tablets"
+        },
+        {
+          "label": "Liquids",
+          "result": "mL",
+          "numerator": "Desired (D) × quantity it comes in (Q)",
+          "denominator": "Dose on hand (H)",
+          "example": "Ordered 375 mg, have 125 mg per 5 mL: 375 ÷ 125 × 5 = 15 mL"
+        },
+        {
+          "label": "Convert first: 1 g = 1,000 mg",
+          "result": "mg",
+          "numerator": "Grams × 1,000",
+          "denominator": "",
+          "example": "Ordered 750 mg, vial is 1 g per 10 mL: 750 ÷ 1,000 × 10 = 7.5 mL"
+        }
+      ]
+    },
+    {
+      "id": "weight-based-dose",
+      "title": "Weight-based dosing",
+      "kind": "formula",
+      "caption": "Convert pounds to kilograms before anything else; skipping it more than doubles the dose. Then check the order against the safe range, and hold and clarify any dose above it with the provider.",
+      "match": {
+        "topics": [
+          "Weight-Based Dose"
+        ],
+        "terms": [
+          "mg/kg(/day)?",
+          "units/kg",
+          "mcg/kg(?!/min)",
+          "2\\.2 ?lb",
+          "safe (dose|dosage) range",
+          "(mg|mcg|units?) per kilogram"
+        ],
+        "exclude": [
+          "mcg/kg/min",
+          "mL/kg"
+        ]
+      },
+      "lines": [
+        {
+          "label": "Pounds to kilograms",
+          "result": "kg",
+          "numerator": "Weight in pounds",
+          "denominator": "2.2",
+          "example": "44 lb ÷ 2.2 = 20 kg"
+        },
+        {
+          "label": "Dose per kilogram",
+          "result": "mg per dose",
+          "numerator": "mg/kg × weight (kg)",
+          "denominator": "",
+          "example": "15 mg/kg × 20 kg = 300 mg per dose"
+        },
+        {
+          "label": "Safe range, divided into doses",
+          "result": "Max single dose",
+          "numerator": "Max mg/kg/day × weight (kg)",
+          "denominator": "Doses per day",
+          "example": "200 mg/kg/day × 10 kg = 2,000 mg a day ÷ 4 doses (every 6 hr) = 500 mg"
+        }
+      ]
+    },
+    {
+      "id": "iv-medication-rate",
+      "title": "IV medication drips",
+      "kind": "formula",
+      "caption": "Find how much drug is in each mL of the bag, then divide the hourly dose by it. For per-minute drips, multiply by 60 for the hour, and make the units match (1 mg = 1,000 mcg) before dividing.",
+      "match": {
+        "topics": [],
+        "terms": [
+          "units/h(r|our)",
+          "mg/h(r|our)",
+          "mcg/kg/min",
+          "mcg/min",
+          "mg/min",
+          "units/kg/h(r|our)",
+          "[\\d,.]+ ?(units|mg|mcg)( of [a-z ]+)? in [\\d,]+ ?mL"
+        ],
+        "exclude": [
+          "gtt/min",
+          "drop factor"
+        ]
+      },
+      "lines": [
+        {
+          "label": "Concentration in the bag",
+          "result": "units/mL",
+          "numerator": "Drug in the bag (units or mg)",
+          "denominator": "Volume of the bag (mL)",
+          "example": "Heparin 25,000 units in 500 mL: 25,000 ÷ 500 = 50 units/mL"
+        },
+        {
+          "label": "Hourly dose to pump rate",
+          "result": "mL/hr",
+          "numerator": "Ordered dose per hour",
+          "denominator": "Concentration (per mL)",
+          "example": "1,200 units/hr ÷ 50 units/mL = 24 mL/hr"
+        },
+        {
+          "label": "mcg/kg/min drips",
+          "result": "mL/hr",
+          "numerator": "mcg/kg/min × kg × 60 min",
+          "denominator": "Concentration (mcg/mL)",
+          "example": "Dopamine 5 mcg/kg/min, 80 kg, 1,600 mcg/mL: 5 × 80 × 60 ÷ 1,600 = 15 mL/hr"
+        }
+      ]
+    },
+    {
+      "id": "iv-flow-rate",
+      "title": "IV flow rate",
+      "kind": "formula",
+      "caption": "Pumps run in mL per hour; gravity tubing is counted in drops per minute, so it needs the tubing's drop factor. Round drops to a whole number.",
+      "match": {
+        "topics": [
+          "IV Flow Rate"
+        ],
+        "terms": [
+          "gtt/min",
+          "drops? per minute",
+          "drop factor",
+          "flow rate",
+          "drip rate",
+          "(rate|pump)[^.?]{0,30}mL/h(r|our)",
+          "[\\d,]+ mL(?:[^.?]|\\.\\d){0,60}? over [\\d.]+ (hours?|hr|minutes?|min)",
+          "(remain|remaining|left) in the bag"
+        ],
+        "exclude": [
+          "units/h(r|our)|mg/h(r|our)|mcg/kg/min|mcg/min|mg/min"
+        ]
+      },
+      "lines": [
+        {
+          "label": "Infusion pump",
+          "result": "mL/hr",
+          "numerator": "Total volume (mL)",
+          "denominator": "Time (hr)",
+          "example": "1,000 mL over 8 hr = 125 mL/hr"
+        },
+        {
+          "label": "Gravity tubing",
+          "result": "gtt/min",
+          "numerator": "Volume (mL) × drop factor (gtt/mL)",
+          "denominator": "Time (min)",
+          "example": "100 mL × 15 gtt/mL ÷ 30 min = 50 gtt/min"
+        }
+      ]
+    },
+    {
+      "id": "anticoagulant-monitoring",
+      "title": "Anticoagulants: labs and reversal",
+      "kind": "table",
+      "caption": "Heparin goes with aPTT and protamine, warfarin with INR and vitamin K. PCC is prothrombin complex concentrate. A platelet fall of half or more on heparin suggests heparin-induced thrombocytopenia (HIT): stop all heparin, flushes included.",
+      "match": {
+        "topics": [
+          "Anticoagulants",
+          "Heparin",
+          "Warfarin",
+          "Heparin Infusion Monitoring",
+          "Heparin-Induced Thrombocytopenia",
+          "Warfarin Bridging",
+          "Holding Anticoagulants"
+        ],
+        "terms": [
+          "heparin",
+          "enoxaparin",
+          "Lovenox",
+          "LMWH",
+          "warfarin",
+          "Coumadin",
+          "apixaban",
+          "Eliquis",
+          "rivaroxaban",
+          "Xarelto",
+          "dabigatran",
+          "Pradaxa",
+          "direct oral anticoagulants?",
+          "DOACs?",
+          "aPTT",
+          "protamine( sulfate)?",
+          "vitamin K",
+          "phytonadione",
+          "andexanet( alfa)?",
+          "idarucizumab",
+          "prothrombin complex concentrate",
+          "heparin-induced thrombocytopenia"
+        ],
+        "exclude": [
+          "how many",
+          "mL/h(r|our)",
+          "INR( of| is| was|:)? ?\\d",
+          "high-alert",
+          "double[- ]check",
+          "independent(ly)? verif\\w*",
+          "near miss",
+          "(occurrence|incident|variance) report",
+          "charge nurse",
+          "newborns?",
+          "neonat\\w*",
+          "infants?"
+        ]
+      },
+      "columns": [
+        "",
+        "Lab to watch",
+        "Reversal agent"
+      ],
+      "rows": [
+        [
+          "Heparin (IV)",
+          "aPTT, 1.5 to 2.5 times control; platelets for HIT",
+          "Protamine sulfate"
+        ],
+        [
+          "Enoxaparin",
+          "Platelets, CBC, creatinine; no routine aPTT",
+          "Protamine (partial)"
+        ],
+        [
+          "Warfarin",
+          "PT/INR, goal 2 to 3; takes 3 to 5 days to work",
+          "Vitamin K; 4-factor PCC for major bleeding"
+        ],
+        [
+          "Apixaban, rivaroxaban",
+          "No routine test; kidney function, CBC",
+          "Andexanet alfa or 4-factor PCC"
+        ],
+        [
+          "Dabigatran",
+          "No routine test; kidney function",
+          "Idarucizumab"
+        ]
+      ]
+    },
+    {
+      "id": "inr-range",
+      "title": "INR on warfarin",
+      "kind": "ranges",
+      "caption": "The international normalized ratio (INR) tracks warfarin; heparin is tracked by aPTT. Check it before each dose, and at any high value look for bleeding: gums, urine, black stools, a sudden headache.",
+      "match": {
+        "topics": [
+          "Supratherapeutic INR",
+          "INR Before Liver Biopsy"
+        ],
+        "terms": [
+          "INR",
+          "warfarin",
+          "Coumadin",
+          "international normalized ratio",
+          "prothrombin time"
+        ]
+      },
+      "scales": [
+        {
+          "name": "INR",
+          "unit": "",
+          "min": 0.5,
+          "bands": [
+            {
+              "to": 2.0,
+              "label": "Below goal",
+              "tone": "caution",
+              "note": "About 1 without warfarin. On warfarin it means clot risk: report so the dose can be adjusted."
+            },
+            {
+              "to": 3.0,
+              "label": "Goal",
+              "tone": "normal",
+              "note": "Therapeutic for atrial fibrillation, DVT and PE; give the dose. Mechanical valves: 2.5 to 3.5."
+            },
+            {
+              "to": 5.0,
+              "label": "High",
+              "tone": "caution",
+              "note": "Bleeding risk. Hold the dose, notify the provider and assess for bleeding."
+            },
+            {
+              "to": 6.5,
+              "label": "Very high",
+              "tone": "danger",
+              "note": "Hold warfarin and notify. Expect vitamin K (phytonadione) as prescribed, especially with bleeding."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digoxin-level",
+      "title": "Digoxin level and pulse check",
+      "kind": "ranges",
+      "caption": "Count the apical pulse for a full minute before each dose: hold below 60 in adults, 70 in children, 90 to 110 in infants. Low potassium makes toxicity likely even when the level is in range.",
+      "match": {
+        "topics": [
+          "Digoxin",
+          "Digoxin Toxicity",
+          "Hypokalemia and Digoxin"
+        ],
+        "terms": [
+          "digoxin",
+          "Lanoxin",
+          "digitalis",
+          "Digibind",
+          "DigiFab"
+        ],
+        "exclude": [
+          "how many"
+        ]
+      },
+      "scales": [
+        {
+          "name": "Digoxin",
+          "unit": "ng/mL",
+          "min": 0,
+          "bands": [
+            {
+              "to": 0.5,
+              "label": "Low",
+              "tone": "neutral",
+              "note": "May not control the heart rate or heart failure symptoms."
+            },
+            {
+              "to": 2.0,
+              "label": "Therapeutic",
+              "tone": "normal",
+              "note": "In heart failure the goal is the low end, about 0.5 to 0.9."
+            },
+            {
+              "to": 3.0,
+              "label": "Toxic",
+              "tone": "danger",
+              "note": "Anorexia, nausea, yellow-green halos, bradycardia, dysrhythmias. Hold and notify; digoxin immune Fab."
+            }
+          ]
+        },
+        {
+          "name": "Apical pulse, adult",
+          "unit": "beats/min",
+          "min": 30,
+          "bands": [
+            {
+              "to": 60,
+              "label": "Hold",
+              "tone": "danger",
+              "note": "Hold the dose and notify the provider."
+            },
+            {
+              "to": 110,
+              "label": "Give",
+              "tone": "normal",
+              "note": "Give the dose if potassium and the digoxin level are also in range."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lithium-level",
+      "title": "Serum lithium",
+      "kind": "ranges",
+      "caption": "Lithium travels with sodium. Dehydration, vomiting, diarrhea, heavy sweating, a low-salt diet, NSAIDs, ACE inhibitors and thiazides all raise the level. Teach 2 to 3 L of fluid a day and steady salt intake.",
+      "match": {
+        "topics": [
+          "Lithium",
+          "Lithium Toxicity",
+          "Lithium Level"
+        ],
+        "terms": [
+          "lithium",
+          "Lithobid"
+        ]
+      },
+      "scales": [
+        {
+          "name": "Lithium",
+          "unit": "mEq/L",
+          "min": 0.3,
+          "bands": [
+            {
+              "to": 0.6,
+              "label": "Low",
+              "tone": "neutral",
+              "note": "Below the maintenance range; mood symptoms may return."
+            },
+            {
+              "to": 1.2,
+              "label": "Therapeutic",
+              "tone": "normal",
+              "note": "Maintenance range. Draw the level 12 hours after the last dose."
+            },
+            {
+              "to": 1.5,
+              "label": "High",
+              "tone": "caution",
+              "note": "Used short term for acute mania. Side effects increase; watch for early toxicity."
+            },
+            {
+              "to": 2.0,
+              "label": "Toxic",
+              "tone": "danger",
+              "note": "Early toxicity: vomiting, diarrhea, coarse hand tremor, muscle weakness. Hold the dose and notify."
+            },
+            {
+              "to": 2.5,
+              "label": "Severe",
+              "tone": "danger",
+              "note": "Severe toxicity: ataxia, confusion, slurred speech, seizures, dysrhythmias. Dialysis may be needed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phenytoin-level",
+      "title": "Phenytoin and theophylline levels",
+      "kind": "ranges",
+      "caption": "Both are kept at 10 to 20 mcg/mL. Phenytoin toxicity shows first in the eyes and gait; theophylline toxicity looks like too much caffeine and can progress to seizures. Hold the dose and notify for a level above 20.",
+      "match": {
+        "topics": [],
+        "terms": [
+          "phenytoin",
+          "fosphenytoin",
+          "Dilantin",
+          "theophylline",
+          "aminophylline"
+        ],
+        "exclude": [
+          "how many"
+        ]
+      },
+      "scales": [
+        {
+          "name": "Phenytoin",
+          "unit": "mcg/mL",
+          "min": 0,
+          "bands": [
+            {
+              "to": 10,
+              "label": "Low",
+              "tone": "neutral",
+              "note": "Seizures may break through. Ask about missed doses."
+            },
+            {
+              "to": 20,
+              "label": "Therapeutic",
+              "tone": "normal",
+              "note": "Gum overgrowth can occur at any level: brush, floss, see a dentist."
+            },
+            {
+              "to": 30,
+              "label": "Toxic",
+              "tone": "danger",
+              "note": "Nystagmus first, then drowsiness and an unsteady gait. Hold the dose and notify."
+            },
+            {
+              "to": 40,
+              "label": "Severe",
+              "tone": "danger",
+              "note": "Slurred speech, confusion, lethargy, coma."
+            }
+          ]
+        },
+        {
+          "name": "Theophylline",
+          "unit": "mcg/mL",
+          "min": 0,
+          "bands": [
+            {
+              "to": 10,
+              "label": "Low",
+              "tone": "neutral",
+              "note": "May not control bronchospasm."
+            },
+            {
+              "to": 20,
+              "label": "Therapeutic",
+              "tone": "normal",
+              "note": "Quitting smoking, ciprofloxacin and erythromycin raise the level."
+            },
+            {
+              "to": 30,
+              "label": "Toxic",
+              "tone": "danger",
+              "note": "Nausea, vomiting, restlessness, tachycardia, then dysrhythmias and seizures. Hold and notify."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antibiotic-peak-trough",
+      "title": "Peak and trough levels",
+      "kind": "curves",
+      "caption": "Draw the trough just before a dose (the lowest level) and the peak 30 minutes after an IV infusion ends (the highest). A high trough warns of kidney and ear toxicity; a low peak means the dose is too small.",
+      "match": {
+        "topics": [],
+        "terms": [
+          "trough( levels?)?",
+          "peak (and|or) trough",
+          "peak (serum |blood )?levels?",
+          "aminoglycosides?",
+          "gentamicin",
+          "tobramycin",
+          "amikacin",
+          "vancomycin"
+        ],
+        "exclude": [
+          "how many",
+          "peak (expiratory )?flow",
+          "insulin",
+          "VRE",
+          "vancomycin-resistant",
+          "red (man|person)",
+          "flushing"
+        ]
+      },
+      "xLabel": "Hours (dose every 8 hours)",
+      "yLabel": "Serum drug level",
+      "xMax": 16,
+      "yMax": 1,
+      "xTicks": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "series": [
+        {
+          "label": "Serum level",
+          "note": "Rises during the 30 to 60 minute infusion, peaks, then falls to its trough just before the next dose.",
+          "points": [
+            [
+              0,
+              0.24
+            ],
+            [
+              0.5,
+              0.55
+            ],
+            [
+              1,
+              0.84
+            ],
+            [
+              1.5,
+              0.9
+            ],
+            [
+              3,
+              0.68
+            ],
+            [
+              5,
+              0.45
+            ],
+            [
+              7.5,
+              0.26
+            ],
+            [
+              8,
+              0.24
+            ],
+            [
+              8.5,
+              0.55
+            ],
+            [
+              9,
+              0.84
+            ],
+            [
+              9.5,
+              0.9
+            ],
+            [
+              11,
+              0.68
+            ],
+            [
+              13,
+              0.45
+            ],
+            [
+              15.5,
+              0.26
+            ],
+            [
+              16,
+              0.24
+            ]
+          ]
+        },
+        {
+          "label": "Peak must reach",
+          "note": "Drawn 30 minutes after the infusion ends. A peak below this line is too low to clear the infection.",
+          "points": [
+            [
+              0,
+              0.8
+            ],
+            [
+              8,
+              0.8
+            ],
+            [
+              16,
+              0.8
+            ]
+          ],
+          "dashed": true
+        },
+        {
+          "label": "Trough must fall below",
+          "note": "Drawn just before the dose (gentamicin under 2 mcg/mL). Above this, the drug is building up: hold and notify.",
+          "points": [
+            [
+              0,
+              0.32
+            ],
+            [
+              8,
+              0.32
+            ],
+            [
+              16,
+              0.32
+            ]
+          ],
+          "dashed": true
+        }
+      ]
+    },
+    {
+      "id": "insulin-action",
+      "title": "When insulin works",
+      "kind": "curves",
+      "caption": "Hypoglycemia is most likely at each insulin's peak. Rapid-acting goes in with the meal; glargine has no real peak and is never mixed with another insulin.",
+      "match": {
+        "topics": [
+          "Nocturnal Hypoglycemia"
+        ],
+        "terms": [
+          "lispro",
+          "aspart",
+          "glargine",
+          "detemir",
+          "NPH",
+          "regular insulin",
+          "(rapid|short|intermediate|long)[- ]acting insulin",
+          "insulin (peaks?|onset)",
+          "(evening|bedtime) (insulin|dose of insulin)",
+          "Somogyi",
+          "dawn phenomenon",
+          "Humalog",
+          "NovoLog",
+          "Lantus",
+          "Humulin",
+          "Novolin"
+        ],
+        "exclude": [
+          "clear before cloudy",
+          "(same|one|single) syringe",
+          "mix(ing|ed)?[^.?]{0,40}insulins?",
+          "insulins?[^.?]{0,40}mix(ing|ed)?"
+        ]
+      },
+      "xLabel": "Hours after injection",
+      "yLabel": "Insulin effect",
+      "xMax": 24,
+      "yMax": 1,
+      "xTicks": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24
+      ],
+      "series": [
+        {
+          "label": "Rapid (lispro, aspart)",
+          "note": "Onset about 15 minutes, peak 1 to 2 hours, lasts 3 to 5 hours. Give it with the meal.",
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0.25,
+              0.15
+            ],
+            [
+              1,
+              0.85
+            ],
+            [
+              1.5,
+              1.0
+            ],
+            [
+              2,
+              0.9
+            ],
+            [
+              3,
+              0.45
+            ],
+            [
+              4,
+              0.15
+            ],
+            [
+              5,
+              0
+            ]
+          ]
+        },
+        {
+          "label": "Short (regular)",
+          "note": "Onset 30 to 60 minutes, peak 2 to 4 hours, lasts 6 to 8 hours. The only insulin given IV.",
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0.5,
+              0.08
+            ],
+            [
+              1.5,
+              0.5
+            ],
+            [
+              2.5,
+              0.72
+            ],
+            [
+              3.5,
+              0.68
+            ],
+            [
+              5,
+              0.38
+            ],
+            [
+              6.5,
+              0.12
+            ],
+            [
+              8,
+              0
+            ]
+          ]
+        },
+        {
+          "label": "Intermediate (NPH)",
+          "note": "Cloudy. Onset 1 to 2 hours, peak 4 to 12 hours, lasts up to 18 hours. Watch for a mid-afternoon low.",
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              1.5,
+              0.08
+            ],
+            [
+              4,
+              0.38
+            ],
+            [
+              6,
+              0.52
+            ],
+            [
+              8,
+              0.55
+            ],
+            [
+              10,
+              0.48
+            ],
+            [
+              13,
+              0.28
+            ],
+            [
+              16,
+              0.1
+            ],
+            [
+              18,
+              0
+            ]
+          ]
+        },
+        {
+          "label": "Long (glargine)",
+          "note": "Onset 1 to 2 hours, no pronounced peak, lasts about 24 hours. Never mix it with another insulin.",
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0.22
+            ],
+            [
+              4,
+              0.3
+            ],
+            [
+              12,
+              0.32
+            ],
+            [
+              20,
+              0.3
+            ],
+            [
+              24,
+              0.24
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "insulin-mixing",
+      "title": "Mixing regular and NPH insulin",
+      "kind": "steps",
+      "caption": "Air in: cloudy, then clear. Insulin out: clear, then cloudy, so NPH never gets into the regular vial and slows it. Glargine and detemir are never mixed with another insulin.",
+      "match": {
+        "topics": [],
+        "terms": [
+          "clear before cloudy",
+          "(same|one|single) syringe",
+          "mix(ing|ed)?[^.?]{0,40}insulins?",
+          "insulins?[^.?]{0,40}mix(ing|ed)?",
+          "NPH",
+          "regular insulin",
+          "cloudy (insulin|vial|suspension)",
+          "inject(ing)? air",
+          "roll(ing|s)?[^.?]{0,30}(vial|NPH)",
+          "draw(n|ing)? up[^.?]{0,40}insulins?"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Check the order and both vials",
+          "detail": "Right insulins, doses and dates. Roll the cloudy NPH vial gently between the palms; never shake it. Clean both tops."
+        },
+        {
+          "title": "Inject air into the NPH (cloudy) vial",
+          "detail": "Air equal to the NPH dose. Withdraw no insulin; remove the needle."
+        },
+        {
+          "title": "Inject air into the regular (clear) vial",
+          "detail": "Air equal to the regular dose. Leave the needle in and turn the vial upside down."
+        },
+        {
+          "title": "Withdraw the regular (clear) dose first",
+          "detail": "Clear before cloudy. Clear any air bubbles now, while only regular insulin is in the syringe."
+        },
+        {
+          "title": "Then withdraw the NPH (cloudy) dose",
+          "detail": "Push no regular insulin into the NPH vial. Draw to the exact combined total; if you overshoot, discard and start again."
+        },
+        {
+          "title": "Verify and give subcutaneously",
+          "detail": "Check both doses and the total, with a second nurse if policy requires. A mixed dose is never given IV."
+        }
+      ]
+    },
+    {
+      "id": "opioid-overdose-naloxone",
+      "title": "Opioid overdose: naloxone response",
+      "kind": "steps",
+      "caption": "Sedation comes before respiratory depression, so check sedation with every set of vital signs. Airway and breathing come first; naloxone is added to them, and it can wear off before the opioid does.",
+      "match": {
+        "topics": [
+          "Unresponsive After PCA",
+          "Opioid-Induced Respiratory Depression"
+        ],
+        "terms": [
+          "naloxone",
+          "Narcan",
+          "respiratory depression",
+          "pinpoint pupils",
+          "opioid overdose",
+          "overdos\\w*[^.?]{0,40}(opioids?|heroin|fentanyl|morphine|oxycodone|hydromorphone)",
+          "(difficult|hard) to (arouse|rouse)",
+          "sedation (scale|score|level)",
+          "PCA",
+          "patient-controlled analgesia"
+        ],
+        "exclude": [
+          "magnesium",
+          "midazolam",
+          "flumazenil",
+          "benzodiazepines?",
+          "lorazepam",
+          "diazepam",
+          "naltrexone",
+          "buprenorphine"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Stop the opioid or PCA",
+          "detail": "Hard to rouse, slow shallow breaths (often below 10/min), falling SpO2, pinpoint pupils. Stop the infusion; hold further doses."
+        },
+        {
+          "title": "Stimulate the client",
+          "detail": "Call the client by name and shake the shoulder. A client who drifts off mid-sentence is in danger."
+        },
+        {
+          "title": "Support the airway and breathing",
+          "detail": "Open the airway, raise the head of the bed, give oxygen, and ventilate with a bag-valve mask if breathing is inadequate. Call for help."
+        },
+        {
+          "title": "Give naloxone per protocol",
+          "detail": "IV in small repeated doses titrated to breathing, not full alertness; too much at once brings severe pain and withdrawal."
+        },
+        {
+          "title": "Watch for re-sedation",
+          "detail": "Naloxone lasts 30 to 90 minutes, less than most opioids. Check breathing, sedation and SpO2 often for at least 2 hours."
+        },
+        {
+          "title": "Notify and revise the pain plan",
+          "detail": "Report and document. Expect a lower opioid dose or new PCA settings before the opioid restarts."
+        }
+      ]
+    },
+    {
+      "id": "blood-transfusion",
+      "title": "Giving a blood transfusion",
+      "kind": "steps",
+      "caption": "ABO-incompatible transfusions almost always start with an identification error, so the bedside check is the step that matters most. Severe reactions show early: stay for the first 15 minutes.",
+      "match": {
+        "topics": [],
+        "terms": [
+          "transfus(e|ed|ing|ion|ions)",
+          "packed red (blood )?cells",
+          "PRBCs?",
+          "red blood cell transfusions?",
+          "blood products?",
+          "units? of (packed red|blood|platelets|plasma)",
+          "blood bank",
+          "blood (administration )?tubing"
+        ],
+        "exclude": [
+          "transfusion reactions?",
+          "hemolytic( transfusion)? reactions?",
+          "acute hemolytic",
+          "febrile nonhemolytic",
+          "transfusion-associated",
+          "(transfus\\w*|packed red|PRBCs?|unit of blood|blood (begins|began|started))[^.?]{0,80}(chills|back pain|flank pain|dyspnea|hives|urticaria|itching|fever|wheez\\w*|hypotension)",
+          "(chills|back pain|flank pain|dyspnea|hives|urticaria|itching|fever|wheez\\w*)[^.?]{0,80}(transfus\\w*|packed red|PRBCs?|unit of blood)",
+          "(LPN|LVN)s?",
+          "assistive personnel",
+          "refus\\w*",
+          "religio\\w*",
+          "Jehovah",
+          "exchange transfusion",
+          "newborns?",
+          "neonat\\w*"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Check the order, consent and IV access",
+          "detail": "Signed consent and a patent 18- or 20-gauge catheter in an adult. Pick the unit up only when ready; start it within 30 minutes."
+        },
+        {
+          "title": "Prime the tubing with normal saline only",
+          "detail": "Y-tubing with a blood filter and 0.9% sodium chloride. Dextrose hemolyzes red cells; the calcium in lactated Ringer's clots them."
+        },
+        {
+          "title": "Verify with a second nurse at the bedside",
+          "detail": "Two client identifiers, ABO and Rh type, unit number and expiration, matched to the wristband, the unit label and the order."
+        },
+        {
+          "title": "Take baseline vital signs",
+          "detail": "Temperature, pulse, respirations and BP just before starting, so a reaction shows up as a change."
+        },
+        {
+          "title": "Start slowly and stay 15 minutes",
+          "detail": "Hemolytic and anaphylactic reactions appear early. Recheck vital signs at 15 minutes, then as policy directs."
+        },
+        {
+          "title": "Finish within 4 hours",
+          "detail": "Bacteria multiply at room temperature. Nothing but normal saline goes through the blood line; no medications."
+        }
+      ]
+    },
+    {
+      "id": "transfusion-reaction",
+      "title": "Transfusion reaction response",
+      "kind": "steps",
+      "caption": "Chills, fever, back or flank pain, dyspnea, hives or falling BP during a transfusion: stop it first and ask questions later. Never flush the old line, which pushes more of the blood into the client.",
+      "match": {
+        "topics": [
+          "Acute Transfusion Reaction"
+        ],
+        "terms": [
+          "transfusion reactions?",
+          "hemolytic( transfusion)? reactions?",
+          "acute hemolytic",
+          "febrile nonhemolytic",
+          "transfusion-associated",
+          "(transfus\\w*|packed red|PRBCs?|unit of blood|blood (begins|began|started))[^.?]{0,80}(chills|back pain|flank pain|dyspnea|hives|urticaria|itching|fever|wheez\\w*|hypotension)",
+          "(chills|back pain|flank pain|dyspnea|hives|urticaria|itching|fever|wheez\\w*)[^.?]{0,80}(transfus\\w*|packed red|PRBCs?|unit of blood)",
+          "new (IV |primary )?tubing",
+          "stop(s|ping)? the (blood )?transfusion"
+        ],
+        "exclude": [
+          "exchange transfusion",
+          "newborns?",
+          "neonat\\w*"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Stop the transfusion",
+          "detail": "At the first sign of a reaction. Disconnect the blood tubing at the catheter hub."
+        },
+        {
+          "title": "Keep the vein open with normal saline",
+          "detail": "Hang 0.9% sodium chloride on new tubing, so the blood left in the old line is not flushed into the client."
+        },
+        {
+          "title": "Stay, assess and take vital signs",
+          "detail": "Airway, breathing, BP, pulse, temperature. Treat as ordered: fluids for low BP, an antihistamine for hives."
+        },
+        {
+          "title": "Notify the provider and blood bank",
+          "detail": "Report the signs, the time the reaction began and how much blood has infused."
+        },
+        {
+          "title": "Return the bag and tubing",
+          "detail": "Send the unit, tubing and labels to the blood bank with the reaction form, plus blood samples as ordered."
+        },
+        {
+          "title": "Send a urine sample",
+          "detail": "Urine is tested for free hemoglobin, a sign of hemolysis. Watch the output for kidney injury."
+        },
+        {
+          "title": "Document",
+          "detail": "The reaction, times, volume infused, actions taken and the client's response."
+        }
+      ]
+    },
+    {
+      "id": "iv-complications",
+      "title": "IV site complications",
+      "kind": "table",
+      "caption": "Check the site before every infusion and often during it. Whatever the complication, stop the infusion first; a vesicant leak is the one where the catheter stays in long enough to draw back the drug.",
+      "match": {
+        "topics": [],
+        "terms": [
+          "infiltration",
+          "infiltrated",
+          "extravasat\\w*",
+          "vesicants?",
+          "phlebitis",
+          "phentolamine",
+          "(IV|insertion|infusion|catheter|venipuncture) site[^.?]{0,60}(swollen|swelling|cool|pale|red|redness|warm|tender|puffy|blanched|burning|hard)",
+          "(swollen|swelling|cool|pale|red|redness|warm|tender|puffy|blanched|burning)[^.?]{0,40}(IV|insertion|infusion) site",
+          "cord-like"
+        ],
+        "exclude": [
+          "pheochromocytoma",
+          "double[- ]check",
+          "chest (x-ray|radiograph)",
+          "pulmonary infiltrat\\w*"
+        ]
+      },
+      "columns": [
+        "",
+        "Signs",
+        "Nursing action"
+      ],
+      "rows": [
+        [
+          "Infiltration",
+          "Cool, pale, swollen site; the infusion slows",
+          "Stop, remove the catheter, elevate the arm, restart elsewhere"
+        ],
+        [
+          "Extravasation (vesicant)",
+          "The same, plus burning and blanching; later blisters, necrosis",
+          "Stop, aspirate through the catheter, notify; antidote such as phentolamine"
+        ],
+        [
+          "Phlebitis",
+          "Red, warm, tender vein; a red streak or hard cord",
+          "Stop, remove, warm compress, restart in the other arm"
+        ],
+        [
+          "Site infection",
+          "Redness, drainage or pus at the site; fever",
+          "Remove the catheter, culture as ordered, notify"
+        ]
+      ]
+    },
+    {
+      "id": "medication-safety-checks",
+      "title": "Safe medication administration",
+      "kind": "steps",
+      "caption": "The rights (client, drug, dose, route, time, documentation) are checked at every step, not once. A scanner or smart-pump alert is a reason to stop and verify, never to override.",
+      "match": {
+        "topics": [
+          "Medication Administration",
+          "Barcode Medication Administration",
+          "Medication Safety",
+          "Unclear Orders"
+        ],
+        "terms": [
+          "high-alert",
+          "independent (double )?check",
+          "double[- ]check",
+          "bar[- ]?code",
+          "smart (infusion )?pump",
+          "drug library",
+          "(hard|soft)[- ]limit",
+          "do-not-use",
+          "unsafe abbreviations?",
+          "two (client )?identifiers",
+          "rights of (medication )?administration",
+          "unclear (prescription|order)",
+          "illegible",
+          "(dose|amount)[^.?]{0,30}(unusually|unexpectedly) (high|large)",
+          "(unusually|unexpectedly) (high|large) (dose|amount)",
+          "(trailing|leading) zeros?"
+        ],
+        "exclude": [
+          "transfus\\w*",
+          "blood products?",
+          "specimens?"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Verify the order is complete and clear",
+          "detail": "Drug, dose, route, time. Clarify anything illegible, unusual or written with a do-not-use abbreviation (U, QD, 1.0 mg) before giving it."
+        },
+        {
+          "title": "Check allergies and the data the drug needs",
+          "detail": "Allergies, plus the pulse, BP, glucose or lab value the drug depends on. Hold and ask when a value is out of range."
+        },
+        {
+          "title": "Compare the label with the order",
+          "detail": "When taking it out, while preparing it and at the bedside. Question a dose far from the usual one, such as several tablets."
+        },
+        {
+          "title": "Identify the client and scan",
+          "detail": "Two identifiers, such as name and date of birth, against the wristband, never the room number. Replace a band that will not scan."
+        },
+        {
+          "title": "Double-check high-alert drugs",
+          "detail": "Insulin, heparin, IV opioids, concentrated potassium, chemotherapy: an independent check by a second nurse and the pump drug library."
+        },
+        {
+          "title": "Give it, then document",
+          "detail": "Stay until an oral dose is swallowed. Document right after giving it, never before."
+        }
+      ]
+    },
+    {
+      "id": "medication-error-response",
+      "title": "After a medication error",
+      "kind": "steps",
+      "caption": "The client first, then the provider, then the paperwork. The chart holds only objective facts; the incident report is a separate quality document that the chart never mentions.",
+      "match": {
+        "topics": [
+          "Medication Error Response",
+          "Medication Error",
+          "Near Miss Reporting",
+          "Incident Documentation"
+        ],
+        "terms": [
+          "medication errors?",
+          "(another|a different) client.s (\\w+ )?(medication|dose)",
+          "medications? intended for (another|a different) client",
+          "wrong (medication|drug|dose)",
+          "near miss(es)?",
+          "(incident|occurrence|variance) reports?"
+        ],
+        "exclude": [
+          "fell",
+          "fallen",
+          "on the floor",
+          "(a|the|client) falls?",
+          "post-fall",
+          "wrong client.s (chart|record)",
+          "transfus\\w*"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Assess the client first",
+          "detail": "Vital signs and signs of the drug's effect, such as a low BP after an antihypertensive. The client comes before any paperwork."
+        },
+        {
+          "title": "Notify the provider and charge nurse",
+          "detail": "Report what was given, how much and when, and the client's condition."
+        },
+        {
+          "title": "Carry out orders and keep monitoring",
+          "detail": "Labs, an antidote or closer observation as ordered, for as long as the drug can act."
+        },
+        {
+          "title": "Document the facts in the chart",
+          "detail": "What was given, findings, who was notified and the client's response. No blame, and no mention of the incident report."
+        },
+        {
+          "title": "Complete the incident report",
+          "detail": "An objective account for risk management: what happened, when, who saw it, who was notified. Never filed in the chart."
+        },
+        {
+          "title": "Report near misses too",
+          "detail": "An error caught before it reached the client is still reported, so the weak spot in the system gets fixed."
+        }
+      ]
+    },
+    {
+      "id": "antidotes",
+      "title": "Antidotes and reversal agents",
+      "kind": "table",
+      "caption": "Pair the drug with its antidote, then support airway, breathing and circulation while it works. Several antidotes wear off before the drug does, so keep monitoring after the client improves.",
+      "match": {
+        "topics": [
+          "Antidotes",
+          "Acetaminophen Toxicity",
+          "Acetaminophen Hepatotoxicity"
+        ],
+        "terms": [
+          "antidotes?",
+          "reversal agents?",
+          "flumazenil",
+          "N?-?acetylcysteine",
+          "overdos(e|ed|es)"
+        ],
+        "exclude": [
+          "suicid\\w*"
+        ]
+      },
+      "columns": [
+        "",
+        "Antidote",
+        "Key point"
+      ],
+      "rows": [
+        [
+          "Opioids",
+          "Naloxone",
+          "Shorter-acting than most opioids: watch for re-sedation"
+        ],
+        [
+          "Benzodiazepines",
+          "Flumazenil",
+          "Can provoke seizures in long-term benzodiazepine users"
+        ],
+        [
+          "Heparin",
+          "Protamine sulfate",
+          "Only partly reverses enoxaparin"
+        ],
+        [
+          "Warfarin",
+          "Vitamin K (phytonadione)",
+          "Prothrombin complex concentrate is added for major bleeding"
+        ],
+        [
+          "Digoxin",
+          "Digoxin immune Fab",
+          "For dysrhythmias, severe hyperkalemia or a very high level"
+        ],
+        [
+          "Acetaminophen",
+          "Acetylcysteine",
+          "Protects the liver; works best within 8 hours of the overdose"
+        ],
+        [
+          "Magnesium sulfate",
+          "Calcium gluconate",
+          "Toxicity: lost reflexes, respirations below 12"
+        ],
+        [
+          "Beta or calcium channel blockers",
+          "Glucagon; IV calcium for calcium channel blockers",
+          "Atropine comes first for symptomatic bradycardia"
+        ]
+      ]
+    }
+  ]
+}

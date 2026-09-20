@@ -1,0 +1,1822 @@
+{
+  "version": 1,
+  "batch": "b2",
+  "label": "Batch 2 (Q2001-Q4000)",
+  "cases": [],
+  "items": [
+    {
+      "id": "b2_q2001",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Fundamentals",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "An older adult becomes acutely confused and repeatedly tries to climb out of bed. Which action should the nurse take first?",
+      "options": [
+        "Apply wrist restraints",
+        "Assess for hypoxia, pain, urinary retention, infection, and medication effects",
+        "Ask the family to remain at bedside continuously",
+        "Administer a PRN sedative"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Acute confusion can signal a reversible physiologic problem. The nurse first assesses for common causes before using restraints or sedatives."
+    },
+    {
+      "id": "b2_q2002",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Chest Tubes",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "A 34-year-old client with a chest tube suddenly becomes dyspneic. The nurse notes the tube has disconnected from the drainage system. What is the priority action?",
+      "options": [
+        "Clamp the chest tube near the client",
+        "Reconnect to a new sterile drainage system as quickly as possible",
+        "Milk the chest tube",
+        "Remove the chest tube"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "The priority is to restore a closed drainage system promptly. Routine clamping can trap air and increase risk of tension pneumothorax."
+    },
+    {
+      "id": "b2_q2003",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Digoxin",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "Before administering digoxin, which finding should cause the nurse to hold the dose and obtain further evaluation?",
+      "options": [
+        "Apical pulse 54/min",
+        "Blood pressure 138/76 mm Hg",
+        "Respiratory rate 18/min",
+        "Potassium 4.2 mEq/L"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Bradycardia is a key reason to withhold digoxin and follow prescribed parameters because digoxin slows AV conduction."
+    },
+    {
+      "id": "b2_q2004",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "DKA",
+      "cjStep": "Analyze Cues",
+      "difficulty": 3,
+      "stem": "A 49-year-old client with diabetes has glucose 520 mg/dL, pH 7.22, bicarbonate 14 mEq/L, and positive ketones. Which condition is most consistent with these findings?",
+      "options": [
+        "Diabetic ketoacidosis",
+        "Hyperosmolar hyperglycemic state without acidosis",
+        "SIADH",
+        "Diabetes insipidus"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Marked hyperglycemia with metabolic acidosis and ketones is characteristic of diabetic ketoacidosis."
+    },
+    {
+      "id": "b2_q2005",
+      "batch": "b2",
+      "type": "selectAll",
+      "category": "fundamentals",
+      "clientNeeds": "Basic Care and Comfort",
+      "topic": "Cirrhosis",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "Which nursing measures are appropriate for a client with cirrhosis and ascites? Select all that apply.",
+      "options": [
+        "Measure daily weight",
+        "Measure abdominal girth consistently",
+        "Monitor sodium intake as prescribed",
+        "Assess for respiratory compromise",
+        "Encourage unrestricted high-sodium foods"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "Daily weight, consistent girth measurements, sodium management, and respiratory assessment help monitor ascites and complications."
+    },
+    {
+      "id": "b2_q2006",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "peds",
+      "clientNeeds": "Health Promotion and Maintenance",
+      "topic": "Pediatrics - Epiglottitis",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "A child with high fever, drooling, tripod positioning, and inspiratory stridor is suspected of having epiglottitis. Which action is most appropriate?",
+      "options": [
+        "Inspect the throat with a tongue depressor",
+        "Keep the child calm and prepare for controlled airway management",
+        "Force oral fluids",
+        "Obtain a throat swab at the bedside"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Airway obstruction can worsen rapidly. Avoid upsetting the child or manipulating the throat; prioritize controlled airway management."
+    },
+    {
+      "id": "b2_q2007",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Anxiety",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 68-year-old client is having a panic attack. Which nursing intervention is most appropriate initially?",
+      "options": [
+        "Provide detailed teaching about anxiety disorders",
+        "Stay with the client and use short, simple statements",
+        "Encourage complex problem solving",
+        "Ask the client to join a large group activity"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "During panic-level anxiety, cognitive processing is limited. Calm presence and brief, simple communication support safety."
+    },
+    {
+      "id": "b2_q2008",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Shock",
+      "cjStep": "Analyze Cues",
+      "difficulty": 3,
+      "stem": "Which hemodynamic pattern is most consistent with hypovolemic shock?",
+      "options": [
+        "Low preload with tachycardia and cool skin",
+        "High preload with bounding pulses",
+        "Bradycardia with warm dry skin after spinal injury",
+        "Severe hypertension with bradycardia"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Loss of circulating volume lowers preload and triggers sympathetic compensation, often causing tachycardia and cool clammy skin."
+    },
+    {
+      "id": "b2_q2009",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Neutropenia",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "Which action is most important for a client with severe neutropenia?",
+      "options": [
+        "Promptly evaluate fever or signs of infection",
+        "Avoid all cooked foods",
+        "Administer rectal suppositories for constipation",
+        "Delay hand hygiene until after care"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Fever in severe neutropenia may represent a medical emergency. Infection prevention and rapid evaluation of fever are priorities."
+    },
+    {
+      "id": "b2_q2010",
+      "batch": "b2",
+      "type": "matrix",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Antidotes",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "Match each medication/toxin with the appropriate reversal agent or antidote.",
+      "matrixRows": [
+        "Opioid",
+        "Warfarin",
+        "Unfractionated heparin",
+        "Acetaminophen"
+      ],
+      "matrixColumns": [
+        "naloxone",
+        "vitamin K",
+        "protamine sulfate",
+        "N-acetylcysteine"
+      ],
+      "matrixCorrect": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "These are standard high-yield antidote/reversal pairings used in emergency medication management."
+    },
+    {
+      "id": "b2_q2011",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Respiratory - Asthma",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "A 28-year-old client with acute asthma has increasing work of breathing. Which finding is most concerning?",
+      "options": [
+        "Expiratory wheezes",
+        "Heart rate 108/min",
+        "Diminishing breath sounds with increasing fatigue",
+        "Productive cough"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "A 'silent' or increasingly quiet chest with fatigue can indicate critically reduced airflow and impending respiratory failure."
+    },
+    {
+      "id": "b2_q2012",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Heart Failure",
+      "cjStep": "Evaluate Outcomes",
+      "difficulty": 2,
+      "stem": "Which finding best indicates that treatment for acute fluid-overload heart failure is effective?",
+      "options": [
+        "Weight decreases and dyspnea improves",
+        "Heart rate increases from 82 to 108/min",
+        "Crackles extend higher in both lungs",
+        "Urine output falls"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Reduced weight and improved dyspnea indicate decreased congestion and improved fluid status."
+    },
+    {
+      "id": "b2_q2013",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Spinal Cord Injury",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "A 41-year-old client with a T4 spinal cord injury develops a pounding headache, flushing above the injury, and BP 210/110 mm Hg. What is the priority action?",
+      "options": [
+        "Lay the client flat",
+        "Sit the client upright and assess for triggers such as bladder distention",
+        "Give a large fluid bolus",
+        "Apply a heating pad"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "These findings suggest autonomic dysreflexia. Sitting upright helps lower blood pressure while the nurse rapidly identifies and removes the trigger."
+    },
+    {
+      "id": "b2_q2014",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Pancreatitis",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "Which assessment finding is most consistent with acute pancreatitis?",
+      "options": [
+        "Severe epigastric pain radiating to the back",
+        "Painless jaundice only",
+        "Left lower quadrant pain relieved by defecation",
+        "Suprapubic pain with dysuria"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Acute pancreatitis commonly causes severe epigastric pain that may radiate to the back, often with nausea and vomiting."
+    },
+    {
+      "id": "b2_q2015",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "maternity",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Magnesium Sulfate",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "A 27-year-old client receiving magnesium sulfate for preeclampsia has respirations 10/min, absent patellar reflexes, and urine output 20 mL/hr. What should the nurse suspect?",
+      "options": [
+        "Therapeutic effect",
+        "Magnesium toxicity",
+        "Oxytocin toxicity",
+        "Normal labor progression"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Respiratory depression, loss of deep tendon reflexes, and reduced urine output are warning signs of magnesium toxicity."
+    },
+    {
+      "id": "b2_q2016",
+      "batch": "b2",
+      "type": "selectAll",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Mania",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "Which interventions are appropriate for a client experiencing acute mania? Select all that apply.",
+      "options": [
+        "Provide a low-stimulation environment",
+        "Set clear, consistent limits",
+        "Offer portable high-calorie foods if intake is poor",
+        "Engage in lengthy group discussions",
+        "Monitor sleep and hydration"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "Acute mania is managed with reduced stimulation, consistent boundaries, attention to nutrition/hydration, and promotion of sleep."
+    },
+    {
+      "id": "b2_q2017",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Acetaminophen Toxicity",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "Which antidote is used for significant acetaminophen overdose?",
+      "options": [
+        "N-acetylcysteine",
+        "Deferoxamine",
+        "Atropine",
+        "Glucagon"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "N-acetylcysteine replenishes glutathione and reduces hepatic injury after acetaminophen toxicity when given appropriately."
+    },
+    {
+      "id": "b2_q2018",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "labs",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Electrolytes - Potassium",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "Which ECG change is most associated with significant hyperkalemia?",
+      "options": [
+        "Peaked T waves",
+        "Prominent U waves",
+        "Prolonged QT from hypocalcemia",
+        "Isolated sinus tachycardia only"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Peaked T waves are an important early ECG manifestation of hyperkalemia; worsening hyperkalemia can cause conduction abnormalities and lethal dysrhythmias."
+    },
+    {
+      "id": "b2_q2019",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "declaredType": "Highlight",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Postoperative Complications",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A postoperative note reads: 'Client is restless, RR 28/min, SpO2 86% on room air, incision dry, pain 3/10.' Which data should the nurse identify as the priority cues?",
+      "options": [
+        "Restlessness, RR 28/min, SpO2 86%",
+        "Incision dry and pain 3/10",
+        "Pain 3/10 only",
+        "Incision dry only"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Restlessness, tachypnea, and low oxygen saturation are priority cues for hypoxemia."
+    },
+    {
+      "id": "b2_q2020",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "leadership",
+      "clientNeeds": "Management of Care",
+      "topic": "Delegation",
+      "cjStep": "Generate Solutions",
+      "difficulty": 3,
+      "stem": "Which task is appropriate for the RN to delegate to an experienced UAP?",
+      "options": [
+        "Reinforce teaching about incentive spirometry",
+        "Ambulate a stable postoperative client who has already been assessed",
+        "Evaluate a client's response to a blood transfusion",
+        "Assess skin breakdown beneath an oxygen device"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Ambulation of a stable, assessed client is a routine task that may be delegated. Assessment, evaluation, and teaching require licensed nursing judgment."
+    },
+    {
+      "id": "b2_q2021",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cardiac - Myocardial Infarction",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "Which finding in a client with suspected acute coronary syndrome requires immediate action?",
+      "options": [
+        "Nausea",
+        "Diaphoresis",
+        "New ST-segment elevation with ongoing chest pressure",
+        "Anxiety"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Ongoing ischemic chest symptoms with new ST elevation suggest acute coronary occlusion and require rapid escalation."
+    },
+    {
+      "id": "b2_q2022",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Increased ICP",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "Which change is most concerning in a client with increased intracranial pressure?",
+      "options": [
+        "Increasing drowsiness and decreasing level of consciousness",
+        "Headache rated 4/10",
+        "Nausea after medication",
+        "Temperature 37.4 C"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "A declining level of consciousness is an early and important sign of worsening neurologic status and increased ICP."
+    },
+    {
+      "id": "b2_q2023",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Diabetes Insipidus",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "Which finding is expected in untreated diabetes insipidus?",
+      "options": [
+        "Low urine output and weight gain",
+        "Large volumes of dilute urine and intense thirst",
+        "Hyponatremia with concentrated urine",
+        "Generalized edema"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Insufficient ADH effect causes inability to concentrate urine, producing polyuria, polydipsia, and risk of dehydration/hypernatremia."
+    },
+    {
+      "id": "b2_q2024",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "maternity",
+      "clientNeeds": "Health Promotion and Maintenance",
+      "topic": "Maternity - Fetal Monitoring",
+      "cjStep": "Analyze Cues",
+      "difficulty": 3,
+      "stem": "The fetal monitor shows recurrent late decelerations. What is the nurse's priority interpretation?",
+      "options": [
+        "Umbilical cord compression",
+        "Uteroplacental insufficiency",
+        "Fetal head compression",
+        "Normal fetal sleep cycle"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Late decelerations are associated with reduced uteroplacental oxygen exchange and require intrauterine resuscitative measures and escalation."
+    },
+    {
+      "id": "b2_q2025",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "maternity",
+      "clientNeeds": "Health Promotion and Maintenance",
+      "topic": "Newborn Care",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "Which newborn finding requires prompt follow-up rather than routine reassurance?",
+      "options": [
+        "Acrocyanosis shortly after birth",
+        "Central cyanosis",
+        "Transient molding of the head",
+        "Vernix on the skin"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Central cyanosis indicates inadequate oxygenation and requires prompt assessment and intervention."
+    },
+    {
+      "id": "b2_q2026",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Warfarin",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "Which medication is used to reverse the anticoagulant effect of warfarin when reversal is indicated?",
+      "options": [
+        "Vitamin K",
+        "Protamine sulfate",
+        "Naloxone",
+        "Atropine"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Vitamin K is used for warfarin reversal; the urgency and additional products depend on bleeding severity and INR."
+    },
+    {
+      "id": "b2_q2027",
+      "batch": "b2",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The provider prescribes cefazolin 750 mg IV. The vial is labeled 1 g/10 mL after reconstitution. How many mL should the nurse administer? Round to the nearest tenth. (Round to one decimal place if needed.)",
+      "numericAnswer": 7.5,
+      "unit": "mL",
+      "rationale": "1 g = 1000 mg. 750 mg x 10 mL / 1000 mg = 7.5 mL."
+    },
+    {
+      "id": "b2_q2029",
+      "batch": "b2",
+      "type": "selectAll",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Infection Control",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "An 81-year-old client has Clostridioides difficile infection. Which actions should the nurse implement? Select all that apply.",
+      "options": [
+        "Use gown and gloves on room entry",
+        "Wash hands with soap and water after care",
+        "Use dedicated equipment when possible",
+        "Rely on alcohol hand rub alone after glove removal",
+        "Place the client on contact precautions"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "C. difficile requires contact precautions. Soap-and-water hand hygiene is preferred because alcohol does not reliably remove spores."
+    },
+    {
+      "id": "b2_q2030",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Pulmonary Embolism",
+      "cjStep": "Prioritize Hypotheses",
+      "difficulty": 3,
+      "stem": "A 22-year-old postoperative client suddenly reports pleuritic chest pain and shortness of breath. Which complication should the nurse suspect first?",
+      "options": [
+        "Atelectasis",
+        "Pulmonary embolism",
+        "Pneumonia",
+        "Fluid overload"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Sudden dyspnea and pleuritic chest pain in a postoperative client are classic warning signs of pulmonary embolism."
+    },
+    {
+      "id": "b2_q2031",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Stroke",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "A 28-year-old client develops sudden facial droop and unilateral arm weakness. Which nursing action has the highest priority?",
+      "options": [
+        "Give oral aspirin immediately",
+        "Determine the exact time the client was last known well and activate the stroke pathway",
+        "Offer oral fluids",
+        "Place the client flat and wait for the provider"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Rapid stroke recognition and establishing last-known-well time are critical for time-sensitive imaging and reperfusion decisions."
+    },
+    {
+      "id": "b2_q2032",
+      "batch": "b2",
+      "type": "selectAll",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Insulin",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "Which actions are appropriate when preparing a mixed dose of regular insulin and NPH insulin? Select all that apply.",
+      "options": [
+        "Verify the insulin types and doses",
+        "Inject air into NPH before regular insulin",
+        "Withdraw regular insulin before NPH",
+        "Use the same syringe only when the insulins are compatible and prescribed together",
+        "Shake NPH vigorously"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "For compatible mixed insulin, air is generally introduced into cloudy NPH before clear regular insulin, and clear regular insulin is withdrawn first. NPH is gently rolled, not vigorously shaken."
+    },
+    {
+      "id": "b2_q2033",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Bowel Obstruction",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "Which finding is most consistent with a mechanical small-bowel obstruction?",
+      "options": [
+        "Crampy abdominal pain, vomiting, and distention",
+        "Painless rectal bleeding only",
+        "Bradycardia with increased appetite",
+        "Polyuria and thirst"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Mechanical bowel obstruction commonly causes colicky pain, vomiting, abdominal distention, and altered bowel sounds."
+    },
+    {
+      "id": "b2_q2034",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "peds",
+      "clientNeeds": "Health Promotion and Maintenance",
+      "topic": "Pediatrics - Intussusception",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "Which finding is classically associated with intussusception in a young child?",
+      "options": [
+        "Intermittent severe abdominal pain with episodes of drawing the knees up",
+        "Persistent painless jaundice",
+        "Polyuria and polydipsia",
+        "Bilateral ear drainage"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Intussusception often presents with episodic severe abdominal pain, vomiting, and later blood/mucus stool."
+    },
+    {
+      "id": "b2_q2035",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Eating Disorders",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "Which finding in a client with anorexia nervosa requires the most urgent attention?",
+      "options": [
+        "Heart rate 42/min",
+        "Dry skin",
+        "Lanugo",
+        "Concern about body image"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Marked bradycardia can reflect severe physiologic compromise and requires prompt medical assessment."
+    },
+    {
+      "id": "b2_q2036",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Burns",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "A 63-year-old client with facial burns has soot around the mouth and progressive hoarseness. What is the priority concern?",
+      "options": [
+        "Airway edema",
+        "Constipation",
+        "Urinary retention",
+        "Pressure injury"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Soot and progressive hoarseness after a burn suggest inhalation injury and impending airway edema, which can progress rapidly."
+    },
+    {
+      "id": "b2_q2038",
+      "batch": "b2",
+      "type": "cloze",
+      "category": "maternity",
+      "clientNeeds": "Health Promotion and Maintenance",
+      "topic": "Maternity - Fetal Monitoring",
+      "cjStep": "Analyze Cues",
+      "difficulty": 3,
+      "stem": "Complete the statement using the drop-downs.",
+      "clozeText": "Recurrent late decelerations are most consistent with {{1}} and require the nurse to {{2}}.",
+      "clozeBlanks": [
+        {
+          "options": [
+            "uteroplacental insufficiency",
+            "head compression",
+            "cord compression",
+            "normal fetal sleep"
+          ],
+          "correct": 0
+        },
+        {
+          "options": [
+            "initiate intrauterine resuscitative measures and escalate",
+            "document only",
+            "encourage pushing",
+            "take no action"
+          ],
+          "correct": 0
+        }
+      ],
+      "rationale": "Late decelerations indicate impaired uteroplacental oxygen exchange and require prompt corrective actions and escalation."
+    },
+    {
+      "id": "b2_q2039",
+      "batch": "b2",
+      "type": "selectAll",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Respiratory - COPD",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "Which interventions are appropriate for a client with COPD and chronic dyspnea? Select all that apply.",
+      "options": [
+        "Encourage pursed-lip breathing",
+        "Schedule rest periods between activities",
+        "Teach energy-conservation techniques",
+        "Position supine during dyspnea",
+        "Encourage prescribed pulmonary rehabilitation"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "Pursed-lip breathing, pacing, energy conservation, and pulmonary rehabilitation can reduce dyspnea and improve function. Upright positioning is generally preferred during dyspnea."
+    },
+    {
+      "id": "b2_q2040",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Cardiac Tamponade",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "A 22-year-old client after cardiac surgery develops hypotension, jugular venous distention, and muffled heart sounds. What should the nurse suspect?",
+      "options": [
+        "Cardiac tamponade",
+        "Left-sided heart failure",
+        "Pulmonary embolism",
+        "Aortic dissection"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Hypotension, jugular venous distention, and muffled heart sounds are classic findings associated with cardiac tamponade."
+    },
+    {
+      "id": "b2_q2041",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Acute Kidney Injury",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "A 28-year-old client with acute kidney injury has potassium 6.4 mEq/L and peaked T waves. Which problem is the priority?",
+      "options": [
+        "Risk for dysrhythmia",
+        "Constipation",
+        "Activity intolerance",
+        "Imbalanced nutrition"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Severe hyperkalemia with ECG changes can cause lethal dysrhythmias and requires immediate intervention."
+    },
+    {
+      "id": "b2_q2042",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "GI Bleed",
+      "cjStep": "Prioritize Hypotheses",
+      "difficulty": 3,
+      "stem": "A 34-year-old client has hematemesis, BP 86/52 mm Hg, HR 124/min, and cool clammy skin. What is the priority nursing focus?",
+      "options": [
+        "Hemodynamic stabilization",
+        "Diet teaching",
+        "Bowel training",
+        "Sleep promotion"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "The client shows signs of hypovolemic shock from acute GI bleeding; circulation and hemodynamic stabilization are the priority."
+    },
+    {
+      "id": "b2_q2043",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "maternity",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Postpartum Hemorrhage",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "A postpartum client has heavy vaginal bleeding and a boggy uterus. Which action should the nurse take first?",
+      "options": [
+        "Massage the uterine fundus",
+        "Prepare discharge instructions",
+        "Place the client prone",
+        "Encourage the client to walk"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "A boggy uterus suggests uterine atony. Fundal massage is an immediate nursing action while additional hemorrhage interventions are initiated."
+    },
+    {
+      "id": "b2_q2044",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Schizophrenia",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 49-year-old client says, 'The voices are telling me to hurt my roommate.' What should the nurse do first?",
+      "options": [
+        "Tell the client the voices are not real",
+        "Assess the content, intent, plan, and ability to resist the command",
+        "Leave the client alone to decrease stimulation",
+        "Ask the roommate to confront the client"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Command hallucinations with violent content require immediate safety assessment, including intent, plan, means, and ability to resist."
+    },
+    {
+      "id": "b2_q2045",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Sepsis",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "Which finding in a client with suspected infection most strongly suggests worsening tissue hypoperfusion?",
+      "options": [
+        "Rising serum lactate with hypotension",
+        "Temperature 38.1 C alone",
+        "WBC 12,000/mm3 alone",
+        "Mild nausea"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Hypotension with rising lactate indicates impaired perfusion and is concerning for septic shock physiology."
+    },
+    {
+      "id": "b2_q2046",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "labs",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Electrolytes - Sodium",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "Which manifestation is most concerning in severe acute hyponatremia?",
+      "options": [
+        "Seizure",
+        "Dry skin",
+        "Mild thirst",
+        "Constipation"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Severe acute hyponatremia can cause cerebral edema, seizures, altered consciousness, and respiratory arrest."
+    },
+    {
+      "id": "b2_q2047",
+      "batch": "b2",
+      "type": "extendedMultipleResponse",
+      "category": "leadership",
+      "clientNeeds": "Management of Care",
+      "topic": "Prioritization",
+      "cjStep": "Prioritize Hypotheses",
+      "difficulty": 3,
+      "stem": "Which clients require rapid RN assessment? Select all that apply.",
+      "options": [
+        "New unilateral weakness and aphasia",
+        "New stridor after neck surgery",
+        "Stable chronic back pain rated 6/10",
+        "Potassium 6.5 mEq/L with ECG changes",
+        "Client requesting routine discharge paperwork"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "rationale": "Acute neurologic deficit, airway compromise, and severe hyperkalemia with ECG changes are time-critical threats."
+    },
+    {
+      "id": "b2_q2048",
+      "batch": "b2",
+      "type": "ordering",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Blood Transfusion",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "A 74-year-old client develops chills, dyspnea, and low back pain 10 minutes after a blood transfusion begins. Place the nurse's actions in the correct order.",
+      "options": [
+        "Send the blood bag/tubing and required specimens per policy",
+        "Notify the provider and blood bank",
+        "Assess vital signs and the client",
+        "Keep the IV line open with new tubing and normal saline",
+        "Stop the transfusion"
+      ],
+      "correct": [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "rationale": "Stop exposure to the suspected blood product first, maintain IV access with normal saline using new tubing, assess the client, notify appropriate personnel, and follow the facility's transfusion-reaction protocol."
+    },
+    {
+      "id": "b2_q2049",
+      "batch": "b2",
+      "type": "selectAll",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Anticoagulants",
+      "cjStep": "Evaluate Outcomes",
+      "difficulty": 3,
+      "stem": "An 81-year-old client receiving heparin is being monitored. Which findings should the nurse report promptly? Select all that apply.",
+      "options": [
+        "Black tarry stool",
+        "New severe headache",
+        "Platelet count has fallen substantially from baseline",
+        "Small bruise at an old venipuncture site",
+        "Hematuria"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "Melena, severe headache, hematuria, and a major platelet fall can indicate serious bleeding or heparin-induced thrombocytopenia."
+    },
+    {
+      "id": "b2_q2050",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Meningitis",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 22-year-old client is admitted with suspected bacterial meningitis. Which precaution should the nurse initiate?",
+      "options": [
+        "Airborne precautions",
+        "Droplet precautions",
+        "Protective isolation",
+        "Contact precautions only"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Suspected bacterial meningitis requires droplet precautions initially in addition to standard precautions."
+    },
+    {
+      "id": "b2_q2051",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Thyroid Medications",
+      "cjStep": "Evaluate Outcomes",
+      "difficulty": 2,
+      "stem": "Which finding in a client taking levothyroxine suggests the dose may be excessive?",
+      "options": [
+        "Bradycardia and cold intolerance",
+        "Constipation and fatigue",
+        "Palpitations and heat intolerance",
+        "Weight gain and dry skin"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Excess thyroid hormone can produce hyperthyroid-type effects such as palpitations, heat intolerance, tremor, and weight loss."
+    },
+    {
+      "id": "b2_q2052",
+      "batch": "b2",
+      "type": "selectAll",
+      "category": "maternity",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Preeclampsia",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "Which findings in a pregnant client with hypertension suggest severe disease and require prompt evaluation? Select all that apply.",
+      "options": [
+        "Persistent severe headache",
+        "Visual disturbances",
+        "Right upper quadrant or epigastric pain",
+        "New shortness of breath",
+        "Mild ankle edema at the end of the day only"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "Neurologic symptoms, upper abdominal pain, and respiratory symptoms can indicate severe preeclampsia or end-organ involvement."
+    },
+    {
+      "id": "b2_q2053",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Therapeutic Communication",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 41-year-old client says, 'I don't see any reason to keep going.' Which response by the nurse is best?",
+      "options": [
+        "'You have so much to live for.'",
+        "'Are you thinking about killing yourself?'",
+        "'Try not to think that way.'",
+        "'Your family would be devastated.'"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Directly asking about suicidal thoughts is therapeutic and necessary for safety assessment; it does not increase suicide risk."
+    },
+    {
+      "id": "b2_q2054",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Heparin",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "Which medication reverses unfractionated heparin?",
+      "options": [
+        "Protamine sulfate",
+        "Phytonadione",
+        "Acetylcysteine",
+        "Calcium gluconate"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Protamine sulfate neutralizes unfractionated heparin."
+    },
+    {
+      "id": "b2_q2055",
+      "batch": "b2",
+      "type": "numeric",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "IV Flow Rate",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "An IV infusion of 1000 mL is prescribed over 8 hours. What pump rate should the nurse set? (Round to one decimal place if needed.)",
+      "numericAnswer": 125.0,
+      "unit": "mL/hr",
+      "rationale": "1000 mL / 8 hr = 125 mL/hr."
+    },
+    {
+      "id": "b2_q2056",
+      "batch": "b2",
+      "type": "trend",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Sepsis",
+      "cjStep": "Evaluate Outcomes",
+      "difficulty": 3,
+      "stem": "A septic client's trends are: 0800 BP 104/64, lactate 2.4; 1000 BP 92/56, lactate 3.8; 1200 BP 84/48, lactate 5.1. Which interpretation is most appropriate?",
+      "options": [
+        "Perfusion is worsening",
+        "Perfusion is improving",
+        "The changes are expected and require no action",
+        "Only the temperature trend matters"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Falling blood pressure with rising lactate indicates worsening tissue hypoperfusion and requires urgent reassessment/escalation."
+    },
+    {
+      "id": "b2_q2057",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "leadership",
+      "clientNeeds": "Management of Care",
+      "topic": "Prioritization",
+      "cjStep": "Prioritize Hypotheses",
+      "difficulty": 3,
+      "stem": "Which client should the nurse assess first?",
+      "options": [
+        "A client with COPD whose oxygen saturation is 91% on the prescribed oxygen",
+        "A postoperative client reporting incisional pain 7/10",
+        "A client with new stridor after thyroid surgery",
+        "A client awaiting discharge teaching for warfarin"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "New stridor after thyroid surgery suggests acute airway compromise and requires immediate assessment."
+    },
+    {
+      "id": "b2_q2058",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "labs",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "ABG Interpretation",
+      "cjStep": "Analyze Cues",
+      "difficulty": 3,
+      "stem": "ABG results are pH 7.29, PaCO2 55 mm Hg, HCO3- 25 mEq/L. How should the nurse interpret these findings?",
+      "options": [
+        "Respiratory acidosis",
+        "Respiratory alkalosis",
+        "Metabolic acidosis",
+        "Metabolic alkalosis"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "The pH is acidotic and PaCO2 is elevated while bicarbonate is near normal, indicating uncompensated respiratory acidosis."
+    },
+    {
+      "id": "b2_q2059",
+      "batch": "b2",
+      "type": "selectAll",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Seizure Precautions",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "Which interventions are appropriate during a generalized tonic-clonic seizure? Select all that apply.",
+      "options": [
+        "Protect the head",
+        "Turn the client to the side when possible",
+        "Insert a tongue blade",
+        "Loosen restrictive clothing",
+        "Time the seizure"
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "rationale": "Protect the client from injury, support airway positioning, loosen restrictive clothing, and time the seizure. Nothing should be forced into the mouth."
+    },
+    {
+      "id": "b2_q2060",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "SIADH",
+      "cjStep": "Analyze Cues",
+      "difficulty": 3,
+      "stem": "Which laboratory pattern is most consistent with SIADH?",
+      "options": [
+        "Hypernatremia with dilute urine",
+        "Hyponatremia with concentrated urine",
+        "Hyperkalemia with polyuria",
+        "High serum osmolality with dilute urine"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Excess ADH causes water retention, dilutional hyponatremia, low serum osmolality, and inappropriately concentrated urine."
+    },
+    {
+      "id": "b2_q2061",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Peptic Ulcer Disease",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 28-year-old client with peptic ulcer disease suddenly develops severe generalized abdominal pain and a rigid abdomen. What should the nurse do?",
+      "options": [
+        "Offer an antacid and reassess in 1 hour",
+        "Suspect perforation and obtain urgent medical evaluation",
+        "Encourage ambulation",
+        "Administer a laxative"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Sudden severe pain with board-like rigidity can indicate perforation and peritonitis, which is a surgical emergency."
+    },
+    {
+      "id": "b2_q2062",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "peds",
+      "clientNeeds": "Health Promotion and Maintenance",
+      "topic": "Pediatrics - Croup",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "Which assessment finding is most consistent with viral croup?",
+      "options": [
+        "Barking cough and inspiratory stridor",
+        "Drooling with tripod position and toxic appearance",
+        "Sudden unilateral absent breath sounds after trauma",
+        "Productive cough with hemoptysis"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Croup commonly causes a characteristic barking cough, hoarseness, and inspiratory stridor."
+    },
+    {
+      "id": "b2_q2063",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Opioids",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "A 41-year-old postoperative client who received IV opioid medication is difficult to arouse and has respirations 7/min. Which medication should the nurse anticipate administering?",
+      "options": [
+        "Naloxone",
+        "Flumazenil",
+        "Vitamin K",
+        "Protamine sulfate"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Naloxone is an opioid antagonist used for clinically significant opioid-induced respiratory depression."
+    },
+    {
+      "id": "b2_q2064",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "leadership",
+      "clientNeeds": "Management of Care",
+      "topic": "Disaster Triage",
+      "cjStep": "Prioritize Hypotheses",
+      "difficulty": 3,
+      "stem": "During mass-casualty triage, which client should receive immediate priority?",
+      "options": [
+        "Client with minor lacerations who can walk",
+        "Client with an open femur fracture, weak radial pulse, and signs of shock",
+        "Client with unsurvivable devastating head injury and absent respirations after airway repositioning",
+        "Client with a closed wrist fracture and stable vital signs"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "In disaster triage, immediate resources are directed to clients with life-threatening but potentially survivable problems, such as major hemorrhage and shock."
+    },
+    {
+      "id": "b2_q2065",
+      "batch": "b2",
+      "type": "cloze",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "DKA",
+      "cjStep": "Analyze Cues",
+      "difficulty": 3,
+      "stem": "Complete the statement using the drop-downs.",
+      "clozeText": "A client with DKA is expected to have {{1}} serum bicarbonate and {{2}} ketones.",
+      "clozeBlanks": [
+        {
+          "options": [
+            "decreased",
+            "increased",
+            "normal"
+          ],
+          "correct": 0
+        },
+        {
+          "options": [
+            "increased",
+            "decreased",
+            "absent"
+          ],
+          "correct": 0
+        }
+      ],
+      "rationale": "DKA produces ketone accumulation and metabolic acidosis, so bicarbonate falls while ketones increase."
+    },
+    {
+      "id": "b2_q2067",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Chest Tubes",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "A 68-year-old client with a chest tube suddenly becomes dyspneic. The nurse notes the tube has disconnected from the drainage system. What is the priority action?",
+      "options": [
+        "Clamp the chest tube near the client",
+        "Reconnect to a new sterile drainage system as quickly as possible",
+        "Milk the chest tube",
+        "Remove the chest tube"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "The priority is to restore a closed drainage system promptly. Routine clamping can trap air and increase risk of tension pneumothorax."
+    },
+    {
+      "id": "b2_q2069",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "DKA",
+      "cjStep": "Analyze Cues",
+      "difficulty": 3,
+      "stem": "An 81-year-old client with diabetes has glucose 520 mg/dL, pH 7.22, bicarbonate 14 mEq/L, and positive ketones. Which condition is most consistent with these findings?",
+      "options": [
+        "Diabetic ketoacidosis",
+        "Hyperosmolar hyperglycemic state without acidosis",
+        "SIADH",
+        "Diabetes insipidus"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Marked hyperglycemia with metabolic acidosis and ketones is characteristic of diabetic ketoacidosis."
+    },
+    {
+      "id": "b2_q2072",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Anxiety",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 34-year-old client is having a panic attack. Which nursing intervention is most appropriate initially?",
+      "options": [
+        "Provide detailed teaching about anxiety disorders",
+        "Stay with the client and use short, simple statements",
+        "Encourage complex problem solving",
+        "Ask the client to join a large group activity"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "During panic-level anxiety, cognitive processing is limited. Calm presence and brief, simple communication support safety."
+    },
+    {
+      "id": "b2_q2076",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Respiratory - Asthma",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "A 63-year-old client with acute asthma has increasing work of breathing. Which finding is most concerning?",
+      "options": [
+        "Expiratory wheezes",
+        "Heart rate 108/min",
+        "Diminishing breath sounds with increasing fatigue",
+        "Productive cough"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "A 'silent' or increasingly quiet chest with fatigue can indicate critically reduced airflow and impending respiratory failure."
+    },
+    {
+      "id": "b2_q2078",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Spinal Cord Injury",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "A 74-year-old client with a T4 spinal cord injury develops a pounding headache, flushing above the injury, and BP 210/110 mm Hg. What is the priority action?",
+      "options": [
+        "Lay the client flat",
+        "Sit the client upright and assess for triggers such as bladder distention",
+        "Give a large fluid bolus",
+        "Apply a heating pad"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "These findings suggest autonomic dysreflexia. Sitting upright helps lower blood pressure while the nurse rapidly identifies and removes the trigger."
+    },
+    {
+      "id": "b2_q2080",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "maternity",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Magnesium Sulfate",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "A 22-year-old client receiving magnesium sulfate for preeclampsia has respirations 10/min, absent patellar reflexes, and urine output 20 mL/hr. What should the nurse suspect?",
+      "options": [
+        "Therapeutic effect",
+        "Magnesium toxicity",
+        "Oxytocin toxicity",
+        "Normal labor progression"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Respiratory depression, loss of deep tendon reflexes, and reduced urine output are warning signs of magnesium toxicity."
+    },
+    {
+      "id": "b2_q2094",
+      "batch": "b2",
+      "type": "selectAll",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Infection Control",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 49-year-old client has Clostridioides difficile infection. Which actions should the nurse implement? Select all that apply.",
+      "options": [
+        "Use gown and gloves on room entry",
+        "Wash hands with soap and water after care",
+        "Use dedicated equipment when possible",
+        "Rely on alcohol hand rub alone after glove removal",
+        "Place the client on contact precautions"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "C. difficile requires contact precautions. Soap-and-water hand hygiene is preferred because alcohol does not reliably remove spores."
+    },
+    {
+      "id": "b2_q2095",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Pulmonary Embolism",
+      "cjStep": "Prioritize Hypotheses",
+      "difficulty": 3,
+      "stem": "A 57-year-old postoperative client suddenly reports pleuritic chest pain and shortness of breath. Which complication should the nurse suspect first?",
+      "options": [
+        "Atelectasis",
+        "Pulmonary embolism",
+        "Pneumonia",
+        "Fluid overload"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Sudden dyspnea and pleuritic chest pain in a postoperative client are classic warning signs of pulmonary embolism."
+    },
+    {
+      "id": "b2_q2096",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Stroke",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "A 63-year-old client develops sudden facial droop and unilateral arm weakness. Which nursing action has the highest priority?",
+      "options": [
+        "Give oral aspirin immediately",
+        "Determine the exact time the client was last known well and activate the stroke pathway",
+        "Offer oral fluids",
+        "Place the client flat and wait for the provider"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Rapid stroke recognition and establishing last-known-well time are critical for time-sensitive imaging and reperfusion decisions."
+    },
+    {
+      "id": "b2_q2101",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Burns",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "A 28-year-old client with facial burns has soot around the mouth and progressive hoarseness. What is the priority concern?",
+      "options": [
+        "Airway edema",
+        "Constipation",
+        "Urinary retention",
+        "Pressure injury"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Soot and progressive hoarseness after a burn suggest inhalation injury and impending airway edema, which can progress rapidly."
+    },
+    {
+      "id": "b2_q2105",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Cardiac Tamponade",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "A 57-year-old client after cardiac surgery develops hypotension, jugular venous distention, and muffled heart sounds. What should the nurse suspect?",
+      "options": [
+        "Cardiac tamponade",
+        "Left-sided heart failure",
+        "Pulmonary embolism",
+        "Aortic dissection"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Hypotension, jugular venous distention, and muffled heart sounds are classic findings associated with cardiac tamponade."
+    },
+    {
+      "id": "b2_q2106",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Acute Kidney Injury",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "A 63-year-old client with acute kidney injury has potassium 6.4 mEq/L and peaked T waves. Which problem is the priority?",
+      "options": [
+        "Risk for dysrhythmia",
+        "Constipation",
+        "Activity intolerance",
+        "Imbalanced nutrition"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Severe hyperkalemia with ECG changes can cause lethal dysrhythmias and requires immediate intervention."
+    },
+    {
+      "id": "b2_q2107",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "GI Bleed",
+      "cjStep": "Prioritize Hypotheses",
+      "difficulty": 3,
+      "stem": "A 68-year-old client has hematemesis, BP 86/52 mm Hg, HR 124/min, and cool clammy skin. What is the priority nursing focus?",
+      "options": [
+        "Hemodynamic stabilization",
+        "Diet teaching",
+        "Bowel training",
+        "Sleep promotion"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "The client shows signs of hypovolemic shock from acute GI bleeding; circulation and hemodynamic stabilization are the priority."
+    },
+    {
+      "id": "b2_q2109",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Schizophrenia",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "An 81-year-old client says, 'The voices are telling me to hurt my roommate.' What should the nurse do first?",
+      "options": [
+        "Tell the client the voices are not real",
+        "Assess the content, intent, plan, and ability to resist the command",
+        "Leave the client alone to decrease stimulation",
+        "Ask the roommate to confront the client"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Command hallucinations with violent content require immediate safety assessment, including intent, plan, means, and ability to resist."
+    },
+    {
+      "id": "b2_q2113",
+      "batch": "b2",
+      "type": "ordering",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Blood Transfusion",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "A 41-year-old client develops chills, dyspnea, and low back pain 10 minutes after a blood transfusion begins. Place the nurse's actions in the correct order.",
+      "options": [
+        "Keep the IV line open with new tubing and normal saline",
+        "Notify the provider and blood bank",
+        "Send the blood bag/tubing and required specimens per policy",
+        "Stop the transfusion",
+        "Assess vital signs and the client"
+      ],
+      "correct": [
+        3,
+        0,
+        4,
+        1,
+        2
+      ],
+      "rationale": "Stop exposure to the suspected blood product first, maintain IV access with normal saline using new tubing, assess the client, notify appropriate personnel, and follow the facility's transfusion-reaction protocol."
+    },
+    {
+      "id": "b2_q2114",
+      "batch": "b2",
+      "type": "selectAll",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Anticoagulants",
+      "cjStep": "Evaluate Outcomes",
+      "difficulty": 3,
+      "stem": "A 49-year-old client receiving heparin is being monitored. Which findings should the nurse report promptly? Select all that apply.",
+      "options": [
+        "Black tarry stool",
+        "New severe headache",
+        "Platelet count has fallen substantially from baseline",
+        "Small bruise at an old venipuncture site",
+        "Hematuria"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "Melena, severe headache, hematuria, and a major platelet fall can indicate serious bleeding or heparin-induced thrombocytopenia."
+    },
+    {
+      "id": "b2_q2115",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Meningitis",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 57-year-old client is admitted with suspected bacterial meningitis. Which precaution should the nurse initiate?",
+      "options": [
+        "Airborne precautions",
+        "Droplet precautions",
+        "Protective isolation",
+        "Contact precautions only"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Suspected bacterial meningitis requires droplet precautions initially in addition to standard precautions."
+    },
+    {
+      "id": "b2_q2118",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Therapeutic Communication",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 74-year-old client says, 'I don't see any reason to keep going.' Which response by the nurse is best?",
+      "options": [
+        "'You have so much to live for.'",
+        "'Are you thinking about killing yourself?'",
+        "'Try not to think that way.'",
+        "'Your family would be devastated.'"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Directly asking about suicidal thoughts is therapeutic and necessary for safety assessment; it does not increase suicide risk."
+    },
+    {
+      "id": "b2_q2126",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Peptic Ulcer Disease",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 63-year-old client with peptic ulcer disease suddenly develops severe generalized abdominal pain and a rigid abdomen. What should the nurse do?",
+      "options": [
+        "Offer an antacid and reassess in 1 hour",
+        "Suspect perforation and obtain urgent medical evaluation",
+        "Encourage ambulation",
+        "Administer a laxative"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Sudden severe pain with board-like rigidity can indicate perforation and peritonitis, which is a surgical emergency."
+    },
+    {
+      "id": "b2_q2128",
+      "batch": "b2",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Opioids",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "A 74-year-old postoperative client who received IV opioid medication is difficult to arouse and has respirations 7/min. Which medication should the nurse anticipate administering?",
+      "options": [
+        "Naloxone",
+        "Flumazenil",
+        "Vitamin K",
+        "Protamine sulfate"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Naloxone is an opioid antagonist used for clinically significant opioid-induced respiratory depression."
+    }
+  ]
+}

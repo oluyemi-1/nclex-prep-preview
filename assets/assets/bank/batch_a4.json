@@ -1,0 +1,2608 @@
+{
+  "version": 1,
+  "batch": "a4",
+  "label": "Authored wave 4 (unfolding case studies)",
+  "cases": [
+    {
+      "id": "case_etoh",
+      "title": "Alcohol Withdrawal on the Medical Unit",
+      "category": "mental",
+      "tabs": {
+        "Nurses’ Notes": "Monday 1500: 54-year-old client admitted from the clinic for IV antibiotic treatment of right lower leg cellulitis. Alert and oriented x4. Reports drinking 'a couple of beers on the weekend.' Right calf red, warm and tender; erythema margins marked and dated.\nMonday 2300: Resting quietly. Denies pain. No tremor noted.\nTuesday 0400: Awake and restless. Hands tremulous reaching for the water cup; skin damp. States, 'I feel jumpy and I could not sleep.' CIWA-Ar 8.\nTuesday 0800: Partner at the bedside reports the client drinks 8 to 10 beers daily plus vodka most evenings, last drink Monday at 0800 before coming to the clinic. Client diaphoretic with a coarse tremor of the outstretched hands and startles when the door closes. Nausea reported; breakfast tray declined. CIWA-Ar 14. Provider notified; CIWA-Ar protocol written at 0830.\nTuesday 1000: Client brushes at the bedrail and asks the nurse to get 'the bugs' off it, then states nothing is there. Oriented x4. Gown and linens damp with sweat. CIWA-Ar 19. No lorazepam has been given since the protocol was written.",
+        "Vital Signs": "Monday 1600: T 37.4 C (99.3 F), HR 88/min, BP 138/84 mm Hg, RR 16/min, SpO2 97% on room air.\nMonday 2200: T 37.2 C (99.0 F), HR 94/min, BP 144/88 mm Hg, RR 18/min, SpO2 97% on room air.\nTuesday 0400: T 37.5 C (99.5 F), HR 104/min, BP 152/90 mm Hg, RR 20/min, SpO2 96% on room air.\nTuesday 0800: T 37.8 C (100.0 F), HR 116/min, BP 166/94 mm Hg, RR 22/min, SpO2 96% on room air.\nTuesday 1000: T 37.9 C (100.2 F), HR 122/min, BP 172/98 mm Hg, RR 24/min, SpO2 95% on room air.",
+        "Labs": "Monday 1530 (admission): Sodium 136 mEq/L, potassium 3.6 mEq/L, magnesium 1.7 mg/dL, glucose 104 mg/dL, BUN 12 mg/dL, creatinine 0.9 mg/dL, AST 96 units/L, ALT 44 units/L, GGT 210 units/L, total bilirubin 1.1 mg/dL, platelets 132,000/mm3, MCV 104 fL, blood alcohol 118 mg/dL.\nTuesday 0600: Sodium 134 mEq/L, potassium 3.1 mEq/L, magnesium 1.2 mg/dL, phosphorus 2.2 mg/dL, calcium 8.2 mg/dL, glucose 78 mg/dL, INR 1.2, blood alcohol not detected.",
+        "Provider Orders": "Monday 1430: Cefazolin 2 g IV every 8 hours. Normal saline 75 mL/hr. Acetaminophen 650 mg PO every 6 hours PRN. Elevate the right leg; mark and measure the erythema margins each shift.\nTuesday 0830: CIWA-Ar assessment every 1 hour while the score is 8 or greater, then every 4 hours once the score has stayed below 8 for 8 hours. Symptom-triggered lorazepam: score 8 to 14 give 1 mg IV, score 15 to 20 give 2 mg IV, score above 20 give 4 mg IV; reassess 1 hour after every dose; notify the provider if 3 consecutive scores stay above 15 or any score exceeds 25. Thiamine 100 mg IV daily for 3 days, first dose before any dextrose-containing fluid. Folic acid 1 mg PO daily. Magnesium sulfate 2 g IV over 2 hours for magnesium below 1.5 mg/dL. Potassium chloride 40 mEq PO x 1 for potassium below 3.5 mEq/L. Seizure precautions."
+      }
+    },
+    {
+      "id": "case_suicide",
+      "title": "Suicidal Ideation in the Emergency Department",
+      "category": "mental",
+      "tabs": {
+        "Triage Note": "Tuesday 1615, emergency department triage: 41-year-old client brought in by an older sister who found a handwritten note in the client's kitchen addressed to the client's two children. Sister states, 'It said goodbye and where to find the insurance papers.' Client is quiet, makes little eye contact and answers in single words. Denies any physical complaint and denies pain. T 36.8 C (98.2 F), HR 88/min, BP 132/80 mm Hg, RR 16/min, SpO2 99% on room air, point-of-care glucose 96 mg/dL. Gait steady; no odor of alcohol. Triage acuity level 2. Placed in room 14, which is directly visible from the nurses' station.",
+        "Nurses’ Notes": "1640: Client changed into paper scrubs. Personal clothing, belt, shoelaces, phone charging cord and handbag inventoried and secured with security. Client states, 'I do not see the point in any of this.' Asked directly whether the client is thinking of killing self; client answers, 'Yes. Every day for about a month.'\n1650: Client reports saving the prescribed amitriptyline and states there are about 60 tablets in a bedroom drawer, and that the plan was to take them tonight after the sister went home. States there is a handgun in the apartment that belonged to the client's father. Declines to say more about timing.\n1705: Sister reports the client lost a job 7 weeks ago, separated from a spouse in the spring, has not left the apartment in 10 days and gave a guitar to a neighbor last week. Client tearful, states, 'My kids would be better off without me.' Continuous 1:1 observer at the bedside. Oriented x4, speech slow, no hallucinations and no evidence of intoxication.",
+        "History and Physical": "1720 provider note: History of major depressive disorder diagnosed 6 years ago and one prior suicide attempt by overdose 8 years ago that required a 4-day inpatient admission. Prescribed amitriptyline 50 mg at bedtime; reports taking it 'some nights.' Reports 2 to 3 alcoholic drinks most evenings and no other substance use. No history of psychosis or mania. Medical history: hypertension treated with lisinopril 10 mg daily. Weight 78 kg. Sleeps 3 to 4 hours nightly with early morning waking; appetite poor with a 6 kg weight loss over 2 months. Physical examination unremarkable; no self-inflicted injuries, old or new.",
+        "Provider Orders": "1730: Medical clearance labs now: complete blood count, comprehensive metabolic panel, acetaminophen and salicylate levels, ethanol level, urine drug screen and a 12-lead ECG. Continuous 1:1 observation within arm's reach; the client is not to be left alone at any time, including in the bathroom. Ligature-resistant room; all personal belongings, cords and sharps removed and secured. Behavioral health consultation now. Do not administer the client's home amitriptyline in the emergency department. Notify the provider for any change in behavior, mood or mental status."
+      }
+    },
+    {
+      "id": "case_preterm",
+      "title": "Preterm Labor at 31 Weeks",
+      "category": "maternity",
+      "tabs": {
+        "Nurses' Notes": "0210: 29-year-old client, G2P1, arrives in obstetric triage. Gestational age is 31 weeks and 2 days, dated by first-trimester ultrasound. She reports regular uterine tightening since 2130 with low back pain and steady pelvic pressure. She denies any fall or injury. Fetal movement is described as normal. Nitrazine and fern testing are negative and the membranes are intact. Temperature is 37.0 C (98.6 F) and the uterus is nontender between contractions. A fetal fibronectin specimen was collected before the examination. 0215: Sterile examination by the provider documents the cervix 2 cm dilated, 60% effaced, and -2 station. 0245: Repeat examination documents the cervix 3 cm dilated, 80% effaced, and -1 station, a change from 30 minutes earlier. Prenatal course otherwise uncomplicated; one prior vaginal birth at 39 weeks.",
+        "Labor Flow Sheet": "0215: Contractions every 5 to 6 minutes, lasting 45 to 50 seconds, moderate to palpation; uterus soft between contractions. FHR baseline 148/min, moderate variability, two accelerations of 15 beats above baseline lasting 15 seconds, no decelerations (Category I). 0245: Contractions every 4 minutes, lasting 55 to 60 seconds, moderate to palpation. FHR baseline 146/min, moderate variability, accelerations present, no decelerations. 0300: Contractions every 3 to 4 minutes, lasting 60 to 70 seconds, moderate to strong. FHR baseline 148/min, moderate variability, no decelerations. Cephalic presentation confirmed by bedside ultrasound.",
+        "Vital Signs": "0210: BP 118/72 mm Hg, HR 96/min, RR 18/min, Temp 37.0 C (98.6 F), SpO2 99% on room air. Pain 6 on a 0 to 10 scale during contractions and 1 of 10 between them. 0245: BP 114/70 mm Hg, HR 98/min, RR 18/min, Temp 37.0 C (98.6 F). 0300: BP 112/68 mm Hg, HR 100/min, RR 18/min, Temp 37.1 C (98.8 F), SpO2 99% on room air. Deep tendon reflexes 2+ bilaterally with no clonus.",
+        "Labs": "0230: WBC 11,200/mm3, Hemoglobin 11.6 g/dL, Hematocrit 34%, Platelets 232,000/mm3. Urinalysis: no nitrites, no leukocyte esterase, trace ketones, no protein. Vaginal-rectal group B streptococcus culture collected at 0220, result pending; no group B streptococcus culture on file from this pregnancy. Fetal fibronectin positive. Transvaginal cervical length 18 mm. Obstetric ultrasound: single fetus, cephalic presentation, estimated fetal weight 1,650 g, amniotic fluid index 14 cm."
+      }
+    },
+    {
+      "id": "case_transfusion",
+      "title": "Acute Transfusion Reaction",
+      "category": "medsurg",
+      "tabs": {
+        "Nurses' Notes": "0830: 58-year-old client admitted for symptomatic anemia during chemotherapy for breast cancer, reporting fatigue and dyspnea on exertion. Type and screen specimen drawn by the phlebotomy team and labeled away from the bedside. 1000: Unit of packed red blood cells verified at the bedside with a second registered nurse; client identified by name and date of birth against the blood bank tag. Transfusion started at 75 mL/hr through a 20-gauge forearm catheter; nurse remaining at the bedside. 1010: Client reports feeling hot and shaky, with low back and flank pain rated 7 on a 0 to 10 scale, and states, \"Something is wrong.\" Shaking chills observed. 1015: Approximately 60 mL infused. Dark reddish-brown urine noted in the urinary drainage bag; urine was pale yellow at 0900. Peripheral intravenous site soft, without redness or swelling.",
+        "Vital Signs": "1000 (baseline, immediately before the transfusion): Temp 37.0 C (98.6 F), BP 128/74 mm Hg, HR 84/min, RR 16/min, SpO2 97% on room air. 1005: Temp 37.1 C (98.8 F), BP 126/72 mm Hg, HR 88/min, RR 16/min, SpO2 97% on room air. 1010: Temp 38.2 C (100.8 F), BP 104/62 mm Hg, HR 106/min, RR 22/min, SpO2 95% on room air. 1012: Temp 38.9 C (102.0 F), BP 92/54 mm Hg, HR 118/min, RR 26/min, SpO2 94% on room air; skin flushed and diaphoretic.",
+        "Labs": "0900: Hemoglobin 6.8 g/dL, Hematocrit 21%, Platelets 168,000/mm3, WBC 3,100/mm3 (day 10 after chemotherapy). Sodium 138 mEq/L, Potassium 4.0 mEq/L, BUN 14 mg/dL, Creatinine 0.9 mg/dL. Total bilirubin 0.6 mg/dL, LDH 210 units/L. Urinalysis 0900: clear, pale yellow, no blood, no protein.",
+        "Blood Administration Record": "Product: 1 unit leukocyte-reduced packed red blood cells, unit number W1240-8815, volume 300 mL. Consent on file. Blood administration set primed with 0.9% sodium chloride; no other solution or medication added to the line. 0955: Two-registered-nurse verification of client identifiers, blood group, unit number and expiration date completed at the bedside. 1000: Transfusion started at 75 mL/hr; baseline vital signs recorded. First 15-minute reassessment due at 1015. Volume infused at 1015: approximately 60 mL of 300 mL."
+      }
+    },
+    {
+      "id": "case_delirium",
+      "title": "Postoperative Delirium After Hip Fracture Repair",
+      "category": "medsurg",
+      "tabs": {
+        "Nurses' Notes": "POD 1, 1800: 82-year-old client, first day after open reduction and internal fixation of a right hip fracture sustained in a fall at home. Alert and oriented to person, place, time and situation; talks with a granddaughter about the garden and describes own medication routine without prompting. Ate 60% of dinner. Indwelling urinary catheter removed at 1400; voided 200 mL at 1745. Reading glasses were broken in the fall and hearing aids were left at home. 2200: Dozing quietly. Pain 3/10 at rest. Diphenhydramine 25 mg by mouth given at the client's request for sleep. Roommate's television on until 2300; neurovascular checks and vital signs every 2 hours through the night. 0230: Found sitting on the side of the bed pulling at the IV line and calling for a taxi, saying 'those men in the corner are waiting for me.' Cannot name the day or the hospital and cannot recite the months backward; attention drifts in the middle of a sentence and speech is rambling. Confusion Assessment Method positive: acute onset with fluctuation, inattention and disorganized thinking. Has not voided since 1745; lower abdomen firm and tender to light palpation. Last bowel movement 4 days ago. Grimaces and guards when the right leg is repositioned but answers 'no' when asked whether there is any pain. 0600: Quiet, follows simple commands, names the hospital correctly, then drifts back to sleep.",
+        "Vital Signs": "POD 1 1800: T 36.9 C (98.4 F), HR 78/min, BP 128/70 mm Hg, RR 16/min, SpO2 96% on room air, pain 3/10 at rest. 2200: T 37.0 C (98.6 F), HR 82/min, BP 124/68 mm Hg, RR 16/min, SpO2 94% on room air. 0230: T 36.8 C (98.2 F), HR 104/min, BP 148/86 mm Hg, RR 24/min, SpO2 88% on room air, rising to 95% within 5 minutes on 2 L/min by nasal cannula. 0400: T 36.9 C (98.4 F), HR 96/min, BP 138/78 mm Hg, RR 20/min, SpO2 95% on 2 L/min. 0600: T 37.0 C (98.6 F), HR 88/min, BP 132/74 mm Hg, RR 18/min, SpO2 95% on 2 L/min. Fall risk score high on the admission and daily screens.",
+        "Medication Record": "Home medications resumed on admission: oxybutynin 5 mg by mouth twice daily for overactive bladder (last dose 1800); atorvastatin 20 mg by mouth nightly; lisinopril 10 mg by mouth daily. Postoperative orders: acetaminophen 650 mg by mouth every 6 hours scheduled (last given 1600, the 2200 dose was held because the client was asleep); hydromorphone 0.4 mg IV every 3 hours PRN for severe pain (given at 0900 and 1300 on POD 0, none since); diphenhydramine 25 mg by mouth nightly PRN for sleep (given 2200); lorazepam 0.5 mg IV every 6 hours PRN for agitation (ordered, not given); enoxaparin 40 mg subcutaneously daily; docusate 100 mg by mouth twice daily (two doses held, client asleep); ondansetron 4 mg IV every 8 hours PRN. Family confirms the client uses no alcohol, no benzodiazepines and no over-the-counter sleep aids at home.",
+        "Laboratory and Flow Sheet": "0300 laboratory results: WBC 9,200/mm3, hemoglobin 10.4 g/dL (12.8 g/dL preoperatively), platelets 232,000/mm3, sodium 136 mEq/L, potassium 4.1 mEq/L, BUN 24 mg/dL, creatinine 1.0 mg/dL, glucose 118 mg/dL, calcium 8.9 mg/dL. Urinalysis not yet collected; no blood cultures ordered. Flow sheet: bladder scan at 0240 shows 620 mL of retained urine; last void 200 mL at 1745. Oral intake 480 mL over the past 12 hours; IV fluids discontinued at 1200. Last bowel movement 4 days ago; no stool since admission. Slept approximately 1.5 hours between 2300 and 0600. Out of bed to a chair once on POD 0 with physical therapy; nothing by mouth after midnight was not ordered. Bed in low position, wheels locked, call light within reach, no restraints in use."
+      }
+    },
+    {
+      "id": "case_adrenal",
+      "title": "Adrenal Crisis During an Acute Illness",
+      "category": "medsurg",
+      "tabs": {
+        "Nurses' Notes": "1815, emergency department: 58-year-old client with polymyalgia rheumatica brought in by a partner for 3 days of fever, vomiting and worsening weakness after a household influenza illness. Has taken prednisone 10 mg by mouth every morning for the past 3 years; vomited the last two doses and has taken no corticosteroid for 2 days. Reports severe light-headedness on standing, cramping abdominal pain, no appetite and 'no strength to get up off the toilet.' Skin warm, mucous membranes tacky, capillary refill 4 seconds. Oriented but answers slowly and asks for questions to be repeated. Denies chest pain, cough, dysuria or headache; no diarrhea since yesterday. Partner reports an unused, unexpired emergency hydrocortisone injection kit in the bathroom cabinet: 'we were told it was for emergencies, but nobody told us when to use it.' No medical alert bracelet or wallet card. 1930: Vomited 150 mL of clear fluid; remains weak, unable to sit upright without support.",
+        "Vital Signs": "1820 (triage): T 38.5 C (101.3 F), HR 122/min, BP 78/44 mm Hg, RR 24/min, SpO2 97% on room air, abdominal pain 4/10. 1845: HR 120/min, BP 80/46 mm Hg supine and 72/40 mm Hg with the head of the bed raised; client reports the room 'going gray' when sat up. 1915, after 1 L of 0.9% sodium chloride: T 38.3 C (100.9 F), HR 118/min, BP 84/48 mm Hg, RR 22/min, SpO2 98% on room air. 2000, after a second liter of 0.9% sodium chloride: T 38.4 C (101.1 F), HR 120/min, BP 82/46 mm Hg, RR 22/min. Urine output 35 mL since arrival. Weight 71 kg, 1.5 kg less than at the rheumatology clinic visit 2 weeks ago.",
+        "Laboratory Results": "1830: sodium 126 mEq/L, potassium 5.9 mEq/L, chloride 94 mEq/L, bicarbonate 19 mEq/L, BUN 34 mg/dL, creatinine 1.4 mg/dL, capillary glucose 54 mg/dL, calcium 9.1 mg/dL, hemoglobin 13.8 g/dL, WBC 11,200/mm3. Random serum cortisol and ACTH drawn and pending. Rapid influenza A antigen positive; blood cultures drawn; lactate 2.1 mmol/L. 12-lead ECG: sinus tachycardia at 122/min with peaked T waves in V2 through V4, no ST elevation. 1915: sodium 127 mEq/L, potassium 5.9 mEq/L, capillary glucose 51 mg/dL. 2000: sodium 127 mEq/L, potassium 6.1 mEq/L, capillary glucose 48 mg/dL, creatinine 1.3 mg/dL.",
+        "Medication Record": "Home medications: prednisone 10 mg by mouth every morning for 3 years for polymyalgia rheumatica (last dose 2 days ago and it was vomited); calcium carbonate with vitamin D twice daily; alendronate 70 mg weekly; omeprazole 20 mg daily; ondansetron 4 mg by mouth PRN for nausea, two doses taken at home without relief. Emergency supply at home: hydrocortisone 100 mg intramuscular injection kit, unused and unexpired. No known drug allergies. Emergency department orders at 1825: 0.9% sodium chloride 1 L IV over 30 minutes, may repeat once; ondansetron 4 mg IV every 6 hours PRN; acetaminophen 650 mg by mouth every 6 hours PRN for fever; oseltamivir 75 mg by mouth twice daily; blood cultures and serum lactate. No corticosteroid has been ordered or given since arrival."
+      }
+    },
+    {
+      "id": "case_asthma",
+      "title": "Asthma Exacerbation in a School-Age Child",
+      "category": "peds",
+      "tabs": {
+        "Nurses' Notes": "1420: 8-year-old brought to the emergency department by a parent for 3 days of cough and wheeze after a head cold, much worse since this morning. Child is sitting forward on the edge of the stretcher, speaking in three- to four-word phrases, with suprasternal and subcostal retractions and a prolonged expiratory phase. Expiratory wheezes audible throughout both lung fields. Peak expiratory flow at triage 130 L/min; personal best 280 L/min. Parent reports three albuterol metered-dose inhaler treatments at home since 0900 with little relief and no spacer in use at home. Child has taken only a few sips of fluid since breakfast. Weight 26 kg.",
+        "Vital Signs": "1422 (triage): Temperature 37.4 C (99.3 F) temporal, heart rate 134/min, respirations 34/min, blood pressure 108/70 mm Hg, SpO2 90% on room air, pain 0 of 10. Clinic visit 6 weeks ago (baseline): temperature 36.8 C (98.2 F), heart rate 88/min, respirations 20/min, blood pressure 102/64 mm Hg, SpO2 98% on room air, peak expiratory flow 275 L/min.",
+        "History and Physical": "Persistent asthma diagnosed at age 4. Two emergency department visits and one overnight admission in the past 12 months; never intubated. Personal best peak expiratory flow 280 L/min. Allergic to cat dander and dust mites; no medication allergies. Immunizations up to date, including influenza. The family took in a kitten 2 weeks ago that sleeps in the child's bedroom. Attends third grade and has missed 6 school days this year for asthma.",
+        "Medication Record": "Fluticasone inhaler 88 mcg, 2 puffs twice daily: the parent reports the canister ran out about 2 weeks ago and has not been refilled. Albuterol HFA 2 puffs every 4 hours as needed: given at home today at 0900, 1130, and 1315, sprayed directly into the mouth without a spacer. Montelukast 5 mg chewable at bedtime, taken most nights. No other prescription or over-the-counter medicines. No spacer or peak flow meter was brought from home."
+      }
+    },
+    {
+      "id": "case_sickle",
+      "title": "Sickle Cell Vaso-Occlusive Crisis",
+      "category": "peds",
+      "tabs": {
+        "Nurses' Notes": "0230: 12-year-old with hemoglobin SS sickle cell disease admitted from the emergency department with a 2-day pain crisis that began after an outdoor swim meet in cold rain. Reports deep aching pain in both thighs, the lower back, and the left upper arm, rated 9 of 10. Received one dose of IV morphine in the emergency department with partial relief and was placed on as-needed oral oxycodone. 0500: Awake, watching videos with a parent at the bedside, again rates the pain 9 of 10 and asks when the next dose is due. 0600: Lying very still, taking shallow breaths and splinting the chest when asked to cough and deep breathe. Weight 38 kg.",
+        "Vital Signs": "0300: Temperature 37.3 C (99.1 F), heart rate 112/min, respirations 22/min, blood pressure 116/72 mm Hg, SpO2 97% on room air, pain 9 of 10. 0600: Temperature 38.0 C (100.4 F), heart rate 118/min, respirations 24/min, blood pressure 118/74 mm Hg, SpO2 95% on room air, pain 9 of 10. Documented well-visit baseline: heart rate 84/min, respirations 18/min, blood pressure 110/68 mm Hg, SpO2 98% on room air.",
+        "Labs": "0400: Hemoglobin 7.8 g/dL (documented baseline 8.0 to 8.5 g/dL), hematocrit 23%, reticulocytes 12%, white blood cells 16,500/mm3, platelets 428,000/mm3. Total bilirubin 2.8 mg/dL with scleral icterus noted on admission. Sodium 138 mEq/L, potassium 3.9 mEq/L, creatinine 0.6 mg/dL. Blood cultures drawn at 0615 after the temperature rose; results pending. Chest radiograph on admission: no infiltrate.",
+        "Medication Record": "Hydroxyurea 1,000 mg daily at home: the parent reports about half the doses were missed over the past month because of nausea. Morphine 4 mg IV once, given in the emergency department at 0130. Oxycodone 10 mg orally every 4 hours as needed for severe pain: given at 0245; the dose due at 0645 has not been given. Ibuprofen 400 mg every 6 hours as needed: last given at 2100 yesterday. No scheduled analgesic is ordered. IV dextrose 5% with 0.45% sodium chloride at the ordered maintenance rate. No known allergies."
+      }
+    },
+    {
+      "id": "case_aki",
+      "title": "Acute Kidney Injury with Hyperkalemia",
+      "category": "medsurg",
+      "tabs": {
+        "Nurses' Notes": "0540: 78-year-old client brought to the emergency department by an adult child after 4 days of vomiting and watery diarrhea. Client reports drinking only \"a few sips of ginger ale\" each day and has continued all home medications, including lisinopril and naproxen. States the last urination was \"sometime yesterday evening, and it was very dark.\" Oral mucosa dry, tongue furrowed, skin tents over the sternum. Reports light-headedness on standing and generalized muscle weakness. Denies chest pain or shortness of breath. Bladder scan 50 mL; indwelling urinary catheter inserted per emergency department protocol with 45 mL of dark amber urine returned.\n0730: Client oriented to person, place, and time but drowsy between questions. Reports numbness and tingling around the mouth and in both hands. Lungs clear to auscultation; no peripheral edema and no jugular venous distention. Transferred to the medical unit on continuous cardiac monitoring.\n1000: Urine output since catheter insertion totals 62 mL. Radial pulse irregular. Client states, \"My legs feel too heavy to lift.\" Provider paged with the 0930 laboratory results.",
+        "Vital Signs and Intake/Output": "Vital signs\n0545: temperature 37.1 C (98.8 F) oral, heart rate 104/min, respirations 18/min, blood pressure 96/58 mm Hg supine and 78/50 mm Hg standing, SpO2 97% on room air.\n0800: temperature 36.9 C (98.4 F), heart rate 98/min, respirations 18/min, blood pressure 104/62 mm Hg, SpO2 98% on room air.\n1000: heart rate 88/min and irregular, respirations 18/min, blood pressure 108/64 mm Hg, SpO2 98% on room air.\nWeights: clinic weight 3 weeks ago 72 kg; admission weight today 67.6 kg.\nIntake and output, 0545 to 1000: IV intake 1,000 mL of 0.9% sodium chloride; oral intake 120 mL. Hourly urine: 0600 to 0700, 18 mL; 0700 to 0800, 14 mL; 0800 to 0900, 16 mL; 0900 to 1000, 14 mL. Total urine output since arrival 62 mL, approximately 0.2 mL/kg/hr.",
+        "Laboratory Results": "Clinic panel 3 weeks ago: sodium 139 mEq/L, potassium 4.2 mEq/L, chloride 102 mEq/L, bicarbonate 25 mEq/L, BUN 16 mg/dL, creatinine 1.0 mg/dL, estimated glomerular filtration rate 62 mL/min/1.73 m2.\n0600 today: sodium 133 mEq/L, potassium 5.7 mEq/L, chloride 99 mEq/L, bicarbonate 19 mEq/L, BUN 62 mg/dL, creatinine 3.1 mg/dL, glucose 128 mg/dL, calcium 8.4 mg/dL, phosphorus 5.2 mg/dL. Hemoglobin 13.8 g/dL, hematocrit 44%. Urinalysis: specific gravity 1.030, no protein, no blood, no casts. Urine sodium 12 mEq/L; fractional excretion of sodium less than 1%.\n0930 today: potassium 6.4 mEq/L on a repeat, non-hemolyzed specimen; bicarbonate 18 mEq/L; BUN 66 mg/dL; creatinine 3.4 mg/dL; magnesium 2.1 mg/dL; calcium 8.2 mg/dL. Venous blood gas pH 7.30.",
+        "Medication Record": "Home medications, verified with the client's child and the community pharmacy: lisinopril 20 mg orally daily; naproxen 500 mg orally twice daily, started 3 weeks ago for knee osteoarthritis; metformin 1,000 mg orally twice daily; atorvastatin 40 mg orally at bedtime; acetaminophen 650 mg orally every 6 hours as needed. The client took every morning dose at home yesterday, including the lisinopril and the naproxen.\nEmergency department today: 0.9% sodium chloride 500 mL IV bolus infused 0600 to 0700, then 0.9% sodium chloride at 125 mL/hr. Ondansetron 4 mg IV once at 0555 for nausea. No contrast media administered and no imaging with dye performed. Allergies: none known."
+      }
+    },
+    {
+      "id": "case_copd",
+      "title": "COPD Exacerbation with Carbon Dioxide Retention",
+      "category": "medsurg",
+      "tabs": {
+        "Nurses' Notes": "2200 (previous day): 71-year-old client admitted this afternoon with an exacerbation of chronic obstructive pulmonary disease after 3 days of increasing dyspnea and thicker yellow sputum. Client is alert, oriented, and speaking in short sentences, sitting upright and using pursed-lip breathing. Home regimen includes oxygen 2 L/min by nasal cannula at night only; the client reports a usual oxygen saturation \"in the high 80s\" at home. Breath sounds diminished with expiratory wheezes throughout.\n0400: Client awake and anxious, reports \"I can't catch my breath.\" SpO2 84% on 2 L/min by nasal cannula. Oxygen increased to 6 L/min by nasal cannula; SpO2 rose to 98% within 10 minutes and the client settled back to sleep.\n0600: Routine arterial blood gas drawn as prescribed. Client asleep, easily roused, respirations even.\n0800: Client difficult to arouse for morning care; opens eyes to loud voice, answers in single words, then falls back asleep. Skin flushed and warm; hands show a flapping tremor when the wrists are extended. Reports a \"pounding headache\" when asked. Respirations 10/min and shallow. Oxygen remains at 6 L/min by nasal cannula, SpO2 97%. The client's partner says, \"Just let the client rest, a bad night's sleep will do that to anyone.\"",
+        "Vital Signs": "1600 (admission): temperature 37.4 C (99.3 F) oral, heart rate 96/min, respirations 24/min, blood pressure 138/82 mm Hg, SpO2 90% on room air, pain 0/10.\n2200: temperature 37.2 C (99.0 F), heart rate 92/min, respirations 22/min, blood pressure 134/80 mm Hg, SpO2 89% on 2 L/min by nasal cannula. Alert and oriented x3.\n0400: heart rate 108/min, respirations 28/min, blood pressure 146/88 mm Hg, SpO2 84% on 2 L/min by nasal cannula, rising to 98% after the oxygen was increased to 6 L/min by nasal cannula.\n0600: heart rate 100/min, respirations 16/min, blood pressure 144/86 mm Hg, SpO2 97% on 6 L/min by nasal cannula. Drowsy, wakes to voice.\n0800: temperature 37.3 C (99.1 F), heart rate 102/min and bounding, respirations 10/min and shallow, blood pressure 150/92 mm Hg, SpO2 97% on 6 L/min by nasal cannula. Arouses to loud voice only.",
+        "Diagnostic Results": "Arterial blood gas 1630 (on room air): pH 7.35, PaCO2 56 mm Hg, HCO3 30 mEq/L, PaO2 62 mm Hg, SaO2 90%.\nArterial blood gas 0600 (on 6 L/min by nasal cannula): pH 7.31, PaCO2 68 mm Hg, HCO3 33 mEq/L, PaO2 88 mm Hg, SaO2 96%.\nArterial blood gas 0830 (on 6 L/min by nasal cannula): pH 7.25, PaCO2 82 mm Hg, HCO3 35 mEq/L, PaO2 96 mm Hg, SaO2 97%.\nChest x-ray 1700: hyperinflation with flattened diaphragms; no infiltrate, no effusion, no pneumothorax.\nComplete blood count 1700: white blood cells 12,800/mm3, hemoglobin 16.4 g/dL, hematocrit 51%. Basic metabolic panel 1700: sodium 138 mEq/L, potassium 4.0 mEq/L, chloride 96 mEq/L, bicarbonate 33 mEq/L, creatinine 0.9 mg/dL. Pulmonary function testing 4 months ago: FEV1 42% of predicted.",
+        "Medication Record": "Scheduled: albuterol-ipratropium 3 mL by nebulizer every 6 hours, last given 0200; methylprednisolone 40 mg IV every 12 hours, last given 2000; azithromycin 500 mg IV daily, last given 1800; enoxaparin 40 mg subcutaneously daily; pantoprazole 40 mg orally daily.\nAs needed: albuterol 2.5 mg by nebulizer every 2 hours as needed for wheezing, last given 0410; lorazepam 0.5 mg orally every 8 hours as needed for anxiety, given 0415 for anxiety and restlessness; acetaminophen 650 mg orally every 6 hours as needed for headache.\nOxygen: 2 L/min by nasal cannula, titrate to maintain SpO2 88% to 92%. Rate increased to 6 L/min by nasal cannula at 0405 by the night nurse and not retitrated. Allergies: penicillin (rash)."
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "case_etoh_1",
+      "batch": "a4",
+      "type": "highlight",
+      "category": "mental",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Alcohol Withdrawal",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "caseId": "case_etoh",
+      "caseStep": 1,
+      "stem": "Click to highlight the findings in the Tuesday 1000 nurses' note that require immediate follow-up.",
+      "highlightSegments": [
+        {
+          "text": "1000: Client is sitting upright in bed with the right leg elevated on two pillows.",
+          "correct": false
+        },
+        {
+          "text": "Gown and bed linens are damp with sweat.",
+          "correct": true
+        },
+        {
+          "text": "Coarse tremor of both hands when the arms are held outstretched.",
+          "correct": true
+        },
+        {
+          "text": "Heart rate 122/min and blood pressure 172/98 mm Hg.",
+          "correct": true
+        },
+        {
+          "text": "Temperature 37.9 C (100.2 F).",
+          "correct": false
+        },
+        {
+          "text": "Client brushes at the bedrail, asks the nurse to get 'the bugs' off it, then says nothing is there.",
+          "correct": true
+        },
+        {
+          "text": "CIWA-Ar score 19, up from 14 at 0800 and 8 at 0400.",
+          "correct": true
+        },
+        {
+          "text": "Right calf erythema unchanged inside the margins marked last evening.",
+          "correct": false
+        },
+        {
+          "text": "Voided 400 mL of clear yellow urine at 0930.",
+          "correct": false
+        },
+        {
+          "text": "Denies pain in the leg at rest.",
+          "correct": false
+        },
+        {
+          "text": "Partner remains at the bedside.",
+          "correct": false
+        }
+      ],
+      "rationale": "Diaphoresis, a coarse tremor, tachycardia with hypertension, a perceptual disturbance and a CIWA-Ar score that has more than doubled in 6 hours are the hallmarks of escalating alcohol withdrawal and call for immediate symptom-triggered treatment. A low-grade temperature, unchanged calf erythema, adequate urine output, absent pain and a family member at the bedside are stable or expected findings that do not drive the next action."
+    },
+    {
+      "id": "case_etoh_2",
+      "batch": "a4",
+      "type": "matrix",
+      "category": "mental",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Alcohol Withdrawal and Electrolytes",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "caseId": "case_etoh",
+      "caseStep": 2,
+      "stem": "Click to specify what each finding indicates.",
+      "matrixRows": [
+        "Coarse tremor of the outstretched hands with diaphoresis",
+        "Serum magnesium 1.2 mg/dL",
+        "Serum potassium 3.1 mEq/L with a phosphorus of 2.2 mg/dL",
+        "CIWA-Ar score rising from 8 at 0400 to 19 at 1000",
+        "Brushing at 'bugs' on the bedrail while knowing nothing is there",
+        "Right calf erythema unchanged inside the margins marked last evening",
+        "Heart rate 122/min with blood pressure 172/98 mm Hg",
+        "Temperature 37.9 C (100.2 F) with a warm, tender right calf"
+      ],
+      "matrixColumns": [
+        "Sign of alcohol withdrawal",
+        "Laboratory evidence of electrolyte depletion",
+        "Finding expected with the cellulitis"
+      ],
+      "matrixCorrect": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        2
+      ],
+      "rationale": "Tremor, diaphoresis, autonomic hyperactivity, a climbing CIWA-Ar score and perceptual disturbance with intact insight are the clinical picture of withdrawal from alcohol, which begins 6 to 24 hours after the last drink. The low magnesium, potassium and phosphorus are laboratory evidence of the depletion that chronic alcohol use and poor intake produce; they do not cause hypertension, but they do lower the seizure threshold. Local warmth and unchanged erythema belong to the treated cellulitis."
+    },
+    {
+      "id": "case_etoh_3",
+      "batch": "a4",
+      "type": "cloze",
+      "category": "mental",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Delirium Tremens",
+      "cjStep": "Prioritize Hypotheses",
+      "difficulty": 3,
+      "caseId": "case_etoh",
+      "caseStep": 3,
+      "stem": "Complete the following sentences by choosing from the lists of options.",
+      "clozeText": "It is now 26 hours since the client's last drink. The climbing CIWA-Ar score, tremor and perceptual disturbance place the client at greatest immediate risk for {{1}}, a risk raised further by the magnesium of 1.2 mg/dL. If the withdrawal is not brought under control, the nurse should also anticipate {{2}}, which characteristically appears {{3}}.",
+      "clozeBlanks": [
+        {
+          "options": [
+            "serotonin syndrome",
+            "acute pancreatitis",
+            "a generalized withdrawal seizure",
+            "hepatic encephalopathy"
+          ],
+          "correct": 2
+        },
+        {
+          "options": [
+            "delirium tremens",
+            "Korsakoff psychosis",
+            "alcoholic ketoacidosis",
+            "a paradoxical reaction to lorazepam"
+          ],
+          "correct": 0
+        },
+        {
+          "options": [
+            "within the first 6 hours after the last drink",
+            "only once a seizure has occurred",
+            "7 to 10 days after the last drink",
+            "48 to 96 hours after the last drink"
+          ],
+          "correct": 3
+        }
+      ],
+      "rationale": "Withdrawal seizures cluster 12 to 48 hours after the last drink and are made more likely by hypomagnesemia and hypokalemia, so a generalized seizure is the immediate threat at 26 hours. Delirium tremens, the later and more lethal syndrome of global confusion, severe autonomic instability and hallucinations without insight, typically emerges at 48 to 96 hours and can occur whether or not a seizure happens first. Hepatic encephalopathy and pancreatitis are alcohol-related but do not explain a rising CIWA-Ar score."
+    },
+    {
+      "id": "case_etoh_4",
+      "batch": "a4",
+      "type": "bowtie",
+      "category": "mental",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Symptom-Triggered Benzodiazepine Dosing",
+      "cjStep": "Generate Solutions",
+      "difficulty": 3,
+      "caseId": "case_etoh",
+      "caseStep": 4,
+      "update": "1015: The provider is notified of the CIWA-Ar score of 19. The Tuesday 0600 magnesium of 1.2 mg/dL and potassium of 3.1 mEq/L are confirmed, and no benzodiazepine has been given since the protocol was written at 0830.",
+      "stem": "Complete the diagram by selecting the condition the client is most likely experiencing, 2 actions the nurse should take, and 2 parameters the nurse should monitor to assess progress.",
+      "bowtieConditions": [
+        "Hypoglycemia",
+        "Sepsis arising from the right leg cellulitis",
+        "Alcohol withdrawal progressing toward delirium tremens",
+        "Acute alcohol intoxication"
+      ],
+      "bowtieConditionCorrect": 2,
+      "bowtieActions": [
+        "Give haloperidol as the first-line treatment for the withdrawal symptoms",
+        "Hold all benzodiazepines until the CIWA-Ar score is above 25 so the client is not oversedated",
+        "Give IV thiamine and replace the magnesium and potassium as prescribed",
+        "Apply wrist restraints so the client cannot pull at the IV",
+        "Give the benzodiazepine dose the symptom-triggered CIWA-Ar protocol specifies for the score and rescore in 1 hour"
+      ],
+      "bowtieActionsCorrect": [
+        2,
+        4
+      ],
+      "bowtieParams": [
+        "Daily weight",
+        "CIWA-Ar score and level of sedation at each reassessment",
+        "Heart rate and blood pressure",
+        "Bowel sounds once per shift",
+        "Serum lipase"
+      ],
+      "bowtieParamsCorrect": [
+        1,
+        2
+      ],
+      "rationale": "Symptom-triggered dosing means the benzodiazepine is given for the score the client has now, not withheld until the client is sicker; waiting until the score passes 25 is how a treatable withdrawal becomes delirium tremens. Thiamine with magnesium and potassium replacement corrects the deficits that keep withdrawal refractory. Haloperidol lowers the seizure threshold and restraints worsen agitation. The CIWA-Ar score with the sedation level and the vital signs show whether treatment is working."
+    },
+    {
+      "id": "case_etoh_5",
+      "batch": "a4",
+      "type": "ordering",
+      "category": "mental",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Thiamine and Glucose",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "caseId": "case_etoh",
+      "caseStep": 5,
+      "update": "1100: Lorazepam 2 mg IV was given at 1030 for the CIWA-Ar score of 19. The client is calmer but still tremulous. The provider prescribes thiamine 100 mg IV now, magnesium sulfate 2 g IV over 2 hours, and a change of the maintenance fluid to dextrose 5% in 0.45% sodium chloride at 100 mL/hr.",
+      "stem": "Place the steps in the correct order.",
+      "options": [
+        "Start the magnesium sulfate 2 g IV infusion with the client on continuous cardiac monitoring.",
+        "Administer thiamine 100 mg IV.",
+        "Change the maintenance fluid to the prescribed dextrose 5% in 0.45% sodium chloride.",
+        "Rescore the CIWA-Ar 1 hour after the lorazepam dose and document the response."
+      ],
+      "correct": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "rationale": "Thiamine goes in first: a glucose load given to a thiamine-depleted client consumes the last of the reserve and can precipitate Wernicke encephalopathy, so thiamine always precedes any dextrose-containing fluid. Magnesium is next because hypomagnesemia lowers the seizure threshold and keeps withdrawal refractory to benzodiazepines. The maintenance fluid change is the least time-critical step, and the CIWA-Ar rescore closes the symptom-triggered loop one hour after the dose."
+    },
+    {
+      "id": "case_etoh_6",
+      "batch": "a4",
+      "type": "trend",
+      "category": "mental",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "CIWA-Ar Monitoring",
+      "cjStep": "Evaluate Outcomes",
+      "difficulty": 2,
+      "caseId": "case_etoh",
+      "caseStep": 6,
+      "update": "Wednesday 0800: The client received symptom-triggered lorazepam through the night and completed the magnesium and potassium replacement. The client slept 4 hours, is oriented x4 and reports no further visual disturbance.",
+      "stem": "The nurse reviews the trended data. Which conclusion should the nurse draw?",
+      "options": [
+        "The withdrawal is responding to symptom-triggered dosing; hourly scoring continues until the score has stayed below 8 for 8 hours.",
+        "The falling score reflects sedation alone, so the risk of delirium tremens is unchanged from Tuesday morning.",
+        "The magnesium replacement was ineffective and the dose should be repeated now.",
+        "The client is oversedated and the next lorazepam dose should be held regardless of the score."
+      ],
+      "correct": [
+        0
+      ],
+      "trendHeaders": [
+        "Time",
+        "CIWA-Ar",
+        "HR (/min)",
+        "BP (mm Hg)",
+        "Magnesium (mg/dL)",
+        "Lorazepam given"
+      ],
+      "trendRows": [
+        [
+          "Tue 1000",
+          "19",
+          "122",
+          "172/98",
+          "1.2",
+          "2 mg IV"
+        ],
+        [
+          "Tue 1600",
+          "15",
+          "110",
+          "158/92",
+          "1.9",
+          "2 mg IV"
+        ],
+        [
+          "Tue 2200",
+          "11",
+          "98",
+          "146/86",
+          "2.0",
+          "1 mg IV"
+        ],
+        [
+          "Wed 0400",
+          "6",
+          "88",
+          "138/82",
+          "2.1",
+          "none"
+        ],
+        [
+          "Wed 0800",
+          "4",
+          "82",
+          "132/78",
+          "2.1",
+          "none"
+        ]
+      ],
+      "rationale": "A CIWA-Ar score falling from 19 to 4, the heart rate and blood pressure normalizing, the magnesium corrected and no benzodiazepine needed for 8 hours all show the withdrawal is being controlled. The protocol still requires hourly scoring until the score has stayed below 8 for 8 hours before spacing out to every 4 hours. Magnesium rose from 1.2 to 2.1 mg/dL, so replacement worked, and the client is arousable and oriented rather than oversedated."
+    },
+    {
+      "id": "case_suicide_1",
+      "batch": "a4",
+      "type": "selectAll",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Suicide Risk Assessment",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "caseId": "case_suicide",
+      "caseStep": 1,
+      "stem": "The nurse reviews the client's chart. Which findings are cues of acute suicide risk? Select all that apply.",
+      "options": [
+        "Vital signs of BP 132/80 mm Hg, HR 88/min and SpO2 99% on room air",
+        "About 60 saved amitriptyline tablets with a plan to take them tonight",
+        "The statement, 'My kids would be better off without me.'",
+        "A handgun kept in the client's apartment",
+        "Giving a guitar away to a neighbor last week",
+        "Point-of-care blood glucose 96 mg/dL",
+        "A handwritten note addressed to the client's children saying goodbye",
+        "Lisinopril 10 mg daily for hypertension"
+      ],
+      "correct": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "rationale": "A written goodbye note, a stockpiled lethal method with a stated timeframe, a firearm in the home, an expression of hopelessness and giving away a valued possession are preparatory behaviors and high-risk cues that together define acute, not chronic, risk. Normal vital signs, a normal glucose and an antihypertensive medication are part of the medical clearance picture and say nothing about risk; a client can be at imminent risk with an entirely unremarkable physical assessment."
+    },
+    {
+      "id": "case_suicide_2",
+      "batch": "a4",
+      "type": "cloze",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Hopelessness",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "caseId": "case_suicide",
+      "caseStep": 2,
+      "stem": "Complete the following sentences by choosing from the lists of options.",
+      "clozeText": "The client has written a goodbye note, named a method, holds about 60 amitriptyline tablets and has {{1}}, so the nurse analyzes these cues as {{2}}. The statement 'My kids would be better off without me' is best understood as {{3}}.",
+      "clozeBlanks": [
+        {
+          "options": [
+            "set a timeframe of tonight",
+            "a documented allergy to penicillin",
+            "a normal blood glucose",
+            "an unremarkable physical examination"
+          ],
+          "correct": 0
+        },
+        {
+          "options": [
+            "an expected grief reaction to the loss of a job",
+            "acute high suicide risk with plan, means and intent",
+            "attention-seeking behavior that should not be reinforced",
+            "chronic low risk suitable for a routine clinic referral"
+          ],
+          "correct": 1
+        },
+        {
+          "options": [
+            "a delusional belief that calls for an antipsychotic",
+            "evidence that the client is trying to manipulate staff",
+            "hopelessness, which strongly predicts suicidal behavior",
+            "an ordinary thought for any parent under stress"
+          ],
+          "correct": 2
+        }
+      ],
+      "rationale": "Risk is judged by plan, means, intent and timeframe together; this client has all four, which moves the assessment from chronic risk to acute high risk. Hopelessness, particularly the belief that others would be better off, is one of the strongest predictors of suicidal behavior and must be taken at face value. Nothing in the chart supports a delusion, and labeling the statement manipulative or a normal stress reaction leads the nurse to under-protect a client who is telling the truth about intent."
+    },
+    {
+      "id": "case_suicide_3",
+      "batch": "a4",
+      "type": "multipleChoice",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Acute Suicide Risk",
+      "cjStep": "Prioritize Hypotheses",
+      "difficulty": 2,
+      "caseId": "case_suicide",
+      "caseStep": 3,
+      "stem": "Which hypothesis should the nurse prioritize when planning this client's emergency department care?",
+      "options": [
+        "An adjustment reaction to job loss that will settle with rest and family support",
+        "Alcohol use disorder as the primary problem driving this presentation",
+        "Acute suicide risk with a specific plan, available means and stated intent",
+        "Major depressive disorder that is currently in remission"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "The client states daily suicidal thoughts for a month, names a method, has the means on hand and set tonight as the time, which makes acute suicide risk the hypothesis that governs every decision about observation, environment and disposition. Remission is contradicted by the poor sleep, weight loss and hopelessness; framing this as an adjustment reaction minimizes a lethal plan; and 2 to 3 drinks most evenings with no intoxication on arrival is a contributing factor, not the priority problem."
+    },
+    {
+      "id": "case_suicide_4",
+      "batch": "a4",
+      "type": "bowtie",
+      "category": "mental",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Suicide Precautions",
+      "cjStep": "Generate Solutions",
+      "difficulty": 3,
+      "caseId": "case_suicide",
+      "caseStep": 4,
+      "update": "1740: The behavioral health consultation has been requested and the client is waiting in room 14. The client's sister asks the nurse, 'Should we even bring the suicide thing up again? Won't talking about it put the idea back?'",
+      "stem": "Complete the diagram by selecting the condition the client is most likely experiencing, 2 actions the nurse should take, and 2 parameters the nurse should monitor to assess progress.",
+      "bowtieConditions": [
+        "Delirium from an undiagnosed medical illness",
+        "Acute suicide risk with a specific plan, available means and stated intent",
+        "Major depressive disorder in remission",
+        "Acute alcohol withdrawal"
+      ],
+      "bowtieConditionCorrect": 1,
+      "bowtieActions": [
+        "Maintain continuous 1:1 observation in a ligature-resistant room with belongings and cords removed",
+        "Return the phone charging cord and drawstring pants so the client feels less restricted",
+        "Ask the client directly about the plan, the means, the intent and the timing",
+        "Avoid mentioning suicide so that the idea is not reinforced",
+        "Obtain a signed no-harm contract and move the client to a standard room"
+      ],
+      "bowtieActionsCorrect": [
+        0,
+        2
+      ],
+      "bowtieParams": [
+        "Twenty-four hour intake and output",
+        "Whether continuous observation is maintained and the room stays free of hazards",
+        "Serum sodium and potassium",
+        "Pain rating on a 0 to 10 scale",
+        "Stated suicidal intent and the level of risk at each reassessment"
+      ],
+      "bowtieParamsCorrect": [
+        1,
+        4
+      ],
+      "rationale": "Asking about suicide directly does not plant the idea; it is the only way to establish plan, means, intent and timing, and clients commonly report relief at being asked. Safety comes from the environment and observation, not from a promise: a no-harm contract has never been shown to prevent suicide, and cords and drawstrings are ligature risks. Reassessed intent and the integrity of the observation and environment show whether the client is being kept safe; electrolytes and pain scores do not."
+    },
+    {
+      "id": "case_suicide_5",
+      "batch": "a4",
+      "type": "selectAll",
+      "category": "mental",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Means Restriction",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "caseId": "case_suicide",
+      "caseStep": 5,
+      "update": "1830: The client, tearful an hour ago, is now smiling and relaxed and says, 'I feel so much better, everything is going to be fine. You can send the sitter home and give me my things back. My sister can take me home now.'",
+      "stem": "Which actions should the nurse take at this time? Select all that apply.",
+      "options": [
+        "Discontinue the 1:1 observation and move the client to a standard room because the client is now calm",
+        "Continue continuous 1:1 observation without interruption",
+        "Explore the change directly, asking what has changed and whether the client still has thoughts of suicide",
+        "Document the abrupt change in mood and notify the provider and the behavioral health consultant",
+        "Ask the client to sign a no-harm contract in place of continuous observation",
+        "Keep the clothing, belt, shoelaces and charging cord secured with security",
+        "Return the client's belongings so the client feels trusted"
+      ],
+      "correct": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "rationale": "A sudden, unexplained lift in mood in a client with an active plan is a warning sign, not a recovery: it often follows the decision to act, which resolves the ambivalence the client has been carrying. Observation and means restriction are therefore continued and the change is explored and reported, not rewarded. Relaxing precautions on the client's reassurance, returning potential ligatures and substituting a no-harm contract for observation are the errors that precede in-hospital suicides."
+    },
+    {
+      "id": "case_suicide_6",
+      "batch": "a4",
+      "type": "matrix",
+      "category": "mental",
+      "clientNeeds": "Management of Care",
+      "topic": "Safety Planning",
+      "cjStep": "Evaluate Outcomes",
+      "difficulty": 3,
+      "caseId": "case_suicide",
+      "caseStep": 6,
+      "update": "2115: Behavioral health has evaluated the client and recommends discharge home with the sister staying with the client. Before discharge the nurse reviews the safety plan with the client and the sister.",
+      "stem": "Click to specify whether each finding indicates the safety plan is adequate or needs revision before discharge.",
+      "matrixRows": [
+        "The sister confirms the handgun has been removed from the apartment and locked in a relative's gun safe",
+        "The client has signed a no-harm contract promising not to attempt suicide",
+        "The client has the 988 Suicide and Crisis Lifeline saved in the phone and can name two people to call",
+        "The remaining amitriptyline tablets are still in the bedroom drawer at the client's apartment",
+        "The client can describe two things to do when the thoughts return: call the sister, then walk to the neighbor's porch",
+        "The first outpatient appointment on the discharge paperwork is 6 weeks from today",
+        "The client and the sister can state the warning signs that mean returning to the emergency department"
+      ],
+      "matrixColumns": [
+        "Safety plan is adequate",
+        "Safety plan needs revision"
+      ],
+      "matrixCorrect": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "rationale": "A safety plan is a written, rehearsed sequence of the client's own warning signs, coping steps, people to contact, crisis numbers and, above all, restricted access to lethal means; removing the firearm, saving the crisis line, naming supports and knowing when to return all meet that standard. Leaving a 60-tablet supply of a tricyclic in the home leaves the original plan intact, and follow-up in 6 weeks misses the highest-risk days right after an emergency visit. A no-harm contract is a promise, not a plan."
+    },
+    {
+      "id": "case_preterm_1",
+      "batch": "a4",
+      "type": "highlight",
+      "category": "maternity",
+      "clientNeeds": "Health Promotion and Maintenance",
+      "topic": "Preterm Labor",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "caseId": "case_preterm",
+      "caseStep": 1,
+      "stem": "Click to highlight the findings in the triage note that support a diagnosis of preterm labor.",
+      "highlightSegments": [
+        {
+          "text": "0210: 29-year-old client, G2P1, arrives in obstetric triage.",
+          "correct": false
+        },
+        {
+          "text": "Gestational age is 31 weeks and 2 days, dated by first-trimester ultrasound.",
+          "correct": true
+        },
+        {
+          "text": "She reports regular uterine tightening since 2130 with low back pain and steady pelvic pressure.",
+          "correct": true
+        },
+        {
+          "text": "She denies any fall or injury.",
+          "correct": false
+        },
+        {
+          "text": "Fetal movement is described as normal.",
+          "correct": false
+        },
+        {
+          "text": "Nitrazine and fern testing are negative and the membranes are intact.",
+          "correct": false
+        },
+        {
+          "text": "Temperature is 37.0 C (98.6 F) and the uterus is nontender between contractions.",
+          "correct": false
+        },
+        {
+          "text": "A fetal fibronectin specimen was collected before the examination.",
+          "correct": false
+        },
+        {
+          "text": "Sterile examination at 0215 documents the cervix 2 cm dilated, 60% effaced, and -2 station.",
+          "correct": false
+        },
+        {
+          "text": "Repeat examination at 0245 documents the cervix 3 cm dilated, 80% effaced, and -1 station, a change from 30 minutes earlier.",
+          "correct": true
+        },
+        {
+          "text": "The fetal fibronectin result is positive.",
+          "correct": true
+        },
+        {
+          "text": "Fetal heart rate baseline is 148/min with moderate variability and no decelerations.",
+          "correct": false
+        }
+      ],
+      "rationale": "Preterm labor is regular uterine contractions with documented cervical change before 37 weeks of gestation, so the gestational age, the pattern of contractions and the cervical progression between the 0215 and 0245 examinations are the findings that establish it, and a positive fetal fibronectin adds to the likelihood of birth within 2 weeks. A single cervical examination showing 2 cm is only the baseline for comparison. Intact membranes, an afebrile nontender uterus, normal fetal movement and a Category I tracing are reassuring findings that argue against infection or abruption rather than supporting the diagnosis."
+    },
+    {
+      "id": "case_preterm_2",
+      "batch": "a4",
+      "type": "cloze",
+      "category": "maternity",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Preterm Labor",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "caseId": "case_preterm",
+      "caseStep": 2,
+      "stem": "Complete the following sentences by choosing from the lists of options.",
+      "clozeText": "The client's regular contractions with documented cervical change at 31 weeks and 2 days of gestation indicate {{1}}. Betamethasone is prescribed to {{2}}, and magnesium sulfate is prescribed to {{3}}.",
+      "clozeBlanks": [
+        {
+          "options": [
+            "preterm labor",
+            "cervical insufficiency",
+            "Braxton Hicks contractions",
+            "false labor"
+          ],
+          "correct": 0
+        },
+        {
+          "options": [
+            "lower the maternal blood pressure",
+            "stop the uterine contractions",
+            "treat a maternal intrauterine infection",
+            "accelerate fetal lung maturity"
+          ],
+          "correct": 3
+        },
+        {
+          "options": [
+            "reduce the risk of cerebral palsy in the neonate",
+            "mature the fetal kidneys",
+            "prevent neonatal hypoglycemia",
+            "raise the maternal serum calcium level"
+          ],
+          "correct": 0
+        }
+      ],
+      "rationale": "Contractions that produce measurable dilation and effacement before 37 weeks define preterm labor; cervical insufficiency is painless dilation without contractions, and Braxton Hicks contractions are irregular and leave the cervix unchanged. An antenatal corticosteroid such as betamethasone stimulates surfactant production and is the intervention that most improves neonatal survival before 34 weeks. Magnesium sulfate given before 32 weeks is for fetal neuroprotection, which lowers the rate of cerebral palsy; any slowing of contractions is incidental, not the reason it is ordered."
+    },
+    {
+      "id": "case_preterm_3",
+      "batch": "a4",
+      "type": "multipleChoice",
+      "category": "maternity",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Preterm Labor",
+      "cjStep": "Prioritize Hypotheses",
+      "difficulty": 2,
+      "caseId": "case_preterm",
+      "caseStep": 3,
+      "stem": "The nurse determines that the fetus is at greatest immediate risk for which complication if birth occurs within the next 24 hours?",
+      "options": [
+        "Meconium aspiration syndrome",
+        "Respiratory distress syndrome from surfactant deficiency",
+        "Hyperbilirubinemia from ABO incompatibility",
+        "Birth injury related to macrosomia"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Type II alveolar cells do not produce enough surfactant until roughly 34 to 36 weeks, so a neonate born at 31 weeks is most likely to develop respiratory distress syndrome with alveolar collapse and increasing work of breathing, which is why the betamethasone is the most time-sensitive prescription. Meconium aspiration is a complication of term and post-term birth. ABO incompatibility is a blood-type problem unrelated to gestational age, and an estimated fetal weight of 1,650 g makes macrosomic birth injury impossible."
+    },
+    {
+      "id": "case_preterm_4",
+      "batch": "a4",
+      "type": "bowtie",
+      "category": "maternity",
+      "clientNeeds": "Health Promotion and Maintenance",
+      "topic": "Preterm Labor",
+      "cjStep": "Generate Solutions",
+      "difficulty": 3,
+      "caseId": "case_preterm",
+      "caseStep": 4,
+      "update": "0300: Contractions are now every 3 to 4 minutes, lasting 60 to 70 seconds, and moderate to strong to palpation. The neonatal intensive care team has been notified of a possible birth at 31 weeks.",
+      "stem": "Complete the diagram by selecting the condition the client is most likely experiencing, 2 actions the nurse should take, and 2 parameters the nurse should monitor to assess progress.",
+      "bowtieConditions": [
+        "Placental abruption",
+        "Braxton Hicks contractions",
+        "Preterm labor at 31 weeks with a live fetus",
+        "Chorioamnionitis"
+      ],
+      "bowtieConditionCorrect": 2,
+      "bowtieActions": [
+        "Prepare the client for immediate cesarean birth",
+        "Begin the prescribed magnesium sulfate infusion for fetal neuroprotection",
+        "Administer betamethasone 12 mg intramuscularly as prescribed",
+        "Encourage ambulation in the hallway to help labor progress",
+        "Withhold all intravenous fluids until the cervix is reexamined"
+      ],
+      "bowtieActionsCorrect": [
+        1,
+        2
+      ],
+      "bowtieParams": [
+        "Capillary refill in the toes",
+        "Contraction frequency and duration",
+        "Fetal heart rate baseline and variability",
+        "Maternal hemoglobin A1C",
+        "Maternal serum sodium level"
+      ],
+      "bowtieParamsCorrect": [
+        1,
+        2
+      ],
+      "rationale": "Progressive cervical change with strengthening contractions at 31 weeks in an afebrile client with a nontender uterus and no bleeding is preterm labor, not infection or abruption. The two interventions that change outcomes are betamethasone for fetal lung maturity and magnesium sulfate for fetal neuroprotection, both of which need time to work, so cesarean birth is not indicated while the fetal tracing stays reassuring. Contraction pattern shows whether labor is being slowed, and the fetal heart rate baseline and variability show whether the fetus is tolerating it."
+    },
+    {
+      "id": "case_preterm_5",
+      "batch": "a4",
+      "type": "selectAll",
+      "category": "maternity",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Preterm Labor",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "caseId": "case_preterm",
+      "caseStep": 5,
+      "update": "0315: The provider prescribes betamethasone 12 mg intramuscularly now and in 24 hours, magnesium sulfate 4 g intravenously over 20 minutes followed by 2 g/hr, nifedipine 20 mg orally every 6 hours, and penicillin G 5 million units intravenously now then 2.5 million units every 4 hours. The group B streptococcus culture is still pending.",
+      "stem": "Which actions should the nurse take when starting these prescriptions? Select all that apply.",
+      "options": [
+        "Give the penicillin G because the group B streptococcus culture result is not yet available",
+        "Hold the magnesium sulfate infusion if the respiratory rate rises above 20 breaths/min",
+        "Withhold the betamethasone until the contractions have stopped",
+        "Plan for the magnesium sulfate infusion to continue until 37 weeks of gestation",
+        "Assess deep tendon reflexes, respiratory rate and hourly urine output before and during the magnesium sulfate infusion",
+        "Explain that the nifedipine is given to slow the contractions so the betamethasone has time to act",
+        "Keep calcium gluconate available at the bedside"
+      ],
+      "correct": [
+        0,
+        4,
+        5,
+        6
+      ],
+      "rationale": "Magnesium toxicity is detected by three bedside parameters, so reflexes, respirations and urine output are measured before the loading dose and throughout, and calcium gluconate is kept at hand as the antidote. Toxicity is signaled by loss of deep tendon reflexes, respirations below 12 breaths/min and output under 30 mL/hr, not by a respiratory rate above 20. Penicillin G is given whenever the group B streptococcus status is unknown in preterm labor, and the tocolytic buys the 24 to 48 hours the corticosteroid needs. Betamethasone is given because birth is likely, and neuroprotective magnesium is a short course, not a therapy continued to term."
+    },
+    {
+      "id": "case_preterm_6",
+      "batch": "a4",
+      "type": "trend",
+      "category": "maternity",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Preterm Labor",
+      "cjStep": "Evaluate Outcomes",
+      "difficulty": 3,
+      "caseId": "case_preterm",
+      "caseStep": 6,
+      "update": "1200: The fetal heart rate baseline is 142/min with moderate variability and no decelerations. The serum magnesium level drawn at 1200 is 9.6 mg/dL, and the client is drowsy and reports feeling warm and weak.",
+      "stem": "The nurse reviews the magnesium sulfate flow sheet with the 1200 update. Which conclusion should the nurse draw?",
+      "options": [
+        "The fetus is showing signs of hypoxemia and birth should be expedited",
+        "The falling urine output is an expected effect of bed rest and needs no intervention",
+        "Labor is being suppressed, but the client has signs of magnesium toxicity and the infusion must be stopped",
+        "The tocolysis and the magnesium sulfate are both working as intended, so the current plan should continue"
+      ],
+      "correct": [
+        2
+      ],
+      "trendHeaders": [
+        "Time",
+        "Contractions per 10 min",
+        "Deep tendon reflexes",
+        "Respirations (breaths/min)",
+        "Urine output (mL/hr)"
+      ],
+      "trendRows": [
+        [
+          "0400",
+          "5",
+          "2+",
+          "18",
+          "65"
+        ],
+        [
+          "0800",
+          "3",
+          "1+",
+          "14",
+          "42"
+        ],
+        [
+          "1200",
+          "1",
+          "Absent",
+          "10",
+          "18"
+        ]
+      ],
+      "rationale": "Contractions falling from five to one in 10 minutes shows the uterine activity is being controlled, but absent deep tendon reflexes, respirations of 10 breaths/min, output of 18 mL/hr and a level of 9.6 mg/dL are magnesium toxicity, which progresses to respiratory and cardiac arrest if the infusion continues. Reflexes disappear first, so their loss is the earliest warning. The nurse stops the infusion, notifies the provider and gives calcium gluconate. The fetal tracing remains reassuring, and oliguria during a magnesium infusion is never dismissed because poor renal clearance is what drives the level up."
+    },
+    {
+      "id": "case_transfusion_1",
+      "batch": "a4",
+      "type": "selectAll",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Acute Transfusion Reaction",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "caseId": "case_transfusion",
+      "caseStep": 1,
+      "stem": "The nurse assesses the client at 1015. Which findings require immediate follow-up? Select all that apply.",
+      "options": [
+        "Hemoglobin of 6.8 g/dL on the 0900 laboratory report",
+        "Temperature rise to 38.9 C (102.0 F) with shaking chills",
+        "Dark reddish-brown urine in the urinary drainage bag",
+        "Peripheral intravenous site that is soft, without redness or swelling",
+        "Blood pressure decrease from 128/74 to 92/54 mm Hg",
+        "Flank pain rated 7 on a 0 to 10 scale that began after the transfusion was started",
+        "White blood cell count of 3,100/mm3 on day 10 after chemotherapy",
+        "Heart rate increase from 84/min to 118/min"
+      ],
+      "correct": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "rationale": "Fever with chills, hypotension, tachycardia, flank pain and dark urine appearing within the first 15 minutes of a red cell transfusion are the classic cues of an acute reaction with intravascular hemolysis, and every one of them is a change from the baseline recorded at 1000. The hemoglobin of 6.8 g/dL and the low white cell count are the known reasons the client is being transfused and are unchanged. A soft intravenous site without redness or swelling rules out infiltration as the source of the pain but needs no follow-up itself."
+    },
+    {
+      "id": "case_transfusion_2",
+      "batch": "a4",
+      "type": "trend",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Acute Transfusion Reaction",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "caseId": "case_transfusion",
+      "caseStep": 2,
+      "stem": "Approximately 60 mL of the unit has infused. Which conclusion should the nurse draw from the trended vital signs?",
+      "options": [
+        "The client is developing shock from an acute transfusion reaction",
+        "The fever is caused by chemotherapy-induced neutropenia and the hypotension is unrelated",
+        "The vital sign changes are an expected response to the infusion of a cold blood product",
+        "The changes are consistent with fluid volume overload from the transfusion"
+      ],
+      "correct": [
+        0
+      ],
+      "trendHeaders": [
+        "Time",
+        "Temp C (F)",
+        "BP (mm Hg)",
+        "HR (/min)",
+        "RR (/min)",
+        "SpO2 (room air)"
+      ],
+      "trendRows": [
+        [
+          "1000 (baseline)",
+          "37.0 (98.6)",
+          "128/74",
+          "84",
+          "16",
+          "97%"
+        ],
+        [
+          "1005",
+          "37.1 (98.8)",
+          "126/72",
+          "88",
+          "16",
+          "97%"
+        ],
+        [
+          "1010",
+          "38.2 (100.8)",
+          "104/62",
+          "106",
+          "22",
+          "95%"
+        ],
+        [
+          "1012",
+          "38.9 (102.0)",
+          "92/54",
+          "118",
+          "26",
+          "94%"
+        ]
+      ],
+      "rationale": "A temperature climbing almost 2 degrees Celsius while the blood pressure falls 36 mm Hg systolic and the heart rate and respiratory rate rise, all within 12 minutes of starting blood, is distributive shock from an acute transfusion reaction. Circulatory overload raises the blood pressure and produces crackles and distended neck veins rather than hypotension, and only 60 mL has infused. Neutropenic fever does not begin the minute blood is hung or cause flank pain, and shivering from cold blood does not drop the blood pressure. Any vital sign change during a transfusion is treated as a reaction until proven otherwise."
+    },
+    {
+      "id": "case_transfusion_3",
+      "batch": "a4",
+      "type": "bowtie",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Acute Transfusion Reaction",
+      "cjStep": "Prioritize Hypotheses",
+      "difficulty": 3,
+      "caseId": "case_transfusion",
+      "caseStep": 3,
+      "stem": "Complete the diagram by selecting the condition the client is most likely experiencing, 2 actions the nurse should take, and 2 parameters the nurse should monitor to assess progress.",
+      "bowtieConditions": [
+        "Acute hemolytic transfusion reaction",
+        "Transfusion-associated circulatory overload",
+        "Mild allergic transfusion reaction",
+        "Febrile nonhemolytic transfusion reaction"
+      ],
+      "bowtieConditionCorrect": 0,
+      "bowtieActions": [
+        "Slow the transfusion to 25 mL/hr and continue to observe the client",
+        "Stop the transfusion immediately and disconnect the blood tubing from the intravenous catheter",
+        "Give the prescribed diphenhydramine and restart the unit once the chills stop",
+        "Flush the blood tubing with 0.9% sodium chloride to clear the remaining blood",
+        "Infuse 0.9% sodium chloride through new tubing to keep the intravenous line open"
+      ],
+      "bowtieActionsCorrect": [
+        1,
+        4
+      ],
+      "bowtieParams": [
+        "Capillary blood glucose every 6 hours",
+        "Bowel sounds every 4 hours",
+        "Urine output and urine color",
+        "Ankle circumference and pedal pulses",
+        "Blood pressure and heart rate"
+      ],
+      "bowtieParamsCorrect": [
+        2,
+        4
+      ],
+      "rationale": "Fever and chills together with flank pain, hypotension and hemoglobinuria mean incompatible red cells are being destroyed in the circulation, which is an acute hemolytic reaction; fever and chills alone would be a febrile nonhemolytic reaction, hives alone an allergic reaction, and crackles with hypertension circulatory overload. Because severity depends on the volume of incompatible blood given, the transfusion is stopped rather than slowed, and the blood tubing is disconnected and replaced, since flushing it would push the remaining blood into the client. Saline through new tubing preserves venous access and perfusion, and the blood pressure, heart rate, and urine volume and color track the shock and the threatened kidneys."
+    },
+    {
+      "id": "case_transfusion_4",
+      "batch": "a4",
+      "type": "cloze",
+      "category": "medsurg",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Acute Transfusion Reaction",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "caseId": "case_transfusion",
+      "caseStep": 4,
+      "update": "1016: The transfusion has been stopped and 0.9% sodium chloride is infusing through new tubing. The provider and the blood bank have been notified.",
+      "stem": "Complete the following sentences by choosing from the lists of options.",
+      "clozeText": "The blood bag and the attached tubing are returned to {{1}} with the completed reaction report, and the client's first voided urine is sent to the laboratory to be tested for {{2}}. To protect the kidneys from the hemoglobin released by the destroyed red cells, the nurse anticipates a prescription for {{3}}.",
+      "clozeBlanks": [
+        {
+          "options": [
+            "the blood bank",
+            "the chemistry laboratory",
+            "the pharmacy",
+            "the soiled utility room"
+          ],
+          "correct": 0
+        },
+        {
+          "options": [
+            "ketones",
+            "specific gravity",
+            "free hemoglobin",
+            "culture and sensitivity"
+          ],
+          "correct": 2
+        },
+        {
+          "options": [
+            "bed rest with an oral antipyretic only",
+            "a fluid restriction of 1,000 mL daily",
+            "an intravenous potassium chloride infusion",
+            "an intravenous 0.9% sodium chloride infusion to maintain urine output"
+          ],
+          "correct": 3
+        }
+      ],
+      "rationale": "The unit, its tubing and the reaction report go back to the blood bank so the product and the client's specimen can be retyped and crossmatched to find where the mismatch occurred, which is also why nothing is discarded. Free hemoglobin in the urine confirms intravascular hemolysis. The released hemoglobin precipitates in the renal tubules, so brisk intravenous fluid keeps urine flowing and prevents acute kidney injury; restricting fluid would concentrate it, and potassium is withheld because hemolyzed cells are already releasing potassium into the blood."
+    },
+    {
+      "id": "case_transfusion_5",
+      "batch": "a4",
+      "type": "ordering",
+      "category": "medsurg",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Acute Transfusion Reaction",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "caseId": "case_transfusion",
+      "caseStep": 5,
+      "update": "1020: The provider prescribes 0.9% sodium chloride 500 mL intravenously over 30 minutes, blood specimens for a transfusion reaction workup, an indwelling urinary catheter with hourly output measurement, and acetaminophen 650 mg orally. The blood pressure is 94/56 mm Hg.",
+      "stem": "Place the nurse's actions in the correct order.",
+      "options": [
+        "Start the prescribed 0.9% sodium chloride bolus through the new intravenous tubing.",
+        "Document the reaction, the nursing actions taken and the client's response.",
+        "Insert the indwelling urinary catheter and send the first voided urine for free hemoglobin.",
+        "Return the blood bag, the blood tubing and the completed reaction report to the blood bank.",
+        "Obtain the prescribed blood specimens from the arm opposite the transfusion site."
+      ],
+      "correct": [
+        0,
+        4,
+        2,
+        3,
+        1
+      ],
+      "rationale": "Perfusion comes first, so the fluid bolus is started to support the blood pressure and flush hemoglobin through the kidneys. The blood specimens are drawn next, from the opposite arm so the sample is not contaminated by the transfused blood, and they must reach the laboratory promptly for the hemolysis workup. The catheter then allows hourly output to be measured as the earliest sign of kidney injury. Returning the unit and tubing lets the blood bank investigate but does not affect the client's condition, and documentation completes the record once the client is stable."
+    },
+    {
+      "id": "case_transfusion_6",
+      "batch": "a4",
+      "type": "matrix",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Acute Transfusion Reaction",
+      "cjStep": "Evaluate Outcomes",
+      "difficulty": 3,
+      "caseId": "case_transfusion",
+      "caseStep": 6,
+      "update": "1400: The blood bank reports that the client is group A and the transfused unit was group B, and that the original type and screen specimen was mislabeled at collection. The client has received 1,500 mL of 0.9% sodium chloride.",
+      "stem": "For each 1400 finding, click to specify whether the finding indicates that the client's condition is improving or worsening.",
+      "matrixRows": [
+        "Blood pressure 118/70 mm Hg",
+        "Urine output 55 to 70 mL/hr, now pale yellow",
+        "Temperature 37.3 C (99.1 F)",
+        "Serum creatinine 1.8 mg/dL, from 0.9 mg/dL on admission",
+        "Client reports the flank pain has resolved",
+        "Oozing of blood from the peripheral intravenous and venipuncture sites"
+      ],
+      "matrixColumns": [
+        "Improving",
+        "Worsening"
+      ],
+      "matrixCorrect": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "rationale": "A blood pressure back to baseline, output above 30 mL/hr that has cleared to pale yellow, a near-normal temperature and relief of the flank pain all show that stopping the transfusion and giving fluid restored perfusion and cleared the free hemoglobin. Two findings show the reaction is still doing damage: a creatinine that has doubled is acute kidney injury from hemoglobin in the renal tubules, and oozing from puncture sites is early disseminated intravascular coagulation, both of which follow an acute hemolytic reaction and require the provider to be notified. The mislabeled specimen explains the mismatch and is reported so the collection process can be corrected."
+    },
+    {
+      "id": "case_delirium_1",
+      "batch": "a4",
+      "type": "highlight",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Postoperative Delirium",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "caseId": "case_delirium",
+      "caseStep": 1,
+      "stem": "Click to highlight the findings in the 0230 nurses' note that require immediate follow-up.",
+      "highlightSegments": [
+        {
+          "text": "0230: The client is found sitting on the side of the bed pulling at the IV line and calling for a taxi.",
+          "correct": true
+        },
+        {
+          "text": "Surgical dressing over the right hip is dry and intact.",
+          "correct": false
+        },
+        {
+          "text": "The client cannot name the day or the hospital and cannot recite the months backward; attention drifts in the middle of a sentence.",
+          "correct": true
+        },
+        {
+          "text": "Pedal pulses are 2+ bilaterally and the toes are warm.",
+          "correct": false
+        },
+        {
+          "text": "Temperature is 36.8 C (98.2 F).",
+          "correct": false
+        },
+        {
+          "text": "The client has not voided since 1745 and the lower abdomen is firm and tender to light palpation.",
+          "correct": true
+        },
+        {
+          "text": "The granddaughter visited during the evening and brought a family photograph.",
+          "correct": false
+        },
+        {
+          "text": "Oxygen saturation is 88% on room air.",
+          "correct": true
+        },
+        {
+          "text": "The roommate's television was on until 2300.",
+          "correct": false
+        },
+        {
+          "text": "The client ate 60% of dinner.",
+          "correct": false
+        },
+        {
+          "text": "The client grimaces and guards when the right leg is repositioned but answers 'no' when asked about pain.",
+          "correct": true
+        }
+      ],
+      "rationale": "Acute inattention, unsafe attempts to climb out of bed after hip surgery, a firm tender bladder with no void for over 8 hours and a saturation of 88% on room air all need action within minutes: they are both the deterioration and its treatable triggers. Guarding the operated leg while denying pain signals untreated pain in a client who can no longer report it. An intact dressing, warm toes, a normal temperature, a visitor and a good dinner are reassuring findings."
+    },
+    {
+      "id": "case_delirium_2",
+      "batch": "a4",
+      "type": "matrix",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Delirium Versus Dementia",
+      "cjStep": "Analyze Cues",
+      "difficulty": 3,
+      "caseId": "case_delirium",
+      "caseStep": 2,
+      "update": "0245: The granddaughter, who lives with the client, is reached by telephone and confirms that until the fall the client shopped, cooked and managed the household finances without help.",
+      "stem": "For each finding, click to specify whether it is most consistent with delirium, dementia or depression.",
+      "matrixRows": [
+        "The confusion began over a few hours; the client was fully oriented and conversational at 1800.",
+        "Attention fluctuates: the client cannot begin the months backward at 0230 but names the hospital correctly at 0600.",
+        "A gradual loss of short-term memory over 2 years, with attention that stays clear and steady throughout.",
+        "The client mistakes the IV pole for a person standing at the bedside.",
+        "Feeling worthless and tearful most days for 3 months, with intact orientation and normal attention on testing.",
+        "Answering 'I don't know' without trying, with a flat mood and early morning waking, but normal scores once encouraged to finish the testing."
+      ],
+      "matrixColumns": [
+        "Delirium",
+        "Dementia",
+        "Depression"
+      ],
+      "matrixCorrect": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        2
+      ],
+      "rationale": "Delirium is defined by an acute change from baseline that fluctuates, with inattention and perceptual disturbances such as misinterpreting objects as people. Dementia comes on over months to years and leaves attention intact until late. Depression produces low mood, tearfulness and poor effort on testing, but orientation and attention remain normal, which is why 'I don't know' answers with normal scores on encouragement point to mood rather than to an acute brain disturbance."
+    },
+    {
+      "id": "case_delirium_3",
+      "batch": "a4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Postoperative Delirium",
+      "cjStep": "Prioritize Hypotheses",
+      "difficulty": 2,
+      "caseId": "case_delirium",
+      "caseStep": 3,
+      "update": "0300: The bladder scan result of 620 mL is reviewed with the laboratory results, which show no leukocytosis, a sodium of 136 mEq/L and a glucose of 118 mg/dL. Neurologic examination shows equal grips, symmetric facial movement and clear speech articulation.",
+      "stem": "Which condition is the client most likely experiencing at 0230?",
+      "options": [
+        "Acute delirium precipitated by reversible causes",
+        "Acute ischemic stroke",
+        "Major depressive disorder with psychotic features",
+        "Progression of previously unrecognized Alzheimer dementia"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "A cognitive change that develops over hours, fluctuates through the night, is dominated by inattention and occurs alongside urinary retention, hypoxemia, untreated pain, an anticholinergic sleep medication and a disrupted night is delirium until proven otherwise. Dementia does not appear overnight in a client who was managing independently that afternoon, a stroke would be expected to produce focal deficits rather than fluctuating inattention, and psychotic depression develops over weeks with preserved attention."
+    },
+    {
+      "id": "case_delirium_4",
+      "batch": "a4",
+      "type": "bowtie",
+      "category": "medsurg",
+      "clientNeeds": "Management of Care",
+      "topic": "Delirium Plan of Care",
+      "cjStep": "Generate Solutions",
+      "difficulty": 3,
+      "caseId": "case_delirium",
+      "caseStep": 4,
+      "stem": "Complete the diagram by selecting the condition the client is most likely experiencing, 2 actions the nurse should take, and 2 parameters the nurse should monitor to assess progress.",
+      "bowtieConditions": [
+        "Acute ischemic stroke",
+        "Hospital-acquired pneumonia",
+        "Opioid-induced respiratory depression",
+        "Delirium precipitated by urinary retention, an anticholinergic medication and untreated pain"
+      ],
+      "bowtieConditionCorrect": 3,
+      "bowtieActions": [
+        "Relieve the bladder distention using the unit's urinary retention protocol and request review of the oxybutynin and diphenhydramine",
+        "Request an order for scheduled diphenhydramine at bedtime to restore the client's sleep",
+        "Administer the PRN lorazepam 0.5 mg IV so the client settles before the next check",
+        "Reorient at every contact, replace the glasses and hearing aids, and cluster night-time care so the client can sleep",
+        "Apply bilateral soft wrist restraints so the client cannot reach the IV line"
+      ],
+      "bowtieActionsCorrect": [
+        0,
+        3
+      ],
+      "bowtieParams": [
+        "Daily abdominal girth measurement",
+        "Post-void residual volume and the time of the first void after the bladder is emptied",
+        "Two-point discrimination in both feet",
+        "Results of a validated confusion assessment and the ability to sustain attention each shift",
+        "Serum ammonia every 6 hours"
+      ],
+      "bowtieParamsCorrect": [
+        1,
+        3
+      ],
+      "rationale": "The plan of care for delirium is to remove its causes and support the brain without sedation: empty the distended bladder, stop the anticholinergic medications that provoked it, treat pain, and use reorientation, glasses, hearing aids and protected sleep. Restraints and benzodiazepines deepen and prolong delirium and increase injury, and more diphenhydramine would add to the anticholinergic load. Progress is judged by serial confusion assessments and by whether the bladder empties, not by ammonia, sensation or girth."
+    },
+    {
+      "id": "case_delirium_5",
+      "batch": "a4",
+      "type": "selectAll",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Fall Prevention and Restraint Alternatives",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "caseId": "case_delirium",
+      "caseStep": 5,
+      "update": "0315: The provider is notified using SBAR and orders straight catheterization for a residual over 300 mL, oxygen to keep the saturation above 92%, scheduled acetaminophen, and discontinuation of the diphenhydramine and oxybutynin. The client is again trying to climb over the side rail.",
+      "stem": "Which actions should the nurse take now? Select all that apply.",
+      "options": [
+        "Administer the PRN lorazepam 0.5 mg IV so the client stops climbing out of bed.",
+        "Rescan the bladder and catheterize for the retained volume according to the unit protocol.",
+        "Keep the client on strict bed rest with the curtains closed until the confusion clears.",
+        "Give the scheduled acetaminophen and assess pain with a behavioral tool such as PAINAD when the client denies pain.",
+        "Open the blinds after daybreak, keep the room lit during the day, and get the client up to a chair with physical therapy for meals.",
+        "Raise all four side rails and apply soft wrist restraints for the remainder of the night.",
+        "Move the client to a room near the nurses' station and stay with the client while the granddaughter drives in to sit at the bedside.",
+        "Ask the family to bring in the hearing aids and a spare pair of glasses and keep them within the client's reach."
+      ],
+      "correct": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "rationale": "Acting on the causes is what stops the delirium: emptying 620 mL of retained urine, treating pain the client cannot report reliably, restoring hearing and vision, and providing continuous observation with a family member present in place of restraints. Early mobility and daylight protect the sleep-wake cycle. Restraints and benzodiazepines are last-resort measures that worsen agitation, prolong delirium and increase fall and injury risk, and bed rest in a darkened room deepens both deconditioning and disorientation."
+    },
+    {
+      "id": "case_delirium_6",
+      "batch": "a4",
+      "type": "trend",
+      "category": "medsurg",
+      "clientNeeds": "Basic Care and Comfort",
+      "topic": "Evaluating Delirium Resolution",
+      "cjStep": "Evaluate Outcomes",
+      "difficulty": 2,
+      "caseId": "case_delirium",
+      "caseStep": 6,
+      "update": "POD 3, 0700: The bladder has been emptied by intermittent catheterization since POD 1, the diphenhydramine and oxybutynin remain discontinued, and the client has had a bowel movement.",
+      "stem": "The nurse reviews the trended assessments. Which conclusion should the nurse draw?",
+      "options": [
+        "The improvement came from the sedating effect of the bedtime antihistamine, which should be restarted tonight.",
+        "The client has developed dementia and the family should be advised to look for a memory care placement.",
+        "The two negative confusion assessments mean the client is no longer at risk and screening can be stopped.",
+        "The delirium is resolving as its causes are corrected, so the nurse should continue the non-drug plan and progressive mobility."
+      ],
+      "correct": [
+        3
+      ],
+      "trendHeaders": [
+        "Assessment",
+        "POD 1 (2300)",
+        "POD 2 (0700)",
+        "POD 2 (1900)",
+        "POD 3 (0700)"
+      ],
+      "trendRows": [
+        [
+          "Confusion Assessment Method",
+          "Positive",
+          "Positive",
+          "Negative",
+          "Negative"
+        ],
+        [
+          "Months of the year backward",
+          "Unable to begin",
+          "Stops after 3 months",
+          "Completed with 1 error",
+          "Completed correctly"
+        ],
+        [
+          "Post-void residual (mL)",
+          "620",
+          "240",
+          "110",
+          "35"
+        ],
+        [
+          "SpO2 on room air (%)",
+          "88",
+          "93",
+          "95",
+          "96"
+        ],
+        [
+          "Night-time sleep (hours)",
+          "1.5",
+          "3",
+          "5",
+          "6.5"
+        ],
+        [
+          "Mobility",
+          "Bed only, climbing over rail",
+          "Dangled at the bedside",
+          "Walked 3 m with a walker",
+          "Walked 15 m with a walker"
+        ]
+      ],
+      "rationale": "Attention, confusion screening, bladder emptying, oxygenation, sleep and mobility all improve together once retention is relieved, the anticholinergic drugs are stopped and sleep is protected, which is what resolving delirium looks like. Delirium can take days to weeks to clear fully and it recurs, so screening continues rather than stopping. The antihistamine was a cause, not a cure, and an acute reversible episode is not evidence of dementia."
+    },
+    {
+      "id": "case_adrenal_1",
+      "batch": "a4",
+      "type": "selectAll",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Adrenal Insufficiency",
+      "cjStep": "Recognize Cues",
+      "difficulty": 1,
+      "caseId": "case_adrenal",
+      "caseStep": 1,
+      "stem": "Which findings from the chart require immediate follow-up? Select all that apply.",
+      "options": [
+        "No prednisone taken for the past 2 days because of vomiting",
+        "Serum potassium 5.9 mEq/L with peaked T waves on the 12-lead ECG",
+        "Capillary blood glucose 54 mg/dL",
+        "Serum sodium 126 mEq/L",
+        "Weight 71 kg, 1.5 kg less than at the clinic visit 2 weeks ago",
+        "Hemoglobin 13.8 g/dL",
+        "Blood pressure 78/44 mm Hg that falls to 72/40 mm Hg when the head of the bed is raised"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      "rationale": "Shock-level hypotension that worsens when the head of the bed is raised, hyperkalemia with peaked T waves, hypoglycemia, hyponatremia and a 2-day gap in long-term corticosteroid therapy form a single dangerous pattern and each demands action now. A hemoglobin of 13.8 g/dL is normal, and a 1.5 kg loss over 2 weeks of a febrile illness is expected and can be addressed after the client is stabilized."
+    },
+    {
+      "id": "case_adrenal_2",
+      "batch": "a4",
+      "type": "trend",
+      "category": "labs",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Fluid Resuscitation Response",
+      "cjStep": "Analyze Cues",
+      "difficulty": 3,
+      "caseId": "case_adrenal",
+      "caseStep": 2,
+      "update": "2005: The second liter of 0.9% sodium chloride has finished and repeat laboratory results are back. No corticosteroid has been given.",
+      "stem": "Based on the trended data, which conclusion should the nurse draw?",
+      "options": [
+        "The rising potassium is being caused by the sodium chloride infusion, so the fluids should be stopped.",
+        "The low glucose is the result of missed meals during the illness and will correct once the client eats.",
+        "The client has responded to volume replacement and needs only continued isotonic fluid and rest.",
+        "The hypotension, hyponatremia, hyperkalemia and hypoglycemia are persisting despite 2 L of isotonic fluid, which points to glucocorticoid deficiency rather than dehydration alone."
+      ],
+      "correct": [
+        3
+      ],
+      "trendHeaders": [
+        "Time",
+        "BP (mm Hg)",
+        "HR (/min)",
+        "Sodium (mEq/L)",
+        "Potassium (mEq/L)",
+        "Glucose (mg/dL)"
+      ],
+      "trendRows": [
+        [
+          "1830 on arrival",
+          "78/44",
+          "122",
+          "126",
+          "5.9",
+          "54"
+        ],
+        [
+          "1915 after 1 L 0.9% sodium chloride",
+          "84/48",
+          "118",
+          "127",
+          "5.9",
+          "51"
+        ],
+        [
+          "2000 after 2 L 0.9% sodium chloride",
+          "82/46",
+          "120",
+          "127",
+          "6.1",
+          "48"
+        ]
+      ],
+      "rationale": "Simple dehydration responds to isotonic fluid: the pressure rises and stays up, the sodium corrects and the potassium falls. Here the pressure moves only transiently while sodium stays low, potassium climbs and glucose keeps falling, the fingerprint of absent cortisol and aldosterone effect. Sodium chloride does not raise potassium, and hypoglycemia that deepens over 90 minutes is not explained by missed meals."
+    },
+    {
+      "id": "case_adrenal_3",
+      "batch": "a4",
+      "type": "bowtie",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Adrenal Crisis",
+      "cjStep": "Prioritize Hypotheses",
+      "difficulty": 3,
+      "caseId": "case_adrenal",
+      "caseStep": 3,
+      "stem": "Complete the diagram by selecting the condition the client is most likely experiencing, 2 actions the nurse should take, and 2 parameters the nurse should monitor to assess progress.",
+      "bowtieConditions": [
+        "Adrenal crisis",
+        "Cardiogenic shock",
+        "Diabetic ketoacidosis",
+        "Hypovolemic shock from vomiting alone"
+      ],
+      "bowtieConditionCorrect": 0,
+      "bowtieActions": [
+        "Obtain an order for and administer hydrocortisone 100 mg IV without waiting for the cortisol result",
+        "Infuse 0.9% sodium chloride with 5% dextrose as ordered",
+        "Sit the client upright and encourage oral electrolyte solution",
+        "Hold all corticosteroids until the serum cortisol and ACTH results return",
+        "Give a sodium polystyrene sulfonate enema and restrict IV fluids for the hyperkalemia"
+      ],
+      "bowtieActionsCorrect": [
+        0,
+        1
+      ],
+      "bowtieParams": [
+        "Capillary blood glucose",
+        "Blood pressure and heart rate",
+        "Abdominal girth",
+        "Pupil size and reactivity",
+        "Serum calcium"
+      ],
+      "bowtieParamsCorrect": [
+        0,
+        1
+      ],
+      "rationale": "Hypotension unresponsive to fluid, hyponatremia, hyperkalemia, hypoglycemia and fever in a client who has missed 2 days of long-term prednisone is adrenal crisis; glucocorticoid replacement and isotonic fluid with dextrose are the treatment and neither waits for the cortisol level. Vomiting alone does not raise potassium or lower glucose, and ketoacidosis produces hyperglycemia. Blood pressure, heart rate and glucose show within minutes to hours whether the replacement is working."
+    },
+    {
+      "id": "case_adrenal_4",
+      "batch": "a4",
+      "type": "cloze",
+      "category": "pharm",
+      "clientNeeds": "Management of Care",
+      "topic": "Corticosteroid Stress Dosing",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "caseId": "case_adrenal",
+      "caseStep": 4,
+      "stem": "Complete the following sentences by choosing from the lists of options.",
+      "clozeText": "The client's usual prednisone dose was not enough during this illness because adrenal glands suppressed by 3 years of corticosteroid therapy cannot {{1}}. The plan of care should therefore include {{2}} while the client is acutely ill, and {{3}} before discharge.",
+      "clozeBlanks": [
+        {
+          "options": [
+            "excrete potassium once aldosterone is blocked",
+            "increase cortisol output in response to physiologic stress",
+            "store enough glycogen to last overnight",
+            "absorb oral corticosteroids while the client is febrile"
+          ],
+          "correct": 1
+        },
+        {
+          "options": [
+            "switching to an every-other-day prednisone schedule",
+            "parenteral hydrocortisone at stress doses until the illness resolves",
+            "halving the prednisone dose each day until it is stopped",
+            "holding all corticosteroids so the adrenal glands can recover"
+          ],
+          "correct": 1
+        },
+        {
+          "options": [
+            "teaching the client to stop the corticosteroid whenever nausea occurs",
+            "a low-sodium, high-potassium diet plan",
+            "arranging monthly serum cortisol levels in place of sick-day rules",
+            "teaching the client to use the emergency hydrocortisone injection and to wear medical alert identification"
+          ],
+          "correct": 3
+        }
+      ],
+      "rationale": "Long-term corticosteroids suppress the hypothalamic-pituitary-adrenal axis, so the gland cannot mount the several-fold rise in cortisol that fever, vomiting, surgery or trauma demand, and the usual maintenance dose becomes inadequate. The plan is parenteral stress dosing while the client is ill, never withdrawal or a taper, and discharge teaching centered on the emergency injection and medical alert identification so the next illness is treated before it becomes a crisis."
+    },
+    {
+      "id": "case_adrenal_5",
+      "batch": "a4",
+      "type": "ordering",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Emergency Management of Adrenal Crisis",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "caseId": "case_adrenal",
+      "caseStep": 5,
+      "update": "2010: The provider orders hydrocortisone sodium succinate 100 mg IV push now and then 50 mg IV every 6 hours, 0.9% sodium chloride with 5% dextrose 1 L IV over 1 hour, continuous cardiac monitoring, capillary glucose hourly and repeat electrolytes in 2 hours.",
+      "stem": "Place the steps in the correct order.",
+      "options": [
+        "Administer hydrocortisone sodium succinate 100 mg IV push.",
+        "Confirm patency of the large-bore IV catheter and draw the ordered serum cortisol and ACTH samples.",
+        "Recheck the blood pressure, heart rate, cardiac rhythm and capillary glucose 15 minutes after the dose.",
+        "Begin the infusion of 0.9% sodium chloride with 5% dextrose at the ordered rate.",
+        "Document the response and report the repeat blood pressure, glucose and potassium to the provider."
+      ],
+      "correct": [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      "rationale": "Baseline cortisol and ACTH are drawn as the line is confirmed, because corticosteroid given first makes the results uninterpretable, and drawing them takes seconds so treatment is not delayed. Hydrocortisone is then pushed, since it is the only thing that will correct the hypotension, hyponatremia, hyperkalemia and hypoglycemia, followed by the fluid with dextrose. Reassessment 15 minutes later shows whether the therapy is working, and those findings are reported to the provider."
+    },
+    {
+      "id": "case_adrenal_6",
+      "batch": "a4",
+      "type": "matrix",
+      "category": "pharm",
+      "clientNeeds": "Health Promotion and Maintenance",
+      "topic": "Sick-Day Rules for Corticosteroids",
+      "cjStep": "Evaluate Outcomes",
+      "difficulty": 1,
+      "caseId": "case_adrenal",
+      "caseStep": 6,
+      "update": "Hospital day 3: Blood pressure 118/72 mm Hg, sodium 138 mEq/L, potassium 4.2 mEq/L, glucose 104 mg/dL. The client is tolerating oral prednisone at a tapering stress dose and the nurse completes sick-day teaching before discharge.",
+      "stem": "For each client statement, click to specify whether it indicates that teaching was understood or that further teaching is needed.",
+      "matrixRows": [
+        "If I have a fever or I am vomiting, I will take double or triple my usual dose and call the clinic the same day.",
+        "If I vomit twice and cannot keep the tablets down, I will use my hydrocortisone injection and call 911.",
+        "I will wear my medical alert bracelet and carry the injection kit and a wallet card whenever I travel.",
+        "If I feel well for a few weeks, I can stop the prednisone on my own.",
+        "I should skip my steroid on days I feel nauseated so it does not upset my stomach.",
+        "If I get the flu again I will drink extra fluids and keep my usual dose the same."
+      ],
+      "matrixColumns": [
+        "Understood",
+        "Needs further teaching"
+      ],
+      "matrixCorrect": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "rationale": "Sick-day rules are to double or triple the oral dose for fever or illness and to use the intramuscular hydrocortisone with emergency services when vomiting prevents absorption, backed by medical alert identification so responders know within seconds. Stopping a long-term corticosteroid abruptly, skipping doses because of nausea, or keeping the usual dose during an illness are exactly what produced this crisis, so each of those statements calls for more teaching."
+    },
+    {
+      "id": "case_asthma_1",
+      "batch": "a4",
+      "type": "selectAll",
+      "category": "peds",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Asthma Exacerbation",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "caseId": "case_asthma",
+      "caseStep": 1,
+      "stem": "The nurse reviews the emergency department chart for the 8-year-old. Which findings require immediate follow-up? Select all that apply.",
+      "options": [
+        "Speech limited to three- to four-word phrases with suprasternal and subcostal retractions",
+        "SpO2 90% on room air",
+        "Peak expiratory flow 130 L/min against a personal best of 280 L/min",
+        "Three albuterol treatments at home since 0900 with little relief",
+        "Temperature 37.4 C (99.3 F)",
+        "Blood pressure 108/70 mm Hg",
+        "A kitten that sleeps in the child's bedroom"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "A peak flow that is 46% of personal best, hypoxemia on room air, escalating rescue inhaler use without relief, and retractions with speech broken into short phrases all say the exacerbation is severe and worsening now. The low-grade temperature and a blood pressure normal for an 8-year-old are not urgent, and the kitten is an important trigger to address at discharge rather than a finding that changes care in the next few minutes."
+    },
+    {
+      "id": "case_asthma_2",
+      "batch": "a4",
+      "type": "cloze",
+      "category": "peds",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Peak Flow Zones",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "caseId": "case_asthma",
+      "caseStep": 2,
+      "stem": "Complete the following sentences by choosing from the lists of options.",
+      "clozeText": "An 8-year-old with a personal best peak expiratory flow of 280 L/min blows 130 L/min at triage while speaking in three- to four-word phrases with retractions. This peak flow places the child in the {{1}} of the asthma action plan, the work of breathing indicates a {{2}} exacerbation, and an oxygen saturation of 90% on room air means the nurse should {{3}}.",
+      "clozeBlanks": [
+        {
+          "options": [
+            "yellow zone (50% to 79% of personal best)",
+            "red zone (below 50% of personal best)",
+            "green zone (80% or more of personal best)"
+          ],
+          "correct": 1
+        },
+        {
+          "options": [
+            "severe",
+            "mild",
+            "resolving",
+            "moderate"
+          ],
+          "correct": 0
+        },
+        {
+          "options": [
+            "start supplemental oxygen now",
+            "have the child repeat the peak flow maneuver three more times",
+            "withhold oxygen until an arterial blood gas is drawn",
+            "recheck the saturation in 1 hour"
+          ],
+          "correct": 0
+        }
+      ],
+      "rationale": "130 L/min is 46% of the 280 L/min personal best, which is below the 50% red-zone cutoff and signals an emergency, not a yellow-zone flare. Retractions with speech limited to short phrases mark a severe exacerbation rather than a mild or moderate one. A saturation of 90% is hypoxemia in a child, so oxygen is started immediately; waiting an hour or delaying treatment for a blood gas allows hypoxemia to continue, and repeated forced peak flow maneuvers only tire a child who is already struggling."
+    },
+    {
+      "id": "case_asthma_3",
+      "batch": "a4",
+      "type": "multipleChoice",
+      "category": "peds",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Impending Respiratory Failure",
+      "cjStep": "Prioritize Hypotheses",
+      "difficulty": 3,
+      "caseId": "case_asthma",
+      "caseStep": 3,
+      "update": "1450: After the first albuterol nebulizer treatment the wheezing is much harder to hear and the chest is nearly quiet. Respirations are 38/min with deepening retractions, SpO2 is 88% on oxygen at 2 L/min by nasal cannula, and the child is now too breathless to speak and is becoming drowsy.",
+      "stem": "Which hypothesis should the nurse prioritize?",
+      "options": [
+        "The drowsiness is an expected side effect of nebulized albuterol",
+        "The child has developed a pneumothorax from the nebulizer treatment",
+        "The wheezing has resolved and the exacerbation is improving",
+        "Air movement has fallen so low that impending respiratory failure is the priority concern"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Wheezing requires moving air, so a chest that becomes quiet while the respiratory rate, retractions, and hypoxemia all worsen means airflow has nearly stopped: this is a silent chest and impending respiratory failure, and drowsiness is a late sign of rising carbon dioxide. Albuterol causes tremor, tachycardia, and restlessness rather than sedation, and a pneumothorax would produce sudden unilateral pain with absent breath sounds on one side, not a symmetrically quiet chest."
+    },
+    {
+      "id": "case_asthma_4",
+      "batch": "a4",
+      "type": "bowtie",
+      "category": "peds",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Asthma Rescue Therapy",
+      "cjStep": "Generate Solutions",
+      "difficulty": 3,
+      "caseId": "case_asthma",
+      "caseStep": 4,
+      "stem": "Complete the diagram by selecting the condition the client is most likely experiencing, 2 actions the nurse should take, and 2 parameters the nurse should monitor to assess progress.",
+      "bowtieConditions": [
+        "Foreign-body aspiration",
+        "Severe asthma exacerbation with impending respiratory failure",
+        "Anaphylaxis",
+        "Community-acquired pneumonia"
+      ],
+      "bowtieConditionCorrect": 1,
+      "bowtieActions": [
+        "Have the child repeat peak flow measurements every 5 minutes",
+        "Deliver continuous nebulized albuterol with ipratropium bromide",
+        "Administer an oral antihistamine for the wheezing",
+        "Give a systemic corticosteroid without delay",
+        "Withhold oxygen so that the respiratory drive is not suppressed"
+      ],
+      "bowtieActionsCorrect": [
+        1,
+        3
+      ],
+      "bowtieParams": [
+        "Urine specific gravity",
+        "Deep tendon reflexes",
+        "Work of breathing and air entry on auscultation",
+        "Oxygen saturation",
+        "Bowel sounds"
+      ],
+      "bowtieParamsCorrect": [
+        2,
+        3
+      ],
+      "rationale": "A known asthmatic with a 3-day viral trigger, a red-zone peak flow, a silent chest, and worsening hypoxemia is in a severe exacerbation heading toward respiratory failure. Continuous nebulized albuterol with ipratropium reverses bronchospasm fastest, and a systemic corticosteroid started early shortens the attack and prevents rebound, so it is not delayed. Air entry, work of breathing, and oxygen saturation show within minutes whether airflow is returning. Antihistamines do not relieve bronchospasm, oxygen is never withheld from a hypoxemic child, and forced peak flow maneuvers exhaust a child in distress."
+    },
+    {
+      "id": "case_asthma_5",
+      "batch": "a4",
+      "type": "ordering",
+      "category": "peds",
+      "clientNeeds": "Management of Care",
+      "topic": "Status Asthmaticus",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "caseId": "case_asthma",
+      "caseStep": 5,
+      "update": "1455: The charge nurse brings the emergency asthma protocol orders: oxygen titrated to keep SpO2 at 92% or greater, continuous nebulized albuterol with ipratropium bromide, and IV methylprednisolone 2 mg/kg. The child remains drowsy with a silent chest.",
+      "stem": "Place the steps in the correct order.",
+      "options": [
+        "Sit the child fully upright and increase the oxygen to a nonrebreather mask to keep the saturation at 92% or greater.",
+        "Administer the ordered IV methylprednisolone.",
+        "Begin the continuous nebulized albuterol with ipratropium bromide.",
+        "Activate the rapid response team and notify the provider of the silent chest and rising respiratory rate.",
+        "Reassess breath sounds, work of breathing, and oxygen saturation 15 minutes after the treatment is started."
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      "rationale": "Hypoxemia kills first, so the child is positioned upright and the oxygen is escalated before anything else; the continuous bronchodilator follows because it is the only ordered therapy that reopens the airways within minutes. The team is then summoned, since a drowsy child with a silent chest may need intubation and a higher level of care. The corticosteroid is given next because its benefit appears over hours rather than minutes, and a structured reassessment 15 minutes into the treatment tells the nurse whether the plan is working."
+    },
+    {
+      "id": "case_asthma_6",
+      "batch": "a4",
+      "type": "matrix",
+      "category": "peds",
+      "clientNeeds": "Health Promotion and Maintenance",
+      "topic": "Asthma Action Plan",
+      "cjStep": "Evaluate Outcomes",
+      "difficulty": 2,
+      "caseId": "case_asthma",
+      "caseStep": 6,
+      "update": "Hospital day 2, 1000: After continuous nebulization, IV corticosteroid, and overnight observation the respirations are 22/min with no retractions, breath sounds are clear with good air entry throughout, SpO2 is 97% on room air, and the peak flow is 240 L/min (86% of personal best). The child is being discharged with a written asthma action plan, a spacer, and a fluticasone refill.",
+      "stem": "The nurse reviews the discharge teaching with the caregiver. For each statement, indicate whether it demonstrates understanding or requires further teaching.",
+      "matrixRows": [
+        "\"When his peak flow is between 140 and 220 L/min we are in the yellow zone, so I give the rescue inhaler and call the clinic.\"",
+        "\"I will put one puff into the spacer at a time and have him take a slow deep breath in and hold it for about 10 seconds.\"",
+        "\"Now that he is better we can stop the fluticasone and just use the rescue inhaler whenever he wheezes.\"",
+        "\"The kitten will stay out of his bedroom and I will wash his bedding in hot water every week.\"",
+        "\"If his peak flow drops below 140 L/min and the rescue inhaler does not help, I will give another dose in the morning and see how he does.\"",
+        "\"He should rinse his mouth and spit after each dose of the fluticasone.\"",
+        "\"Spraying the albuterol straight into his mouth without the spacer gets the medicine there faster.\""
+      ],
+      "matrixColumns": [
+        "Understanding demonstrated",
+        "Requires further teaching"
+      ],
+      "matrixCorrect": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "rationale": "The yellow zone is 50% to 79% of the 280 L/min personal best, so 140 to 220 L/min correctly triggers rescue therapy and a call, while anything below 140 L/min is the red zone and means emergency care now, not a wait until morning. A daily inhaled corticosteroid controls the underlying inflammation and is continued when the child feels well; rinsing and spitting afterward prevents oral candidiasis. Reducing cat dander and dust mite exposure is sound trigger control. A spacer must deliver one puff at a time with a slow deep breath and a 10-second hold, and skipping the spacer deposits most of the dose in the mouth rather than the lungs."
+    },
+    {
+      "id": "case_sickle_1",
+      "batch": "a4",
+      "type": "highlight",
+      "category": "peds",
+      "clientNeeds": "Basic Care and Comfort",
+      "topic": "Sickle Cell Pain Crisis",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "caseId": "case_sickle",
+      "caseStep": 1,
+      "stem": "Click to highlight the findings in the 0715 handoff note that require the nurse's immediate follow-up.",
+      "highlightSegments": [
+        {
+          "text": "0715 handoff: 12-year-old with hemoglobin SS disease, hospital day 1 of a vaso-occlusive pain crisis.",
+          "correct": false
+        },
+        {
+          "text": "Rates the pain 9 out of 10 in both thighs, the lower back, and the left upper arm, unchanged since admission.",
+          "correct": true
+        },
+        {
+          "text": "Analgesia is ordered as needed only, and the dose that came due at 0645 has not been given.",
+          "correct": true
+        },
+        {
+          "text": "Was laughing with a visitor and using a phone at 0500.",
+          "correct": false
+        },
+        {
+          "text": "Temperature rose to 38.0 C (100.4 F) at 0600.",
+          "correct": true
+        },
+        {
+          "text": "Heart rate 118/min and blood pressure 118/74 mm Hg.",
+          "correct": false
+        },
+        {
+          "text": "Oxygen saturation 95% on room air, down from a documented baseline of 98%.",
+          "correct": true
+        },
+        {
+          "text": "Splinting the chest and taking shallow breaths, and refused to cough and deep breathe because it hurts.",
+          "correct": true
+        },
+        {
+          "text": "Intravenous fluids are infusing at the ordered maintenance rate.",
+          "correct": false
+        },
+        {
+          "text": "Scleral icterus is present, unchanged from the admission assessment.",
+          "correct": false
+        },
+        {
+          "text": "The parent is at the bedside and asks to review the pain medicine schedule.",
+          "correct": false
+        }
+      ],
+      "rationale": "Severe pain that has not moved in 5 hours while analgesia is ordered as needed only and the due dose is late is a failure of the pain plan, and in a child with functional asplenia a new fever is a medical emergency until sepsis is ruled out. A saturation drifting below baseline together with splinting and shallow breathing are the earliest cues of acute chest syndrome. Laughing and using a phone are distraction strategies children in chronic pain use and never disprove a pain report; icterus is chronic hemolysis, and a mildly raised heart rate with a normal blood pressure is expected in a child in pain."
+    },
+    {
+      "id": "case_sickle_2",
+      "batch": "a4",
+      "type": "matrix",
+      "category": "peds",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Sickle Cell Disease",
+      "cjStep": "Analyze Cues",
+      "difficulty": 3,
+      "caseId": "case_sickle",
+      "caseStep": 2,
+      "stem": "For each finding, indicate whether it is an expected baseline finding of sickle cell disease, a finding consistent with the vaso-occlusive crisis, or a finding that suggests a different complication requiring urgent evaluation.",
+      "matrixRows": [
+        "Hemoglobin 7.8 g/dL with a reticulocyte count of 12% (baseline hemoglobin 8.0 to 8.5 g/dL)",
+        "Scleral icterus with a total bilirubin of 2.8 mg/dL",
+        "Deep aching pain in both thighs and the lower back that began after a cold-water swim meet",
+        "Temperature 38.0 C (100.4 F)",
+        "Oxygen saturation 95% on room air, down from a baseline of 98%",
+        "Pain rated 9 of 10 while the heart rate and blood pressure remain near normal"
+      ],
+      "matrixColumns": [
+        "Expected baseline in sickle cell disease",
+        "Consistent with vaso-occlusive crisis",
+        "Suggests a different complication"
+      ],
+      "matrixCorrect": [
+        0,
+        0,
+        1,
+        2,
+        2,
+        1
+      ],
+      "rationale": "Chronic hemolysis keeps the hemoglobin near 8 g/dL with a high reticulocyte count and raises the bilirubin enough to yellow the sclerae, so neither is new. Cold exposure and dehydration trigger sickling, and bone pain in the thighs and back is the classic vaso-occlusive picture; a high self-reported score with near-normal vital signs is also typical, because autonomic responses blunt in recurrent pain. Fever in a child with functional asplenia points to infection and needs cultures and empiric antibiotics, and a falling saturation is the first sign of acute chest syndrome, not of ordinary bone pain."
+    },
+    {
+      "id": "case_sickle_3",
+      "batch": "a4",
+      "type": "cloze",
+      "category": "peds",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Pain Assessment in Sickle Cell Disease",
+      "cjStep": "Prioritize Hypotheses",
+      "difficulty": 2,
+      "caseId": "case_sickle",
+      "caseStep": 3,
+      "stem": "Complete the following sentence by choosing from the lists of options.",
+      "clozeText": "A 12-year-old with hemoglobin SS disease rates vaso-occlusive pain 9 of 10 while the heart rate and blood pressure stay near normal. The nurse prioritizes {{1}} as the client's problem, measures it using {{2}}, and watches for {{3}} as the complication most likely to develop next.",
+      "clozeBlanks": [
+        {
+          "options": [
+            "anxiety related to missing school",
+            "worsening chronic anemia that requires immediate transfusion",
+            "unrelieved vaso-occlusive pain from sickled cells obstructing the microcirculation",
+            "opioid-seeking behavior that the admission is reinforcing"
+          ],
+          "correct": 2
+        },
+        {
+          "options": [
+            "the child's own numeric pain rating",
+            "how relaxed the child looks while visitors are present",
+            "the heart rate and blood pressure",
+            "the number of doses the child has requested"
+          ],
+          "correct": 0
+        },
+        {
+          "options": [
+            "acute chest syndrome",
+            "aplastic crisis",
+            "hand-foot syndrome",
+            "priapism"
+          ],
+          "correct": 0
+        }
+      ],
+      "rationale": "The priority problem is ischemic pain from sickled cells blocking the microcirculation, and self-report remains the gold standard for measuring it; labeling a child with sickle cell disease as drug-seeking because the vital signs are near normal or because the child appears distracted leads directly to undertreatment. A hemoglobin close to the child's own baseline does not call for transfusion. With fever, chest splinting, and shallow breathing already present, acute chest syndrome is the complication most likely to follow, and it is the leading cause of death in this population."
+    },
+    {
+      "id": "case_sickle_4",
+      "batch": "a4",
+      "type": "bowtie",
+      "category": "peds",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Vaso-Occlusive Crisis Management",
+      "cjStep": "Generate Solutions",
+      "difficulty": 3,
+      "caseId": "case_sickle",
+      "caseStep": 4,
+      "stem": "Complete the diagram by selecting the condition the client is most likely experiencing, 2 actions the nurse should take, and 2 parameters the nurse should monitor to assess progress.",
+      "bowtieConditions": [
+        "Vaso-occlusive pain crisis with a risk for acute chest syndrome",
+        "Acute splenic sequestration",
+        "Aplastic crisis from parvovirus B19",
+        "Osteomyelitis of the femur"
+      ],
+      "bowtieConditionCorrect": 0,
+      "bowtieActions": [
+        "Give IV fluids at the maintenance rate and encourage warm oral fluids",
+        "Apply ice packs to the painful thighs and back",
+        "Restrict fluids to prevent pulmonary edema",
+        "Request scheduled around-the-clock IV morphine with a breakthrough dose available",
+        "Hold all opioids until the child can be evaluated for substance misuse"
+      ],
+      "bowtieActionsCorrect": [
+        0,
+        3
+      ],
+      "bowtieParams": [
+        "Deep tendon reflexes",
+        "Numeric pain rating before and after each dose",
+        "Serum sodium every 6 hours",
+        "Urine ketones",
+        "Respiratory rate and oxygen saturation"
+      ],
+      "bowtieParamsCorrect": [
+        1,
+        4
+      ],
+      "rationale": "Severe symmetric bone pain after cold exposure in hemoglobin SS disease is a vaso-occlusive crisis, and the fever with chest splinting makes acute chest syndrome the looming risk. Severe crisis pain is continuous, so analgesia is scheduled around the clock with breakthrough doses rather than left as needed, and maintenance-rate fluids with warmth reduce sickling; ice causes vasoconstriction and worsens it, and fluid restriction promotes further sickling. Pain scores before and after each dose show whether the regimen works, while the respiratory rate and saturation watch for both opioid-induced depression and developing acute chest syndrome. A reticulocyte count of 12% rules out aplastic crisis."
+    },
+    {
+      "id": "case_sickle_5",
+      "batch": "a4",
+      "type": "selectAll",
+      "category": "peds",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Acute Chest Syndrome",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "caseId": "case_sickle",
+      "caseStep": 5,
+      "update": "Hospital day 2, 0430: The child reports new sharp right-sided chest pain and a dry cough. Temperature is 38.9 C (102.0 F), respirations 32/min, SpO2 88% on room air, and the chest radiograph shows a new right lower lobe infiltrate.",
+      "stem": "Which actions should the nurse take now? Select all that apply.",
+      "options": [
+        "Increase the IV fluids to twice the maintenance rate to thin the secretions",
+        "Apply supplemental oxygen titrated to keep the saturation at 95% or greater",
+        "Hold the scheduled opioid because the respiratory rate is elevated",
+        "Obtain blood cultures and give the ordered empiric antibiotics that cover atypical organisms",
+        "Coach the child to use the incentive spirometer every 2 hours while awake",
+        "Keep the child on bed rest with the head of the bed flat to conserve energy",
+        "Notify the provider of the new infiltrate, the fever, and the hypoxemia"
+      ],
+      "correct": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "rationale": "New chest pain, fever, hypoxemia, and an infiltrate in sickle cell disease define acute chest syndrome, which deteriorates quickly: oxygen to a saturation of at least 95% interrupts further sickling, the provider is notified at once, and cultures followed by antibiotics covering atypical organisms treat the common triggers. Incentive spirometry every 2 hours keeps the alveoli open and is the single best bedside measure against progression. The opioid is continued, because pain that makes a child splint causes the hypoventilation that drives the syndrome, and fluid overload floods the lungs, so fluids stay at maintenance and the head of the bed stays elevated."
+    },
+    {
+      "id": "case_sickle_6",
+      "batch": "a4",
+      "type": "trend",
+      "category": "peds",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Sickle Cell Outcomes",
+      "cjStep": "Evaluate Outcomes",
+      "difficulty": 2,
+      "caseId": "case_sickle",
+      "caseStep": 6,
+      "update": "Hospital day 4, 0800: The child has completed 48 hours of IV antibiotics, the scheduled IV morphine has been changed to oral oxycodone, and incentive spirometry is being done every 2 hours.",
+      "stem": "The nurse reviews the trended data. Which conclusion should the nurse draw?",
+      "options": [
+        "The falling temperature with rising spirometry volumes indicates the child is becoming oversedated",
+        "The child no longer needs oxygen saturation monitoring or incentive spirometry",
+        "The acute chest syndrome is resolving and the pain is responding to the current regimen",
+        "The opioid should be stopped today because the pain rating has reached 3"
+      ],
+      "correct": [
+        2
+      ],
+      "trendHeaders": [
+        "Parameter",
+        "Day 2 0430",
+        "Day 3 0800",
+        "Day 4 0800"
+      ],
+      "trendRows": [
+        [
+          "Pain rating (0-10)",
+          "9",
+          "6",
+          "3"
+        ],
+        [
+          "Temperature",
+          "38.9 C (102.0 F)",
+          "37.8 C (100.0 F)",
+          "36.9 C (98.4 F)"
+        ],
+        [
+          "Respiratory rate",
+          "32/min",
+          "26/min",
+          "20/min"
+        ],
+        [
+          "SpO2",
+          "88% on room air",
+          "94% on 2 L/min",
+          "97% on room air"
+        ],
+        [
+          "Incentive spirometry volume",
+          "600 mL",
+          "1,100 mL",
+          "1,600 mL"
+        ]
+      ],
+      "rationale": "Every parameter is moving the right way: defervescence, a respiratory rate returning to the normal 14 to 22 range for a 12-year-old, a saturation back to baseline on room air, and spirometry volumes that have nearly tripled as splinting eases, all alongside pain that has fallen from 9 to 3. Oversedation would slow the respiratory rate below normal and shrink the spirometry volumes, not improve them. Opioids are tapered rather than stopped abruptly while pain persists, and monitoring and spirometry continue until discharge because acute chest syndrome can recur."
+    },
+    {
+      "id": "case_aki_1",
+      "batch": "a4",
+      "type": "highlight",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Acute Kidney Injury",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "caseId": "case_aki",
+      "caseStep": 1,
+      "stem": "The nurse reviews the 1015 nursing summary. Click to highlight the findings that require immediate follow-up.",
+      "highlightSegments": [
+        {
+          "text": "1015 nursing summary: 78-year-old client admitted this morning after 4 days of vomiting and diarrhea at home.",
+          "correct": false
+        },
+        {
+          "text": "Blood pressure has improved from 96/58 to 108/64 mm Hg after 1,000 mL of 0.9% sodium chloride.",
+          "correct": false
+        },
+        {
+          "text": "Urine output totals 62 mL since the catheter was inserted at 0600, with 14 mL in the last hour.",
+          "correct": true
+        },
+        {
+          "text": "Serum creatinine has risen from a clinic value of 1.0 mg/dL three weeks ago to 3.4 mg/dL this morning.",
+          "correct": true
+        },
+        {
+          "text": "Temperature 36.9 C (98.4 F) and lungs clear to auscultation.",
+          "correct": false
+        },
+        {
+          "text": "Serum potassium 6.4 mEq/L on a repeat, non-hemolyzed specimen.",
+          "correct": true
+        },
+        {
+          "text": "Hemoglobin 13.8 g/dL and hematocrit 44%.",
+          "correct": false
+        },
+        {
+          "text": "The radial pulse is now irregular, and the client says both legs feel too heavy to lift.",
+          "correct": true
+        },
+        {
+          "text": "Client is oriented to person, place, and time.",
+          "correct": false
+        },
+        {
+          "text": "SpO2 98% on room air.",
+          "correct": false
+        },
+        {
+          "text": "The client's child brought the home medication bottles in for reconciliation.",
+          "correct": false
+        }
+      ],
+      "rationale": "Urine output of 62 mL in four and a half hours is about 0.2 mL/kg/hr, well below the 0.5 mL/kg/hr threshold for oliguria, and a creatinine that has more than tripled from a recent baseline confirms an acute drop in filtration. A potassium of 6.4 mEq/L verified on a non-hemolyzed sample, with a new irregular pulse and profound leg weakness, is a life-threatening electrolyte emergency. The improving blood pressure, normal temperature, clear lungs, normal hemoglobin and normal oxygen saturation are reassuring findings, not urgent ones."
+    },
+    {
+      "id": "case_aki_2",
+      "batch": "a4",
+      "type": "cloze",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Acute Kidney Injury",
+      "cjStep": "Analyze Cues",
+      "difficulty": 3,
+      "caseId": "case_aki",
+      "caseStep": 2,
+      "stem": "Complete the following sentences by choosing from the lists of options.",
+      "clozeText": "The nurse reviews the 0930 results for this 78-year-old client: urine output 62 mL in 4.5 hours, creatinine risen from 1.0 to 3.4 mg/dL with a BUN of 66 mg/dL, urine sodium 12 mEq/L with a fractional excretion of sodium below 1%, urine specific gravity 1.030, and a sediment with no protein, blood or casts. These findings indicate {{1}} acute kidney injury caused mainly by {{2}}. The nurse should interpret the potassium of 6.4 mEq/L as {{3}}.",
+      "clozeBlanks": [
+        {
+          "options": [
+            "postrenal",
+            "intrarenal (intrinsic)",
+            "prerenal"
+          ],
+          "correct": 2
+        },
+        {
+          "options": [
+            "direct tubular damage from IV contrast dye",
+            "reduced kidney perfusion made worse by the lisinopril and the naproxen",
+            "an autoimmune attack on the glomerular basement membrane",
+            "obstruction of urine flow below the bladder neck"
+          ],
+          "correct": 1
+        },
+        {
+          "options": [
+            "an expected effect of the 0.9% sodium chloride infusion",
+            "a laboratory error caused by a hemolyzed specimen",
+            "a true value the failing kidneys can no longer excrete"
+          ],
+          "correct": 2
+        }
+      ],
+      "rationale": "A BUN-to-creatinine ratio near 20:1, a urine sodium of 12 mEq/L with a fractional excretion of sodium under 1%, concentrated urine and a bland sediment are the classic pattern of prerenal injury: the kidneys are underperfused but still able to conserve sodium and water. Volume loss from four days of vomiting and diarrhea is compounded by an angiotensin-converting enzyme inhibitor, which dilates the efferent arteriole, and a nonsteroidal anti-inflammatory drug, which constricts the afferent arteriole, so glomerular pressure collapses. No contrast was given and the bladder scan was only 50 mL, ruling out tubular and obstructive causes, and the repeat non-hemolyzed sample confirms the potassium is real."
+    },
+    {
+      "id": "case_aki_3",
+      "batch": "a4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Hyperkalemia",
+      "cjStep": "Prioritize Hypotheses",
+      "difficulty": 2,
+      "caseId": "case_aki",
+      "caseStep": 3,
+      "update": "1015: The 12-lead ECG shows tall, narrow, peaked T waves in leads V2 through V4 with a PR interval of 0.24 seconds and a QRS of 0.12 seconds. A repeat potassium drawn at 1010 is 6.6 mEq/L.",
+      "stem": "Which hypothesis should the nurse prioritize at this moment?",
+      "options": [
+        "Life-threatening hyperkalemia with a risk of ventricular dysrhythmia and cardiac arrest",
+        "Uremic encephalopathy from the rising blood urea nitrogen",
+        "Symptomatic hypocalcemia causing the perioral tingling and weakness",
+        "Hypovolemic shock from continued gastrointestinal fluid losses"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Peaked T waves with a lengthening PR interval and a widening QRS mean the hyperkalemia is already changing cardiac conduction, and the next steps on that path are a sine-wave pattern, ventricular fibrillation and asystole, so this is the hypothesis that drives immediate action. Volume depletion is real but is being corrected and the blood pressure is rising. A BUN of 66 mg/dL can cause lethargy but not sudden death, and the calcium of 8.2 mg/dL is only mildly low and does not explain the ECG changes."
+    },
+    {
+      "id": "case_aki_4",
+      "batch": "a4",
+      "type": "matrix",
+      "category": "medsurg",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Acute Kidney Injury",
+      "cjStep": "Generate Solutions",
+      "difficulty": 3,
+      "caseId": "case_aki",
+      "caseStep": 4,
+      "update": "1025: The provider is at the bedside writing orders for the acute kidney injury and the hyperkalemia. The client remains on continuous cardiac monitoring.",
+      "stem": "For each prescription, specify whether the nurse should anticipate it or question it for this client at this time.",
+      "matrixRows": [
+        "Hold the lisinopril and the naproxen",
+        "Add potassium chloride 20 mEq to each liter of maintenance IV fluid",
+        "10% calcium gluconate 10 mL IV over 3 minutes with continuous cardiac monitoring",
+        "Ibuprofen 400 mg orally every 6 hours as needed for knee pain",
+        "Hold the metformin while the creatinine is elevated",
+        "Regular insulin 10 units IV with 50% dextrose 25 g IV",
+        "Consult nephrology for possible urgent hemodialysis"
+      ],
+      "matrixColumns": [
+        "Anticipate",
+        "Question"
+      ],
+      "matrixCorrect": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "rationale": "Both the angiotensin-converting enzyme inhibitor and the nonsteroidal anti-inflammatory drug strip away the kidney's ability to autoregulate perfusion, so they are held, and metformin is held because it accumulates in kidney failure and raises the risk of lactic acidosis. Calcium gluconate stabilizes the myocardium against the hyperkalemia and insulin with dextrose shifts potassium into the cells, while nephrology is consulted early because dialysis is the definitive removal route if the level does not fall. Adding potassium to the fluids or giving another nonsteroidal anti-inflammatory drug would worsen both problems and must be questioned."
+    },
+    {
+      "id": "case_aki_5",
+      "batch": "a4",
+      "type": "ordering",
+      "category": "medsurg",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Hyperkalemia",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "caseId": "case_aki",
+      "caseStep": 5,
+      "update": "1040: The prescriptions for emergency hyperkalemia management are entered and all medications are at the bedside. Place the steps in the correct order.",
+      "stem": "Place the steps in the correct order for the nurse to carry out the emergency management of this client's hyperkalemia.",
+      "options": [
+        "Report the repeat values to the provider and prepare the client for urgent hemodialysis if the potassium remains elevated",
+        "Recheck the serum potassium and a point-of-care glucose 30 minutes after the insulin dose",
+        "Give regular insulin 10 units IV with 50% dextrose 25 g to shift potassium into the cells",
+        "Administer 10% calcium gluconate 10 mL IV over 3 minutes while watching the cardiac monitor",
+        "Administer sodium zirconium cyclosilicate 10 g orally to remove potassium from the body"
+      ],
+      "correct": [
+        3,
+        2,
+        4,
+        1,
+        0
+      ],
+      "rationale": "IV calcium is given first because it does nothing to the potassium level but antagonizes its effect at the cardiac membrane within minutes, buying time against a fatal dysrhythmia. Insulin with dextrose follows and drives potassium into the cells in about 15 minutes, a temporary shift, so a gastrointestinal binder is then given to actually remove potassium from the body. Rechecking the potassium and the glucose detects both a rebound and insulin-induced hypoglycemia, and hemodialysis is the definitive treatment when an oliguric client cannot excrete the load."
+    },
+    {
+      "id": "case_aki_6",
+      "batch": "a4",
+      "type": "trend",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Acute Kidney Injury",
+      "cjStep": "Evaluate Outcomes",
+      "difficulty": 2,
+      "caseId": "case_aki",
+      "caseStep": 6,
+      "update": "Hospital day 4: The client has received isotonic IV fluids, the lisinopril, naproxen and metformin have remained on hold, and dialysis was never required.",
+      "stem": "Which conclusion should the nurse draw from the trended data?",
+      "options": [
+        "The normalizing potassium means the naproxen and the lisinopril can safely be restarted today.",
+        "The rising urine output indicates fluid overload, and a loop diuretic should be requested.",
+        "The injury has progressed to chronic kidney disease, and long-term dialysis should be arranged.",
+        "Kidney function is recovering and the client has entered the diuretic phase, so fluid balance and electrolytes still need close monitoring."
+      ],
+      "correct": [
+        3
+      ],
+      "trendHeaders": [
+        "Hospital day",
+        "Creatinine (mg/dL)",
+        "Potassium (mEq/L)",
+        "Urine output (mL/24 h)",
+        "Weight (kg)"
+      ],
+      "trendRows": [
+        [
+          "1",
+          "3.4",
+          "6.6",
+          "310",
+          "67.6"
+        ],
+        [
+          "2",
+          "3.0",
+          "5.2",
+          "900",
+          "69.4"
+        ],
+        [
+          "3",
+          "2.2",
+          "4.6",
+          "1,750",
+          "70.8"
+        ],
+        [
+          "4",
+          "1.5",
+          "4.1",
+          "2,400",
+          "71.0"
+        ]
+      ],
+      "rationale": "A creatinine falling toward baseline with a potassium back in range and urine output climbing past 2 L a day is the recovery, or diuretic, phase of prerenal acute kidney injury, when the tubules resume flow before they fully resume concentrating, so the client can now lose too much fluid, potassium and sodium. The weight gain reflects rehydration from the isotonic fluids rather than overload, since the client is still below the 72 kg clinic weight. Dialysis is not indicated in a recovering kidney, and the nephrotoxic drugs are restarted only after the creatinine has stabilized and the provider has reviewed alternatives for the knee pain."
+    },
+    {
+      "id": "case_copd_1",
+      "batch": "a4",
+      "type": "selectAll",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "COPD Exacerbation",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "caseId": "case_copd",
+      "caseStep": 1,
+      "stem": "The nurse assumes care at 0800 and reviews the chart. Which findings require immediate follow-up? Select all that apply.",
+      "options": [
+        "Respiratory rate 10/min and shallow",
+        "Flapping tremor of the hands when the wrists are extended",
+        "Temperature 37.3 C (99.1 F)",
+        "SpO2 97% on 6 L/min by nasal cannula",
+        "Hemoglobin 16.4 g/dL with hematocrit 51%",
+        "Client's reported usual oxygen saturation at home in the high 80s",
+        "Diminished breath sounds with expiratory wheezes documented on admission",
+        "Client arouses only to loud voice and then falls back asleep"
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        7
+      ],
+      "rationale": "A fall in level of consciousness is the earliest reliable sign of carbon dioxide retention, and a respiratory rate that has dropped from 28/min to 10/min means the client is no longer blowing off carbon dioxide. Asterixis, the flapping tremor, is a hallmark of hypercapnia, and a saturation of 97% is far above this client's prescribed 88% to 92% target, which points to the oxygen increase as the trigger. The low-grade temperature, the wheezes, a home saturation in the high 80s and a hematocrit of 51% are all expected in chronic obstructive pulmonary disease with chronic hypoxemia."
+    },
+    {
+      "id": "case_copd_2",
+      "batch": "a4",
+      "type": "trend",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Respiratory Acidosis",
+      "cjStep": "Analyze Cues",
+      "difficulty": 3,
+      "caseId": "case_copd",
+      "caseStep": 2,
+      "update": "0840: The arterial blood gas drawn at 0830 has resulted. The client remains on 6 L/min by nasal cannula.",
+      "stem": "Which conclusion should the nurse draw from the trended data?",
+      "options": [
+        "There is worsening acute respiratory acidosis on top of chronic carbon dioxide retention, and the somnolence is carbon dioxide narcosis.",
+        "The rising PaO2 confirms the oxygen therapy is effective, and the slower respiratory rate reflects restful sleep.",
+        "The primary problem is a metabolic alkalosis from the IV corticosteroid, and the lungs are compensating for it.",
+        "The values show an acute asthma attack, and the falling respiratory rate means the bronchospasm has resolved."
+      ],
+      "correct": [
+        0
+      ],
+      "trendHeaders": [
+        "Parameter",
+        "1630 (admission)",
+        "0600",
+        "0830"
+      ],
+      "trendRows": [
+        [
+          "pH",
+          "7.35",
+          "7.31",
+          "7.25"
+        ],
+        [
+          "PaCO2 (mm Hg)",
+          "56",
+          "68",
+          "82"
+        ],
+        [
+          "HCO3 (mEq/L)",
+          "30",
+          "33",
+          "35"
+        ],
+        [
+          "PaO2 (mm Hg) and oxygen",
+          "62 on room air",
+          "88 on 6 L/min",
+          "96 on 6 L/min"
+        ],
+        [
+          "Respiratory rate (breaths/min)",
+          "24",
+          "16",
+          "10"
+        ],
+        [
+          "Level of consciousness",
+          "Alert and oriented",
+          "Drowsy, wakes to voice",
+          "Arouses to loud voice only"
+        ]
+      ],
+      "rationale": "The admission gas shows compensated chronic hypercapnia, a pH of 7.35 with a PaCO2 of 56 mm Hg and a bicarbonate of 30 mEq/L, which is this client's normal. As the PaCO2 climbs to 82 mm Hg the pH falls to 7.25, so the acidosis is now acute and uncompensated, and it tracks exactly with the oxygen increase, the falling respiratory rate and the falling level of consciousness. A high bicarbonate here is chronic renal compensation, not a primary alkalosis, and a PaO2 of 96 mm Hg is not reassurance but a sign of overcorrection: a slowing respiratory rate in a breathless client is deterioration, never rest."
+    },
+    {
+      "id": "case_copd_3",
+      "batch": "a4",
+      "type": "bowtie",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Respiratory Failure",
+      "cjStep": "Prioritize Hypotheses",
+      "difficulty": 3,
+      "caseId": "case_copd",
+      "caseStep": 3,
+      "update": "0845: The provider is at the bedside. The client arouses only to a firm shoulder squeeze, respirations are 10/min and shallow, and SpO2 is 97% on 6 L/min by nasal cannula.",
+      "stem": "Complete the diagram by selecting the condition the client is most likely experiencing, 2 actions the nurse should take, and 2 parameters the nurse should monitor to assess progress.",
+      "bowtieConditions": [
+        "Acute hypercapnic respiratory failure",
+        "Tension pneumothorax",
+        "Acute cardiogenic pulmonary edema",
+        "Opioid-induced respiratory depression"
+      ],
+      "bowtieConditionCorrect": 0,
+      "bowtieActions": [
+        "Titrate the oxygen down to maintain an SpO2 of 88% to 92%",
+        "Prepare the client for non-invasive positive pressure ventilation",
+        "Position the client flat and allow uninterrupted sleep until the next blood gas",
+        "Remove all supplemental oxygen and place the client on room air",
+        "Administer the as-needed lorazepam to settle the client's restlessness"
+      ],
+      "bowtieActionsCorrect": [
+        0,
+        1
+      ],
+      "bowtieParams": [
+        "Level of consciousness and ability to protect the airway",
+        "Serum sodium level",
+        "Daily weight",
+        "Serial arterial blood gas pH and PaCO2",
+        "Pedal pulse quality"
+      ],
+      "bowtieParamsCorrect": [
+        0,
+        3
+      ],
+      "rationale": "A pH of 7.25 with a PaCO2 of 82 mm Hg, a respiratory rate of 10/min and a client who barely rouses is acute hypercapnic respiratory failure: high-flow oxygen has blunted the hypoxic drive and worsened ventilation-perfusion matching, so carbon dioxide has climbed. The oxygen is titrated down to the 88% to 92% target rather than removed, because abruptly stripping it away causes dangerous hypoxemia, and non-invasive positive pressure ventilation is the treatment that actually clears carbon dioxide. Serial gases and level of consciousness show whether ventilation is improving or whether intubation is needed; a sedative would deepen the hypoventilation, and there are no opioids on this record and no findings of pulmonary edema or pneumothorax."
+    },
+    {
+      "id": "case_copd_4",
+      "batch": "a4",
+      "type": "cloze",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Noninvasive Ventilation",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "caseId": "case_copd",
+      "caseStep": 4,
+      "stem": "Complete the following sentences by choosing from the lists of options.",
+      "clozeText": "The provider and the nurse plan care for this client's acute-on-chronic respiratory failure. The nurse titrates the oxygen to a target saturation of {{1}} and anticipates that {{2}} will be started to lower the carbon dioxide. The nurse also holds {{3}}, because it deepens the hypoventilation that caused the problem.",
+      "clozeBlanks": [
+        {
+          "options": [
+            "80% to 84%",
+            "greater than 96%",
+            "92% to 96%",
+            "88% to 92%"
+          ],
+          "correct": 3
+        },
+        {
+          "options": [
+            "hourly incentive spirometry",
+            "a 100% non-rebreather mask at 15 L/min",
+            "chest physiotherapy with postural drainage",
+            "non-invasive positive pressure ventilation"
+          ],
+          "correct": 3
+        },
+        {
+          "options": [
+            "the IV methylprednisolone",
+            "the as-needed lorazepam",
+            "the scheduled albuterol-ipratropium nebulizer"
+          ],
+          "correct": 1
+        }
+      ],
+      "rationale": "In a client who chronically retains carbon dioxide, the goal is a saturation of 88% to 92%, high enough to protect the tissues and low enough to preserve the respiratory drive and avoid worsening ventilation-perfusion mismatch. Non-invasive positive pressure ventilation is the standard treatment for hypercapnic respiratory failure because the inspiratory pressure augments each breath and washes out carbon dioxide, often avoiding intubation. The bronchodilator and the IV corticosteroid are the backbone of exacerbation treatment and continue, but the as-needed benzodiazepine is held, since sedatives blunt the drive to breathe in an already somnolent client."
+    },
+    {
+      "id": "case_copd_5",
+      "batch": "a4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Noninvasive Ventilation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "caseId": "case_copd",
+      "caseStep": 5,
+      "update": "0905: Non-invasive positive pressure ventilation is prescribed at an inspiratory pressure of 12 cm H2O and an expiratory pressure of 5 cm H2O with an FiO2 of 28%. Respiratory therapy is at the bedside applying the mask.",
+      "stem": "Which action should the nurse take as the non-invasive positive pressure ventilation is started?",
+      "options": [
+        "Darken the room, let the client sleep undisturbed, and recheck in 1 hour",
+        "Administer the as-needed lorazepam so that the client tolerates the mask",
+        "Raise the head of the bed to at least 30 degrees, confirm the mask seal, and stay with the client to coach breathing and watch for gastric distention",
+        "Increase the FiO2 to 60% until the SpO2 is above 95%"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Elevating the head of the bed improves diaphragmatic excursion and reduces the aspiration risk created by air forced into the stomach, and a proper seal is what makes the pressure reach the lungs instead of leaking past the mask. Staying with the client during the first minutes is what determines whether non-invasive ventilation succeeds, since most failures are intolerance, and it is also when deterioration toward intubation shows itself. A sedative would worsen the hypoventilation, raising the FiO2 pushes the saturation back above the safe target, and leaving a somnolent hypercapnic client alone risks an unwitnessed respiratory arrest."
+    },
+    {
+      "id": "case_copd_6",
+      "batch": "a4",
+      "type": "matrix",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "COPD Exacerbation",
+      "cjStep": "Evaluate Outcomes",
+      "difficulty": 2,
+      "caseId": "case_copd",
+      "caseStep": 6,
+      "update": "1100: After 2 hours on non-invasive positive pressure ventilation at an FiO2 of 28%, the repeat arterial blood gas shows pH 7.34, PaCO2 62 mm Hg, HCO3 33 mEq/L, PaO2 68 mm Hg. Respirations 18/min. The client is awake, oriented, and asking for water. The abdomen is distended and tympanic, and the client has not coughed or cleared secretions for the past hour.",
+      "stem": "For each finding, specify whether it indicates that the plan of care has been effective or ineffective.",
+      "matrixRows": [
+        "pH risen from 7.25 to 7.34 with the PaCO2 down from 82 to 62 mm Hg",
+        "Abdomen distended and tympanic to percussion",
+        "Client awake, oriented, and asking for water",
+        "SpO2 90% on an FiO2 of 28%",
+        "Respiratory rate 18/min, up from 10/min",
+        "No cough or secretion clearance in the past hour"
+      ],
+      "matrixColumns": [
+        "Effective",
+        "Ineffective"
+      ],
+      "matrixCorrect": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "rationale": "The treatment is working when the carbon dioxide falls, the pH returns toward this client's compensated baseline, the respiratory rate recovers and the level of consciousness clears, and an SpO2 of 90% is exactly the 88% to 92% target, not a value to push higher. A distended, tympanic abdomen is gastric insufflation from the mask pressure, which splints the diaphragm and raises the aspiration risk, so the nurse reports it and anticipates a lower inspiratory pressure or a gastric tube. Retained secretions are the other common reason non-invasive ventilation fails, since the mask blocks effective coughing, and both findings need intervention rather than reassurance."
+    }
+  ]
+}

@@ -1,0 +1,1270 @@
+{
+  "figures": [
+    {
+      "id": "ppe-sequence",
+      "title": "Putting on and taking off PPE",
+      "kind": "table",
+      "caption": "Take off the most contaminated item first and touch only the clean parts: the inside, the ties, the headband. Hand hygiene comes before putting anything on and right after taking everything off. The CDC also allows peeling the gown and gloves off together.",
+      "match": {
+        "topics": [
+          "Personal Protective Equipment",
+          "Removing Protective Equipment"
+        ],
+        "terms": [
+          "personal protective equipment",
+          "PPE",
+          "remov\\w* first",
+          "most contaminated",
+          "donn(ed|ing)",
+          "doff(ed|ing)",
+          "(putting on|taking off) (the )?(gowns?|gloves|masks?|goggles|respirators?|face shields?)"
+        ],
+        "exclude": [
+          "chemotherap\\w*",
+          "cisplatin",
+          "hazardous drugs?",
+          "antineoplastic"
+        ]
+      },
+      "columns": [
+        "",
+        "Putting on",
+        "Taking off"
+      ],
+      "rows": [
+        [
+          "1st",
+          "Hand hygiene",
+          "Gloves, the dirtiest item"
+        ],
+        [
+          "2nd",
+          "Gown, tied at the neck and waist",
+          "Goggles or face shield, by the headband"
+        ],
+        [
+          "3rd",
+          "Mask, or an N95 respirator with a seal check",
+          "Gown, rolled inside out and away from the body"
+        ],
+        [
+          "4th",
+          "Goggles or face shield",
+          "Mask or respirator, by the ties; an N95 comes off after leaving the room"
+        ],
+        [
+          "5th",
+          "Gloves, pulled over the gown cuffs",
+          "Hand hygiene right away"
+        ]
+      ]
+    },
+    {
+      "id": "transmission-precautions",
+      "title": "Transmission-based precautions",
+      "kind": "table",
+      "caption": "Standard precautions apply to everyone; these are added on top. C. diff spores survive alcohol rub, so wash with soap and water after that room.",
+      "match": {
+        "topics": [
+          "Infection Control",
+          "Transmission-Based Precautions",
+          "Droplet Precautions",
+          "Airborne Precautions",
+          "Contact Precautions",
+          "Clostridioides difficile"
+        ],
+        "terms": [
+          "airborne precautions?",
+          "droplet precautions?",
+          "contact precautions?",
+          "transmission-based",
+          "isolation (room|precautions?)",
+          "N95",
+          "respirator",
+          "negative[- ]pressure",
+          "C\\. ?diff(icile)?",
+          "Clostridioides difficile"
+        ]
+      },
+      "columns": [
+        "",
+        "Airborne",
+        "Droplet",
+        "Contact"
+      ],
+      "rows": [
+        [
+          "Spreads by",
+          "Tiny particles that hang in the air",
+          "Large droplets within about 6 feet",
+          "Touching the client or surfaces"
+        ],
+        [
+          "Examples",
+          "TB, measles, chickenpox, disseminated zoster",
+          "Influenza, pertussis, mumps, bacterial meningitis",
+          "MRSA, VRE, C. diff, scabies, RSV"
+        ],
+        [
+          "Room",
+          "Private negative-pressure room, door closed",
+          "Private room, or 3 feet from others",
+          "Private room, or cohort with the same organism"
+        ],
+        [
+          "Nurse wears",
+          "Fit-tested N95 respirator",
+          "Surgical mask",
+          "Gown and gloves"
+        ],
+        [
+          "Transport",
+          "Client wears a surgical mask",
+          "Client wears a surgical mask",
+          "Cover the infected area"
+        ]
+      ]
+    },
+    {
+      "id": "priority-framework",
+      "title": "Who comes first: priority rules",
+      "kind": "steps",
+      "caption": "Rank clients by how fast harm comes if the nurse waits. Work down the rules and stop at the first one that separates them. In cardiac arrest the order becomes compressions, airway, breathing.",
+      "match": {
+        "topics": [
+          "Prioritization",
+          "Establishing Priorities",
+          "Prioritizing Findings",
+          "Organizing Care After Report"
+        ],
+        "terms": [
+          "which (client|child|student|resident|patient)('s need)? should [\\w ]{0,40}?first",
+          "Maslow('s)?",
+          "ABCs?",
+          "airway, breathing,? (and )?circulation",
+          "outranks?",
+          "can (safely )?wait"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Airway",
+          "detail": "Stridor, throat tightness, a swollen tongue or lips, gurgling secretions, or a lost gag reflex. Nothing else comes before it."
+        },
+        {
+          "title": "Breathing",
+          "detail": "New shortness of breath, a rising respiratory rate, oxygen saturation falling below the client's usual level, a quiet chest in asthma."
+        },
+        {
+          "title": "Circulation",
+          "detail": "Active bleeding, a falling blood pressure with a rising heart rate, new chest pain, a cold or pulseless limb."
+        },
+        {
+          "title": "Other physical needs, then safety",
+          "detail": "Maslow: physiological needs (urinary retention, severe pain, a low glucose) come before safety, then love and belonging, then esteem."
+        },
+        {
+          "title": "Acute and unstable before chronic and stable",
+          "detail": "A sudden change, like new confusion or new weakness, outranks a long-standing finding at the client's baseline, like 89% saturation in COPD."
+        },
+        {
+          "title": "Unexpected before expected",
+          "detail": "A finding the condition or treatment doesn't explain comes first. Incisional pain after surgery or bruising at an injection site can wait."
+        },
+        {
+          "title": "Actual before potential",
+          "detail": "A problem happening now outranks a risk, unless the risk is about to threaten life, like tingling after thyroid surgery that signals low calcium."
+        },
+        {
+          "title": "Teaching and discharge last",
+          "detail": "Routine care, teaching and discharge paperwork come after every client is safe."
+        }
+      ]
+    },
+    {
+      "id": "delegation-rn-lpn-ap",
+      "title": "Who does what: RN, LPN/LVN, assistive staff",
+      "kind": "table",
+      "caption": "The RN delegates tasks, never judgment, and stays accountable. Five rights: the right task, circumstance, person, directions and communication, and supervision and evaluation. Exact scope varies by state practice act and facility policy.",
+      "match": {
+        "topics": [
+          "Delegation",
+          "Five Rights of Delegation",
+          "Delegation to Assistive Personnel",
+          "LPN Scope of Practice",
+          "Assignment",
+          "Assignment and Supervision",
+          "Supervision of Assistive Personnel",
+          "Delegation Decisions",
+          "Unsafe Delegation",
+          "The Delegation Process"
+        ],
+        "terms": [
+          "delegat\\w*|UAPs?|(unlicensed )?assistive personnel|nursing assistants?|LPN(/LVN)?s?|LVNs?|licensed practical nurses?",
+          "scope of practice|(stable|routine),? (and )?predictable|five rights|right (task|circumstances?|person|directions?|supervision)"
+        ]
+      },
+      "columns": [
+        "",
+        "Can do",
+        "Cannot do"
+      ],
+      "rows": [
+        [
+          "RN",
+          "Assess, plan, teach and evaluate; care for unstable and newly admitted clients",
+          "Delegate assessment, teaching, evaluation or judgment"
+        ],
+        [
+          "LPN/LVN",
+          "Stable, predictable clients; collect data; give oral, IM, subcut meds; reinforce teaching",
+          "Initial assessment, care planning, initial teaching, unstable clients"
+        ],
+        [
+          "Assistive personnel",
+          "Hygiene, feeding, walking, turning, vital signs on stable clients, intake and output",
+          "Assess, teach, give medications, do sterile procedures, or judge what a finding means"
+        ],
+        [
+          "Gray zones",
+          "IV therapy by an LPN/LVN, glucose checks by assistive staff",
+          "Allowed only as the state practice act and facility policy permit"
+        ]
+      ]
+    },
+    {
+      "id": "triage-categories",
+      "title": "Mass casualty triage tags (START)",
+      "kind": "table",
+      "caption": "START sorts each adult in under a minute. Anyone who can walk is green. A client who isn't breathing gets the airway repositioned once: still apneic is black, breathing is red. Everyone else is red or yellow by breathing, perfusion and mental status.",
+      "match": {
+        "topics": [
+          "Disaster Triage",
+          "Mass Casualty Triage"
+        ],
+        "terms": [
+          "mass[- ]casualty",
+          "disaster triage",
+          "START (method|triage|system)",
+          "triage tags?",
+          "(red|yellow|green|black)[- ]tag(s|ged)?",
+          "tagged",
+          "(four|4)-colou?r",
+          "walking wounded",
+          "(rapid|field|secondary) triage",
+          "triag\\w* victims"
+        ],
+        "exclude": [
+          "lightning",
+          "decontaminat\\w*"
+        ]
+      },
+      "columns": [
+        "",
+        "Who gets it",
+        "Examples"
+      ],
+      "rows": [
+        [
+          "Red: immediate",
+          "Breathes over 30 a minute, no radial pulse or refill over 2 sec, or can't obey commands",
+          "Tension pneumothorax, hemorrhagic shock, airway burns"
+        ],
+        [
+          "Yellow: delayed",
+          "Can't walk, but breathing, perfusion and mental status are adequate",
+          "Open fracture with good pulses, stable abdominal wound"
+        ],
+        [
+          "Green: minor",
+          "Walks to the collection area when told",
+          "Sprains, small cuts, minor burns, closed fractures of a hand or arm"
+        ],
+        [
+          "Black: expectant",
+          "Not breathing after the airway is repositioned, or injuries not survivable here",
+          "Massive open head injury, full-thickness burns over most of the body"
+        ]
+      ]
+    },
+    {
+      "id": "restraints",
+      "title": "Using restraints safely",
+      "kind": "steps",
+      "caption": "A restraint is a last resort for safety, never a punishment or a convenience. Monitoring and release intervals and order renewal limits are set by facility policy and regulation; follow the policy where you work.",
+      "match": {
+        "topics": [
+          "Restraints",
+          "Restraint Alternatives",
+          "Restraint Monitoring",
+          "Restraint Use",
+          "Restraint Orders",
+          "Applying Restraints",
+          "Restraint Discontinuation",
+          "Restraint Safety Review"
+        ],
+        "terms": [
+          "restrain(t|ts|ed|ing)",
+          "seclusion",
+          "(wrist|mitt|vest|limb|ankle|four-point|two-point) restraints?",
+          "quick[- ]release"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Try less restrictive measures first",
+          "detail": "Reorient, add a sitter or a bed alarm, lower the bed, hide or pad lines and tubes, involve family. Document what was tried."
+        },
+        {
+          "title": "Get a provider order, never as needed",
+          "detail": "Time-limited, with the reason and the type of restraint. In an emergency, apply it and get the order right away. Renew it as policy requires."
+        },
+        {
+          "title": "Apply the least restrictive device",
+          "detail": "Explain to the client and family. Pad bony areas, leave room for two fingers under the strap, keep the limb in normal alignment."
+        },
+        {
+          "title": "Tie it to the bed frame, quick-release knot",
+          "detail": "Never to the side rail, which moves and can injure the client. The knot must come undone in seconds in an emergency."
+        },
+        {
+          "title": "Check the client often",
+          "detail": "Circulation, sensation, skin, breathing, comfort and mental status, as often as policy requires (commonly every 15 to 30 minutes)."
+        },
+        {
+          "title": "Release and meet needs",
+          "detail": "Remove one restraint at a time, at least every 2 hours or per policy, for range of motion, skin care, toileting, fluids and food."
+        },
+        {
+          "title": "Remove it as soon as it's safe",
+          "detail": "Stop once the behavior resolves; don't wait for the order to expire. Reapplying needs a new order. Document every check."
+        }
+      ]
+    },
+    {
+      "id": "fire-race-pass",
+      "title": "Fire response: RACE, then PASS",
+      "kind": "steps",
+      "caption": "Rescue anyone in immediate danger first. When a whole unit must leave, move walking clients first, then those in wheelchairs, then those confined to bed, going horizontally past fire doors before going down stairs. Never use an elevator.",
+      "match": {
+        "topics": [
+          "Fire Safety",
+          "Fire Evacuation",
+          "Fire Response (RACE)",
+          "Fire Extinguisher (PASS)",
+          "Fire Safety Education"
+        ],
+        "terms": [
+          "(small|unit|wastebasket|trash can|room|hospital|hamper|linen) fires?",
+          "fire (extinguishers?|alarms?|doors?|safety|evacuation|response|drills?|codes?)",
+          "extinguish\\w*",
+          "evacuat\\w*",
+          "flames?",
+          "pull station"
+        ],
+        "exclude": [
+          "surgical fire",
+          "electrocautery",
+          "surgical site",
+          "operating room",
+          "home oxygen",
+          "oxygen concentrator",
+          "shooter",
+          "gunshots?|gunfire",
+          "oxygen at home"
+        ]
+      },
+      "steps": [
+        {
+          "title": "R: Rescue",
+          "detail": "Move clients in immediate danger away from the fire, starting with the room that is burning."
+        },
+        {
+          "title": "A: Alarm",
+          "detail": "Pull the nearest fire alarm and call the facility's emergency number with the exact location."
+        },
+        {
+          "title": "C: Contain",
+          "detail": "Close doors and windows to slow smoke and flames. Oxygen feeds a fire; it is shut off to the area as policy directs."
+        },
+        {
+          "title": "E: Extinguish or evacuate",
+          "detail": "Fight only a small fire with a clear exit behind you. Otherwise leave and evacuate."
+        },
+        {
+          "title": "P: Pull the pin",
+          "detail": "Hold the extinguisher upright and pull the pin to break the seal."
+        },
+        {
+          "title": "A: Aim low",
+          "detail": "Point the nozzle at the base of the fire, not at the flames."
+        },
+        {
+          "title": "S: Squeeze the handle",
+          "detail": "Squeeze slowly and evenly to release the extinguishing agent."
+        },
+        {
+          "title": "S: Sweep side to side",
+          "detail": "Sweep across the base until the fire is out, and watch for it to flare up again."
+        }
+      ]
+    },
+    {
+      "id": "informed-consent",
+      "title": "Informed consent: valid or not",
+      "kind": "table",
+      "caption": "The provider explains the procedure and obtains consent; the nurse witnesses the signature. If the client has doubts or questions, the nurse stops and calls the provider back before anything is signed.",
+      "match": {
+        "topics": [
+          "Informed Consent",
+          "Consent For Minors",
+          "Preoperative Consent",
+          "Capacity To Consent",
+          "Emergency Consent",
+          "Telephone Consent",
+          "Pediatric Assent"
+        ],
+        "terms": [
+          "informed consent",
+          "(surgical|operative|procedural) consent",
+          "consent forms?",
+          "consent (is|was) (not )?valid",
+          "(sign|signs|signed|signing) the consent",
+          "witness\\w* (the |a )?(client's )?(signature|consent)",
+          "emancipated",
+          "assent",
+          "consent for (surgery|the procedure|treatment|emergency)"
+        ]
+      },
+      "columns": [
+        "",
+        "Valid",
+        "Not valid"
+      ],
+      "rows": [
+        [
+          "Explanation",
+          "From the provider: the procedure, risks, benefits, alternatives, right to refuse",
+          "Only the nurse explained it, or the client can't say what will be done"
+        ],
+        [
+          "Nurse's signature",
+          "Witnesses that the client signed willingly and seems competent",
+          "Witnessing while the client says they don't understand"
+        ],
+        [
+          "Mental state",
+          "Alert and able to weigh the choice",
+          "After an opioid or sedative, confused, intoxicated, or pressured"
+        ],
+        [
+          "Language",
+          "A trained medical interpreter, noted on the form",
+          "A family member or child interpreting"
+        ],
+        [
+          "Who signs",
+          "Competent adult; for a minor, a parent or guardian unless state law says otherwise",
+          "A relative signing for a competent adult"
+        ],
+        [
+          "Emergency",
+          "Life-saving care when the client can't consent and no surrogate can be reached in time",
+          "Care that can safely wait, or care the client has already refused"
+        ]
+      ]
+    },
+    {
+      "id": "therapeutic-communication",
+      "title": "Therapeutic communication",
+      "kind": "table",
+      "caption": "Keep the focus on the client's feelings and let the client lead. The wrong answers usually reassure falsely, give advice, ask why, change the subject, or argue.",
+      "match": {
+        "topics": [
+          "Therapeutic Communication",
+          "Therapeutic Relationship"
+        ],
+        "terms": [
+          "(most|more|least|less) therapeutic",
+          "non-?therapeutic",
+          "therapeutic (communication|response|relationship|techniques?|statement)",
+          "open-ended( questions?| statements?| responses?)?",
+          "false(ly)? reassur\\w*",
+          "[\"'‘“]why[\"'’”] questions?|why questions?",
+          "(acknowledg|validat)\\w* (the client's |the parent's |their )?(feelings?|fears?|concerns?|emotions?)",
+          "reflect(s|ing)? (the client's )?feelings",
+          "(giving|gives|offering) advice",
+          "(says|said|states|stated|tells the nurse|asks|asked|cries|shouts|yells|whispers|remarks),? [\"'“‘]\\w+"
+        ]
+      },
+      "columns": [
+        "",
+        "Therapeutic",
+        "Blocks"
+      ],
+      "rows": [
+        [
+          "Opening up",
+          "Open-ended: \"Tell me more about that.\"",
+          "Closed or why questions: \"Why did you do that?\""
+        ],
+        [
+          "Feelings",
+          "Reflecting: \"You sound frightened.\"",
+          "Minimizing: \"Everyone feels that way.\""
+        ],
+        [
+          "Comfort",
+          "Offering self: \"I'll sit with you for a while.\"",
+          "False reassurance: \"Don't worry, it will be fine.\""
+        ],
+        [
+          "Decisions",
+          "Exploring: \"What options have you thought about?\"",
+          "Advice: \"If I were you, I would...\""
+        ],
+        [
+          "Meaning",
+          "Clarifying: \"What do you mean by that?\"",
+          "Judging: \"That's a bad idea.\""
+        ],
+        [
+          "Voices and delusions",
+          "Presenting reality: \"I don't hear voices, but you seem scared.\"",
+          "Arguing with the belief, or playing along with it"
+        ],
+        [
+          "Pauses",
+          "Silence and active listening",
+          "Changing the subject or talking about yourself"
+        ]
+      ]
+    },
+    {
+      "id": "suicide-risk-actions",
+      "title": "Responding to suicide risk",
+      "kind": "steps",
+      "caption": "Take every hint seriously and ask about it directly. Risk rises with a specific plan, a lethal method at hand, prior attempts, and a sudden lift in mood or energy.",
+      "match": {
+        "topics": [
+          "Mental Health - Suicide",
+          "Suicide Risk",
+          "Suicide Risk Assessment",
+          "Suicide Precautions",
+          "Suicide Safety Planning",
+          "Adolescent Suicide Risk",
+          "Acute Suicide Risk",
+          "Suicide Risk Screening",
+          "Suicide Risk During Recovery",
+          "Means Restriction",
+          "Safety Planning"
+        ],
+        "terms": [
+          "suicid\\w*",
+          "kill (myself|himself|herself|themselves)",
+          "end (my|his|her|their) (own )?life",
+          "no reason to (keep going|live|go on)",
+          "(better off|easier)( if I( just)? (were|was|weren't|wasn't)| without me| dead)",
+          "giv(e|es|ing) away (his |her |their |my )?(possessions|belongings|things)",
+          "one-to-one observation|1:1 observation|constant observation|continuous observation"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Ask directly",
+          "detail": "\"Are you thinking of killing yourself?\" Asking plainly does not plant the idea; it shows the topic is safe to talk about."
+        },
+        {
+          "title": "Assess plan, means and timing",
+          "detail": "A specific plan, a lethal method within reach and a chosen time mean high risk. Ask about past attempts, hopelessness and substance use."
+        },
+        {
+          "title": "Keep the client safe right now",
+          "detail": "High risk: never leave the client alone. Start one-to-one observation within sight or arm's reach, per the order and policy."
+        },
+        {
+          "title": "Remove the means",
+          "detail": "Search belongings per policy; remove sharps, belts, cords, shoelaces, plastic bags and glass. Check that swallowed pills aren't being saved."
+        },
+        {
+          "title": "Watch when mood suddenly lifts",
+          "detail": "Energy returns before mood in the first weeks of antidepressants. Sudden calm or giving things away can mean a decision has been made."
+        },
+        {
+          "title": "Build a safety plan",
+          "detail": "Warning signs, coping steps, people and places to reach, the 988 crisis line, and removing firearms and saved medicines from the home."
+        },
+        {
+          "title": "Report and document",
+          "detail": "Tell the provider and team, and record the client's own words, the risk level and the precautions in place."
+        }
+      ]
+    },
+    {
+      "id": "antipsychotic-side-effects",
+      "title": "Antipsychotic side effects",
+      "kind": "table",
+      "caption": "Older drugs such as haloperidol and fluphenazine cause more movement effects; newer ones such as olanzapine and clozapine cause more weight gain and high glucose. Metoclopramide can cause the same movement effects.",
+      "match": {
+        "topics": [],
+        "terms": [
+          "extrapyramidal|EPS",
+          "(acute )?dystoni\\w*",
+          "akathisia",
+          "pseudoparkinson\\w*|drug-induced parkinsonism",
+          "tardive( dyskinesia)?",
+          "lip[- ]smacking|tongue (thrusting|movements?)",
+          "oculogyric( crisis)?|torticollis|(twisting|spasms?) of the neck|upward deviation of the eyes",
+          "benztropine|Cogentin",
+          "Abnormal Involuntary Movement Scale|AIMS (exam|score|assessment)",
+          "antipsychotics?|neuroleptics?|haloperidol|fluphenazine|chlorpromazine|risperidone|olanzapine|quetiapine|clozapine|aripiprazole|ziprasidone|paliperidone|lurasidone",
+          "metabolic syndrome",
+          "agranulocytosis"
+        ],
+        "exclude": [
+          "refus\\w*",
+          "long-acting injectable",
+          "mood stabilizer"
+        ]
+      },
+      "columns": [
+        "",
+        "Signs and timing",
+        "Nursing action"
+      ],
+      "rows": [
+        [
+          "Acute dystonia",
+          "Hours to 5 days: painful spasm of the neck, jaw or tongue; eyes rolled upward",
+          "Urgent: IM or IV benztropine or diphenhydramine; protect the airway"
+        ],
+        [
+          "Akathisia",
+          "Days to weeks: can't sit still, pacing, inner restlessness, often mistaken for anxiety",
+          "Report it; lower dose, propranolol or a benzodiazepine as ordered"
+        ],
+        [
+          "Pseudo-parkinsonism",
+          "Weeks: shuffling gait, tremor, rigidity, mask-like face, drooling",
+          "Benztropine or another anticholinergic; dose change; fall precautions"
+        ],
+        [
+          "Tardive dyskinesia",
+          "Months to years: lip smacking, tongue thrusting, chewing, writhing limbs",
+          "Screen with the AIMS scale; report early, as it may be permanent"
+        ],
+        [
+          "Neuroleptic malignant syndrome",
+          "Any time, often early: high fever, lead-pipe rigidity, confusion, unstable BP",
+          "Emergency: stop the drug, cool, IV fluids, dantrolene or bromocriptine"
+        ],
+        [
+          "Metabolic",
+          "Weight gain, high glucose and lipids, most with olanzapine and clozapine",
+          "Weight, waist, glucose and lipids at the start and on a schedule"
+        ],
+        [
+          "Low white cells",
+          "Clozapine: fever, sore throat or mouth sores from agranulocytosis",
+          "Absolute neutrophil count before and during; report any sign of infection"
+        ],
+        [
+          "Everyday effects",
+          "Dry mouth, constipation, urine retention, dizziness on standing, sunburn",
+          "Sugar-free gum, fluids and fiber, rise slowly, sunscreen"
+        ]
+      ]
+    },
+    {
+      "id": "serotonin-syndrome-vs-nms",
+      "title": "Serotonin syndrome vs NMS",
+      "kind": "table",
+      "caption": "Both bring fever, a racing heart, swinging blood pressure and confusion; both are emergencies. Tell serotonin syndrome from neuroleptic malignant syndrome (NMS) by the drug, the speed of onset, and the muscles: twitching versus rigid.",
+      "match": {
+        "terms": [
+          "serotonin syndrome",
+          "neuroleptic malignant( syndrome)?",
+          "NMS",
+          "(high fever|hyperthermia),? (and )?(severe )?(muscle )?rigidity",
+          "lead[- ]pipe rigidity",
+          "dantrolene|bromocriptine",
+          "cyproheptadine"
+        ],
+        "exclude": [
+          "malignant hyperthermia",
+          "succinylcholine",
+          "anesthe\\w*"
+        ],
+        "topics": []
+      },
+      "columns": [
+        "",
+        "Serotonin syndrome",
+        "NMS"
+      ],
+      "rows": [
+        [
+          "Cause",
+          "An SSRI, SNRI or MAOI plus tramadol, a triptan, linezolid or St. John's wort",
+          "Any antipsychotic, most often a high-potency one or a fast dose increase"
+        ],
+        [
+          "Onset",
+          "Fast: within hours of a new drug or higher dose",
+          "Slower: over 1 to 3 days, often in the first weeks"
+        ],
+        [
+          "Muscles",
+          "Tremor, twitching, clonus, brisk reflexes",
+          "Severe lead-pipe rigidity, slow movement"
+        ],
+        [
+          "Other signs",
+          "Agitation, sweating, dilated pupils, diarrhea; fever when severe",
+          "Very high fever, stupor, sweating, high creatine kinase (CK)"
+        ],
+        [
+          "Treatment",
+          "Stop the drug; cooling, benzodiazepines, cyproheptadine",
+          "Stop the antipsychotic; cooling, IV fluids, dantrolene or bromocriptine"
+        ],
+        [
+          "Course",
+          "Usually settles within 24 hours of stopping",
+          "Takes 1 to 2 weeks to resolve; muscle breakdown can cause kidney failure"
+        ]
+      ]
+    },
+    {
+      "id": "alcohol-withdrawal-timeline",
+      "title": "Alcohol withdrawal: what comes when",
+      "kind": "curves",
+      "caption": "Count from the last drink. Tremor, seizures and hallucinosis come early; delirium tremens comes late, around day 2 to 4, and can kill. Benzodiazepines are dosed by the CIWA-Ar score, and thiamine goes in before glucose.",
+      "match": {
+        "topics": [
+          "Alcohol Withdrawal",
+          "Delirium Tremens",
+          "Alcohol Withdrawal and Electrolytes",
+          "CIWA-Ar Monitoring",
+          "Symptom-Triggered Benzodiazepine Dosing"
+        ],
+        "terms": [
+          "alcohol withdrawal",
+          "delirium tremens|DTs",
+          "CIWA(-Ar)?",
+          "last drink",
+          "alcohol(ic)? hallucinosis",
+          "withdrawal seizures?",
+          "detox(ification)? unit"
+        ]
+      },
+      "xLabel": "Hours after the last drink",
+      "yLabel": "Symptoms (schematic)",
+      "xMax": 120,
+      "yMax": 1,
+      "xTicks": [
+        0,
+        24,
+        48,
+        72,
+        96,
+        120
+      ],
+      "series": [
+        {
+          "label": "Tremor, anxiety, sweating",
+          "note": "Starts 6 to 12 hours after the last drink, with nausea, a fast pulse and insomnia. Peaks around 24 to 36 hours.",
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              6,
+              0.08
+            ],
+            [
+              18,
+              0.38
+            ],
+            [
+              30,
+              0.45
+            ],
+            [
+              48,
+              0.3
+            ],
+            [
+              72,
+              0.08
+            ],
+            [
+              84,
+              0
+            ]
+          ]
+        },
+        {
+          "label": "Seizures",
+          "note": "6 to 48 hours, most often around 24 hours. Usually generalized tonic-clonic. Seizure precautions and benzodiazepines.",
+          "points": [
+            [
+              4,
+              0
+            ],
+            [
+              12,
+              0.2
+            ],
+            [
+              24,
+              0.62
+            ],
+            [
+              36,
+              0.3
+            ],
+            [
+              48,
+              0.05
+            ],
+            [
+              54,
+              0
+            ]
+          ]
+        },
+        {
+          "label": "Hallucinosis",
+          "note": "12 to 48 hours. Mostly visual hallucinations while the client stays oriented, with fairly normal vital signs.",
+          "points": [
+            [
+              10,
+              0
+            ],
+            [
+              18,
+              0.15
+            ],
+            [
+              30,
+              0.3
+            ],
+            [
+              42,
+              0.18
+            ],
+            [
+              50,
+              0.02
+            ],
+            [
+              56,
+              0
+            ]
+          ]
+        },
+        {
+          "label": "Delirium tremens",
+          "note": "48 to 96 hours: confusion, agitation, fever, fast pulse, high BP, drenching sweats. Lasts days; a medical emergency.",
+          "points": [
+            [
+              40,
+              0
+            ],
+            [
+              52,
+              0.3
+            ],
+            [
+              68,
+              0.9
+            ],
+            [
+              84,
+              0.95
+            ],
+            [
+              102,
+              0.6
+            ],
+            [
+              120,
+              0.3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anxiety-levels",
+      "title": "Levels of anxiety",
+      "kind": "table",
+      "caption": "As anxiety rises, the client's attention narrows until they can't take in words at all. Teach only at mild or moderate levels; at severe and panic levels, stay with the client, keep sentences short and lower stimulation.",
+      "match": {
+        "topics": [
+          "Anxiety",
+          "Panic Attack",
+          "Panic Disorder"
+        ],
+        "terms": [
+          "(mild|moderate|severe|panic)[- ]level( of)? anxiety",
+          "(mild|moderate|severe) anxiety",
+          "level of anxiety|anxiety level",
+          "panic(?! values?)( attacks?| level| disorder)?",
+          "perceptual field",
+          "impending doom|something terrible is happening|(I am|I'm) going to die|feeling of dying"
+        ],
+        "exclude": [
+          "GAD-7",
+          "cognitive behavioral therapy"
+        ]
+      },
+      "columns": [
+        "",
+        "What the client shows",
+        "The nurse's approach"
+      ],
+      "rows": [
+        [
+          "Mild",
+          "Alert and attentive; learns and solves problems well",
+          "A good time to teach"
+        ],
+        [
+          "Moderate",
+          "Narrowed focus but can follow directions; faster pulse, pacing, trembling voice",
+          "Help the client focus; clear, simple directions; explore the feeling"
+        ],
+        [
+          "Severe",
+          "Fixes on details, can't solve problems; headache, nausea, rapid breathing",
+          "Stay with the client; calm, quiet space; short sentences; no teaching"
+        ],
+        [
+          "Panic",
+          "Terror, disorganized thinking, can't communicate or follow directions",
+          "Safety first: stay, few words, low stimulation, medication as ordered"
+        ]
+      ]
+    },
+    {
+      "id": "seizure-care",
+      "title": "During and after a seizure",
+      "kind": "steps",
+      "caption": "Protect the client; never restrain or put anything in the mouth. For a client at risk, keep the bed low, side rails padded per policy, oxygen and suction ready at the bedside, and IV access in place.",
+      "match": {
+        "topics": [
+          "Seizure",
+          "Seizures",
+          "Seizure Precautions",
+          "Prolonged Seizure",
+          "Seizure Safety at School"
+        ],
+        "terms": [
+          "tonic-clonic",
+          "seizure precautions",
+          "status epilepticus",
+          "post-?ictal",
+          "(has|having|have|begins|began|starts|started|had) (a |an )?(generalized |prolonged |focal )?seizures?",
+          "seizure (has|had) (just )?(ended|stopped)|seizure (lasts|lasting|lasted)"
+        ],
+        "exclude": [
+          "pre-?eclamp\\w*",
+          "eclamp\\w*",
+          "magnesium sulfate",
+          "febrile seizures?",
+          "newborns?|neonat\\w*"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Stay, call for help, note the time",
+          "detail": "Timing the seizure tells you when it has become an emergency."
+        },
+        {
+          "title": "Protect from injury",
+          "detail": "Ease the client to the floor if upright, move furniture away, cushion the head, and loosen clothing at the neck."
+        },
+        {
+          "title": "Nothing in the mouth, no restraint",
+          "detail": "Don't force in a tongue blade, fingers or an airway, and don't hold the limbs down."
+        },
+        {
+          "title": "Turn to the side as soon as possible",
+          "detail": "Lets saliva drain and keeps the tongue from blocking the airway. Suction and oxygen as needed."
+        },
+        {
+          "title": "Watch and describe",
+          "detail": "Where it started, the body parts involved, eye deviation, incontinence, and how long it lasted."
+        },
+        {
+          "title": "Over 5 minutes: status epilepticus",
+          "detail": "Or seizures back to back without waking. Call the rapid response team; a benzodiazepine such as IV lorazepam per protocol."
+        },
+        {
+          "title": "Afterward, let the client recover",
+          "detail": "Side-lying, airway and vital signs checked, injuries looked for, reoriented. Confusion and sleepiness afterward are expected."
+        }
+      ]
+    },
+    {
+      "id": "fall-prevention",
+      "title": "Preventing and responding to falls",
+      "kind": "steps",
+      "caption": "Most falls happen when a client gets up alone, often to reach the bathroom. Screen everyone, then match the precautions to the risk. After a fall, assess before moving the client.",
+      "match": {
+        "topics": [
+          "Fall Prevention",
+          "Fall Risk Assessment",
+          "Post-Fall Assessment",
+          "Falls",
+          "Fall Prevention Bundle",
+          "Fall Risk",
+          "Post-Fall Response",
+          "Responding to a Client Fall",
+          "Fall Risk Reassessment",
+          "Fall Prevention in Long-Term Care",
+          "Home Fall Hazards",
+          "Fall With Head Injury",
+          "Assisted Fall",
+          "Fall Prevention With Epidural Analgesia",
+          "Orthostatic Hypotension and Falls",
+          "Delirium and Fall Risk",
+          "Fall Prevention and Restraint Alternatives"
+        ],
+        "terms": [
+          "fall[- ]risk|risk (of|for) (a )?falls?|fall[- ]prevention|fall precautions|(prevent|preventing|reduce) falls",
+          "Morse( Fall Scale)?",
+          "(found|lying|sitting|lies|sits) on the floor",
+          "(bed|chair) alarms?",
+          "(after|following) (a|an|an unwitnessed|the) fall|(client|resident|older adult) (falls|fell)"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Screen on admission and after changes",
+          "detail": "Use a tool such as the Morse Fall Scale. Reassess after a fall, surgery, a transfer, or new sedating medications."
+        },
+        {
+          "title": "Know the big risk factors",
+          "detail": "A prior fall, confusion, unsteady gait, urgency or frequent toileting, dizziness on standing, and sedatives, opioids or diuretics."
+        },
+        {
+          "title": "Make the room safe",
+          "detail": "Bed low and locked, call light and belongings within reach, a night light, a clear path, nonskid footwear."
+        },
+        {
+          "title": "Round and toilet on a schedule",
+          "detail": "Check pain, position and toileting needs hourly; offer the bathroom before the client decides to go alone."
+        },
+        {
+          "title": "Get up safely",
+          "detail": "Dangle at the bedside before standing and use a gait belt and the client's walker or cane. If the client starts to fall, ease them to the floor."
+        },
+        {
+          "title": "Alarms and sitters, not restraints",
+          "detail": "Bed or chair alarms, a room near the station, a sitter. All four side rails up counts as a restraint and raises injury risk."
+        },
+        {
+          "title": "After a fall, assess before moving",
+          "detail": "Stay and call for help; check breathing, injuries, a head strike, neuro status and vital signs. Notify the provider; file an incident report."
+        }
+      ]
+    },
+    {
+      "id": "psychosis-responses",
+      "title": "Psychosis: symptoms and responses",
+      "kind": "table",
+      "caption": "Positive symptoms add something to normal experience; negative symptoms take something away and are often harder to treat. Never argue with a hallucination or delusion, and never play along with it.",
+      "match": {
+        "topics": [
+          "Schizophrenia",
+          "Schizophrenia Relapse",
+          "First-Episode Psychosis",
+          "Command Hallucinations",
+          "Responding to Delusions",
+          "Hallucinations"
+        ],
+        "terms": [
+          "hallucinat\\w*",
+          "delusions?|delusional",
+          "(the |hearing |hears )voices",
+          "schizo(phrenia|affective)",
+          "psychos[ie]s|psychotic",
+          "catatoni[ac]",
+          "word salad|clang|loose associations?|neologisms?",
+          "(positive|negative) symptoms|flat affect|avolition|alogia|anhedonia"
+        ],
+        "exclude": [
+          "alcohol",
+          "withdrawal",
+          "delirium",
+          "dementia|Alzheimer",
+          "Parkinson\\w*",
+          "hallucinogens?|LSD"
+        ]
+      },
+      "columns": [
+        "",
+        "What the client shows",
+        "The nurse's approach"
+      ],
+      "rows": [
+        [
+          "Hallucinations",
+          "Hears, sees or feels what isn't there; glances around, talks or listens to no one",
+          "Say you don't hear it but see the fear; focus on real, concrete activities"
+        ],
+        [
+          "Command hallucinations",
+          "Voices order the client to harm self or others",
+          "Ask what the voices say and if the client can resist; keep everyone safe"
+        ],
+        [
+          "Delusions",
+          "Fixed false beliefs: being poisoned, watched, controlled or specially chosen",
+          "Don't argue or agree; respond to the feeling; sealed foods if poison is feared"
+        ],
+        [
+          "Disorganized speech",
+          "Loose associations, word salad, rhyming clang associations, made-up words",
+          "Say when you don't understand; use short, clear sentences"
+        ],
+        [
+          "Negative symptoms",
+          "Flat affect, little speech, no drive or pleasure, withdrawal, poor hygiene",
+          "Short, frequent contacts; simple structured tasks; help with self-care"
+        ],
+        [
+          "Catatonia",
+          "Motionless or rigid, limbs stay where placed, not eating or drinking",
+          "Meet fluid, food, skin and elimination needs; watch for sudden agitation"
+        ]
+      ]
+    },
+    {
+      "id": "abuse-reporting",
+      "title": "Recognizing and reporting abuse",
+      "kind": "table",
+      "caption": "Nurses must report suspected child abuse, and in most states elder and dependent-adult abuse; a good-faith report needs no proof. Chart exactly what you see and the client's own words, without conclusions.",
+      "match": {
+        "topics": [
+          "Mandatory Reporting",
+          "Child Abuse Reporting",
+          "Suspected Child Abuse",
+          "Child Physical Abuse",
+          "Suspected Elder Abuse",
+          "Elder Abuse and Neglect",
+          "Elder Abuse Types",
+          "Neglect Reporting",
+          "Intimate Partner Violence"
+        ],
+        "terms": [
+          "abus(e|ed|ive)(?! of)",
+          "neglect(ed)?",
+          "intimate partner|domestic violence",
+          "maltreat\\w*",
+          "mandatory report\\w*|mandated reporters?",
+          "(adult|child) protective services",
+          "sexual assault|sexually assaulted|rape",
+          "spiral fracture",
+          "(different|various|several|multiple) stages of healing"
+        ],
+        "exclude": [
+          "(substance|alcohol|drug|opioid|cannabis|stimulant|laxative) (use|abuse|misuse)",
+          "self-neglect",
+          "unilateral neglect|neglect of the (left|right)"
+        ]
+      },
+      "columns": [
+        "",
+        "Red flags",
+        "What the nurse does"
+      ],
+      "rows": [
+        [
+          "Child",
+          "Injury that doesn't fit the story or the child's age, spiral fractures, patterned burns",
+          "Report to child protective services; proof isn't needed. Talk with the child alone"
+        ],
+        [
+          "Older or dependent adult",
+          "Unexplained bruises, poor hygiene, pressure injuries, weight loss, missing money",
+          "Report as state law requires, usually to adult protective services; keep the client safe"
+        ],
+        [
+          "Intimate partner",
+          "Injuries to the face, neck or arms, delayed care, a partner who won't leave the room",
+          "Screen alone; offer a safety plan and a hotline. Adult reporting laws vary by state"
+        ],
+        [
+          "Sexual assault",
+          "Client discloses an assault; shock, numbness or fear",
+          "Preserve evidence: no bathing or changing first; forensic exam only with consent"
+        ]
+      ]
+    },
+    {
+      "id": "advance-directives",
+      "title": "Advance directives and DNR orders",
+      "kind": "table",
+      "caption": "Facilities must ask every adult on admission whether they have an advance directive. A client who can still decide speaks for themselves; the document or the agent speaks only when the client cannot.",
+      "match": {
+        "topics": [
+          "Advance Directives",
+          "Durable Power Of Attorney",
+          "Do-Not-Resuscitate Order",
+          "Withdrawing Treatment",
+          "Goals of Care Coordination"
+        ],
+        "terms": [
+          "advance (directives?|care planning)",
+          "living will",
+          "power of attorney|health care (proxy|agent)",
+          "DNR|do[- ]not[- ]resuscitate|no[- ]code|allow natural death",
+          "POLST|MOLST",
+          "Patient Self-Determination Act",
+          "withdraw\\w* (of )?(treatment|life support|life-sustaining|dialysis|the ventilator)"
+        ],
+        "exclude": [
+          "handoff",
+          "transfer\\w*"
+        ]
+      },
+      "columns": [
+        "",
+        "What it does",
+        "The nurse's role"
+      ],
+      "rows": [
+        [
+          "Living will",
+          "States which life-sustaining treatments the client wants or refuses if unable to decide",
+          "Ask about it on admission and get a copy into the chart"
+        ],
+        [
+          "Health care power of attorney",
+          "Names an agent to make decisions only when the client can't",
+          "While the client can decide, the agent can't override the client"
+        ],
+        [
+          "DNR order",
+          "A provider's order: no CPR if breathing or the heart stops",
+          "All other care continues: comfort, medications, fluids, relieving choking"
+        ],
+        [
+          "POLST form",
+          "Portable provider orders on current treatment limits for serious illness",
+          "Travels with the client; honor it in every care setting"
+        ],
+        [
+          "Stopping treatment",
+          "A client who can decide may refuse or stop any treatment, even dialysis or a ventilator",
+          "Confirm the client is informed, support the choice, bring in palliative care"
+        ]
+      ]
+    }
+  ]
+}

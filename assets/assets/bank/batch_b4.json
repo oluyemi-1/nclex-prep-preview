@@ -1,0 +1,4622 @@
+{
+  "version": 1,
+  "batch": "b4",
+  "label": "Batch 4 (Q6001-Q8000)",
+  "cases": [],
+  "items": [
+    {
+      "id": "b4_q6140",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Matrix/Grid",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Meningitis",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 46-year-old client is admitted with suspected bacterial meningitis. Which infection-control action is most appropriate initially?",
+      "options": [
+        "Implement indicated transmission-based precautions promptly",
+        "Delay precautions until culture results are final",
+        "Place the client in a positive-pressure room",
+        "Use only standard precautions regardless of organism"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Suspected bacterial meningitis requires prompt appropriate transmission-based precautions while the cause is clarified."
+    },
+    {
+      "id": "b4_q6149",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "AKI",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 58-year-old client with AKI has potassium 6.4 mEq/L and peaked T waves. Which problem is the immediate priority?",
+      "options": [
+        "Sleep disturbance",
+        "Impaired skin pigmentation",
+        "Risk for life-threatening dysrhythmia",
+        "Constipation"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Severe hyperkalemia with ECG changes threatens cardiac conduction and requires urgent treatment."
+    },
+    {
+      "id": "b4_q6152",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cirrhosis",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "An 82-year-old client with cirrhosis becomes confused and develops asterixis. Which complication is most likely?",
+      "options": [
+        "Hepatic encephalopathy",
+        "Simple fatigue",
+        "Stable ascites only",
+        "Renal calculus"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Altered cognition and asterixis in advanced liver disease are classic cues of hepatic encephalopathy."
+    },
+    {
+      "id": "b4_q6161",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Digoxin",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 19-year-old client taking digoxin reports nausea and new visual color changes and has bradycardia. What should the nurse suspect?",
+      "options": [
+        "Iron deficiency",
+        "Expected therapeutic effect",
+        "Acute asthma",
+        "Digoxin toxicity"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "GI symptoms, visual disturbances and bradyarrhythmias are important toxicity cues with digoxin."
+    },
+    {
+      "id": "b4_q6176",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Extended Multiple Response",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Mental Health - Suicide",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "An 82-year-old client says, \"I have a gun at home and plan to use it tonight.\" What is the nurse’s priority response?",
+      "options": [
+        "Discuss long-term career goals before addressing safety",
+        "Promise to keep the statement secret",
+        "Initiate immediate suicide-safety precautions and obtain urgent evaluation",
+        "Leave the client alone to reduce stimulation"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "A specific plan with access to lethal means indicates acute suicide risk; immediate safety measures take priority."
+    },
+    {
+      "id": "b4_q6194",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Sepsis",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 27-year-old client with suspected infection has T 39.2 C, HR 128/min, RR 30/min, BP 86/48 mmHg, new confusion, and urine output 15 mL/hr. Which finding most strongly indicates impaired perfusion?",
+      "options": [
+        "Urine output 15 mL/hr",
+        "Temperature 39.2 C",
+        "Respiratory rate 30/min",
+        "Heart rate 128/min"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Marked oliguria is an important cue of reduced renal perfusion in a hemodynamically unstable client."
+    },
+    {
+      "id": "b4_q6197",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cardiogenic Shock",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "A 58-year-old client after a large MI has crackles, JVD, cool skin and hypotension. Which prescription should the nurse question if it is ordered as a rapid large-volume intervention?",
+      "options": [
+        "Continuous ECG monitoring",
+        "Oxygen as indicated",
+        "Vasoactive medication titrated to response",
+        "Large rapid isotonic fluid bolus without reassessment"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Cardiogenic shock reflects pump failure; indiscriminate large rapid fluid loading can worsen pulmonary congestion."
+    },
+    {
+      "id": "b4_q6200",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "ARDS",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "An 82-year-old client with severe pneumonia has worsening hypoxemia despite supplemental oxygen and bilateral diffuse infiltrates. Which complication is the priority concern?",
+      "options": [
+        "Stable pleural effusion",
+        "ARDS",
+        "Chronic bronchitis",
+        "Sinusitis"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Refractory hypoxemia with diffuse bilateral pulmonary involvement after a major insult is consistent with ARDS."
+    },
+    {
+      "id": "b4_q6201",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 200 mg. The medication available is 100 mg per 1 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 2.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 200/100 x 1 = 2 mL."
+    },
+    {
+      "id": "b4_q6206",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Highlight",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cardiac Tamponade",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 67-year-old client after cardiac surgery develops hypotension, JVD and muffled heart sounds. Which complication should the nurse suspect?",
+      "options": [
+        "Left-sided heart failure only",
+        "Cardiac tamponade",
+        "Hypoglycemia",
+        "Pneumonia"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Hypotension, jugular venous distention and muffled heart sounds are classic cues associated with cardiac tamponade."
+    },
+    {
+      "id": "b4_q6209",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Bow-tie",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Stroke",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 19-year-old client suddenly develops facial droop, unilateral arm weakness and difficulty speaking. What is the priority nursing action?",
+      "options": [
+        "Allow the client to sleep",
+        "Give an IM injection for pain",
+        "Offer food to test swallowing",
+        "Activate the stroke response and establish the time last known well"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Stroke care is time-sensitive; rapid activation and accurate last-known-well time are essential."
+    },
+    {
+      "id": "b4_q6212",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Spinal Cord Injury",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "A 46-year-old client with a T4 spinal cord injury develops a pounding headache, flushing above the lesion and BP 210/110 mmHg. Which condition should the nurse suspect?",
+      "options": [
+        "Autonomic dysreflexia",
+        "Hypovolemic shock",
+        "DKA",
+        "Pulmonary edema"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Severe hypertension with headache and flushing in a client with a high spinal cord lesion is characteristic of autonomic dysreflexia."
+    },
+    {
+      "id": "b4_q6218",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 120 mg. The medication available is 40 mg per 10 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 30.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 120/40 x 10 = 30 mL."
+    },
+    {
+      "id": "b4_q6221",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Thyroid Storm",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "A 58-year-old client with hyperthyroidism develops fever 40 C, severe tachycardia and agitation. What should the nurse suspect?",
+      "options": [
+        "Myxedema coma",
+        "SIADH",
+        "Stable hypothyroidism",
+        "Thyroid storm"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "High fever, marked tachycardia and CNS excitation in hyperthyroidism are emergency cues for thyroid storm."
+    },
+    {
+      "id": "b4_q6224",
+      "batch": "b4",
+      "type": "trend",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Peritoneal Dialysis",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "An 82-year-old client receiving peritoneal dialysis has cloudy effluent and abdominal pain. Which complication should the nurse suspect?",
+      "options": [
+        "Hypoglycemia only",
+        "Otitis media",
+        "Peritonitis",
+        "Expected dialysis finding"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Cloudy dialysate with abdominal pain is a warning sign of peritonitis and requires prompt evaluation."
+    },
+    {
+      "id": "b4_q6233",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Anticoagulants",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 19-year-old client receiving heparin develops a major platelet decline and new thrombosis. Which adverse effect should the nurse suspect?",
+      "options": [
+        "Expected therapeutic response",
+        "Heparin-induced thrombocytopenia",
+        "Iron deficiency",
+        "Hyperthyroidism"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "A substantial platelet fall with thrombosis during heparin exposure is concerning for HIT."
+    },
+    {
+      "id": "b4_q6235",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 400 mg. The medication available is 50 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 40.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 400/50 x 5 = 40 mL."
+    },
+    {
+      "id": "b4_q6251",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Schizophrenia",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 34-year-old client says, \"The voices are telling me to hurt myself.\" What should the nurse do first?",
+      "options": [
+        "Leave the client alone until the voices stop",
+        "Tell the client the voices are real",
+        "Argue that hallucinations are impossible",
+        "Assess the content, intent, ability to resist, and immediate safety risk"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Command hallucinations require immediate focused safety assessment and protective intervention as needed."
+    },
+    {
+      "id": "b4_q6252",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 80 mg. The medication available is 100 mg per 10 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 8.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 80/100 x 10 = 8 mL."
+    },
+    {
+      "id": "b4_q6260",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Bow-tie",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Burns",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 46-year-old client with major burns has soot around the mouth, hoarseness and facial burns. What is the priority concern?",
+      "options": [
+        "Progressive airway edema",
+        "Chronic joint stiffness",
+        "Urinary frequency",
+        "Constipation"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Inhalation injury can cause rapidly progressive airway edema; airway assessment and early expert management are priorities."
+    },
+    {
+      "id": "b4_q6269",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 800 mg. The medication available is 40 mg per 1 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 20.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 800/40 x 1 = 20 mL."
+    },
+    {
+      "id": "b4_q6272",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Chest Tubes",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "An 82-year-old client with a chest tube becomes acutely dyspneic. The nurse finds the tubing disconnected from the drainage system. What should the nurse do first?",
+      "options": [
+        "Clamp the chest tube near the client for the remainder of the shift",
+        "Turn the client onto the affected side and leave the tube disconnected",
+        "Re-establish the drainage system connection using aseptic technique and assess the client",
+        "Remove the chest tube"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "A disconnected system can allow air entry and loss of drainage; restore the closed system promptly while assessing respiratory status."
+    },
+    {
+      "id": "b4_q6278",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Extended Multiple Response",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Myocardial Infarction",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 67-year-old client reports crushing substernal chest pressure with diaphoresis and nausea. Which nursing action is the priority?",
+      "options": [
+        "Schedule diet teaching",
+        "Obtain rapid assessment, ECG and initiate the acute chest-pain protocol",
+        "Delay assessment until pain has lasted 30 minutes",
+        "Encourage ambulation"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Possible acute coronary syndrome requires immediate assessment and time-sensitive evaluation/treatment."
+    },
+    {
+      "id": "b4_q6286",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 800 mg. The medication available is 100 mg per 2 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 16.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 800/100 x 2 = 16 mL."
+    },
+    {
+      "id": "b4_q6287",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "DKA",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 74-year-old client with DKA has glucose 620 mg/dL, K 5.4 mEq/L, BP 88/52 mmHg and dry mucous membranes. Which intervention is generally the initial priority?",
+      "options": [
+        "Begin prescribed isotonic IV fluid replacement",
+        "Give long-acting insulin only",
+        "Restrict fluids",
+        "Administer sodium bicarbonate routinely before fluids"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Severe dehydration and poor perfusion are major immediate problems in DKA; isotonic fluid resuscitation is a key initial intervention."
+    },
+    {
+      "id": "b4_q6299",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "GI Bleed",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 34-year-old client has hematemesis, HR 126/min and BP 82/46 mmHg. Which action is the priority?",
+      "options": [
+        "Delay intervention until hemoglobin is repeated tomorrow",
+        "Encourage ambulation",
+        "Give a high-fiber meal",
+        "Support airway/circulation and obtain large-bore IV access for resuscitation"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "An unstable GI bleed threatens circulation and requires immediate ABC-focused resuscitation."
+    },
+    {
+      "id": "b4_q6302",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Sickle Cell Disease",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "A 67-year-old client is admitted with vaso-occlusive sickle cell pain. Which interventions are appropriate?",
+      "options": [
+        "Withhold prescribed analgesics until pain becomes unbearable",
+        "Apply ice directly to painful areas for prolonged periods",
+        "Assess pain, support hydration as prescribed, give analgesia, and evaluate oxygenation",
+        "Restrict fluids"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Management centers on pain control, hydration when appropriate, oxygenation assessment and treatment of triggers/complications."
+    },
+    {
+      "id": "b4_q6303",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 100 mg. The medication available is 40 mg per 4 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 10.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 100/40 x 4 = 10 mL."
+    },
+    {
+      "id": "b4_q6311",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Bow-tie",
+      "category": "maternity",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Magnesium Sulfate",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 74-year-old client receiving magnesium sulfate has RR 9/min, absent deep tendon reflexes and decreasing urine output. What should the nurse suspect?",
+      "options": [
+        "Normal labor progression",
+        "Expected therapeutic response",
+        "Hypomagnesemia",
+        "Magnesium toxicity"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Respiratory depression, loss of reflexes and reduced renal clearance are major toxicity cues."
+    },
+    {
+      "id": "b4_q6320",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 800 mg. The medication available is 50 mg per 1 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 16.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 800/50 x 1 = 16 mL."
+    },
+    {
+      "id": "b4_q6354",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 240 mg. The medication available is 100 mg per 10 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 24.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 240/100 x 10 = 24 mL."
+    },
+    {
+      "id": "b4_q6359",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Highlight",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Meningitis",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 74-year-old client is admitted with suspected bacterial meningitis. Which infection-control action is most appropriate initially?",
+      "options": [
+        "Implement indicated transmission-based precautions promptly",
+        "Place the client in a positive-pressure room",
+        "Use only standard precautions regardless of organism",
+        "Delay precautions until culture results are final"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Suspected bacterial meningitis requires prompt appropriate transmission-based precautions while the cause is clarified."
+    },
+    {
+      "id": "b4_q6368",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "AKI",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "An 82-year-old client with AKI has potassium 6.4 mEq/L and peaked T waves. Which problem is the immediate priority?",
+      "options": [
+        "Risk for life-threatening dysrhythmia",
+        "Impaired skin pigmentation",
+        "Constipation",
+        "Sleep disturbance"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Severe hyperkalemia with ECG changes threatens cardiac conduction and requires urgent treatment."
+    },
+    {
+      "id": "b4_q6371",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 120 mg. The medication available is 100 mg per 2 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 2.4,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 120/100 x 2 = 2.4 mL."
+    },
+    {
+      "id": "b4_q6380",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Extended Multiple Response",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Digoxin",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 46-year-old client taking digoxin reports nausea and new visual color changes and has bradycardia. What should the nurse suspect?",
+      "options": [
+        "Iron deficiency",
+        "Expected therapeutic effect",
+        "Acute asthma",
+        "Digoxin toxicity"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "GI symptoms, visual disturbances and bradyarrhythmias are important toxicity cues with digoxin."
+    },
+    {
+      "id": "b4_q6388",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 40 mg. The medication available is 40 mg per 10 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 10.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 40/40 x 10 = 10 mL."
+    },
+    {
+      "id": "b4_q6395",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Matrix/Grid",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Mental Health - Suicide",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 34-year-old client says, \"I have a gun at home and plan to use it tonight.\" What is the nurse’s priority response?",
+      "options": [
+        "Initiate immediate suicide-safety precautions and obtain urgent evaluation",
+        "Promise to keep the statement secret",
+        "Discuss long-term career goals before addressing safety",
+        "Leave the client alone to reduce stimulation"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "A specific plan with access to lethal means indicates acute suicide risk; immediate safety measures take priority."
+    },
+    {
+      "id": "b4_q6405",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 80 mg. The medication available is 200 mg per 1 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 0.4,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 80/200 x 1 = 0.4 mL."
+    },
+    {
+      "id": "b4_q6413",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Bow-tie",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Sepsis",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 58-year-old client with suspected infection has T 39.2 C, HR 128/min, RR 30/min, BP 86/48 mmHg, new confusion, and urine output 15 mL/hr. Which finding most strongly indicates impaired perfusion?",
+      "options": [
+        "Temperature 39.2 C",
+        "Urine output 15 mL/hr",
+        "Respiratory rate 30/min",
+        "Heart rate 128/min"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Marked oliguria is an important cue of reduced renal perfusion in a hemodynamically unstable client."
+    },
+    {
+      "id": "b4_q6416",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cardiogenic Shock",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "An 82-year-old client after a large MI has crackles, JVD, cool skin and hypotension. Which prescription should the nurse question if it is ordered as a rapid large-volume intervention?",
+      "options": [
+        "Large rapid isotonic fluid bolus without reassessment",
+        "Oxygen as indicated",
+        "Continuous ECG monitoring",
+        "Vasoactive medication titrated to response"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Cardiogenic shock reflects pump failure; indiscriminate large rapid fluid loading can worsen pulmonary congestion."
+    },
+    {
+      "id": "b4_q6419",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "ARDS",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "A 34-year-old client with severe pneumonia has worsening hypoxemia despite supplemental oxygen and bilateral diffuse infiltrates. Which complication is the priority concern?",
+      "options": [
+        "Chronic bronchitis",
+        "ARDS",
+        "Stable pleural effusion",
+        "Sinusitis"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Refractory hypoxemia with diffuse bilateral pulmonary involvement after a major insult is consistent with ARDS."
+    },
+    {
+      "id": "b4_q6422",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 240 mg. The medication available is 50 mg per 2 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 9.6,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 240/50 x 2 = 9.6 mL."
+    },
+    {
+      "id": "b4_q6425",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cardiac Tamponade",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 19-year-old client after cardiac surgery develops hypotension, JVD and muffled heart sounds. Which complication should the nurse suspect?",
+      "options": [
+        "Left-sided heart failure only",
+        "Hypoglycemia",
+        "Cardiac tamponade",
+        "Pneumonia"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Hypotension, jugular venous distention and muffled heart sounds are classic cues associated with cardiac tamponade."
+    },
+    {
+      "id": "b4_q6428",
+      "batch": "b4",
+      "type": "trend",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Stroke",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 46-year-old client suddenly develops facial droop, unilateral arm weakness and difficulty speaking. What is the priority nursing action?",
+      "options": [
+        "Offer food to test swallowing",
+        "Activate the stroke response and establish the time last known well",
+        "Allow the client to sleep",
+        "Give an IM injection for pain"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Stroke care is time-sensitive; rapid activation and accurate last-known-well time are essential."
+    },
+    {
+      "id": "b4_q6431",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Extended Multiple Response",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Spinal Cord Injury",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "A 74-year-old client with a T4 spinal cord injury develops a pounding headache, flushing above the lesion and BP 210/110 mmHg. Which condition should the nurse suspect?",
+      "options": [
+        "Hypovolemic shock",
+        "Autonomic dysreflexia",
+        "DKA",
+        "Pulmonary edema"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Severe hypertension with headache and flushing in a client with a high spinal cord lesion is characteristic of autonomic dysreflexia."
+    },
+    {
+      "id": "b4_q6439",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 300 mg. The medication available is 200 mg per 4 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 6.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 300/200 x 4 = 6 mL."
+    },
+    {
+      "id": "b4_q6440",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Thyroid Storm",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "An 82-year-old client with hyperthyroidism develops fever 40 C, severe tachycardia and agitation. What should the nurse suspect?",
+      "options": [
+        "Stable hypothyroidism",
+        "Thyroid storm",
+        "SIADH",
+        "Myxedema coma"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "High fever, marked tachycardia and CNS excitation in hyperthyroidism are emergency cues for thyroid storm."
+    },
+    {
+      "id": "b4_q6443",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Cloze/Drop-down",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Peritoneal Dialysis",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 34-year-old client receiving peritoneal dialysis has cloudy effluent and abdominal pain. Which complication should the nurse suspect?",
+      "options": [
+        "Hypoglycemia only",
+        "Peritonitis",
+        "Otitis media",
+        "Expected dialysis finding"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Cloudy dialysate with abdominal pain is a warning sign of peritonitis and requires prompt evaluation."
+    },
+    {
+      "id": "b4_q6452",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Anticoagulants",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 46-year-old client receiving heparin develops a major platelet decline and new thrombosis. Which adverse effect should the nurse suspect?",
+      "options": [
+        "Iron deficiency",
+        "Hyperthyroidism",
+        "Heparin-induced thrombocytopenia",
+        "Expected therapeutic response"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "A substantial platelet fall with thrombosis during heparin exposure is concerning for HIT."
+    },
+    {
+      "id": "b4_q6456",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 600 mg. The medication available is 200 mg per 10 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 30.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 600/200 x 10 = 30 mL."
+    },
+    {
+      "id": "b4_q6470",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Schizophrenia",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 67-year-old client says, \"The voices are telling me to hurt myself.\" What should the nurse do first?",
+      "options": [
+        "Argue that hallucinations are impossible",
+        "Assess the content, intent, ability to resist, and immediate safety risk",
+        "Tell the client the voices are real",
+        "Leave the client alone until the voices stop"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Command hallucinations require immediate focused safety assessment and protective intervention as needed."
+    },
+    {
+      "id": "b4_q6473",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 50 mg. The medication available is 50 mg per 10 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 10.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 50/50 x 10 = 10 mL."
+    },
+    {
+      "id": "b4_q6479",
+      "batch": "b4",
+      "type": "trend",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Burns",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 74-year-old client with major burns has soot around the mouth, hoarseness and facial burns. What is the priority concern?",
+      "options": [
+        "Progressive airway edema",
+        "Urinary frequency",
+        "Constipation",
+        "Chronic joint stiffness"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Inhalation injury can cause rapidly progressive airway edema; airway assessment and early expert management are priorities."
+    },
+    {
+      "id": "b4_q6491",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Chest Tubes",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 34-year-old client with a chest tube becomes acutely dyspneic. The nurse finds the tubing disconnected from the drainage system. What should the nurse do first?",
+      "options": [
+        "Remove the chest tube",
+        "Clamp the chest tube near the client for the remainder of the shift",
+        "Re-establish the drainage system connection using aseptic technique and assess the client",
+        "Turn the client onto the affected side and leave the tube disconnected"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "A disconnected system can allow air entry and loss of drainage; restore the closed system promptly while assessing respiratory status."
+    },
+    {
+      "id": "b4_q6497",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Matrix/Grid",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Myocardial Infarction",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 19-year-old client reports crushing substernal chest pressure with diaphoresis and nausea. Which nursing action is the priority?",
+      "options": [
+        "Schedule diet teaching",
+        "Obtain rapid assessment, ECG and initiate the acute chest-pain protocol",
+        "Delay assessment until pain has lasted 30 minutes",
+        "Encourage ambulation"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Possible acute coronary syndrome requires immediate assessment and time-sensitive evaluation/treatment."
+    },
+    {
+      "id": "b4_q6506",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "DKA",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 27-year-old client with DKA has glucose 620 mg/dL, K 5.4 mEq/L, BP 88/52 mmHg and dry mucous membranes. Which intervention is generally the initial priority?",
+      "options": [
+        "Begin prescribed isotonic IV fluid replacement",
+        "Give long-acting insulin only",
+        "Administer sodium bicarbonate routinely before fluids",
+        "Restrict fluids"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Severe dehydration and poor perfusion are major immediate problems in DKA; isotonic fluid resuscitation is a key initial intervention."
+    },
+    {
+      "id": "b4_q6507",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 240 mg. The medication available is 200 mg per 2 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 2.4,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 240/200 x 2 = 2.4 mL."
+    },
+    {
+      "id": "b4_q6518",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "GI Bleed",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 67-year-old client has hematemesis, HR 126/min and BP 82/46 mmHg. Which action is the priority?",
+      "options": [
+        "Delay intervention until hemoglobin is repeated tomorrow",
+        "Give a high-fiber meal",
+        "Support airway/circulation and obtain large-bore IV access for resuscitation",
+        "Encourage ambulation"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "An unstable GI bleed threatens circulation and requires immediate ABC-focused resuscitation."
+    },
+    {
+      "id": "b4_q6521",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Sickle Cell Disease",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "A 19-year-old client is admitted with vaso-occlusive sickle cell pain. Which interventions are appropriate?",
+      "options": [
+        "Assess pain, support hydration as prescribed, give analgesia, and evaluate oxygenation",
+        "Withhold prescribed analgesics until pain becomes unbearable",
+        "Restrict fluids",
+        "Apply ice directly to painful areas for prolonged periods"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Management centers on pain control, hydration when appropriate, oxygenation assessment and treatment of triggers/complications."
+    },
+    {
+      "id": "b4_q6530",
+      "batch": "b4",
+      "type": "trend",
+      "category": "maternity",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Magnesium Sulfate",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 27-year-old client receiving magnesium sulfate has RR 9/min, absent deep tendon reflexes and decreasing urine output. What should the nurse suspect?",
+      "options": [
+        "Hypomagnesemia",
+        "Magnesium toxicity",
+        "Normal labor progression",
+        "Expected therapeutic response"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Respiratory depression, loss of reflexes and reduced renal clearance are major toxicity cues."
+    },
+    {
+      "id": "b4_q6541",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 120 mg. The medication available is 100 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 6.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 120/100 x 5 = 6 mL."
+    },
+    {
+      "id": "b4_q6558",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 100 mg. The medication available is 50 mg per 4 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 8.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 100/50 x 4 = 8 mL."
+    },
+    {
+      "id": "b4_q6575",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 100 mg. The medication available is 200 mg per 2 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 1.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 100/200 x 2 = 1 mL."
+    },
+    {
+      "id": "b4_q6578",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Meningitis",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 27-year-old client is admitted with suspected bacterial meningitis. Which infection-control action is most appropriate initially?",
+      "options": [
+        "Implement indicated transmission-based precautions promptly",
+        "Use only standard precautions regardless of organism",
+        "Place the client in a positive-pressure room",
+        "Delay precautions until culture results are final"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Suspected bacterial meningitis requires prompt appropriate transmission-based precautions while the cause is clarified."
+    },
+    {
+      "id": "b4_q6587",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "AKI",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 34-year-old client with AKI has potassium 6.4 mEq/L and peaked T waves. Which problem is the immediate priority?",
+      "options": [
+        "Impaired skin pigmentation",
+        "Risk for life-threatening dysrhythmia",
+        "Sleep disturbance",
+        "Constipation"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Severe hyperkalemia with ECG changes threatens cardiac conduction and requires urgent treatment."
+    },
+    {
+      "id": "b4_q6590",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cirrhosis",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "A 67-year-old client with cirrhosis becomes confused and develops asterixis. Which complication is most likely?",
+      "options": [
+        "Renal calculus",
+        "Stable ascites only",
+        "Simple fatigue",
+        "Hepatic encephalopathy"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Altered cognition and asterixis in advanced liver disease are classic cues of hepatic encephalopathy."
+    },
+    {
+      "id": "b4_q6592",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 100 mg. The medication available is 50 mg per 10 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 20.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 100/50 x 10 = 20 mL."
+    },
+    {
+      "id": "b4_q6599",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Matrix/Grid",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Digoxin",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 74-year-old client taking digoxin reports nausea and new visual color changes and has bradycardia. What should the nurse suspect?",
+      "options": [
+        "Expected therapeutic effect",
+        "Iron deficiency",
+        "Digoxin toxicity",
+        "Acute asthma"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "GI symptoms, visual disturbances and bradyarrhythmias are important toxicity cues with digoxin."
+    },
+    {
+      "id": "b4_q6609",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 100 mg. The medication available is 40 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 12.5,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 100/40 x 5 = 12.5 mL."
+    },
+    {
+      "id": "b4_q6614",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Highlight",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Mental Health - Suicide",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 67-year-old client says, \"I have a gun at home and plan to use it tonight.\" What is the nurse’s priority response?",
+      "options": [
+        "Promise to keep the statement secret",
+        "Discuss long-term career goals before addressing safety",
+        "Leave the client alone to reduce stimulation",
+        "Initiate immediate suicide-safety precautions and obtain urgent evaluation"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "A specific plan with access to lethal means indicates acute suicide risk; immediate safety measures take priority."
+    },
+    {
+      "id": "b4_q6626",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 400 mg. The medication available is 50 mg per 2 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 16.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 400/50 x 2 = 16 mL."
+    },
+    {
+      "id": "b4_q6632",
+      "batch": "b4",
+      "type": "trend",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Sepsis",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "An 82-year-old client with suspected infection has T 39.2 C, HR 128/min, RR 30/min, BP 86/48 mmHg, new confusion, and urine output 15 mL/hr. Which finding most strongly indicates impaired perfusion?",
+      "options": [
+        "Respiratory rate 30/min",
+        "Heart rate 128/min",
+        "Urine output 15 mL/hr",
+        "Temperature 39.2 C"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Marked oliguria is an important cue of reduced renal perfusion in a hemodynamically unstable client."
+    },
+    {
+      "id": "b4_q6635",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Extended Multiple Response",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cardiogenic Shock",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "A 34-year-old client after a large MI has crackles, JVD, cool skin and hypotension. Which prescription should the nurse question if it is ordered as a rapid large-volume intervention?",
+      "options": [
+        "Oxygen as indicated",
+        "Large rapid isotonic fluid bolus without reassessment",
+        "Vasoactive medication titrated to response",
+        "Continuous ECG monitoring"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Cardiogenic shock reflects pump failure; indiscriminate large rapid fluid loading can worsen pulmonary congestion."
+    },
+    {
+      "id": "b4_q6638",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "ARDS",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "A 67-year-old client with severe pneumonia has worsening hypoxemia despite supplemental oxygen and bilateral diffuse infiltrates. Which complication is the priority concern?",
+      "options": [
+        "Chronic bronchitis",
+        "ARDS",
+        "Stable pleural effusion",
+        "Sinusitis"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Refractory hypoxemia with diffuse bilateral pulmonary involvement after a major insult is consistent with ARDS."
+    },
+    {
+      "id": "b4_q6643",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 150 mg. The medication available is 100 mg per 2 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 3.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 150/100 x 2 = 3 mL."
+    },
+    {
+      "id": "b4_q6644",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cardiac Tamponade",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 46-year-old client after cardiac surgery develops hypotension, JVD and muffled heart sounds. Which complication should the nurse suspect?",
+      "options": [
+        "Left-sided heart failure only",
+        "Hypoglycemia",
+        "Pneumonia",
+        "Cardiac tamponade"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Hypotension, jugular venous distention and muffled heart sounds are classic cues associated with cardiac tamponade."
+    },
+    {
+      "id": "b4_q6647",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Cloze/Drop-down",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Stroke",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 74-year-old client suddenly develops facial droop, unilateral arm weakness and difficulty speaking. What is the priority nursing action?",
+      "options": [
+        "Activate the stroke response and establish the time last known well",
+        "Give an IM injection for pain",
+        "Allow the client to sleep",
+        "Offer food to test swallowing"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Stroke care is time-sensitive; rapid activation and accurate last-known-well time are essential."
+    },
+    {
+      "id": "b4_q6650",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Matrix/Grid",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Spinal Cord Injury",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "A 27-year-old client with a T4 spinal cord injury develops a pounding headache, flushing above the lesion and BP 210/110 mmHg. Which condition should the nurse suspect?",
+      "options": [
+        "Hypovolemic shock",
+        "Pulmonary edema",
+        "Autonomic dysreflexia",
+        "DKA"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Severe hypertension with headache and flushing in a client with a high spinal cord lesion is characteristic of autonomic dysreflexia."
+    },
+    {
+      "id": "b4_q6659",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Thyroid Storm",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "A 34-year-old client with hyperthyroidism develops fever 40 C, severe tachycardia and agitation. What should the nurse suspect?",
+      "options": [
+        "SIADH",
+        "Myxedema coma",
+        "Thyroid storm",
+        "Stable hypothyroidism"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "High fever, marked tachycardia and CNS excitation in hyperthyroidism are emergency cues for thyroid storm."
+    },
+    {
+      "id": "b4_q6662",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Peritoneal Dialysis",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 67-year-old client receiving peritoneal dialysis has cloudy effluent and abdominal pain. Which complication should the nurse suspect?",
+      "options": [
+        "Otitis media",
+        "Hypoglycemia only",
+        "Expected dialysis finding",
+        "Peritonitis"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Cloudy dialysate with abdominal pain is a warning sign of peritonitis and requires prompt evaluation."
+    },
+    {
+      "id": "b4_q6671",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Anticoagulants",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 74-year-old client receiving heparin develops a major platelet decline and new thrombosis. Which adverse effect should the nurse suspect?",
+      "options": [
+        "Heparin-induced thrombocytopenia",
+        "Iron deficiency",
+        "Hyperthyroidism",
+        "Expected therapeutic response"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "A substantial platelet fall with thrombosis during heparin exposure is concerning for HIT."
+    },
+    {
+      "id": "b4_q6677",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 100 mg. The medication available is 40 mg per 10 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 25.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 100/40 x 10 = 25 mL."
+    },
+    {
+      "id": "b4_q6689",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Schizophrenia",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 19-year-old client says, \"The voices are telling me to hurt myself.\" What should the nurse do first?",
+      "options": [
+        "Leave the client alone until the voices stop",
+        "Argue that hallucinations are impossible",
+        "Tell the client the voices are real",
+        "Assess the content, intent, ability to resist, and immediate safety risk"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Command hallucinations require immediate focused safety assessment and protective intervention as needed."
+    },
+    {
+      "id": "b4_q6694",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 100 mg. The medication available is 100 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 5.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 100/100 x 5 = 5 mL."
+    },
+    {
+      "id": "b4_q6698",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Cloze/Drop-down",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Burns",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 27-year-old client with major burns has soot around the mouth, hoarseness and facial burns. What is the priority concern?",
+      "options": [
+        "Urinary frequency",
+        "Progressive airway edema",
+        "Constipation",
+        "Chronic joint stiffness"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Inhalation injury can cause rapidly progressive airway edema; airway assessment and early expert management are priorities."
+    },
+    {
+      "id": "b4_q6710",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Chest Tubes",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 67-year-old client with a chest tube becomes acutely dyspneic. The nurse finds the tubing disconnected from the drainage system. What should the nurse do first?",
+      "options": [
+        "Turn the client onto the affected side and leave the tube disconnected",
+        "Re-establish the drainage system connection using aseptic technique and assess the client",
+        "Remove the chest tube",
+        "Clamp the chest tube near the client for the remainder of the shift"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "A disconnected system can allow air entry and loss of drainage; restore the closed system promptly while assessing respiratory status."
+    },
+    {
+      "id": "b4_q6716",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Highlight",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Myocardial Infarction",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 46-year-old client reports crushing substernal chest pressure with diaphoresis and nausea. Which nursing action is the priority?",
+      "options": [
+        "Delay assessment until pain has lasted 30 minutes",
+        "Obtain rapid assessment, ECG and initiate the acute chest-pain protocol",
+        "Encourage ambulation",
+        "Schedule diet teaching"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Possible acute coronary syndrome requires immediate assessment and time-sensitive evaluation/treatment."
+    },
+    {
+      "id": "b4_q6725",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "DKA",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 58-year-old client with DKA has glucose 620 mg/dL, K 5.4 mEq/L, BP 88/52 mmHg and dry mucous membranes. Which intervention is generally the initial priority?",
+      "options": [
+        "Administer sodium bicarbonate routinely before fluids",
+        "Restrict fluids",
+        "Begin prescribed isotonic IV fluid replacement",
+        "Give long-acting insulin only"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Severe dehydration and poor perfusion are major immediate problems in DKA; isotonic fluid resuscitation is a key initial intervention."
+    },
+    {
+      "id": "b4_q6728",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 150 mg. The medication available is 50 mg per 2 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 6.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 150/50 x 2 = 6 mL."
+    },
+    {
+      "id": "b4_q6737",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Extended Multiple Response",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "GI Bleed",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 19-year-old client has hematemesis, HR 126/min and BP 82/46 mmHg. Which action is the priority?",
+      "options": [
+        "Give a high-fiber meal",
+        "Delay intervention until hemoglobin is repeated tomorrow",
+        "Support airway/circulation and obtain large-bore IV access for resuscitation",
+        "Encourage ambulation"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "An unstable GI bleed threatens circulation and requires immediate ABC-focused resuscitation."
+    },
+    {
+      "id": "b4_q6740",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Sickle Cell Disease",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "A 46-year-old client is admitted with vaso-occlusive sickle cell pain. Which interventions are appropriate?",
+      "options": [
+        "Assess pain, support hydration as prescribed, give analgesia, and evaluate oxygenation",
+        "Restrict fluids",
+        "Withhold prescribed analgesics until pain becomes unbearable",
+        "Apply ice directly to painful areas for prolonged periods"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Management centers on pain control, hydration when appropriate, oxygenation assessment and treatment of triggers/complications."
+    },
+    {
+      "id": "b4_q6749",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Cloze/Drop-down",
+      "category": "maternity",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Magnesium Sulfate",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 58-year-old client receiving magnesium sulfate has RR 9/min, absent deep tendon reflexes and decreasing urine output. What should the nurse suspect?",
+      "options": [
+        "Hypomagnesemia",
+        "Expected therapeutic response",
+        "Magnesium toxicity",
+        "Normal labor progression"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Respiratory depression, loss of reflexes and reduced renal clearance are major toxicity cues."
+    },
+    {
+      "id": "b4_q6762",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 120 mg. The medication available is 50 mg per 1 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 2.4,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 120/50 x 1 = 2.4 mL."
+    },
+    {
+      "id": "b4_q6779",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 80 mg. The medication available is 40 mg per 10 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 20.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 80/40 x 10 = 20 mL."
+    },
+    {
+      "id": "b4_q6796",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 400 mg. The medication available is 100 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 20.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 400/100 x 5 = 20 mL."
+    },
+    {
+      "id": "b4_q6797",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Meningitis",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 58-year-old client is admitted with suspected bacterial meningitis. Which infection-control action is most appropriate initially?",
+      "options": [
+        "Use only standard precautions regardless of organism",
+        "Place the client in a positive-pressure room",
+        "Implement indicated transmission-based precautions promptly",
+        "Delay precautions until culture results are final"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Suspected bacterial meningitis requires prompt appropriate transmission-based precautions while the cause is clarified."
+    },
+    {
+      "id": "b4_q6806",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "AKI",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 67-year-old client with AKI has potassium 6.4 mEq/L and peaked T waves. Which problem is the immediate priority?",
+      "options": [
+        "Impaired skin pigmentation",
+        "Constipation",
+        "Risk for life-threatening dysrhythmia",
+        "Sleep disturbance"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Severe hyperkalemia with ECG changes threatens cardiac conduction and requires urgent treatment."
+    },
+    {
+      "id": "b4_q6809",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cirrhosis",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "A 19-year-old client with cirrhosis becomes confused and develops asterixis. Which complication is most likely?",
+      "options": [
+        "Stable ascites only",
+        "Renal calculus",
+        "Simple fatigue",
+        "Hepatic encephalopathy"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Altered cognition and asterixis in advanced liver disease are classic cues of hepatic encephalopathy."
+    },
+    {
+      "id": "b4_q6818",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Highlight",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Digoxin",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 27-year-old client taking digoxin reports nausea and new visual color changes and has bradycardia. What should the nurse suspect?",
+      "options": [
+        "Expected therapeutic effect",
+        "Digoxin toxicity",
+        "Iron deficiency",
+        "Acute asthma"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "GI symptoms, visual disturbances and bradyarrhythmias are important toxicity cues with digoxin."
+    },
+    {
+      "id": "b4_q6830",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 400 mg. The medication available is 100 mg per 1 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 4.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 400/100 x 1 = 4 mL."
+    },
+    {
+      "id": "b4_q6833",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Mental Health - Suicide",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 19-year-old client says, \"I have a gun at home and plan to use it tonight.\" What is the nurse’s priority response?",
+      "options": [
+        "Initiate immediate suicide-safety precautions and obtain urgent evaluation",
+        "Leave the client alone to reduce stimulation",
+        "Discuss long-term career goals before addressing safety",
+        "Promise to keep the statement secret"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "A specific plan with access to lethal means indicates acute suicide risk; immediate safety measures take priority."
+    },
+    {
+      "id": "b4_q6847",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 120 mg. The medication available is 200 mg per 4 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 2.4,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 120/200 x 4 = 2.4 mL."
+    },
+    {
+      "id": "b4_q6851",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Cloze/Drop-down",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Sepsis",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 34-year-old client with suspected infection has T 39.2 C, HR 128/min, RR 30/min, BP 86/48 mmHg, new confusion, and urine output 15 mL/hr. Which finding most strongly indicates impaired perfusion?",
+      "options": [
+        "Respiratory rate 30/min",
+        "Urine output 15 mL/hr",
+        "Heart rate 128/min",
+        "Temperature 39.2 C"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Marked oliguria is an important cue of reduced renal perfusion in a hemodynamically unstable client."
+    },
+    {
+      "id": "b4_q6854",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Matrix/Grid",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cardiogenic Shock",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "A 67-year-old client after a large MI has crackles, JVD, cool skin and hypotension. Which prescription should the nurse question if it is ordered as a rapid large-volume intervention?",
+      "options": [
+        "Vasoactive medication titrated to response",
+        "Continuous ECG monitoring",
+        "Oxygen as indicated",
+        "Large rapid isotonic fluid bolus without reassessment"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Cardiogenic shock reflects pump failure; indiscriminate large rapid fluid loading can worsen pulmonary congestion."
+    },
+    {
+      "id": "b4_q6857",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "ARDS",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "A 19-year-old client with severe pneumonia has worsening hypoxemia despite supplemental oxygen and bilateral diffuse infiltrates. Which complication is the priority concern?",
+      "options": [
+        "Chronic bronchitis",
+        "ARDS",
+        "Stable pleural effusion",
+        "Sinusitis"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Refractory hypoxemia with diffuse bilateral pulmonary involvement after a major insult is consistent with ARDS."
+    },
+    {
+      "id": "b4_q6863",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cardiac Tamponade",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 74-year-old client after cardiac surgery develops hypotension, JVD and muffled heart sounds. Which complication should the nurse suspect?",
+      "options": [
+        "Pneumonia",
+        "Left-sided heart failure only",
+        "Hypoglycemia",
+        "Cardiac tamponade"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Hypotension, jugular venous distention and muffled heart sounds are classic cues associated with cardiac tamponade."
+    },
+    {
+      "id": "b4_q6864",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 400 mg. The medication available is 200 mg per 4 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 8.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 400/200 x 4 = 8 mL."
+    },
+    {
+      "id": "b4_q6866",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Stroke",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 27-year-old client suddenly develops facial droop, unilateral arm weakness and difficulty speaking. What is the priority nursing action?",
+      "options": [
+        "Activate the stroke response and establish the time last known well",
+        "Offer food to test swallowing",
+        "Give an IM injection for pain",
+        "Allow the client to sleep"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Stroke care is time-sensitive; rapid activation and accurate last-known-well time are essential."
+    },
+    {
+      "id": "b4_q6869",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Highlight",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Spinal Cord Injury",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "A 58-year-old client with a T4 spinal cord injury develops a pounding headache, flushing above the lesion and BP 210/110 mmHg. Which condition should the nurse suspect?",
+      "options": [
+        "Pulmonary edema",
+        "Hypovolemic shock",
+        "Autonomic dysreflexia",
+        "DKA"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Severe hypertension with headache and flushing in a client with a high spinal cord lesion is characteristic of autonomic dysreflexia."
+    },
+    {
+      "id": "b4_q6878",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Thyroid Storm",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "A 67-year-old client with hyperthyroidism develops fever 40 C, severe tachycardia and agitation. What should the nurse suspect?",
+      "options": [
+        "Stable hypothyroidism",
+        "SIADH",
+        "Thyroid storm",
+        "Myxedema coma"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "High fever, marked tachycardia and CNS excitation in hyperthyroidism are emergency cues for thyroid storm."
+    },
+    {
+      "id": "b4_q6881",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 120 mg. The medication available is 200 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 3.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 120/200 x 5 = 3 mL."
+    },
+    {
+      "id": "b4_q6890",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Extended Multiple Response",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Anticoagulants",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 27-year-old client receiving heparin develops a major platelet decline and new thrombosis. Which adverse effect should the nurse suspect?",
+      "options": [
+        "Heparin-induced thrombocytopenia",
+        "Hyperthyroidism",
+        "Expected therapeutic response",
+        "Iron deficiency"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "A substantial platelet fall with thrombosis during heparin exposure is concerning for HIT."
+    },
+    {
+      "id": "b4_q6898",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 40 mg. The medication available is 40 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 5.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 40/40 x 5 = 5 mL."
+    },
+    {
+      "id": "b4_q6908",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Schizophrenia",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 46-year-old client says, \"The voices are telling me to hurt myself.\" What should the nurse do first?",
+      "options": [
+        "Leave the client alone until the voices stop",
+        "Argue that hallucinations are impossible",
+        "Assess the content, intent, ability to resist, and immediate safety risk",
+        "Tell the client the voices are real"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Command hallucinations require immediate focused safety assessment and protective intervention as needed."
+    },
+    {
+      "id": "b4_q6915",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 80 mg. The medication available is 50 mg per 1 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 1.6,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 80/50 x 1 = 1.6 mL."
+    },
+    {
+      "id": "b4_q6917",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Burns",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 58-year-old client with major burns has soot around the mouth, hoarseness and facial burns. What is the priority concern?",
+      "options": [
+        "Progressive airway edema",
+        "Chronic joint stiffness",
+        "Constipation",
+        "Urinary frequency"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Inhalation injury can cause rapidly progressive airway edema; airway assessment and early expert management are priorities."
+    },
+    {
+      "id": "b4_q6929",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Chest Tubes",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 19-year-old client with a chest tube becomes acutely dyspneic. The nurse finds the tubing disconnected from the drainage system. What should the nurse do first?",
+      "options": [
+        "Clamp the chest tube near the client for the remainder of the shift",
+        "Re-establish the drainage system connection using aseptic technique and assess the client",
+        "Turn the client onto the affected side and leave the tube disconnected",
+        "Remove the chest tube"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "A disconnected system can allow air entry and loss of drainage; restore the closed system promptly while assessing respiratory status."
+    },
+    {
+      "id": "b4_q6935",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Myocardial Infarction",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 74-year-old client reports crushing substernal chest pressure with diaphoresis and nausea. Which nursing action is the priority?",
+      "options": [
+        "Schedule diet teaching",
+        "Delay assessment until pain has lasted 30 minutes",
+        "Encourage ambulation",
+        "Obtain rapid assessment, ECG and initiate the acute chest-pain protocol"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Possible acute coronary syndrome requires immediate assessment and time-sensitive evaluation/treatment."
+    },
+    {
+      "id": "b4_q6944",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "DKA",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "An 82-year-old client with DKA has glucose 620 mg/dL, K 5.4 mEq/L, BP 88/52 mmHg and dry mucous membranes. Which intervention is generally the initial priority?",
+      "options": [
+        "Give long-acting insulin only",
+        "Begin prescribed isotonic IV fluid replacement",
+        "Restrict fluids",
+        "Administer sodium bicarbonate routinely before fluids"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Severe dehydration and poor perfusion are major immediate problems in DKA; isotonic fluid resuscitation is a key initial intervention."
+    },
+    {
+      "id": "b4_q6956",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Matrix/Grid",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "GI Bleed",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 46-year-old client has hematemesis, HR 126/min and BP 82/46 mmHg. Which action is the priority?",
+      "options": [
+        "Encourage ambulation",
+        "Delay intervention until hemoglobin is repeated tomorrow",
+        "Support airway/circulation and obtain large-bore IV access for resuscitation",
+        "Give a high-fiber meal"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "An unstable GI bleed threatens circulation and requires immediate ABC-focused resuscitation."
+    },
+    {
+      "id": "b4_q6959",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Sickle Cell Disease",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "A 74-year-old client is admitted with vaso-occlusive sickle cell pain. Which interventions are appropriate?",
+      "options": [
+        "Withhold prescribed analgesics until pain becomes unbearable",
+        "Restrict fluids",
+        "Apply ice directly to painful areas for prolonged periods",
+        "Assess pain, support hydration as prescribed, give analgesia, and evaluate oxygenation"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Management centers on pain control, hydration when appropriate, oxygenation assessment and treatment of triggers/complications."
+    },
+    {
+      "id": "b4_q6968",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "maternity",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Magnesium Sulfate",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "An 82-year-old client receiving magnesium sulfate has RR 9/min, absent deep tendon reflexes and decreasing urine output. What should the nurse suspect?",
+      "options": [
+        "Magnesium toxicity",
+        "Hypomagnesemia",
+        "Expected therapeutic response",
+        "Normal labor progression"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Respiratory depression, loss of reflexes and reduced renal clearance are major toxicity cues."
+    },
+    {
+      "id": "b4_q6983",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 300 mg. The medication available is 40 mg per 1 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 7.5,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 300/40 x 1 = 7.5 mL."
+    },
+    {
+      "id": "b4_q7000",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 120 mg. The medication available is 50 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 12.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 120/50 x 5 = 12 mL."
+    },
+    {
+      "id": "b4_q7016",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Meningitis",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "An 82-year-old client is admitted with suspected bacterial meningitis. Which infection-control action is most appropriate initially?",
+      "options": [
+        "Delay precautions until culture results are final",
+        "Use only standard precautions regardless of organism",
+        "Implement indicated transmission-based precautions promptly",
+        "Place the client in a positive-pressure room"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Suspected bacterial meningitis requires prompt appropriate transmission-based precautions while the cause is clarified."
+    },
+    {
+      "id": "b4_q7017",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 300 mg. The medication available is 100 mg per 10 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 30.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 300/100 x 10 = 30 mL."
+    },
+    {
+      "id": "b4_q7025",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Bow-tie",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "AKI",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 19-year-old client with AKI has potassium 6.4 mEq/L and peaked T waves. Which problem is the immediate priority?",
+      "options": [
+        "Sleep disturbance",
+        "Risk for life-threatening dysrhythmia",
+        "Constipation",
+        "Impaired skin pigmentation"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Severe hyperkalemia with ECG changes threatens cardiac conduction and requires urgent treatment."
+    },
+    {
+      "id": "b4_q7028",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cirrhosis",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "A 46-year-old client with cirrhosis becomes confused and develops asterixis. Which complication is most likely?",
+      "options": [
+        "Renal calculus",
+        "Simple fatigue",
+        "Hepatic encephalopathy",
+        "Stable ascites only"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Altered cognition and asterixis in advanced liver disease are classic cues of hepatic encephalopathy."
+    },
+    {
+      "id": "b4_q7034",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 200 mg. The medication available is 200 mg per 2 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 2.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 200/200 x 2 = 2 mL."
+    },
+    {
+      "id": "b4_q7037",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Digoxin",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 58-year-old client taking digoxin reports nausea and new visual color changes and has bradycardia. What should the nurse suspect?",
+      "options": [
+        "Iron deficiency",
+        "Acute asthma",
+        "Digoxin toxicity",
+        "Expected therapeutic effect"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "GI symptoms, visual disturbances and bradyarrhythmias are important toxicity cues with digoxin."
+    },
+    {
+      "id": "b4_q7052",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Mental Health - Suicide",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 46-year-old client says, \"I have a gun at home and plan to use it tonight.\" What is the nurse’s priority response?",
+      "options": [
+        "Promise to keep the statement secret",
+        "Leave the client alone to reduce stimulation",
+        "Initiate immediate suicide-safety precautions and obtain urgent evaluation",
+        "Discuss long-term career goals before addressing safety"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "A specific plan with access to lethal means indicates acute suicide risk; immediate safety measures take priority."
+    },
+    {
+      "id": "b4_q7068",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 200 mg. The medication available is 100 mg per 2 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 4.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 200/100 x 2 = 4 mL."
+    },
+    {
+      "id": "b4_q7070",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Sepsis",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 67-year-old client with suspected infection has T 39.2 C, HR 128/min, RR 30/min, BP 86/48 mmHg, new confusion, and urine output 15 mL/hr. Which finding most strongly indicates impaired perfusion?",
+      "options": [
+        "Temperature 39.2 C",
+        "Respiratory rate 30/min",
+        "Heart rate 128/min",
+        "Urine output 15 mL/hr"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Marked oliguria is an important cue of reduced renal perfusion in a hemodynamically unstable client."
+    },
+    {
+      "id": "b4_q7073",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Highlight",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cardiogenic Shock",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "A 19-year-old client after a large MI has crackles, JVD, cool skin and hypotension. Which prescription should the nurse question if it is ordered as a rapid large-volume intervention?",
+      "options": [
+        "Large rapid isotonic fluid bolus without reassessment",
+        "Oxygen as indicated",
+        "Vasoactive medication titrated to response",
+        "Continuous ECG monitoring"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Cardiogenic shock reflects pump failure; indiscriminate large rapid fluid loading can worsen pulmonary congestion."
+    },
+    {
+      "id": "b4_q7076",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Bow-tie",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "ARDS",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "A 46-year-old client with severe pneumonia has worsening hypoxemia despite supplemental oxygen and bilateral diffuse infiltrates. Which complication is the priority concern?",
+      "options": [
+        "ARDS",
+        "Chronic bronchitis",
+        "Stable pleural effusion",
+        "Sinusitis"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Refractory hypoxemia with diffuse bilateral pulmonary involvement after a major insult is consistent with ARDS."
+    },
+    {
+      "id": "b4_q7082",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cardiac Tamponade",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 27-year-old client after cardiac surgery develops hypotension, JVD and muffled heart sounds. Which complication should the nurse suspect?",
+      "options": [
+        "Left-sided heart failure only",
+        "Cardiac tamponade",
+        "Pneumonia",
+        "Hypoglycemia"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Hypotension, jugular venous distention and muffled heart sounds are classic cues associated with cardiac tamponade."
+    },
+    {
+      "id": "b4_q7085",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 400 mg. The medication available is 200 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 10.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 400/200 x 5 = 10 mL."
+    },
+    {
+      "id": "b4_q7088",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Spinal Cord Injury",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "An 82-year-old client with a T4 spinal cord injury develops a pounding headache, flushing above the lesion and BP 210/110 mmHg. Which condition should the nurse suspect?",
+      "options": [
+        "Pulmonary edema",
+        "Autonomic dysreflexia",
+        "DKA",
+        "Hypovolemic shock"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Severe hypertension with headache and flushing in a client with a high spinal cord lesion is characteristic of autonomic dysreflexia."
+    },
+    {
+      "id": "b4_q7097",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Thyroid Storm",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "A 19-year-old client with hyperthyroidism develops fever 40 C, severe tachycardia and agitation. What should the nurse suspect?",
+      "options": [
+        "Thyroid storm",
+        "Stable hypothyroidism",
+        "SIADH",
+        "Myxedema coma"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "High fever, marked tachycardia and CNS excitation in hyperthyroidism are emergency cues for thyroid storm."
+    },
+    {
+      "id": "b4_q7100",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Peritoneal Dialysis",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 46-year-old client receiving peritoneal dialysis has cloudy effluent and abdominal pain. Which complication should the nurse suspect?",
+      "options": [
+        "Hypoglycemia only",
+        "Otitis media",
+        "Expected dialysis finding",
+        "Peritonitis"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Cloudy dialysate with abdominal pain is a warning sign of peritonitis and requires prompt evaluation."
+    },
+    {
+      "id": "b4_q7102",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 100 mg. The medication available is 100 mg per 10 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 10.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 100/100 x 10 = 10 mL."
+    },
+    {
+      "id": "b4_q7109",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Matrix/Grid",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Anticoagulants",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 58-year-old client receiving heparin develops a major platelet decline and new thrombosis. Which adverse effect should the nurse suspect?",
+      "options": [
+        "Hyperthyroidism",
+        "Iron deficiency",
+        "Expected therapeutic response",
+        "Heparin-induced thrombocytopenia"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "A substantial platelet fall with thrombosis during heparin exposure is concerning for HIT."
+    },
+    {
+      "id": "b4_q7119",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 800 mg. The medication available is 200 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 20.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 800/200 x 5 = 20 mL."
+    },
+    {
+      "id": "b4_q7127",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Bow-tie",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Schizophrenia",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 74-year-old client says, \"The voices are telling me to hurt myself.\" What should the nurse do first?",
+      "options": [
+        "Argue that hallucinations are impossible",
+        "Tell the client the voices are real",
+        "Leave the client alone until the voices stop",
+        "Assess the content, intent, ability to resist, and immediate safety risk"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Command hallucinations require immediate focused safety assessment and protective intervention as needed."
+    },
+    {
+      "id": "b4_q7136",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 200 mg. The medication available is 40 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 25.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 200/40 x 5 = 25 mL."
+    },
+    {
+      "id": "b4_q7148",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Chest Tubes",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 46-year-old client with a chest tube becomes acutely dyspneic. The nurse finds the tubing disconnected from the drainage system. What should the nurse do first?",
+      "options": [
+        "Turn the client onto the affected side and leave the tube disconnected",
+        "Remove the chest tube",
+        "Clamp the chest tube near the client for the remainder of the shift",
+        "Re-establish the drainage system connection using aseptic technique and assess the client"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "A disconnected system can allow air entry and loss of drainage; restore the closed system promptly while assessing respiratory status."
+    },
+    {
+      "id": "b4_q7153",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 100 mg. The medication available is 50 mg per 1 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 2.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 100/50 x 1 = 2 mL."
+    },
+    {
+      "id": "b4_q7154",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Myocardial Infarction",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 27-year-old client reports crushing substernal chest pressure with diaphoresis and nausea. Which nursing action is the priority?",
+      "options": [
+        "Schedule diet teaching",
+        "Encourage ambulation",
+        "Delay assessment until pain has lasted 30 minutes",
+        "Obtain rapid assessment, ECG and initiate the acute chest-pain protocol"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Possible acute coronary syndrome requires immediate assessment and time-sensitive evaluation/treatment."
+    },
+    {
+      "id": "b4_q7163",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "DKA",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 34-year-old client with DKA has glucose 620 mg/dL, K 5.4 mEq/L, BP 88/52 mmHg and dry mucous membranes. Which intervention is generally the initial priority?",
+      "options": [
+        "Administer sodium bicarbonate routinely before fluids",
+        "Restrict fluids",
+        "Give long-acting insulin only",
+        "Begin prescribed isotonic IV fluid replacement"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Severe dehydration and poor perfusion are major immediate problems in DKA; isotonic fluid resuscitation is a key initial intervention."
+    },
+    {
+      "id": "b4_q7170",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 240 mg. The medication available is 40 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 30.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 240/40 x 5 = 30 mL."
+    },
+    {
+      "id": "b4_q7175",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Highlight",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "GI Bleed",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 74-year-old client has hematemesis, HR 126/min and BP 82/46 mmHg. Which action is the priority?",
+      "options": [
+        "Give a high-fiber meal",
+        "Support airway/circulation and obtain large-bore IV access for resuscitation",
+        "Delay intervention until hemoglobin is repeated tomorrow",
+        "Encourage ambulation"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "An unstable GI bleed threatens circulation and requires immediate ABC-focused resuscitation."
+    },
+    {
+      "id": "b4_q7178",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Bow-tie",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Sickle Cell Disease",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "A 27-year-old client is admitted with vaso-occlusive sickle cell pain. Which interventions are appropriate?",
+      "options": [
+        "Restrict fluids",
+        "Apply ice directly to painful areas for prolonged periods",
+        "Withhold prescribed analgesics until pain becomes unbearable",
+        "Assess pain, support hydration as prescribed, give analgesia, and evaluate oxygenation"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Management centers on pain control, hydration when appropriate, oxygenation assessment and treatment of triggers/complications."
+    },
+    {
+      "id": "b4_q7187",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 800 mg. The medication available is 200 mg per 4 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 16.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 800/200 x 4 = 16 mL."
+    },
+    {
+      "id": "b4_q7235",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Meningitis",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 34-year-old client is admitted with suspected bacterial meningitis. Which infection-control action is most appropriate initially?",
+      "options": [
+        "Use only standard precautions regardless of organism",
+        "Implement indicated transmission-based precautions promptly",
+        "Place the client in a positive-pressure room",
+        "Delay precautions until culture results are final"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Suspected bacterial meningitis requires prompt appropriate transmission-based precautions while the cause is clarified."
+    },
+    {
+      "id": "b4_q7244",
+      "batch": "b4",
+      "type": "trend",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "AKI",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 46-year-old client with AKI has potassium 6.4 mEq/L and peaked T waves. Which problem is the immediate priority?",
+      "options": [
+        "Constipation",
+        "Sleep disturbance",
+        "Risk for life-threatening dysrhythmia",
+        "Impaired skin pigmentation"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Severe hyperkalemia with ECG changes threatens cardiac conduction and requires urgent treatment."
+    },
+    {
+      "id": "b4_q7247",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Extended Multiple Response",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cirrhosis",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "A 74-year-old client with cirrhosis becomes confused and develops asterixis. Which complication is most likely?",
+      "options": [
+        "Hepatic encephalopathy",
+        "Simple fatigue",
+        "Renal calculus",
+        "Stable ascites only"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Altered cognition and asterixis in advanced liver disease are classic cues of hepatic encephalopathy."
+    },
+    {
+      "id": "b4_q7256",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Digoxin",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "An 82-year-old client taking digoxin reports nausea and new visual color changes and has bradycardia. What should the nurse suspect?",
+      "options": [
+        "Digoxin toxicity",
+        "Acute asthma",
+        "Iron deficiency",
+        "Expected therapeutic effect"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "GI symptoms, visual disturbances and bradyarrhythmias are important toxicity cues with digoxin."
+    },
+    {
+      "id": "b4_q7271",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Mental Health - Suicide",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 74-year-old client says, \"I have a gun at home and plan to use it tonight.\" What is the nurse’s priority response?",
+      "options": [
+        "Discuss long-term career goals before addressing safety",
+        "Initiate immediate suicide-safety precautions and obtain urgent evaluation",
+        "Promise to keep the statement secret",
+        "Leave the client alone to reduce stimulation"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "A specific plan with access to lethal means indicates acute suicide risk; immediate safety measures take priority."
+    },
+    {
+      "id": "b4_q7292",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cardiogenic Shock",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "A 46-year-old client after a large MI has crackles, JVD, cool skin and hypotension. Which prescription should the nurse question if it is ordered as a rapid large-volume intervention?",
+      "options": [
+        "Vasoactive medication titrated to response",
+        "Large rapid isotonic fluid bolus without reassessment",
+        "Continuous ECG monitoring",
+        "Oxygen as indicated"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Cardiogenic shock reflects pump failure; indiscriminate large rapid fluid loading can worsen pulmonary congestion."
+    },
+    {
+      "id": "b4_q7295",
+      "batch": "b4",
+      "type": "trend",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "ARDS",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "A 74-year-old client with severe pneumonia has worsening hypoxemia despite supplemental oxygen and bilateral diffuse infiltrates. Which complication is the priority concern?",
+      "options": [
+        "Chronic bronchitis",
+        "ARDS",
+        "Stable pleural effusion",
+        "Sinusitis"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Refractory hypoxemia with diffuse bilateral pulmonary involvement after a major insult is consistent with ARDS."
+    },
+    {
+      "id": "b4_q7301",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cardiac Tamponade",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 58-year-old client after cardiac surgery develops hypotension, JVD and muffled heart sounds. Which complication should the nurse suspect?",
+      "options": [
+        "Pneumonia",
+        "Left-sided heart failure only",
+        "Cardiac tamponade",
+        "Hypoglycemia"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Hypotension, jugular venous distention and muffled heart sounds are classic cues associated with cardiac tamponade."
+    },
+    {
+      "id": "b4_q7304",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Stroke",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "An 82-year-old client suddenly develops facial droop, unilateral arm weakness and difficulty speaking. What is the priority nursing action?",
+      "options": [
+        "Offer food to test swallowing",
+        "Allow the client to sleep",
+        "Activate the stroke response and establish the time last known well",
+        "Give an IM injection for pain"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Stroke care is time-sensitive; rapid activation and accurate last-known-well time are essential."
+    },
+    {
+      "id": "b4_q7306",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 600 mg. The medication available is 200 mg per 2 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 6.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 600/200 x 2 = 6 mL."
+    },
+    {
+      "id": "b4_q7307",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Spinal Cord Injury",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "A 34-year-old client with a T4 spinal cord injury develops a pounding headache, flushing above the lesion and BP 210/110 mmHg. Which condition should the nurse suspect?",
+      "options": [
+        "DKA",
+        "Pulmonary edema",
+        "Autonomic dysreflexia",
+        "Hypovolemic shock"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Severe hypertension with headache and flushing in a client with a high spinal cord lesion is characteristic of autonomic dysreflexia."
+    },
+    {
+      "id": "b4_q7316",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Thyroid Storm",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "A 46-year-old client with hyperthyroidism develops fever 40 C, severe tachycardia and agitation. What should the nurse suspect?",
+      "options": [
+        "Stable hypothyroidism",
+        "Myxedema coma",
+        "SIADH",
+        "Thyroid storm"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "High fever, marked tachycardia and CNS excitation in hyperthyroidism are emergency cues for thyroid storm."
+    },
+    {
+      "id": "b4_q7319",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Peritoneal Dialysis",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 74-year-old client receiving peritoneal dialysis has cloudy effluent and abdominal pain. Which complication should the nurse suspect?",
+      "options": [
+        "Expected dialysis finding",
+        "Hypoglycemia only",
+        "Peritonitis",
+        "Otitis media"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Cloudy dialysate with abdominal pain is a warning sign of peritonitis and requires prompt evaluation."
+    },
+    {
+      "id": "b4_q7328",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Highlight",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Anticoagulants",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "An 82-year-old client receiving heparin develops a major platelet decline and new thrombosis. Which adverse effect should the nurse suspect?",
+      "options": [
+        "Heparin-induced thrombocytopenia",
+        "Iron deficiency",
+        "Expected therapeutic response",
+        "Hyperthyroidism"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "A substantial platelet fall with thrombosis during heparin exposure is concerning for HIT."
+    },
+    {
+      "id": "b4_q7340",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 150 mg. The medication available is 100 mg per 4 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 6.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 150/100 x 4 = 6 mL."
+    },
+    {
+      "id": "b4_q7346",
+      "batch": "b4",
+      "type": "trend",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Schizophrenia",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 27-year-old client says, \"The voices are telling me to hurt myself.\" What should the nurse do first?",
+      "options": [
+        "Leave the client alone until the voices stop",
+        "Tell the client the voices are real",
+        "Argue that hallucinations are impossible",
+        "Assess the content, intent, ability to resist, and immediate safety risk"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Command hallucinations require immediate focused safety assessment and protective intervention as needed."
+    },
+    {
+      "id": "b4_q7355",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Burns",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 34-year-old client with major burns has soot around the mouth, hoarseness and facial burns. What is the priority concern?",
+      "options": [
+        "Urinary frequency",
+        "Constipation",
+        "Progressive airway edema",
+        "Chronic joint stiffness"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Inhalation injury can cause rapidly progressive airway edema; airway assessment and early expert management are priorities."
+    },
+    {
+      "id": "b4_q7357",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 300 mg. The medication available is 200 mg per 10 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 15.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 300/200 x 10 = 15 mL."
+    },
+    {
+      "id": "b4_q7367",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Chest Tubes",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 74-year-old client with a chest tube becomes acutely dyspneic. The nurse finds the tubing disconnected from the drainage system. What should the nurse do first?",
+      "options": [
+        "Re-establish the drainage system connection using aseptic technique and assess the client",
+        "Turn the client onto the affected side and leave the tube disconnected",
+        "Clamp the chest tube near the client for the remainder of the shift",
+        "Remove the chest tube"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "A disconnected system can allow air entry and loss of drainage; restore the closed system promptly while assessing respiratory status."
+    },
+    {
+      "id": "b4_q7373",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Myocardial Infarction",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 58-year-old client reports crushing substernal chest pressure with diaphoresis and nausea. Which nursing action is the priority?",
+      "options": [
+        "Encourage ambulation",
+        "Obtain rapid assessment, ECG and initiate the acute chest-pain protocol",
+        "Delay assessment until pain has lasted 30 minutes",
+        "Schedule diet teaching"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Possible acute coronary syndrome requires immediate assessment and time-sensitive evaluation/treatment."
+    },
+    {
+      "id": "b4_q7382",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Bow-tie",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "DKA",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 67-year-old client with DKA has glucose 620 mg/dL, K 5.4 mEq/L, BP 88/52 mmHg and dry mucous membranes. Which intervention is generally the initial priority?",
+      "options": [
+        "Begin prescribed isotonic IV fluid replacement",
+        "Restrict fluids",
+        "Administer sodium bicarbonate routinely before fluids",
+        "Give long-acting insulin only"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Severe dehydration and poor perfusion are major immediate problems in DKA; isotonic fluid resuscitation is a key initial intervention."
+    },
+    {
+      "id": "b4_q7394",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "GI Bleed",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 27-year-old client has hematemesis, HR 126/min and BP 82/46 mmHg. Which action is the priority?",
+      "options": [
+        "Delay intervention until hemoglobin is repeated tomorrow",
+        "Encourage ambulation",
+        "Support airway/circulation and obtain large-bore IV access for resuscitation",
+        "Give a high-fiber meal"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "An unstable GI bleed threatens circulation and requires immediate ABC-focused resuscitation."
+    },
+    {
+      "id": "b4_q7397",
+      "batch": "b4",
+      "type": "trend",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Sickle Cell Disease",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "A 58-year-old client is admitted with vaso-occlusive sickle cell pain. Which interventions are appropriate?",
+      "options": [
+        "Restrict fluids",
+        "Withhold prescribed analgesics until pain becomes unbearable",
+        "Apply ice directly to painful areas for prolonged periods",
+        "Assess pain, support hydration as prescribed, give analgesia, and evaluate oxygenation"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Management centers on pain control, hydration when appropriate, oxygenation assessment and treatment of triggers/complications."
+    },
+    {
+      "id": "b4_q7406",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "maternity",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Magnesium Sulfate",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 67-year-old client receiving magnesium sulfate has RR 9/min, absent deep tendon reflexes and decreasing urine output. What should the nurse suspect?",
+      "options": [
+        "Magnesium toxicity",
+        "Normal labor progression",
+        "Expected therapeutic response",
+        "Hypomagnesemia"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Respiratory depression, loss of reflexes and reduced renal clearance are major toxicity cues."
+    },
+    {
+      "id": "b4_q7425",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 80 mg. The medication available is 200 mg per 4 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 1.6,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 80/200 x 4 = 1.6 mL."
+    },
+    {
+      "id": "b4_q7442",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 300 mg. The medication available is 40 mg per 2 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 15.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 300/40 x 2 = 15 mL."
+    },
+    {
+      "id": "b4_q7454",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Meningitis",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 67-year-old client is admitted with suspected bacterial meningitis. Which infection-control action is most appropriate initially?",
+      "options": [
+        "Use only standard precautions regardless of organism",
+        "Delay precautions until culture results are final",
+        "Implement indicated transmission-based precautions promptly",
+        "Place the client in a positive-pressure room"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Suspected bacterial meningitis requires prompt appropriate transmission-based precautions while the cause is clarified."
+    },
+    {
+      "id": "b4_q7459",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 120 mg. The medication available is 50 mg per 4 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 9.6,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 120/50 x 4 = 9.6 mL."
+    },
+    {
+      "id": "b4_q7463",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Cloze/Drop-down",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "AKI",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 74-year-old client with AKI has potassium 6.4 mEq/L and peaked T waves. Which problem is the immediate priority?",
+      "options": [
+        "Risk for life-threatening dysrhythmia",
+        "Sleep disturbance",
+        "Constipation",
+        "Impaired skin pigmentation"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Severe hyperkalemia with ECG changes threatens cardiac conduction and requires urgent treatment."
+    },
+    {
+      "id": "b4_q7466",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Matrix/Grid",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cirrhosis",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "A 27-year-old client with cirrhosis becomes confused and develops asterixis. Which complication is most likely?",
+      "options": [
+        "Simple fatigue",
+        "Renal calculus",
+        "Hepatic encephalopathy",
+        "Stable ascites only"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Altered cognition and asterixis in advanced liver disease are classic cues of hepatic encephalopathy."
+    },
+    {
+      "id": "b4_q7475",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Digoxin",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 34-year-old client taking digoxin reports nausea and new visual color changes and has bradycardia. What should the nurse suspect?",
+      "options": [
+        "Digoxin toxicity",
+        "Acute asthma",
+        "Expected therapeutic effect",
+        "Iron deficiency"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "GI symptoms, visual disturbances and bradyarrhythmias are important toxicity cues with digoxin."
+    },
+    {
+      "id": "b4_q7476",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 80 mg. The medication available is 100 mg per 1 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 0.8,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 80/100 x 1 = 0.8 mL."
+    },
+    {
+      "id": "b4_q7490",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Mental Health - Suicide",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 27-year-old client says, \"I have a gun at home and plan to use it tonight.\" What is the nurse’s priority response?",
+      "options": [
+        "Initiate immediate suicide-safety precautions and obtain urgent evaluation",
+        "Discuss long-term career goals before addressing safety",
+        "Promise to keep the statement secret",
+        "Leave the client alone to reduce stimulation"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "A specific plan with access to lethal means indicates acute suicide risk; immediate safety measures take priority."
+    },
+    {
+      "id": "b4_q7493",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 120 mg. The medication available is 40 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 15.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 120/40 x 5 = 15 mL."
+    },
+    {
+      "id": "b4_q7508",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Sepsis",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 46-year-old client with suspected infection has T 39.2 C, HR 128/min, RR 30/min, BP 86/48 mmHg, new confusion, and urine output 15 mL/hr. Which finding most strongly indicates impaired perfusion?",
+      "options": [
+        "Heart rate 128/min",
+        "Respiratory rate 30/min",
+        "Urine output 15 mL/hr",
+        "Temperature 39.2 C"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Marked oliguria is an important cue of reduced renal perfusion in a hemodynamically unstable client."
+    },
+    {
+      "id": "b4_q7510",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 400 mg. The medication available is 100 mg per 10 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 40.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 400/100 x 10 = 40 mL."
+    },
+    {
+      "id": "b4_q7511",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cardiogenic Shock",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "A 74-year-old client after a large MI has crackles, JVD, cool skin and hypotension. Which prescription should the nurse question if it is ordered as a rapid large-volume intervention?",
+      "options": [
+        "Large rapid isotonic fluid bolus without reassessment",
+        "Continuous ECG monitoring",
+        "Oxygen as indicated",
+        "Vasoactive medication titrated to response"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Cardiogenic shock reflects pump failure; indiscriminate large rapid fluid loading can worsen pulmonary congestion."
+    },
+    {
+      "id": "b4_q7514",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Cloze/Drop-down",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "ARDS",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "A 27-year-old client with severe pneumonia has worsening hypoxemia despite supplemental oxygen and bilateral diffuse infiltrates. Which complication is the priority concern?",
+      "options": [
+        "Stable pleural effusion",
+        "ARDS",
+        "Chronic bronchitis",
+        "Sinusitis"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Refractory hypoxemia with diffuse bilateral pulmonary involvement after a major insult is consistent with ARDS."
+    },
+    {
+      "id": "b4_q7520",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cardiac Tamponade",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "An 82-year-old client after cardiac surgery develops hypotension, JVD and muffled heart sounds. Which complication should the nurse suspect?",
+      "options": [
+        "Cardiac tamponade",
+        "Left-sided heart failure only",
+        "Hypoglycemia",
+        "Pneumonia"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Hypotension, jugular venous distention and muffled heart sounds are classic cues associated with cardiac tamponade."
+    },
+    {
+      "id": "b4_q7523",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Stroke",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 34-year-old client suddenly develops facial droop, unilateral arm weakness and difficulty speaking. What is the priority nursing action?",
+      "options": [
+        "Allow the client to sleep",
+        "Give an IM injection for pain",
+        "Offer food to test swallowing",
+        "Activate the stroke response and establish the time last known well"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Stroke care is time-sensitive; rapid activation and accurate last-known-well time are essential."
+    },
+    {
+      "id": "b4_q7526",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Spinal Cord Injury",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "A 67-year-old client with a T4 spinal cord injury develops a pounding headache, flushing above the lesion and BP 210/110 mmHg. Which condition should the nurse suspect?",
+      "options": [
+        "Autonomic dysreflexia",
+        "Hypovolemic shock",
+        "Pulmonary edema",
+        "DKA"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Severe hypertension with headache and flushing in a client with a high spinal cord lesion is characteristic of autonomic dysreflexia."
+    },
+    {
+      "id": "b4_q7527",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 300 mg. The medication available is 50 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 30.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 300/50 x 5 = 30 mL."
+    },
+    {
+      "id": "b4_q7535",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Bow-tie",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Thyroid Storm",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "A 74-year-old client with hyperthyroidism develops fever 40 C, severe tachycardia and agitation. What should the nurse suspect?",
+      "options": [
+        "Stable hypothyroidism",
+        "Thyroid storm",
+        "SIADH",
+        "Myxedema coma"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "High fever, marked tachycardia and CNS excitation in hyperthyroidism are emergency cues for thyroid storm."
+    },
+    {
+      "id": "b4_q7538",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Peritoneal Dialysis",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 27-year-old client receiving peritoneal dialysis has cloudy effluent and abdominal pain. Which complication should the nurse suspect?",
+      "options": [
+        "Otitis media",
+        "Expected dialysis finding",
+        "Hypoglycemia only",
+        "Peritonitis"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Cloudy dialysate with abdominal pain is a warning sign of peritonitis and requires prompt evaluation."
+    },
+    {
+      "id": "b4_q7544",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 300 mg. The medication available is 50 mg per 2 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 12.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 300/50 x 2 = 12 mL."
+    },
+    {
+      "id": "b4_q7547",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Anticoagulants",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 34-year-old client receiving heparin develops a major platelet decline and new thrombosis. Which adverse effect should the nurse suspect?",
+      "options": [
+        "Hyperthyroidism",
+        "Heparin-induced thrombocytopenia",
+        "Expected therapeutic response",
+        "Iron deficiency"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "A substantial platelet fall with thrombosis during heparin exposure is concerning for HIT."
+    },
+    {
+      "id": "b4_q7565",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Cloze/Drop-down",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Schizophrenia",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 58-year-old client says, \"The voices are telling me to hurt myself.\" What should the nurse do first?",
+      "options": [
+        "Tell the client the voices are real",
+        "Argue that hallucinations are impossible",
+        "Assess the content, intent, ability to resist, and immediate safety risk",
+        "Leave the client alone until the voices stop"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Command hallucinations require immediate focused safety assessment and protective intervention as needed."
+    },
+    {
+      "id": "b4_q7574",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Burns",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 67-year-old client with major burns has soot around the mouth, hoarseness and facial burns. What is the priority concern?",
+      "options": [
+        "Urinary frequency",
+        "Chronic joint stiffness",
+        "Constipation",
+        "Progressive airway edema"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Inhalation injury can cause rapidly progressive airway edema; airway assessment and early expert management are priorities."
+    },
+    {
+      "id": "b4_q7586",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Bow-tie",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Chest Tubes",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 27-year-old client with a chest tube becomes acutely dyspneic. The nurse finds the tubing disconnected from the drainage system. What should the nurse do first?",
+      "options": [
+        "Remove the chest tube",
+        "Clamp the chest tube near the client for the remainder of the shift",
+        "Re-establish the drainage system connection using aseptic technique and assess the client",
+        "Turn the client onto the affected side and leave the tube disconnected"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "A disconnected system can allow air entry and loss of drainage; restore the closed system promptly while assessing respiratory status."
+    },
+    {
+      "id": "b4_q7592",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Myocardial Infarction",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "An 82-year-old client reports crushing substernal chest pressure with diaphoresis and nausea. Which nursing action is the priority?",
+      "options": [
+        "Obtain rapid assessment, ECG and initiate the acute chest-pain protocol",
+        "Schedule diet teaching",
+        "Encourage ambulation",
+        "Delay assessment until pain has lasted 30 minutes"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Possible acute coronary syndrome requires immediate assessment and time-sensitive evaluation/treatment."
+    },
+    {
+      "id": "b4_q7601",
+      "batch": "b4",
+      "type": "trend",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "DKA",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 19-year-old client with DKA has glucose 620 mg/dL, K 5.4 mEq/L, BP 88/52 mmHg and dry mucous membranes. Which intervention is generally the initial priority?",
+      "options": [
+        "Restrict fluids",
+        "Begin prescribed isotonic IV fluid replacement",
+        "Give long-acting insulin only",
+        "Administer sodium bicarbonate routinely before fluids"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Severe dehydration and poor perfusion are major immediate problems in DKA; isotonic fluid resuscitation is a key initial intervention."
+    },
+    {
+      "id": "b4_q7612",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 200 mg. The medication available is 200 mg per 10 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 10.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 200/200 x 10 = 10 mL."
+    },
+    {
+      "id": "b4_q7613",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "GI Bleed",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 58-year-old client has hematemesis, HR 126/min and BP 82/46 mmHg. Which action is the priority?",
+      "options": [
+        "Support airway/circulation and obtain large-bore IV access for resuscitation",
+        "Encourage ambulation",
+        "Delay intervention until hemoglobin is repeated tomorrow",
+        "Give a high-fiber meal"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "An unstable GI bleed threatens circulation and requires immediate ABC-focused resuscitation."
+    },
+    {
+      "id": "b4_q7616",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Cloze/Drop-down",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Sickle Cell Disease",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "An 82-year-old client is admitted with vaso-occlusive sickle cell pain. Which interventions are appropriate?",
+      "options": [
+        "Apply ice directly to painful areas for prolonged periods",
+        "Withhold prescribed analgesics until pain becomes unbearable",
+        "Assess pain, support hydration as prescribed, give analgesia, and evaluate oxygenation",
+        "Restrict fluids"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Management centers on pain control, hydration when appropriate, oxygenation assessment and treatment of triggers/complications."
+    },
+    {
+      "id": "b4_q7625",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "maternity",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Magnesium Sulfate",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 19-year-old client receiving magnesium sulfate has RR 9/min, absent deep tendon reflexes and decreasing urine output. What should the nurse suspect?",
+      "options": [
+        "Hypomagnesemia",
+        "Normal labor progression",
+        "Expected therapeutic response",
+        "Magnesium toxicity"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Respiratory depression, loss of reflexes and reduced renal clearance are major toxicity cues."
+    },
+    {
+      "id": "b4_q7629",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 600 mg. The medication available is 100 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 30.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 600/100 x 5 = 30 mL."
+    },
+    {
+      "id": "b4_q7646",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 150 mg. The medication available is 50 mg per 10 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 30.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 150/50 x 10 = 30 mL."
+    },
+    {
+      "id": "b4_q7663",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 300 mg. The medication available is 100 mg per 2 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 6.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 300/100 x 2 = 6 mL."
+    },
+    {
+      "id": "b4_q7673",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Meningitis",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 19-year-old client is admitted with suspected bacterial meningitis. Which infection-control action is most appropriate initially?",
+      "options": [
+        "Use only standard precautions regardless of organism",
+        "Implement indicated transmission-based precautions promptly",
+        "Delay precautions until culture results are final",
+        "Place the client in a positive-pressure room"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Suspected bacterial meningitis requires prompt appropriate transmission-based precautions while the cause is clarified."
+    },
+    {
+      "id": "b4_q7680",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 300 mg. The medication available is 40 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 37.5,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 300/40 x 5 = 37.5 mL."
+    },
+    {
+      "id": "b4_q7682",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "AKI",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 27-year-old client with AKI has potassium 6.4 mEq/L and peaked T waves. Which problem is the immediate priority?",
+      "options": [
+        "Risk for life-threatening dysrhythmia",
+        "Impaired skin pigmentation",
+        "Sleep disturbance",
+        "Constipation"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Severe hyperkalemia with ECG changes threatens cardiac conduction and requires urgent treatment."
+    },
+    {
+      "id": "b4_q7685",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Highlight",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cirrhosis",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "A 58-year-old client with cirrhosis becomes confused and develops asterixis. Which complication is most likely?",
+      "options": [
+        "Hepatic encephalopathy",
+        "Simple fatigue",
+        "Stable ascites only",
+        "Renal calculus"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Altered cognition and asterixis in advanced liver disease are classic cues of hepatic encephalopathy."
+    },
+    {
+      "id": "b4_q7694",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Digoxin",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 67-year-old client taking digoxin reports nausea and new visual color changes and has bradycardia. What should the nurse suspect?",
+      "options": [
+        "Expected therapeutic effect",
+        "Iron deficiency",
+        "Acute asthma",
+        "Digoxin toxicity"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "GI symptoms, visual disturbances and bradyarrhythmias are important toxicity cues with digoxin."
+    },
+    {
+      "id": "b4_q7709",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "safety",
+      "clientNeeds": "Safety and Infection Control",
+      "topic": "Mental Health - Suicide",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 58-year-old client says, \"I have a gun at home and plan to use it tonight.\" What is the nurse’s priority response?",
+      "options": [
+        "Promise to keep the statement secret",
+        "Discuss long-term career goals before addressing safety",
+        "Initiate immediate suicide-safety precautions and obtain urgent evaluation",
+        "Leave the client alone to reduce stimulation"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "A specific plan with access to lethal means indicates acute suicide risk; immediate safety measures take priority."
+    },
+    {
+      "id": "b4_q7714",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 80 mg. The medication available is 50 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 8.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 80/50 x 5 = 8 mL."
+    },
+    {
+      "id": "b4_q7727",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Sepsis",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 74-year-old client with suspected infection has T 39.2 C, HR 128/min, RR 30/min, BP 86/48 mmHg, new confusion, and urine output 15 mL/hr. Which finding most strongly indicates impaired perfusion?",
+      "options": [
+        "Temperature 39.2 C",
+        "Urine output 15 mL/hr",
+        "Respiratory rate 30/min",
+        "Heart rate 128/min"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Marked oliguria is an important cue of reduced renal perfusion in a hemodynamically unstable client."
+    },
+    {
+      "id": "b4_q7730",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cardiogenic Shock",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "A 27-year-old client after a large MI has crackles, JVD, cool skin and hypotension. Which prescription should the nurse question if it is ordered as a rapid large-volume intervention?",
+      "options": [
+        "Large rapid isotonic fluid bolus without reassessment",
+        "Oxygen as indicated",
+        "Vasoactive medication titrated to response",
+        "Continuous ECG monitoring"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Cardiogenic shock reflects pump failure; indiscriminate large rapid fluid loading can worsen pulmonary congestion."
+    },
+    {
+      "id": "b4_q7731",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 200 mg. The medication available is 50 mg per 4 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 16.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 200/50 x 4 = 16 mL."
+    },
+    {
+      "id": "b4_q7733",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "ARDS",
+      "cjStep": "Analyze Cues",
+      "difficulty": 2,
+      "stem": "A 58-year-old client with severe pneumonia has worsening hypoxemia despite supplemental oxygen and bilateral diffuse infiltrates. Which complication is the priority concern?",
+      "options": [
+        "Chronic bronchitis",
+        "Sinusitis",
+        "Stable pleural effusion",
+        "ARDS"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Refractory hypoxemia with diffuse bilateral pulmonary involvement after a major insult is consistent with ARDS."
+    },
+    {
+      "id": "b4_q7739",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Bow-tie",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Cardiac Tamponade",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 34-year-old client after cardiac surgery develops hypotension, JVD and muffled heart sounds. Which complication should the nurse suspect?",
+      "options": [
+        "Pneumonia",
+        "Left-sided heart failure only",
+        "Hypoglycemia",
+        "Cardiac tamponade"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Hypotension, jugular venous distention and muffled heart sounds are classic cues associated with cardiac tamponade."
+    },
+    {
+      "id": "b4_q7742",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Stroke",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 67-year-old client suddenly develops facial droop, unilateral arm weakness and difficulty speaking. What is the priority nursing action?",
+      "options": [
+        "Activate the stroke response and establish the time last known well",
+        "Offer food to test swallowing",
+        "Give an IM injection for pain",
+        "Allow the client to sleep"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "Stroke care is time-sensitive; rapid activation and accurate last-known-well time are essential."
+    },
+    {
+      "id": "b4_q7745",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Spinal Cord Injury",
+      "cjStep": "Recognize Cues",
+      "difficulty": 3,
+      "stem": "A 19-year-old client with a T4 spinal cord injury develops a pounding headache, flushing above the lesion and BP 210/110 mmHg. Which condition should the nurse suspect?",
+      "options": [
+        "Hypovolemic shock",
+        "Autonomic dysreflexia",
+        "DKA",
+        "Pulmonary edema"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Severe hypertension with headache and flushing in a client with a high spinal cord lesion is characteristic of autonomic dysreflexia."
+    },
+    {
+      "id": "b4_q7754",
+      "batch": "b4",
+      "type": "trend",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Thyroid Storm",
+      "cjStep": "Take Action",
+      "difficulty": 3,
+      "stem": "A 27-year-old client with hyperthyroidism develops fever 40 C, severe tachycardia and agitation. What should the nurse suspect?",
+      "options": [
+        "Myxedema coma",
+        "Thyroid storm",
+        "Stable hypothyroidism",
+        "SIADH"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "High fever, marked tachycardia and CNS excitation in hyperthyroidism are emergency cues for thyroid storm."
+    },
+    {
+      "id": "b4_q7757",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Extended Multiple Response",
+      "category": "medsurg",
+      "clientNeeds": "Reduction of Risk Potential",
+      "topic": "Peritoneal Dialysis",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 58-year-old client receiving peritoneal dialysis has cloudy effluent and abdominal pain. Which complication should the nurse suspect?",
+      "options": [
+        "Expected dialysis finding",
+        "Peritonitis",
+        "Hypoglycemia only",
+        "Otitis media"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Cloudy dialysate with abdominal pain is a warning sign of peritonitis and requires prompt evaluation."
+    },
+    {
+      "id": "b4_q7766",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "pharm",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Anticoagulants",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 67-year-old client receiving heparin develops a major platelet decline and new thrombosis. Which adverse effect should the nurse suspect?",
+      "options": [
+        "Iron deficiency",
+        "Hyperthyroidism",
+        "Expected therapeutic response",
+        "Heparin-induced thrombocytopenia"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "A substantial platelet fall with thrombosis during heparin exposure is concerning for HIT."
+    },
+    {
+      "id": "b4_q7782",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 100 mg. The medication available is 40 mg per 2 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 5.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 100/40 x 2 = 5 mL."
+    },
+    {
+      "id": "b4_q7784",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "mental",
+      "clientNeeds": "Psychosocial Integrity",
+      "topic": "Schizophrenia",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "An 82-year-old client says, \"The voices are telling me to hurt myself.\" What should the nurse do first?",
+      "options": [
+        "Leave the client alone until the voices stop",
+        "Argue that hallucinations are impossible",
+        "Tell the client the voices are real",
+        "Assess the content, intent, ability to resist, and immediate safety risk"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Command hallucinations require immediate focused safety assessment and protective intervention as needed."
+    },
+    {
+      "id": "b4_q7793",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Burns",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 19-year-old client with major burns has soot around the mouth, hoarseness and facial burns. What is the priority concern?",
+      "options": [
+        "Urinary frequency",
+        "Progressive airway edema",
+        "Chronic joint stiffness",
+        "Constipation"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Inhalation injury can cause rapidly progressive airway edema; airway assessment and early expert management are priorities."
+    },
+    {
+      "id": "b4_q7799",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 200 mg. The medication available is 200 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 5.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 200/200 x 5 = 5 mL."
+    },
+    {
+      "id": "b4_q7805",
+      "batch": "b4",
+      "type": "trend",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Chest Tubes",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 58-year-old client with a chest tube becomes acutely dyspneic. The nurse finds the tubing disconnected from the drainage system. What should the nurse do first?",
+      "options": [
+        "Remove the chest tube",
+        "Turn the client onto the affected side and leave the tube disconnected",
+        "Re-establish the drainage system connection using aseptic technique and assess the client",
+        "Clamp the chest tube near the client for the remainder of the shift"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "A disconnected system can allow air entry and loss of drainage; restore the closed system promptly while assessing respiratory status."
+    },
+    {
+      "id": "b4_q7811",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Myocardial Infarction",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 34-year-old client reports crushing substernal chest pressure with diaphoresis and nausea. Which nursing action is the priority?",
+      "options": [
+        "Schedule diet teaching",
+        "Encourage ambulation",
+        "Obtain rapid assessment, ECG and initiate the acute chest-pain protocol",
+        "Delay assessment until pain has lasted 30 minutes"
+      ],
+      "correct": [
+        2
+      ],
+      "rationale": "Possible acute coronary syndrome requires immediate assessment and time-sensitive evaluation/treatment."
+    },
+    {
+      "id": "b4_q7820",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "declaredType": "Cloze/Drop-down",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "DKA",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "A 46-year-old client with DKA has glucose 620 mg/dL, K 5.4 mEq/L, BP 88/52 mmHg and dry mucous membranes. Which intervention is generally the initial priority?",
+      "options": [
+        "Give long-acting insulin only",
+        "Begin prescribed isotonic IV fluid replacement",
+        "Restrict fluids",
+        "Administer sodium bicarbonate routinely before fluids"
+      ],
+      "correct": [
+        1
+      ],
+      "rationale": "Severe dehydration and poor perfusion are major immediate problems in DKA; isotonic fluid resuscitation is a key initial intervention."
+    },
+    {
+      "id": "b4_q7832",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "GI Bleed",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "An 82-year-old client has hematemesis, HR 126/min and BP 82/46 mmHg. Which action is the priority?",
+      "options": [
+        "Support airway/circulation and obtain large-bore IV access for resuscitation",
+        "Delay intervention until hemoglobin is repeated tomorrow",
+        "Give a high-fiber meal",
+        "Encourage ambulation"
+      ],
+      "correct": [
+        0
+      ],
+      "rationale": "An unstable GI bleed threatens circulation and requires immediate ABC-focused resuscitation."
+    },
+    {
+      "id": "b4_q7833",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 80 mg. The medication available is 100 mg per 5 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 4.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 80/100 x 5 = 4 mL."
+    },
+    {
+      "id": "b4_q7835",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "medsurg",
+      "clientNeeds": "Physiological Adaptation",
+      "topic": "Sickle Cell Disease",
+      "cjStep": "Generate Solutions",
+      "difficulty": 2,
+      "stem": "A 34-year-old client is admitted with vaso-occlusive sickle cell pain. Which interventions are appropriate?",
+      "options": [
+        "Restrict fluids",
+        "Withhold prescribed analgesics until pain becomes unbearable",
+        "Apply ice directly to painful areas for prolonged periods",
+        "Assess pain, support hydration as prescribed, give analgesia, and evaluate oxygenation"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Management centers on pain control, hydration when appropriate, oxygenation assessment and treatment of triggers/complications."
+    },
+    {
+      "id": "b4_q7844",
+      "batch": "b4",
+      "type": "multipleChoice",
+      "category": "maternity",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Magnesium Sulfate",
+      "cjStep": "Recognize Cues",
+      "difficulty": 2,
+      "stem": "A 46-year-old client receiving magnesium sulfate has RR 9/min, absent deep tendon reflexes and decreasing urine output. What should the nurse suspect?",
+      "options": [
+        "Expected therapeutic response",
+        "Hypomagnesemia",
+        "Normal labor progression",
+        "Magnesium toxicity"
+      ],
+      "correct": [
+        3
+      ],
+      "rationale": "Respiratory depression, loss of reflexes and reduced renal clearance are major toxicity cues."
+    },
+    {
+      "id": "b4_q7850",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 120 mg. The medication available is 40 mg per 4 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 12.0,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 120/40 x 4 = 12 mL."
+    },
+    {
+      "id": "b4_q7867",
+      "batch": "b4",
+      "type": "numeric",
+      "category": "labs",
+      "clientNeeds": "Pharmacological and Parenteral Therapies",
+      "topic": "Dosage Calculation",
+      "cjStep": "Take Action",
+      "difficulty": 2,
+      "stem": "The prescription is for 80 mg. The medication available is 50 mg per 2 mL. How many mL should the nurse administer? (Round to one decimal place if needed.)",
+      "numericAnswer": 3.2,
+      "unit": "mL",
+      "rationale": "Use desired/have x volume: 80/50 x 2 = 3.2 mL."
+    }
+  ]
+}

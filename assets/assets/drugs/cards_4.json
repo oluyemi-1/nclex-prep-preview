@@ -1,0 +1,1715 @@
+[
+ {
+  "id": "atenolol",
+  "generic": "Atenolol",
+  "brands": [
+   "Tenormin"
+  ],
+  "drugClass": "Beta blocker (beta-1 selective, renally cleared)",
+  "system": "Cardiovascular",
+  "diagram": "heart",
+  "mode": "betaBlock",
+  "rx": true,
+  "uses": [
+   "Hypertension",
+   "Chronic stable angina",
+   "Heart protection after myocardial infarction"
+  ],
+  "quickTip": "Unlike metoprolol, atenolol leaves the body through the kidneys, so it builds up when renal function falls - check creatinine clearance and expect a lower dose in kidney disease and older adults.",
+  "administration": "Oral once daily (occasionally split into two doses) at the same time each day, with or without food. Hemodialysis removes it, so dialysis patients take their dose after the session.",
+  "sideEffects": [
+   {
+    "label": "Bradycardia",
+    "icon": "bradycardia"
+   },
+   {
+    "label": "Orthostatic hypotension",
+    "icon": "hypotension"
+   },
+   {
+    "label": "Tiredness and reduced exercise tolerance",
+    "icon": "fatigue"
+   },
+   {
+    "label": "Dizziness",
+    "icon": "dizziness"
+   },
+   {
+    "label": "Erectile dysfunction",
+    "icon": "sexual"
+   },
+   {
+    "label": "Hidden warning signs of low glucose",
+    "icon": "hypoglycemia"
+   }
+  ],
+  "mechanism": "Selectively blocks beta-1 receptors on the SA node and heart muscle, lowering heart rate, contractility and renin release so blood pressure and cardiac oxygen demand fall.",
+  "simplified": "A governor on the heart's engine that exits through the kidneys - weak kidneys, longer ride.",
+  "nursing": [
+   "Review creatinine clearance before starting; a reduced maximum dose is expected when CrCl is below 35 mL/min.",
+   "Count the apical pulse and take BP before each dose; withhold for HR under 60 or SBP under 90 and notify the provider.",
+   "Teach that stopping suddenly can provoke rebound angina, tachycardia or MI; the dose is tapered over about 2 weeks.",
+   "It is water-soluble and enters the brain less than propranolol, so nightmares and depression are less common - still ask about mood and sleep.",
+   "Teach patients with diabetes to confirm lows with a glucose meter, because the drug hides the racing pulse and shakiness of hypoglycemia."
+  ]
+ },
+ {
+  "id": "carvedilol",
+  "generic": "Carvedilol",
+  "brands": [
+   "Coreg",
+   "Coreg CR"
+  ],
+  "drugClass": "Beta blocker (nonselective with alpha-1 blockade)",
+  "system": "Cardiovascular",
+  "diagram": "heart",
+  "mode": "betaBlock",
+  "rx": true,
+  "uses": [
+   "Heart failure with reduced ejection fraction",
+   "Hypertension",
+   "Left ventricular dysfunction after myocardial infarction"
+  ],
+  "quickTip": "Always give with food - slowing absorption blunts the orthostatic drop caused by its extra alpha-1 blockade, which metoprolol does not have.",
+  "administration": "Tablets twice daily with meals; Coreg CR capsules once daily in the morning with food, never crushed or chewed. Heart failure doses start low and are doubled no more often than every 2 weeks.",
+  "sideEffects": [
+   {
+    "label": "Orthostatic hypotension",
+    "icon": "hypotension"
+   },
+   {
+    "label": "Dizziness and lightheadedness",
+    "icon": "dizziness"
+   },
+   {
+    "label": "Bradycardia",
+    "icon": "bradycardia"
+   },
+   {
+    "label": "Fluid retention during dose increases",
+    "icon": "weight_gain"
+   },
+   {
+    "label": "Fatigue",
+    "icon": "fatigue"
+   },
+   {
+    "label": "Wheezing or bronchospasm",
+    "icon": "respiratory_depression"
+   }
+  ],
+  "mechanism": "Blocks beta-1 and beta-2 receptors to slow the heart and reduce its workload, and blocks alpha-1 receptors on arterioles so vessels relax and afterload falls.",
+  "simplified": "Lifts the foot off the gas pedal and clears the road ahead at the same time.",
+  "nursing": [
+   "Check apical pulse and a standing BP before each dose; hold for HR under 60 or SBP under 90 and report dizziness on standing.",
+   "Weigh daily during titration and report a gain of 2-3 lb (about 1 kg) in a day or 5 lb (about 2 kg) in a week - heart failure can briefly worsen after each dose increase.",
+   "Because it also blocks beta-2 receptors, avoid it in asthma and use cautiously in COPD; listen for wheezes.",
+   "Fall precautions after the first dose and each increase: dangle legs, then stand slowly with help.",
+   "Teach never to run out or stop cold turkey; withdrawal is tapered over 1-2 weeks to prevent rebound ischemia."
+  ]
+ },
+ {
+  "id": "labetalol",
+  "generic": "Labetalol",
+  "brands": [
+   "Trandate"
+  ],
+  "drugClass": "Mixed alpha-1 and beta blocker",
+  "system": "Cardiovascular",
+  "diagram": "heart",
+  "mode": "betaBlock",
+  "rx": true,
+  "uses": [
+   "Hypertensive emergency",
+   "Severe hypertension in preeclampsia",
+   "Chronic hypertension, including during pregnancy"
+  ],
+  "quickTip": "A first-line IV drug for severe blood pressure in preeclampsia and hypertensive emergency - keep the patient lying down during and for up to 3 hours after IV doses because the orthostatic drop is profound.",
+  "administration": "IV push slowly over 2 minutes (commonly 20 mg, then 40-80 mg every 10 minutes as ordered) or as a continuous infusion by pump. Oral tablets are usually taken twice daily.",
+  "sideEffects": [
+   {
+    "label": "Profound orthostatic hypotension",
+    "icon": "hypotension"
+   },
+   {
+    "label": "Dizziness",
+    "icon": "dizziness"
+   },
+   {
+    "label": "Bradycardia",
+    "icon": "bradycardia"
+   },
+   {
+    "label": "Bronchospasm",
+    "icon": "respiratory_depression"
+   },
+   {
+    "label": "Liver injury (rare)",
+    "icon": "liver"
+   },
+   {
+    "label": "Newborn low glucose and slow heart rate after exposure in labor",
+    "icon": "hypoglycemia"
+   }
+  ],
+  "mechanism": "Blocks beta-1 and beta-2 receptors to slow the heart and alpha-1 receptors to relax arterioles, bringing blood pressure down without a reflex jump in heart rate.",
+  "simplified": "The emergency brake for a runaway blood pressure, trusted even in pregnancy.",
+  "nursing": [
+   "During IV dosing, check BP and HR every 5-15 minutes per protocol; in hypertensive emergency lower mean arterial pressure by no more than 25% in the first hour.",
+   "Preeclampsia: treat SBP 160 or higher or DBP 110 or higher, recheck BP 10 minutes after each dose, and monitor fetal heart rate.",
+   "Hold and notify for HR under 60 or new wheezing; avoid in asthma, heart block beyond first degree and decompensated heart failure.",
+   "Assist with the first time out of bed after IV doses - have the patient sit on the edge of the bed before standing.",
+   "After delivery, monitor the newborn for bradycardia, low blood pressure and hypoglycemia."
+  ]
+ },
+ {
+  "id": "nifedipine",
+  "generic": "Nifedipine",
+  "brands": [
+   "Procardia XL",
+   "Adalat CC"
+  ],
+  "drugClass": "Calcium channel blocker (dihydropyridine)",
+  "system": "Cardiovascular",
+  "diagram": "vessel",
+  "mode": "calciumBlock",
+  "rx": true,
+  "uses": [
+   "Hypertension (extended-release)",
+   "Chronic stable and vasospastic angina",
+   "Severe hypertension in pregnancy (per obstetric protocol)"
+  ],
+  "quickTip": "Do not give immediate-release nifedipine (bitten, sublingual or swallowed) to rapidly lower blood pressure in general adult patients - the sudden plunge can cause stroke, MI or death.",
+  "administration": "Extended-release tablets once daily, swallowed whole - never crushed, chewed or split. The empty tablet shell may show up in stool and is harmless.",
+  "sideEffects": [
+   {
+    "label": "Reflex tachycardia",
+    "icon": "tachycardia"
+   },
+   {
+    "label": "Flushing and warmth",
+    "icon": "flushing"
+   },
+   {
+    "label": "Headache",
+    "icon": "headache"
+   },
+   {
+    "label": "Ankle and foot swelling",
+    "icon": "edema"
+   },
+   {
+    "label": "Hypotension",
+    "icon": "hypotension"
+   },
+   {
+    "label": "Gum overgrowth",
+    "icon": "gum"
+   }
+  ],
+  "mechanism": "Blocks L-type calcium channels mainly in arterial smooth muscle, so arterioles relax and resistance falls; it has little direct effect on heart rate or AV conduction.",
+  "simplified": "Opens the pipes and leaves the pump alone - so the heart may race to keep up.",
+  "nursing": [
+   "Check BP and pulse before each dose; hold per parameters (often SBP under 90) and report a resting pulse above 100.",
+   "Teach to avoid grapefruit and grapefruit juice, which slow its breakdown and raise blood levels.",
+   "Ankle edema comes from vessel dilation, not fluid overload, so diuretics help little; teach leg elevation and report swelling that does not resolve.",
+   "Encourage thorough brushing, flossing and regular dental visits to limit gum overgrowth.",
+   "Obstetric exception: oral immediate-release nifedipine is an accepted protocol option for severe hypertension in pregnancy - recheck BP 20 minutes after each dose with fetal monitoring."
+  ]
+ },
+ {
+  "id": "verapamil",
+  "generic": "Verapamil",
+  "brands": [
+   "Calan",
+   "Calan SR",
+   "Verelan"
+  ],
+  "drugClass": "Calcium channel blocker (non-dihydropyridine)",
+  "system": "Cardiovascular",
+  "diagram": "vessel",
+  "mode": "calciumBlock",
+  "rx": true,
+  "uses": [
+   "Supraventricular tachycardia",
+   "Rate control in atrial fibrillation or flutter",
+   "Angina",
+   "Hypertension"
+  ],
+  "quickTip": "Verapamil slows the heart, unlike nifedipine - hold for HR under 60 or new heart block, and expect constipation, its most common complaint.",
+  "administration": "Oral doses with food; sustained-release products swallowed whole (some capsules may be opened onto applesauce). IV push slowly over at least 2 minutes (3 minutes in older adults) with continuous ECG and BP monitoring.",
+  "sideEffects": [
+   {
+    "label": "Constipation",
+    "icon": "constipation"
+   },
+   {
+    "label": "Bradycardia",
+    "icon": "bradycardia"
+   },
+   {
+    "label": "AV block",
+    "icon": "arrhythmia"
+   },
+   {
+    "label": "Hypotension",
+    "icon": "hypotension"
+   },
+   {
+    "label": "Worsening heart failure",
+    "icon": "heart_failure"
+   },
+   {
+    "label": "Dizziness",
+    "icon": "dizziness"
+   }
+  ],
+  "mechanism": "Blocks L-type calcium channels in arterial smooth muscle and, much more strongly than nifedipine, in the SA and AV nodes and heart muscle - vessels relax while rate, conduction and contraction force all fall.",
+  "simplified": "Loosens the pipes and turns down both the pace and the power of the pump.",
+  "nursing": [
+   "Assess apical pulse, BP and PR interval before doses; hold for HR under 60, SBP under 90 or second- or third-degree heart block.",
+   "Prevent constipation with fluids, fiber and activity; older adults often need a scheduled bowel regimen.",
+   "Avoid in heart failure with reduced ejection fraction and in atrial fibrillation with Wolff-Parkinson-White, where blocking the AV node can speed conduction down the accessory pathway.",
+   "It raises digoxin levels and adds to beta blocker bradycardia - monitor digoxin levels, heart rate and the ECG when combined.",
+   "No grapefruit juice; for overdose with severe hypotension, IV calcium is part of treatment."
+  ]
+ },
+ {
+  "id": "enalapril",
+  "generic": "Enalapril",
+  "brands": [
+   "Vasotec",
+   "Epaned"
+  ],
+  "drugClass": "ACE inhibitor",
+  "system": "Cardiovascular",
+  "diagram": "raas",
+  "mode": "ace",
+  "rx": true,
+  "uses": [
+   "Hypertension",
+   "Heart failure",
+   "Asymptomatic left ventricular dysfunction"
+  ],
+  "quickTip": "Airway first: swelling of the lips, tongue or throat can appear even after years on the drug - stop it, call a rapid response, and never give any ACE inhibitor again. A tickling dry cough is common and not dangerous but may force a switch to an ARB.",
+  "administration": "Oral once or twice daily with or without food; an oral solution (Epaned) suits children and patients who cannot swallow tablets. The IV form, enalaprilat, is given slowly over 5 minutes with close BP monitoring.",
+  "sideEffects": [
+   {
+    "label": "Persistent dry cough",
+    "icon": "cough"
+   },
+   {
+    "label": "Angioedema",
+    "icon": "angioedema"
+   },
+   {
+    "label": "Hyperkalemia",
+    "icon": "hyperkalemia"
+   },
+   {
+    "label": "First-dose hypotension",
+    "icon": "hypotension"
+   },
+   {
+    "label": "Rising creatinine",
+    "icon": "kidney"
+   },
+   {
+    "label": "Dizziness",
+    "icon": "dizziness"
+   }
+  ],
+  "mechanism": "The liver converts it to enalaprilat, which blocks angiotensin-converting enzyme so less angiotensin II is made; vessels relax and aldosterone falls, reducing sodium and water retention. The same enzyme normally breaks down bradykinin, and its buildup causes the cough.",
+  "simplified": "Cuts the wire before angiotensin I can become the squeeze signal.",
+  "nursing": [
+   "The first dose can drop BP sharply, especially with diuretics or dehydration - monitor BP for at least 2 hours and keep the patient in bed if dizzy.",
+   "Check potassium and creatinine at baseline and 1-2 weeks after starting; report K+ above 5.0 mEq/L and avoid salt substitutes and potassium supplements unless ordered.",
+   "Boxed warning for fetal toxicity: confirm effective contraception and stop the drug as soon as pregnancy is detected.",
+   "Angioedema risk is higher in Black patients and with sacubitril, which must not be started until 36 hours after the last enalapril dose.",
+   "Teach that the cough does not respond to cough medicine and fades within 1-4 weeks of stopping; report it rather than quitting on their own."
+  ]
+ },
+ {
+  "id": "valsartan",
+  "generic": "Valsartan",
+  "brands": [
+   "Diovan"
+  ],
+  "drugClass": "Angiotensin II receptor blocker (ARB)",
+  "system": "Cardiovascular",
+  "diagram": "raas",
+  "mode": "arb",
+  "rx": true,
+  "uses": [
+   "Hypertension",
+   "Heart failure",
+   "Left ventricular dysfunction after myocardial infarction"
+  ],
+  "quickTip": "No bradykinin buildup means no ACE-inhibitor cough - but it still raises potassium and is contraindicated in pregnancy, so check K+ and stop it the moment pregnancy is confirmed.",
+  "administration": "Oral once daily for hypertension or twice daily for heart failure, with or without food, at the same times each day. In the combination sacubitril/valsartan (Entresto), wait 36 hours after the last ACE inhibitor dose.",
+  "sideEffects": [
+   {
+    "label": "Dizziness",
+    "icon": "dizziness"
+   },
+   {
+    "label": "Hypotension",
+    "icon": "hypotension"
+   },
+   {
+    "label": "Hyperkalemia",
+    "icon": "hyperkalemia"
+   },
+   {
+    "label": "Declining kidney function",
+    "icon": "kidney"
+   },
+   {
+    "label": "Angioedema (uncommon)",
+    "icon": "angioedema"
+   },
+   {
+    "label": "Headache",
+    "icon": "headache"
+   }
+  ],
+  "mechanism": "Blocks the AT1 receptor so angiotensin II cannot tighten arterioles or trigger aldosterone release; the converting enzyme and bradykinin are left untouched, which is why cough is rare.",
+  "simplified": "Lets the key be cut but plugs the lock it was made to open.",
+  "nursing": [
+   "Monitor potassium, BUN and creatinine; report K+ above 5.0 mEq/L or a climbing creatinine, particularly with renal artery stenosis.",
+   "Boxed warning for fetal toxicity: verify contraception in patients who could become pregnant.",
+   "Avoid combining with an ACE inhibitor or aliskiren - double RAAS blockade adds hyperkalemia, hypotension and kidney injury without added benefit.",
+   "Teach to seek emergency care for any swelling of the face, lips or throat; angioedema is rarer than with ACE inhibitors but still possible.",
+   "Teach to change position slowly and avoid potassium-based salt substitutes and regular NSAID use, which blunt the effect and strain the kidneys."
+  ]
+ },
+ {
+  "id": "hydralazine",
+  "generic": "Hydralazine",
+  "brands": [
+   "Apresoline"
+  ],
+  "drugClass": "Direct arteriolar vasodilator",
+  "system": "Cardiovascular",
+  "diagram": "vessel",
+  "mode": "dilate",
+  "rx": true,
+  "uses": [
+   "Severe hypertension in pregnancy and preeclampsia",
+   "Hypertensive urgency or emergency",
+   "Heart failure (combined with isosorbide dinitrate)"
+  ],
+  "quickTip": "Expect reflex tachycardia and sodium retention, so it is usually paired with a beta blocker and a diuretic; new joint pain, fever or rash suggests drug-induced lupus.",
+  "administration": "IV push slowly over about 2 minutes (in obstetrics commonly 5-10 mg, repeated after 20 minutes as ordered) or IM. Oral tablets with meals, consistently, since food changes absorption.",
+  "sideEffects": [
+   {
+    "label": "Reflex tachycardia",
+    "icon": "tachycardia"
+   },
+   {
+    "label": "Pounding headache",
+    "icon": "headache"
+   },
+   {
+    "label": "Palpitations",
+    "icon": "palpitations"
+   },
+   {
+    "label": "Sodium and water retention",
+    "icon": "edema"
+   },
+   {
+    "label": "Hypotension",
+    "icon": "hypotension"
+   },
+   {
+    "label": "Lupus-like syndrome with joint aches",
+    "icon": "muscle_pain"
+   }
+  ],
+  "mechanism": "Relaxes arteriolar smooth muscle directly, lowering afterload while leaving veins largely unaffected. Baroreceptors sense the pressure drop and respond with a faster heart rate and renin release.",
+  "simplified": "Throws the arteries wide open - and the heart sprints to fill the extra space.",
+  "nursing": [
+   "After IV doses, check BP and HR every 5 minutes at first; in preeclampsia recheck BP 20 minutes after each dose and monitor fetal heart rate.",
+   "Report HR above 100, palpitations or chest pain - reflex tachycardia can provoke angina in coronary artery disease.",
+   "Weigh daily and assess for edema; a diuretic is commonly co-prescribed to offset fluid retention.",
+   "Drug-induced lupus is more likely above 200 mg/day and in slow acetylators - teach to report joint pain, fever, chest pain or rash, and expect an ANA test.",
+   "Numbness or tingling in the hands and feet (peripheral neuritis) is treated with pyridoxine (vitamin B6) - report it."
+  ]
+ },
+ {
+  "id": "isosorbide_mononitrate",
+  "generic": "Isosorbide mononitrate",
+  "brands": [
+   "Imdur",
+   "Monoket"
+  ],
+  "drugClass": "Long-acting organic nitrate",
+  "system": "Cardiovascular",
+  "diagram": "vessel",
+  "mode": "dilate",
+  "rx": true,
+  "uses": [
+   "Prevention of chronic stable angina",
+   "Reducing how often exertional chest pain occurs in coronary artery disease"
+  ],
+  "quickTip": "It needs a daily nitrate-free gap of about 10-12 hours or tolerance develops, it will not stop an attack in progress, and PDE-5 inhibitors such as sildenafil or tadalafil can drop BP to fatal levels.",
+  "administration": "Extended-release (Imdur) once daily in the morning with a full glass of water; the scored tablet may be halved but never crushed or chewed. Immediate-release tablets twice daily 7 hours apart (for example 8 AM and 3 PM) to leave an overnight nitrate-free period.",
+  "sideEffects": [
+   {
+    "label": "Headache",
+    "icon": "headache"
+   },
+   {
+    "label": "Orthostatic hypotension",
+    "icon": "hypotension"
+   },
+   {
+    "label": "Dizziness",
+    "icon": "dizziness"
+   },
+   {
+    "label": "Facial flushing",
+    "icon": "flushing"
+   },
+   {
+    "label": "Reflex tachycardia",
+    "icon": "tachycardia"
+   },
+   {
+    "label": "Nausea",
+    "icon": "nausea"
+   }
+  ],
+  "mechanism": "Releases nitric oxide in vascular smooth muscle, relaxing mainly the veins so less blood returns to the heart; lower preload cuts the heart's oxygen demand, and coronary arteries widen as well.",
+  "simplified": "Parks blood in the veins so the heart has less to pump.",
+  "nursing": [
+   "Teach that it prevents angina but does not treat it - keep sublingual nitroglycerin on hand for chest pain.",
+   "Headache is expected early and usually fades; acetaminophen helps, and doses should not be skipped or rescheduled to avoid it.",
+   "Ask about erectile dysfunction drugs: no sildenafil or vardenafil within 24 hours, and no tadalafil within 48 hours.",
+   "Check BP before dosing; teach to rise slowly and avoid alcohol, saunas and hot tubs, which deepen the pressure drop.",
+   "Do not stop suddenly after long-term use - rebound angina can occur."
+  ]
+ },
+ {
+  "id": "bumetanide",
+  "generic": "Bumetanide",
+  "brands": [
+   "Bumex"
+  ],
+  "drugClass": "Loop diuretic (high potency)",
+  "system": "Cardiovascular",
+  "diagram": "nephron",
+  "mode": "loop",
+  "rx": true,
+  "uses": [
+   "Edema from heart failure",
+   "Edema from kidney or liver disease",
+   "Acute pulmonary edema (IV)"
+  ],
+  "quickTip": "Roughly 40 times more potent than furosemide by weight (1 mg bumetanide is about 40 mg furosemide) - a milligram mix-up causes massive fluid and potassium loss.",
+  "administration": "Oral once daily in the morning; if a second dose is ordered, give it by mid-afternoon to spare nighttime voiding. IV push slowly over 1-2 minutes, or IM.",
+  "sideEffects": [
+   {
+    "label": "Hypokalemia",
+    "icon": "hypokalemia"
+   },
+   {
+    "label": "Low blood pressure from volume loss",
+    "icon": "hypotension"
+   },
+   {
+    "label": "Hyponatremia",
+    "icon": "hyponatremia"
+   },
+   {
+    "label": "Muscle cramps",
+    "icon": "cramps"
+   },
+   {
+    "label": "Tinnitus or hearing loss",
+    "icon": "ototoxicity"
+   },
+   {
+    "label": "Frequent, large-volume urination",
+    "icon": "urination"
+   }
+  ],
+  "mechanism": "Blocks the sodium-potassium-2-chloride transporter in the thick ascending loop of Henle, so large amounts of sodium, chloride and water stay in the urine; potassium and magnesium are lost with them.",
+  "simplified": "Pulls the plug at the kidney's busiest salt pump - a tiny dose with a big flush.",
+  "nursing": [
+   "Weigh daily before breakfast on the same scale and track intake and output; report weight loss of more than 2 lb (1 kg) in a day unless intended.",
+   "Monitor potassium (normal 3.5-5.0 mEq/L), sodium and magnesium; low potassium is especially dangerous in patients taking digoxin.",
+   "Check orthostatic vital signs and assist with walking - older adults dehydrate and fall easily.",
+   "Avoid pairing with aminoglycosides such as gentamicin, which add to ear damage; report ringing or muffled hearing.",
+   "Ask about sulfonamide allergy before the first dose, and teach potassium-rich foods such as bananas, potatoes and spinach."
+  ]
+ },
+ {
+  "id": "chlorthalidone",
+  "generic": "Chlorthalidone",
+  "brands": [
+   "Thalitone"
+  ],
+  "drugClass": "Thiazide-like diuretic (long-acting)",
+  "system": "Cardiovascular",
+  "diagram": "nephron",
+  "mode": "thiazide",
+  "rx": true,
+  "uses": [
+   "Hypertension",
+   "Edema from heart failure, cirrhosis or kidney disease",
+   "Calcium kidney stone prevention (off-label)"
+  ],
+  "quickTip": "Acts for 48-72 hours - far longer than hydrochlorothiazide - so potassium loss is steadier and more pronounced; check K+ and take only one morning dose.",
+  "administration": "Oral once daily in the morning with food or milk to limit stomach upset; some edema regimens use every-other-day dosing.",
+  "sideEffects": [
+   {
+    "label": "Hypokalemia",
+    "icon": "hypokalemia"
+   },
+   {
+    "label": "Hyponatremia",
+    "icon": "hyponatremia"
+   },
+   {
+    "label": "Gout flare from high uric acid",
+    "icon": "muscle_pain"
+   },
+   {
+    "label": "Higher blood glucose",
+    "icon": "hyperglycemia"
+   },
+   {
+    "label": "Lightheadedness on standing",
+    "icon": "dizziness"
+   },
+   {
+    "label": "Sun sensitivity",
+    "icon": "photosensitivity"
+   }
+  ],
+  "mechanism": "Blocks the sodium-chloride cotransporter in the distal convoluted tubule so more sodium and water leave in the urine; over weeks it also lowers vascular resistance.",
+  "simplified": "A slow, steady leak at the kidney's second salt checkpoint - one dose outlasts the day.",
+  "nursing": [
+   "Check potassium, sodium and magnesium at baseline and within a few weeks of starting; report K+ under 3.5 mEq/L, weakness or leg cramps.",
+   "Track glucose in patients with diabetes and uric acid in patients with gout - both can climb.",
+   "It reduces calcium excretion, so watch for high calcium with calcium or vitamin D supplements - the same effect helps prevent calcium stones.",
+   "Lithium clearance falls on thiazides; monitor lithium levels and teach signs of toxicity such as coarse tremor and vomiting.",
+   "Teach sunscreen and protective clothing, and to get up slowly from bed or a chair."
+  ]
+ },
+ {
+  "id": "norepinephrine",
+  "generic": "Norepinephrine",
+  "brands": [
+   "Levophed"
+  ],
+  "drugClass": "Vasopressor (alpha-1 and beta-1 adrenergic agonist)",
+  "system": "Cardiovascular",
+  "diagram": "vessel",
+  "mode": "constrict",
+  "rx": true,
+  "uses": [
+   "Septic shock (first-line vasopressor)",
+   "Severe hypotension after adequate fluid resuscitation",
+   "Cardiogenic shock in selected patients"
+  ],
+  "quickTip": "If it infiltrates, stop the infusion and infiltrate the area as soon as possible with phentolamine (5-10 mg in 10-15 mL normal saline) to prevent tissue necrosis; run it through a central line whenever possible.",
+  "administration": "Continuous IV infusion only, diluted in a dextrose-containing fluid such as D5W and run by pump through a central line or a large, secure proximal vein. Titrate to the ordered MAP (usually 65 mmHg or higher); never give as a bolus.",
+  "sideEffects": [
+   {
+    "label": "Tissue necrosis if it leaks",
+    "icon": "rash"
+   },
+   {
+    "label": "Hypertension from over-titration",
+    "icon": "hypertension"
+   },
+   {
+    "label": "Arrhythmias",
+    "icon": "arrhythmia"
+   },
+   {
+    "label": "Reflex bradycardia",
+    "icon": "bradycardia"
+   },
+   {
+    "label": "Reduced kidney and gut perfusion",
+    "icon": "kidney"
+   },
+   {
+    "label": "Headache and anxiety",
+    "icon": "headache"
+   }
+  ],
+  "mechanism": "Stimulates alpha-1 receptors to constrict arterioles and raise blood pressure, with modest beta-1 stimulation that supports cardiac contraction.",
+  "simplified": "Squeezes the pipes hard to push pressure back up to the brain and heart.",
+  "nursing": [
+   "Make sure fluid resuscitation is under way - a vasopressor cannot fill an empty tank.",
+   "Use continuous arterial pressure (or cuff BP every 2-5 minutes while titrating), continuous ECG and hourly urine output; report output under 0.5 mL/kg/hr.",
+   "Inspect the IV site at least hourly for blanching, coolness or swelling along the vein, and keep phentolamine available.",
+   "Assess color, capillary refill and warmth of fingers and toes - intense vasoconstriction can cause limb ischemia.",
+   "Wean gradually while watching BP; never flush the line or piggyback other drugs into it, which would bolus the drug."
+  ]
+ },
+ {
+  "id": "epinephrine",
+  "generic": "Epinephrine",
+  "brands": [
+   "EpiPen",
+   "Auvi-Q",
+   "Adrenalin"
+  ],
+  "drugClass": "Adrenergic agonist (alpha and beta), catecholamine",
+  "system": "Cardiovascular",
+  "diagram": "vessel",
+  "mode": "constrict",
+  "rx": true,
+  "uses": [
+   "Anaphylaxis",
+   "Cardiac arrest",
+   "Refractory hypotension and shock",
+   "Severe croup (nebulized racemic form)"
+  ],
+  "quickTip": "Anaphylaxis: 0.3-0.5 mg of the 1 mg/mL product IM into the anterolateral thigh right away, repeated every 5-15 minutes as needed. Cardiac arrest: 1 mg of the 0.1 mg/mL product IV or IO every 3-5 minutes.",
+  "administration": "Auto-injector against the outer mid-thigh, through clothing if needed, held in place for the time on the device (3 seconds for EpiPen). In arrest, push IV or IO rapidly followed by a 20 mL saline flush; continuous infusions run by pump, ideally centrally.",
+  "sideEffects": [
+   {
+    "label": "Tachycardia",
+    "icon": "tachycardia"
+   },
+   {
+    "label": "Hypertension",
+    "icon": "hypertension"
+   },
+   {
+    "label": "Ventricular arrhythmias",
+    "icon": "arrhythmia"
+   },
+   {
+    "label": "Tremor and anxiety",
+    "icon": "tremor"
+   },
+   {
+    "label": "Hyperglycemia",
+    "icon": "hyperglycemia"
+   },
+   {
+    "label": "Headache",
+    "icon": "headache"
+   }
+  ],
+  "mechanism": "Stimulates alpha-1 receptors to constrict vessels and raise blood pressure, beta-1 receptors to speed and strengthen the heart, and beta-2 receptors to open airways and stop mast cells from releasing more histamine.",
+  "simplified": "The body's own fight-or-flight hormone, delivered in one shot.",
+  "nursing": [
+   "In anaphylaxis give epinephrine first - antihistamines and steroids are add-ons, not substitutes; lay the patient flat with legs raised, or sitting up if breathing is hard.",
+   "Anyone who uses an auto-injector needs emergency department follow-up, because a second (biphasic) reaction can occur hours later.",
+   "Teach to carry two auto-injectors, store them at room temperature, check expiration dates and discard a solution that is brown or cloudy.",
+   "Confirm the concentration before every IV dose - the 1 mg/mL IM product given IV can cause stroke or fatal arrhythmias.",
+   "An accidental injection into a finger or hand can cut off blood flow; seek care right away."
+  ]
+ },
+ {
+  "id": "vasopressin",
+  "generic": "Vasopressin",
+  "brands": [
+   "Vasostrict"
+  ],
+  "drugClass": "Antidiuretic hormone (nonadrenergic vasopressor)",
+  "system": "Cardiovascular",
+  "diagram": "vessel",
+  "mode": "constrict",
+  "rx": true,
+  "uses": [
+   "Septic (vasodilatory) shock, added to norepinephrine",
+   "Central diabetes insipidus",
+   "Bleeding esophageal varices (off-label)"
+  ],
+  "quickTip": "Two jobs, two targets: in septic shock it is added to norepinephrine to raise MAP; in diabetes insipidus it concentrates the urine, so track output, specific gravity and sodium to catch water intoxication.",
+  "administration": "For shock, continuous IV infusion by pump, commonly started near 0.03 units/min and adjusted in small steps, preferably through a central line. For diabetes insipidus it may be ordered IM or subcut.",
+  "sideEffects": [
+   {
+    "label": "Water intoxication and low sodium",
+    "icon": "hyponatremia"
+   },
+   {
+    "label": "Hypertension",
+    "icon": "hypertension"
+   },
+   {
+    "label": "Arrhythmias and chest pain",
+    "icon": "arrhythmia"
+   },
+   {
+    "label": "Abdominal cramps and bowel ischemia",
+    "icon": "cramps"
+   },
+   {
+    "label": "Headache",
+    "icon": "headache"
+   }
+  ],
+  "mechanism": "Acts on V1 receptors in vascular smooth muscle to constrict vessels without using adrenergic receptors, and on V2 receptors in the collecting ducts to insert water channels so the kidneys reabsorb water.",
+  "simplified": "The body's water-saving hormone that also clamps the pipes - a backup squeeze when adrenaline-type drugs are not enough.",
+  "nursing": [
+   "Diabetes insipidus: measure hourly urine output, urine specific gravity (expect it to rise from below 1.005), daily weight and serum sodium.",
+   "Report headache, confusion, drowsiness or sodium below 135 mEq/L - early signs of water intoxication - and keep any ordered fluid restriction.",
+   "In shock, keep continuous ECG and arterial pressure monitoring; report chest pain or ST changes, since it also constricts coronary arteries.",
+   "Check fingers, toes and abdomen for coolness, mottling or pain from vasoconstriction.",
+   "Watch the IV site closely - extravasation can cause skin necrosis."
+  ]
+ },
+ {
+  "id": "atropine",
+  "generic": "Atropine",
+  "brands": [
+   "AtroPen",
+   "Isopto Atropine"
+  ],
+  "drugClass": "Anticholinergic (antimuscarinic)",
+  "system": "Cardiovascular",
+  "diagram": "heart",
+  "mode": "vagalBlock",
+  "rx": true,
+  "uses": [
+   "Symptomatic bradycardia",
+   "Drying secretions before surgery",
+   "Organophosphate or nerve agent poisoning",
+   "Blocking muscarinic effects of neostigmine"
+  ],
+  "quickTip": "First-line drug for symptomatic bradycardia: 1 mg IV every 3-5 minutes up to 3 mg total - if the rate does not respond, move on to transcutaneous pacing or a dopamine or epinephrine infusion.",
+  "administration": "Rapid IV push, undiluted; very small doses or a slow push can paradoxically slow the heart further. IM or subcut before surgery, and the AtroPen auto-injector into the thigh for nerve agent exposure.",
+  "sideEffects": [
+   {
+    "label": "Tachycardia",
+    "icon": "tachycardia"
+   },
+   {
+    "label": "Dry mouth",
+    "icon": "dry_mouth"
+   },
+   {
+    "label": "Urinary retention",
+    "icon": "urination"
+   },
+   {
+    "label": "Dilated pupils and blurred vision",
+    "icon": "vision"
+   },
+   {
+    "label": "Confusion or delirium in older adults",
+    "icon": "confusion"
+   },
+   {
+    "label": "Hot, flushed skin from lost sweating",
+    "icon": "fever"
+   }
+  ],
+  "mechanism": "Blocks muscarinic receptors on the SA and AV nodes, so acetylcholine released by the vagus nerve can no longer slow the heart; rate and AV conduction speed up.",
+  "simplified": "Cuts the vagus nerve's brake line.",
+  "nursing": [
+   "Keep continuous ECG monitoring, reassess HR, BP and symptoms (dizziness, confusion, chest pain) after each dose, and place transcutaneous pacing pads.",
+   "Expect little effect in heart transplant patients and in type II second-degree or third-degree block with a wide QRS - pacing is preferred there.",
+   "Avoid in angle-closure glaucoma; in older men with an enlarged prostate, palpate for bladder distension.",
+   "Recognize toxicity: hot, dry, flushed skin, dilated pupils, delirium and fast pulse; physostigmine reverses severe anticholinergic toxicity.",
+   "Organophosphate poisoning: repeat doses until bronchial secretions dry and breathing eases - large total doses are often needed."
+  ]
+ },
+ {
+  "id": "adenosine",
+  "generic": "Adenosine",
+  "brands": [
+   "Adenocard",
+   "Adenoscan"
+  ],
+  "drugClass": "Antiarrhythmic (AV nodal blocking nucleoside)",
+  "system": "Cardiovascular",
+  "diagram": "heart",
+  "mode": "avPause",
+  "rx": true,
+  "uses": [
+   "Stable narrow-complex supraventricular tachycardia (SVT)",
+   "Pharmacologic cardiac stress testing",
+   "Unmasking atrial flutter hidden by a fast rate"
+  ],
+  "quickTip": "Push 6 mg as fast as possible with an immediate 20 mL saline flush; warn the patient that a few seconds of flatline and chest pressure are expected - the half-life is under 10 seconds.",
+  "administration": "Rapid IV push over 1-2 seconds into a large proximal vein (antecubital), using the port closest to the patient, followed at once by a 20 mL saline flush with the arm raised. If SVT persists after 1-2 minutes, a 12 mg dose is given the same way.",
+  "sideEffects": [
+   {
+    "label": "Brief asystole or pauses",
+    "icon": "arrhythmia"
+   },
+   {
+    "label": "Facial flushing",
+    "icon": "flushing"
+   },
+   {
+    "label": "Chest pressure",
+    "icon": "palpitations"
+   },
+   {
+    "label": "Shortness of breath or bronchospasm",
+    "icon": "respiratory_depression"
+   },
+   {
+    "label": "Sense of impending doom",
+    "icon": "anxiety"
+   },
+   {
+    "label": "Lightheadedness",
+    "icon": "dizziness"
+   }
+  ],
+  "mechanism": "Activates adenosine receptors in the AV node to block conduction for a few seconds, breaking the reentry circuit that sustains SVT so the SA node can take back control.",
+  "simplified": "Presses control-alt-delete on the heart for a few seconds so the normal rhythm can reboot.",
+  "nursing": [
+   "Run a continuous ECG strip during the push to capture the conversion, with the defibrillator and crash cart at the bedside.",
+   "Vagal maneuvers such as a modified Valsalva are tried first when ordered; prepare the drug while they are attempted.",
+   "Avoid in asthma or active bronchospasm, and in second- or third-degree block or sick sinus syndrome without a working pacemaker.",
+   "Caffeine and theophylline blunt its effect (hold caffeine before a stress test as instructed); dipyridamole and carbamazepine intensify it.",
+   "Prepare the patient beforehand and stay with them - the flushing and dread pass within about a minute."
+  ]
+ },
+ {
+  "id": "simvastatin",
+  "generic": "Simvastatin",
+  "brands": [
+   "Zocor"
+  ],
+  "drugClass": "HMG-CoA reductase inhibitor (statin)",
+  "system": "Cardiovascular",
+  "diagram": "liver",
+  "mode": "statin",
+  "rx": true,
+  "uses": [
+   "High LDL cholesterol",
+   "Lowering heart attack and stroke risk",
+   "Familial hypercholesterolemia"
+  ],
+  "quickTip": "Give it in the evening and avoid grapefruit juice - grapefruit raises simvastatin levels, and higher levels mean a higher risk of muscle breakdown (rhabdomyolysis).",
+  "administration": "Oral once daily in the evening, with or without food - its short half-life works best when it overlaps the liver's overnight cholesterol production. The 80 mg dose is limited to patients already tolerating it for 12 months without muscle problems.",
+  "sideEffects": [
+   {
+    "label": "Muscle aches or weakness",
+    "icon": "muscle_pain"
+   },
+   {
+    "label": "Rhabdomyolysis with dark urine",
+    "icon": "kidney"
+   },
+   {
+    "label": "Raised liver enzymes",
+    "icon": "liver"
+   },
+   {
+    "label": "Higher blood glucose",
+    "icon": "hyperglycemia"
+   },
+   {
+    "label": "Constipation or abdominal pain",
+    "icon": "gi_upset"
+   },
+   {
+    "label": "Headache",
+    "icon": "headache"
+   }
+  ],
+  "mechanism": "Blocks HMG-CoA reductase, the rate-limiting enzyme in the liver's cholesterol production, so liver cells add LDL receptors and pull more LDL out of the blood.",
+  "simplified": "Turns down the liver's cholesterol factory, so the liver starts cleaning cholesterol out of the bloodstream instead.",
+  "nursing": [
+   "Teach to report muscle pain, tenderness or weakness, especially with fever or tea-colored urine; expect a CK level and holding the drug if rhabdomyolysis is suspected.",
+   "Screen interactions: strong CYP3A4 inhibitors (clarithromycin, itraconazole, HIV protease inhibitors), gemfibrozil and cyclosporine are contraindicated; amiodarone, amlodipine, diltiazem and verapamil limit the maximum dose.",
+   "Obtain a baseline lipid panel and liver enzymes; recheck lipids 4-12 weeks after starting or changing the dose.",
+   "Teach to stop the drug when pregnancy is planned or confirmed and not to breastfeed while taking it.",
+   "Reinforce a diet low in saturated fat, regular exercise and limited alcohol, which also strains the liver."
+  ]
+ },
+ {
+  "id": "apixaban",
+  "generic": "Apixaban",
+  "brands": [
+   "Eliquis"
+  ],
+  "drugClass": "Direct oral anticoagulant (factor Xa inhibitor)",
+  "system": "Anticoagulants",
+  "diagram": "clot",
+  "mode": "factorXa",
+  "rx": true,
+  "uses": [
+   "Stroke prevention in nonvalvular atrial fibrillation",
+   "Treatment of DVT and pulmonary embolism",
+   "DVT prevention after hip or knee replacement"
+  ],
+  "quickTip": "No INR monitoring is needed, but protection fades within a day of missed doses; life-threatening bleeding is reversed with andexanet alfa or 4-factor prothrombin complex concentrate.",
+  "administration": "Oral twice daily about 12 hours apart, with or without food. Tablets may be crushed and mixed in water, apple juice or applesauce, or given through a nasogastric tube.",
+  "sideEffects": [
+   {
+    "label": "Nosebleeds and bleeding gums",
+    "icon": "bleeding"
+   },
+   {
+    "label": "Black or bloody stools",
+    "icon": "gi_bleed"
+   },
+   {
+    "label": "Easy bruising",
+    "icon": "bruising"
+   },
+   {
+    "label": "Pink or red urine",
+    "icon": "urination"
+   },
+   {
+    "label": "Anemia and tiredness",
+    "icon": "fatigue"
+   }
+  ],
+  "mechanism": "Binds directly to factor Xa and blocks it, so prothrombin is not converted to thrombin and fibrin clots cannot form; it does not need antithrombin to work.",
+  "simplified": "Jams the gear where the clotting pathways meet, stopping the chain before thrombin is made.",
+  "nursing": [
+   "Boxed warning: stopping early raises stroke and clot risk; a missed dose is taken the same day as soon as remembered, never doubled.",
+   "Boxed warning: spinal or epidural hematoma after neuraxial anesthesia or lumbar puncture - check the legs for numbness, tingling or weakness.",
+   "Not for mechanical heart valves; avoid with other anticoagulants, NSAIDs and strong CYP3A4/P-gp drugs such as ketoconazole or rifampin.",
+   "For life-threatening bleeding, expect andexanet alfa (or prothrombin complex concentrate if unavailable); protamine and vitamin K do not reverse it.",
+   "Hold before procedures as directed (often 48 hours for high bleeding-risk surgery) and monitor CBC, creatinine and liver function."
+  ]
+ },
+ {
+  "id": "rivaroxaban",
+  "generic": "Rivaroxaban",
+  "brands": [
+   "Xarelto"
+  ],
+  "drugClass": "Direct oral anticoagulant (factor Xa inhibitor)",
+  "system": "Anticoagulants",
+  "diagram": "clot",
+  "mode": "factorXa",
+  "rx": true,
+  "uses": [
+   "Stroke prevention in nonvalvular atrial fibrillation",
+   "Treatment and prevention of DVT and pulmonary embolism",
+   "Lowering cardiovascular events in coronary or peripheral artery disease (low dose with aspirin)"
+  ],
+  "quickTip": "The 15 mg and 20 mg tablets must be taken with food (the evening meal for atrial fibrillation) or much of the dose is not absorbed - unlike apixaban, it is once daily for most patients.",
+  "administration": "Atrial fibrillation: once daily with the evening meal. DVT/PE: twice daily with food for 21 days, then once daily with food. Tablets can be crushed into applesauce, or given by NG tube followed promptly by enteral feeding.",
+  "sideEffects": [
+   {
+    "label": "Prolonged bleeding from cuts",
+    "icon": "bleeding"
+   },
+   {
+    "label": "Dark tarry stools or vomiting blood",
+    "icon": "gi_bleed"
+   },
+   {
+    "label": "Bruising",
+    "icon": "bruising"
+   },
+   {
+    "label": "Dizziness or fainting from blood loss",
+    "icon": "dizziness"
+   },
+   {
+    "label": "Back or limb pain",
+    "icon": "muscle_pain"
+   }
+  ],
+  "mechanism": "Inhibits factor Xa, both free in the blood and bound within existing clots, sharply cutting thrombin production so new clots cannot form or grow.",
+  "simplified": "Pulls the key link from the clotting chain so nothing after it can fire.",
+  "nursing": [
+   "Check creatinine clearance before starting and periodically; avoid when CrCl is below 15 mL/min, and expect a 15 mg dose in atrial fibrillation when CrCl is 50 or less.",
+   "Boxed warnings: early discontinuation increases thrombotic events, and neuraxial procedures risk spinal hematoma - monitor for back pain and leg weakness.",
+   "Teach bleeding precautions: soft toothbrush, electric razor, no aspirin or NSAIDs unless prescribed, and report red or black stools.",
+   "Andexanet alfa or prothrombin complex concentrate is used for major bleeding; stop the drug at least 24 hours before procedures as ordered.",
+   "Avoid with mechanical valves, triple-positive antiphospholipid syndrome, and combined strong CYP3A4 and P-gp inhibitors or inducers."
+  ]
+ },
+ {
+  "id": "ticagrelor",
+  "generic": "Ticagrelor",
+  "brands": [
+   "Brilinta"
+  ],
+  "drugClass": "P2Y12 platelet inhibitor (reversible)",
+  "system": "Anticoagulants",
+  "diagram": "clot",
+  "mode": "antiplatelet",
+  "rx": true,
+  "uses": [
+   "Acute coronary syndrome (with aspirin)",
+   "Preventing stent thrombosis after PCI",
+   "Lowering stroke risk after minor stroke or high-risk TIA"
+  ],
+  "quickTip": "Keep daily aspirin at 75-100 mg - aspirin above 100 mg a day makes ticagrelor less effective (boxed warning). New shortness of breath is common and usually harmless, but assess it.",
+  "administration": "Oral 180 mg loading dose, then twice daily with or without food. Tablets may be crushed, mixed with water and swallowed or given by NG tube.",
+  "sideEffects": [
+   {
+    "label": "Bleeding",
+    "icon": "bleeding"
+   },
+   {
+    "label": "Shortness of breath (dyspnea)",
+    "icon": "respiratory_depression"
+   },
+   {
+    "label": "Slow heart rate or pauses",
+    "icon": "bradycardia"
+   },
+   {
+    "label": "Bruising",
+    "icon": "bruising"
+   },
+   {
+    "label": "GI bleeding",
+    "icon": "gi_bleed"
+   }
+  ],
+  "mechanism": "Reversibly blocks the P2Y12 (ADP) receptor on platelets so they cannot activate and clump; unlike clopidogrel, it does not need liver activation to work.",
+  "simplified": "Tapes over the platelets' stick-together button - and it works without waiting on the liver.",
+  "nursing": [
+   "Boxed warning for bleeding: do not give with active bleeding or a history of intracranial hemorrhage; it is stopped 5 days before elective surgery only with cardiology agreement.",
+   "Dyspnea affects roughly 1 in 7 patients and is usually mild; check lung sounds and oxygen saturation to rule out heart failure before reassuring.",
+   "Premature discontinuation raises the risk of MI, stent thrombosis and death - a missed dose is skipped and the next one taken on schedule.",
+   "Avoid strong CYP3A4 inhibitors (ketoconazole, clarithromycin) and inducers (rifampin), and keep simvastatin or lovastatin at 40 mg or less.",
+   "There is no routinely available reversal agent; teach patients to tell every provider and dentist they take it."
+  ]
+ },
+ {
+  "id": "glipizide",
+  "generic": "Glipizide",
+  "brands": [
+   "Glucotrol",
+   "Glucotrol XL"
+  ],
+  "drugClass": "Sulfonylurea (second generation)",
+  "system": "Endocrine",
+  "diagram": "glucose",
+  "mode": "secretagogue",
+  "rx": true,
+  "uses": [
+   "Type 2 diabetes with diet and exercise",
+   "Add-on when metformin alone is not controlling glucose"
+  ],
+  "quickTip": "It forces insulin release whether or not the patient eats, so skipped meals, alcohol, kidney disease and older age all set up serious hypoglycemia.",
+  "administration": "Immediate-release about 30 minutes before breakfast (and before the evening meal if twice daily); Glucotrol XL once daily with breakfast, swallowed whole. Not used in type 1 diabetes or DKA.",
+  "sideEffects": [
+   {
+    "label": "Hypoglycemia",
+    "icon": "hypoglycemia"
+   },
+   {
+    "label": "Weight gain",
+    "icon": "weight_gain"
+   },
+   {
+    "label": "Nausea",
+    "icon": "nausea"
+   },
+   {
+    "label": "Sun sensitivity",
+    "icon": "photosensitivity"
+   },
+   {
+    "label": "Flushing with alcohol",
+    "icon": "flushing"
+   },
+   {
+    "label": "Skin rash",
+    "icon": "rash"
+   }
+  ],
+  "mechanism": "Closes ATP-sensitive potassium channels on pancreatic beta cells, which opens calcium channels and triggers insulin release regardless of the blood glucose level.",
+  "simplified": "Squeezes the pancreas to release insulin on command - even when the tank is already low.",
+  "nursing": [
+   "Check capillary glucose before meals; a reading under 70 mg/dL gets 15 g of fast-acting carbohydrate and a recheck in 15 minutes.",
+   "Hold and notify when the patient is NPO or not eating - the pancreas keeps releasing insulin anyway.",
+   "Beta blockers hide the shakiness and fast pulse of a low; fluconazole, sulfonamide antibiotics and alcohol make lows more likely.",
+   "It needs working beta cells, so it fails in type 1 diabetes; surgery, infection or severe illness may call for temporary insulin.",
+   "Teach sunscreen use and to limit alcohol, which can cause flushing and prolonged low blood sugar."
+  ]
+ },
+ {
+  "id": "empagliflozin",
+  "generic": "Empagliflozin",
+  "brands": [
+   "Jardiance"
+  ],
+  "drugClass": "SGLT2 inhibitor",
+  "system": "Endocrine",
+  "diagram": "nephron",
+  "mode": "sglt2",
+  "rx": true,
+  "uses": [
+   "Type 2 diabetes",
+   "Heart failure (reduced or preserved ejection fraction)",
+   "Chronic kidney disease",
+   "Lowering cardiovascular death risk in type 2 diabetes with heart disease"
+  ],
+  "quickTip": "Watch for euglycemic DKA - nausea, vomiting, abdominal pain and fatigue with ketones even when glucose is under 250 mg/dL; hold it at least 3 days before scheduled surgery.",
+  "administration": "Oral once daily in the morning, with or without food. Not used to treat type 1 diabetes.",
+  "sideEffects": [
+   {
+    "label": "Genital yeast infections",
+    "icon": "infection"
+   },
+   {
+    "label": "Urinary tract infections and frequent urination",
+    "icon": "urination"
+   },
+   {
+    "label": "Ketoacidosis with near-normal glucose",
+    "icon": "vomiting"
+   },
+   {
+    "label": "Volume depletion and low BP",
+    "icon": "hypotension"
+   },
+   {
+    "label": "Increased thirst",
+    "icon": "thirst"
+   },
+   {
+    "label": "Fournier gangrene (rare): perineal pain, swelling, fever",
+    "icon": "fever"
+   }
+  ],
+  "mechanism": "Blocks the SGLT2 transporter in the proximal tubule so filtered glucose and sodium are not reabsorbed; the extra glucose leaves in the urine, taking water and sodium with it.",
+  "simplified": "Opens a drain for excess sugar - it leaves the body in the urine.",
+  "nursing": [
+   "Teach genital hygiene - keep the area clean and dry - and to report itching, discharge, or pain, redness and swelling between the genitals and anus.",
+   "Check blood or urine ketones for nausea or illness even if glucose looks normal; hold on sick days when unable to eat or drink.",
+   "Assess for dehydration and orthostatic hypotension, especially in older adults and with loop diuretics; encourage fluids unless restricted.",
+   "Expect urine glucose tests to read positive; they cannot be used to judge diabetes control.",
+   "Hypoglycemia is unlikely alone but more likely with insulin or a sulfonylurea, whose doses may need lowering."
+  ]
+ },
+ {
+  "id": "insulin_aspart",
+  "generic": "Insulin aspart",
+  "brands": [
+   "NovoLog",
+   "Fiasp"
+  ],
+  "drugClass": "Rapid-acting insulin analog",
+  "system": "Endocrine",
+  "diagram": "glucose",
+  "mode": "insulin",
+  "rx": true,
+  "uses": [
+   "Mealtime (bolus) insulin in type 1 and type 2 diabetes",
+   "Correction doses for high glucose",
+   "Continuous subcutaneous insulin pumps"
+  ],
+  "quickTip": "Onset about 15 minutes, peak 1-3 hours, duration 3-5 hours: inject within 5-10 minutes before eating, and only once you have confirmed the patient has the meal and can eat it.",
+  "administration": "Subcut into the abdomen, thigh, upper arm or buttock, rotating sites, 5-10 minutes before a meal (Fiasp at the start of the meal or within 20 minutes of starting). It can be drawn into a syringe with NPH (aspart first) and injected right away, used in pumps, or given IV under close monitoring.",
+  "sideEffects": [
+   {
+    "label": "Hypoglycemia",
+    "icon": "hypoglycemia"
+   },
+   {
+    "label": "Hypokalemia",
+    "icon": "hypokalemia"
+   },
+   {
+    "label": "Weight gain",
+    "icon": "weight_gain"
+   },
+   {
+    "label": "Lumpy fatty tissue at overused sites",
+    "icon": "rash"
+   },
+   {
+    "label": "Fluid retention",
+    "icon": "edema"
+   }
+  ],
+  "mechanism": "A slightly modified human insulin that stays as single molecules rather than clumping, so it is absorbed quickly and moves glucose into muscle and fat cells just as the meal is digested.",
+  "simplified": "The mealtime sprinter - arrives with the food and is gone a few hours later.",
+  "nursing": [
+   "Check glucose before the dose; hold and notify if the patient is nauseated, NPO or the tray is delayed.",
+   "The low-glucose danger window is 1-3 hours after injection - keep juice or glucose tablets at the bedside and watch for sweating, shakiness and confusion.",
+   "Refrigerate unopened pens and vials; in-use ones stay at room temperature and are discarded after 28 days; never freeze.",
+   "Pump users get no background insulin if the catheter kinks or disconnects - DKA can develop within hours, so check ketones for unexplained highs.",
+   "Never share an insulin pen between patients, even with a fresh needle."
+  ]
+ },
+ {
+  "id": "insulin_detemir",
+  "generic": "Insulin detemir",
+  "brands": [
+   "Levemir"
+  ],
+  "drugClass": "Long-acting basal insulin analog",
+  "system": "Endocrine",
+  "diagram": "glucose",
+  "mode": "insulin",
+  "rx": true,
+  "uses": [
+   "Basal (background) insulin for type 1 and type 2 diabetes",
+   "Twice-daily basal coverage when one dose does not last 24 hours"
+  ],
+  "quickTip": "Basal insulin only: never mix it in a syringe with another insulin and never give it IV. Its duration shortens at lower doses, so twice-daily dosing is common.",
+  "administration": "Subcut once daily with the evening meal or at bedtime, or twice daily about 12 hours apart, in its own syringe or pen. Not for IV or IM use and not for insulin pumps.",
+  "sideEffects": [
+   {
+    "label": "Hypoglycemia, often overnight",
+    "icon": "hypoglycemia"
+   },
+   {
+    "label": "Weight gain (less than with NPH)",
+    "icon": "weight_gain"
+   },
+   {
+    "label": "Hypokalemia",
+    "icon": "hypokalemia"
+   },
+   {
+    "label": "Injection-site redness or itching",
+    "icon": "rash"
+   },
+   {
+    "label": "Swelling of hands and feet",
+    "icon": "edema"
+   }
+  ],
+  "mechanism": "A fatty acid chain attached to the insulin makes it bind albumin at the injection site and in the blood, so it is released slowly and evenly for up to 24 hours to match the liver's baseline glucose output.",
+  "simplified": "A slow-release reservoir: insulin hitches a ride on albumin and hops off a little at a time.",
+  "nursing": [
+   "Continue basal doses during NPO status unless the provider reduces them; withholding basal insulin in type 1 diabetes invites DKA.",
+   "It looks clear like rapid-acting insulin - read the label at the bedside and use an independent double check if policy requires.",
+   "Judge the dose by fasting morning glucose; nightmares, night sweats or a morning headache can signal overnight lows.",
+   "Rotate sites within one body region; an in-use pen or vial lasts 42 days at room temperature.",
+   "The Levemir brand was discontinued in the US in 2024, so patients may be switched to another basal insulin - confirm the exact product and dose on transfer."
+  ]
+ },
+ {
+  "id": "propylthiouracil",
+  "generic": "Propylthiouracil (PTU)",
+  "brands": [],
+  "drugClass": "Thionamide antithyroid agent",
+  "system": "Endocrine",
+  "diagram": "gland",
+  "mode": "suppress",
+  "rx": true,
+  "uses": [
+   "Hyperthyroidism in the first trimester of pregnancy",
+   "Thyroid storm",
+   "Hyperthyroidism when methimazole cannot be used"
+  ],
+  "quickTip": "Boxed warning for severe, sometimes fatal liver injury - report dark urine, yellow skin or eyes, right upper abdominal pain or appetite loss at once. It is reserved mainly for the first trimester and thyroid storm.",
+  "administration": "Oral three times daily, roughly every 8 hours, because its short half-life needs even spacing; take consistently with or without food.",
+  "sideEffects": [
+   {
+    "label": "Severe liver injury (boxed warning)",
+    "icon": "liver"
+   },
+   {
+    "label": "Agranulocytosis: sore throat and fever",
+    "icon": "infection"
+   },
+   {
+    "label": "Rash and itching",
+    "icon": "rash"
+   },
+   {
+    "label": "Joint pain",
+    "icon": "muscle_pain"
+   },
+   {
+    "label": "Nausea",
+    "icon": "nausea"
+   },
+   {
+    "label": "Hypothyroidism from overtreatment",
+    "icon": "fatigue"
+   }
+  ],
+  "mechanism": "Blocks thyroid peroxidase so the gland cannot make new hormone, and also blocks conversion of T4 into the more active T3 in the tissues - the reason it is favored in thyroid storm.",
+  "simplified": "Shuts the thyroid factory and also stops finished T4 from being upgraded to T3.",
+  "nursing": [
+   "Obtain baseline and periodic liver enzymes; stop the dose and notify for jaundice, dark urine or right upper quadrant pain.",
+   "Treat sore throat, fever or mouth ulcers as agranulocytosis until proven otherwise: hold the next dose and get a CBC with differential.",
+   "Pregnancy: used in the first trimester, then usually switched to methimazole from the second trimester to spare the mother's liver.",
+   "Thyroid storm: give PTU at least 1 hour before iodine so the gland cannot use the iodine to build more hormone; a beta blocker and steroid are given too.",
+   "Track TSH and free T4, and teach signs of too much effect - cold intolerance, lethargy, weight gain and constipation."
+  ]
+ },
+ {
+  "id": "hydrocortisone",
+  "generic": "Hydrocortisone",
+  "brands": [
+   "Solu-Cortef",
+   "Cortef"
+  ],
+  "drugClass": "Corticosteroid (glucocorticoid with mineralocorticoid activity)",
+  "system": "Endocrine",
+  "diagram": "inflammation",
+  "mode": "steroid",
+  "rx": true,
+  "uses": [
+   "Adrenal insufficiency replacement (Addison disease)",
+   "Adrenal crisis",
+   "Stress dosing for steroid-dependent patients during surgery or illness",
+   "Septic shock unresponsive to fluids and vasopressors"
+  ],
+  "quickTip": "Adrenal crisis is treated with IV hydrocortisone right away (commonly a 100 mg bolus) plus normal saline and glucose - and patients on replacement double or triple their oral dose during fever or illness per their sick-day plan.",
+  "administration": "Oral replacement in divided doses with food, the largest dose on waking to mimic the body's morning cortisol peak. Solu-Cortef IV as a slow push over 30 seconds or longer, or as an infusion, mixed just before use.",
+  "sideEffects": [
+   {
+    "label": "Hyperglycemia",
+    "icon": "hyperglycemia"
+   },
+   {
+    "label": "Infection with muted fever",
+    "icon": "infection"
+   },
+   {
+    "label": "Sodium and fluid retention",
+    "icon": "edema"
+   },
+   {
+    "label": "Hypokalemia",
+    "icon": "hypokalemia"
+   },
+   {
+    "label": "Mood swings and poor sleep",
+    "icon": "mood"
+   },
+   {
+    "label": "Bone loss with long-term use",
+    "icon": "bone"
+   }
+  ],
+  "mechanism": "Binds glucocorticoid receptors to switch off inflammatory mediators and immune activity and to raise blood glucose; at higher doses it also acts like aldosterone to hold sodium and water, replacing what failing adrenal glands no longer make.",
+  "simplified": "A stand-in for cortisol, the body's stress hormone - when the adrenals cannot answer a crisis, it answers for them.",
+  "nursing": [
+   "Recognize adrenal crisis: profound weakness, vomiting, abdominal pain, hypotension, low sodium, high potassium and low glucose - it is an emergency.",
+   "During high doses, check glucose before meals and at bedtime; correction insulin is often needed.",
+   "Teach patients with adrenal insufficiency to wear medical ID, carry an emergency injection kit and never miss a dose.",
+   "After long-term use, taper as ordered - suppressed adrenal glands take weeks to months to recover.",
+   "Monitor daily weight, BP and potassium, since its salt-retaining effect causes edema and potassium loss."
+  ]
+ },
+ {
+  "id": "dexamethasone",
+  "generic": "Dexamethasone",
+  "brands": [
+   "Decadron",
+   "Hemady"
+  ],
+  "drugClass": "Corticosteroid (long-acting glucocorticoid)",
+  "system": "Endocrine",
+  "diagram": "inflammation",
+  "mode": "steroid",
+  "rx": true,
+  "uses": [
+   "Cerebral edema from brain tumors",
+   "Severe allergic and inflammatory conditions",
+   "Preventing chemotherapy nausea and vomiting",
+   "Fetal lung maturity in threatened preterm birth"
+  ],
+  "quickTip": "About 25-30 times as potent as hydrocortisone with almost no salt-retaining effect - expect a steep glucose rise, masked infection, and a taper rather than an abrupt stop after longer courses.",
+  "administration": "Oral once daily in the morning with food or milk. IV push slowly over 1-4 minutes - a rapid push can cause intense perineal burning or itching - or deep IM into a large muscle.",
+  "sideEffects": [
+   {
+    "label": "Hyperglycemia",
+    "icon": "hyperglycemia"
+   },
+   {
+    "label": "Insomnia and restlessness",
+    "icon": "insomnia"
+   },
+   {
+    "label": "Infection risk",
+    "icon": "infection"
+   },
+   {
+    "label": "Euphoria, mood swings or psychosis",
+    "icon": "mood"
+   },
+   {
+    "label": "Stomach ulcer or GI bleeding",
+    "icon": "gi_bleed"
+   },
+   {
+    "label": "Increased appetite and weight gain",
+    "icon": "weight_gain"
+   }
+  ],
+  "mechanism": "Activates glucocorticoid receptors to turn off genes for inflammatory chemicals and tighten leaky capillaries, shrinking swelling; it has almost no aldosterone-like action, so it does not hold sodium.",
+  "simplified": "Heavy-duty, long-acting cortisol that quiets swelling without making the body hang on to salt.",
+  "nursing": [
+   "After a morning dose glucose tends to peak in the afternoon and evening; check before meals and at bedtime, even in patients without diabetes.",
+   "Fever and redness may be muted - follow WBC trends, wounds and lung sounds, and avoid live vaccines.",
+   "Antenatal use: 6 mg IM every 12 hours for 4 doses between 24 and 34 weeks to mature fetal lungs; monitor the mother's glucose.",
+   "Give with a meal, report black stools or stomach pain, and expect a PPI or H2 blocker for patients at GI risk.",
+   "After more than about 2-3 weeks of use, taper as ordered - abrupt withdrawal can trigger adrenal crisis."
+  ]
+ },
+ {
+  "id": "salmeterol",
+  "generic": "Salmeterol",
+  "brands": [
+   "Serevent Diskus"
+  ],
+  "drugClass": "Long-acting beta-2 agonist (LABA)",
+  "system": "Respiratory",
+  "diagram": "bronchiole",
+  "mode": "beta2",
+  "rx": true,
+  "uses": [
+   "Asthma maintenance, only with an inhaled corticosteroid",
+   "COPD maintenance",
+   "Preventing exercise-induced bronchospasm"
+  ],
+  "quickTip": "Never a rescue inhaler - it takes 30 minutes or more to start working - and in asthma it is never used alone, because LABA monotherapy raises the risk of asthma-related death.",
+  "administration": "One inhalation twice daily about 12 hours apart. Exhale away from the Diskus, seal the lips and breathe in quickly and deeply; no spacer, and never blow into the device. For exercise, one inhalation at least 30 minutes beforehand, but not in patients already on twice-daily doses.",
+  "sideEffects": [
+   {
+    "label": "Headache",
+    "icon": "headache"
+   },
+   {
+    "label": "Tremor",
+    "icon": "tremor"
+   },
+   {
+    "label": "Tachycardia",
+    "icon": "tachycardia"
+   },
+   {
+    "label": "Nervousness",
+    "icon": "anxiety"
+   },
+   {
+    "label": "Low potassium",
+    "icon": "hypokalemia"
+   },
+   {
+    "label": "Paradoxical bronchospasm",
+    "icon": "respiratory_depression"
+   }
+  ],
+  "mechanism": "Stimulates beta-2 receptors on bronchial smooth muscle; a long side chain anchors the molecule next to the receptor, so the airways stay relaxed for about 12 hours.",
+  "simplified": "The overnight bodyguard that keeps airways open - not the ambulance that arrives in a crisis.",
+  "nursing": [
+   "Verify the patient also has a short-acting rescue inhaler such as albuterol and can tell the two apart.",
+   "For asthma, confirm an inhaled corticosteroid is prescribed with it, often as a single combination inhaler.",
+   "Teach not to add extra doses when symptoms worsen - more than twice daily risks arrhythmias - and to report needing the rescue inhaler more often.",
+   "Stop and seek care if breathing gets worse right after a dose (paradoxical bronchospasm).",
+   "Use cautiously in heart disease; monitor HR and BP and avoid strong CYP3A4 inhibitors such as ketoconazole or ritonavir."
+  ]
+ },
+ {
+  "id": "tiotropium",
+  "generic": "Tiotropium",
+  "brands": [
+   "Spiriva HandiHaler",
+   "Spiriva Respimat"
+  ],
+  "drugClass": "Long-acting muscarinic antagonist (LAMA)",
+  "system": "Respiratory",
+  "diagram": "bronchiole",
+  "mode": "anticholinergic",
+  "rx": true,
+  "uses": [
+   "COPD maintenance and exacerbation prevention",
+   "Add-on asthma maintenance (Respimat)"
+  ],
+  "quickTip": "A once-daily maintenance bronchodilator that is not for acute symptoms - and HandiHaler capsules go into the device, never down the throat.",
+  "administration": "Once daily at the same time. HandiHaler: place one capsule in the chamber, press the piercing button once, then breathe in slowly and deeply until the capsule rattles - inhale twice from the same capsule. Respimat: two puffs once daily, priming before first use.",
+  "sideEffects": [
+   {
+    "label": "Dry mouth",
+    "icon": "dry_mouth"
+   },
+   {
+    "label": "Constipation",
+    "icon": "constipation"
+   },
+   {
+    "label": "Urinary retention",
+    "icon": "urination"
+   },
+   {
+    "label": "Eye pain or blurred vision (narrow-angle glaucoma)",
+    "icon": "vision"
+   },
+   {
+    "label": "Sinus and upper respiratory infections",
+    "icon": "infection"
+   },
+   {
+    "label": "Paradoxical bronchospasm",
+    "icon": "respiratory_depression"
+   }
+  ],
+  "mechanism": "Blocks M3 muscarinic receptors on airway smooth muscle for about 24 hours, so acetylcholine can no longer tighten the bronchioles or stimulate mucus.",
+  "simplified": "Unplugs the nerve signal that squeezes the airways - all day long from one dose.",
+  "nursing": [
+   "Make sure a rescue inhaler is available; tiotropium prevents breathlessness but is not used for sudden attacks.",
+   "Teach to keep the powder or mist out of the eyes and to report eye pain, halos or blurry vision right away.",
+   "Ask about an enlarged prostate or trouble urinating before starting, and report difficulty passing urine.",
+   "Keep capsules sealed in the blister until the moment of use - a capsule exposed to air loses potency and should be discarded.",
+   "Ease dry mouth with water, sugar-free candy and oral care, and do not combine it with ipratropium or another anticholinergic inhaler."
+  ]
+ },
+ {
+  "id": "budesonide",
+  "generic": "Budesonide (inhaled)",
+  "brands": [
+   "Pulmicort Flexhaler",
+   "Pulmicort Respules"
+  ],
+  "drugClass": "Inhaled corticosteroid",
+  "system": "Respiratory",
+  "diagram": "bronchiole",
+  "mode": "steroid",
+  "rx": true,
+  "uses": [
+   "Long-term asthma control in adults and children",
+   "Nebulized asthma maintenance for young children (Respules, ages 1-8)"
+  ],
+  "quickTip": "Rinse with water and spit after every dose - and wipe the face after a nebulizer mask - to prevent thrush; this is a daily controller, never the drug for an attack.",
+  "administration": "Flexhaler: twist to load while upright, exhale away from the device, then breathe in forcefully and deeply; no spacer. Respules: use a jet nebulizer (not ultrasonic) with a mouthpiece or snug face mask, once or twice daily.",
+  "sideEffects": [
+   {
+    "label": "Oral thrush",
+    "icon": "infection"
+   },
+   {
+    "label": "Hoarseness and throat irritation",
+    "icon": "cough"
+   },
+   {
+    "label": "Slower growth in children",
+    "icon": "bone"
+   },
+   {
+    "label": "Cataracts or glaucoma with long-term use",
+    "icon": "vision"
+   },
+   {
+    "label": "Headache",
+    "icon": "headache"
+   }
+  ],
+  "mechanism": "Delivers a corticosteroid straight to the airway lining, where it calms inflammatory cells, mucus and swelling over days to weeks and makes the airways less reactive; most swallowed drug is inactivated by the liver.",
+  "simplified": "Fire prevention for the airways - lowers the chance of a blaze but cannot put one out.",
+  "nursing": [
+   "When a bronchodilator is also due, give it first, wait a few minutes, then give budesonide so it reaches the opened airways.",
+   "Some improvement may appear within a day, but full benefit takes 1-2 weeks or longer; teach daily use even on good days.",
+   "Measure children's height at every visit and use the lowest dose that controls symptoms.",
+   "When switching from oral steroids, the oral dose is tapered slowly - watch for fatigue, nausea and low BP signaling adrenal insufficiency during stress.",
+   "Teach to avoid chickenpox and measles exposure and report it, and schedule periodic eye exams with long-term use."
+  ]
+ },
+ {
+  "id": "methylergonovine",
+  "generic": "Methylergonovine",
+  "brands": [
+   "Methergine"
+  ],
+  "drugClass": "Ergot alkaloid uterotonic",
+  "system": "Maternity & Electrolytes",
+  "diagram": "uterus",
+  "mode": "contract",
+  "rx": true,
+  "uses": [
+   "Postpartum hemorrhage from uterine atony",
+   "Subinvolution of the uterus after delivery"
+  ],
+  "quickTip": "Take the blood pressure first - it is contraindicated in hypertension and preeclampsia because it constricts blood vessels throughout the body as well as the uterus.",
+  "administration": "0.2 mg IM every 2-4 hours as needed; IV only in emergencies, given slowly over at least 60 seconds with BP monitoring. Oral 0.2 mg three or four times daily for up to 1 week. Store the injection refrigerated and protected from light.",
+  "sideEffects": [
+   {
+    "label": "Sudden severe hypertension",
+    "icon": "hypertension"
+   },
+   {
+    "label": "Headache",
+    "icon": "headache"
+   },
+   {
+    "label": "Nausea and vomiting",
+    "icon": "nausea"
+   },
+   {
+    "label": "Strong uterine cramping",
+    "icon": "cramps"
+   },
+   {
+    "label": "Palpitations and chest pain",
+    "icon": "palpitations"
+   },
+   {
+    "label": "Seizures or stroke with a BP spike",
+    "icon": "seizure"
+   }
+  ],
+  "mechanism": "Stimulates alpha-adrenergic and serotonin receptors in uterine smooth muscle, producing a sustained, forceful contraction that clamps bleeding vessels at the placental site; it narrows blood vessels elsewhere too.",
+  "simplified": "A long, hard squeeze that clamps the uterus - and the arteries everywhere else.",
+  "nursing": [
+   "Check BP and pulse before every dose and frequently after IV use; hold and notify for BP of 140/90 or higher or signs of preeclampsia.",
+   "Never give before the placenta delivers; it is contraindicated during pregnancy and in hypertension, preeclampsia and eclampsia.",
+   "Assess fundal firmness and height, lochia amount and cramping; offer analgesia for the expected cramps.",
+   "Avoid with strong CYP3A4 inhibitors such as HIV protease inhibitors, azole antifungals and macrolide antibiotics - ergot toxicity causes severe vasospasm and limb ischemia.",
+   "Teach patients on oral doses at home to report headache, chest pain, or numb, cold or pale fingers and toes, and not to smoke."
+  ]
+ },
+ {
+  "id": "carboprost",
+  "generic": "Carboprost",
+  "brands": [
+   "Hemabate"
+  ],
+  "drugClass": "Prostaglandin F2-alpha analog (uterotonic)",
+  "system": "Maternity & Electrolytes",
+  "diagram": "uterus",
+  "mode": "contract",
+  "rx": true,
+  "uses": [
+   "Postpartum hemorrhage from uterine atony not controlled by oxytocin",
+   "Second-trimester pregnancy termination"
+  ],
+  "quickTip": "Do not give to a patient with asthma - it can trigger severe bronchospasm. Diarrhea, vomiting and a temperature rise are expected after the dose.",
+  "administration": "Deep IM injection, 250 mcg, repeated every 15-90 minutes as ordered to a maximum of 2 mg (8 doses). Keep vials refrigerated; never give IV.",
+  "sideEffects": [
+   {
+    "label": "Diarrhea",
+    "icon": "diarrhea"
+   },
+   {
+    "label": "Nausea and vomiting",
+    "icon": "vomiting"
+   },
+   {
+    "label": "Fever and chills",
+    "icon": "fever"
+   },
+   {
+    "label": "Bronchospasm in asthma",
+    "icon": "respiratory_depression"
+   },
+   {
+    "label": "Flushing",
+    "icon": "flushing"
+   },
+   {
+    "label": "Transient hypertension",
+    "icon": "hypertension"
+   }
+  ],
+  "mechanism": "Mimics prostaglandin F2-alpha to trigger strong, sustained uterine contractions that compress bleeding vessels; the same action tightens bronchial and intestinal smooth muscle.",
+  "simplified": "A chemical fist for the uterus that squeezes the gut and airways along with it.",
+  "nursing": [
+   "Screen for asthma before giving; afterward listen to lung sounds and watch oxygen saturation.",
+   "Premedicate with an antiemetic and antidiarrheal as ordered to limit GI effects.",
+   "A temperature rise after dosing is usually drug-related, but keep assessing for infection such as endometritis.",
+   "Assess fundal tone, bleeding and vital signs every 15 minutes, and track total doses against the 2 mg limit.",
+   "The two second-line uterotonics have opposite contraindications: carboprost is chosen when BP is high, methylergonovine when the patient has asthma."
+  ]
+ }
+]

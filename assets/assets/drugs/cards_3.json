@@ -1,0 +1,642 @@
+[
+  {
+    "id": "morphine",
+    "generic": "Morphine",
+    "brands": ["MS Contin", "Duramorph", "Kadian"],
+    "drugClass": "Opioid agonist",
+    "system": "Pain",
+    "diagram": "synapse",
+    "mode": "opioidAgonist",
+    "rx": true,
+    "uses": [
+      "Moderate to severe acute pain",
+      "Chronic cancer pain",
+      "Chest pain and pulmonary edema in acute MI",
+      "Dyspnea at end of life"
+    ],
+    "quickTip": "Hold and notify the provider if respirations are under 12/min or the patient is hard to arouse. Naloxone stays at the bedside.",
+    "administration": "IV push slowly over 4-5 minutes; extended-release tablets are swallowed whole, never crushed, chewed, or split.",
+    "sideEffects": [
+      {"label": "Respiratory depression", "icon": "respiratory_depression"},
+      {"label": "Sedation", "icon": "drowsiness"},
+      {"label": "Constipation", "icon": "constipation"},
+      {"label": "Hypotension", "icon": "hypotension"},
+      {"label": "Urinary retention", "icon": "urination"},
+      {"label": "Nausea and vomiting", "icon": "nausea"}
+    ],
+    "mechanism": "Binds mu-opioid receptors in the spinal cord and brain, blocking pain signals from being passed along and changing how the brain experiences them.",
+    "simplified": "Turns the pain signal's volume down before the brain hears it.",
+    "nursing": [
+      "Assess pain, respiratory rate, and sedation level before every dose; sedation shows up before respiratory depression.",
+      "Start a bowel regimen (stool softener plus stimulant) from day one - tolerance to constipation never develops.",
+      "Check BP and use fall precautions; orthostatic drops are common early on.",
+      "No alcohol, benzodiazepines, or other CNS depressants.",
+      "Expect tolerance and physical dependence with long-term use; taper rather than stop abruptly."
+    ]
+  },
+  {
+    "id": "naloxone",
+    "generic": "Naloxone",
+    "brands": ["Narcan", "Zimhi"],
+    "drugClass": "Opioid antagonist",
+    "system": "Pain",
+    "diagram": "synapse",
+    "mode": "opioidAntagonist",
+    "rx": false,
+    "uses": [
+      "Opioid overdose reversal",
+      "Opioid-induced respiratory depression",
+      "Post-anesthesia opioid oversedation"
+    ],
+    "quickTip": "Naloxone wears off in 30-90 minutes, sooner than most opioids, so the patient can re-sedate. Plan on repeat doses and continued monitoring.",
+    "administration": "IV push, IM, subcutaneous, or intranasal spray; repeat every 2-3 minutes until respirations improve.",
+    "sideEffects": [
+      {"label": "Tachycardia", "icon": "tachycardia"},
+      {"label": "Hypertension", "icon": "hypertension"},
+      {"label": "Nausea and vomiting", "icon": "vomiting"},
+      {"label": "Sweating", "icon": "sweating"},
+      {"label": "Tremor", "icon": "tremor"},
+      {"label": "Agitation", "icon": "anxiety"}
+    ],
+    "mechanism": "Competes for the same mu receptors as opioids and displaces them, reversing sedation and respiratory depression within 1-2 minutes IV.",
+    "simplified": "The bouncer that throws opioids off their receptors.",
+    "nursing": [
+      "Support ventilation first; naloxone is added to airway management, not a substitute for it.",
+      "Monitor RR, SpO2, and LOC every 15 minutes for at least 2 hours after the last dose.",
+      "Expect sudden pain and acute withdrawal in opioid-dependent patients; titrate to breathing, not full alertness.",
+      "Teach families of at-risk patients to use the nasal spray, place the person on their side, and call 911."
+    ]
+  },
+  {
+    "id": "acetaminophen",
+    "generic": "Acetaminophen",
+    "brands": ["Tylenol", "Ofirmev"],
+    "drugClass": "Non-opioid analgesic, antipyretic",
+    "system": "Pain",
+    "diagram": "cox",
+    "mode": "acetaminophen",
+    "rx": false,
+    "uses": [
+      "Mild to moderate pain",
+      "Fever",
+      "Osteoarthritis pain",
+      "Opioid-sparing in multimodal pain plans"
+    ],
+    "quickTip": "Maximum 4 g/day, or 3 g/day in older adults and liver disease. Acetylcysteine is the antidote for overdose.",
+    "administration": "PO, rectal, or IV over 15 minutes; count the acetaminophen hidden in combination cold and opioid products toward the daily limit.",
+    "sideEffects": [
+      {"label": "Hepatotoxicity", "icon": "liver"},
+      {"label": "Rash", "icon": "rash"},
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Kidney damage (chronic overuse)", "icon": "kidney"}
+    ],
+    "mechanism": "Blocks prostaglandin production mainly inside the central nervous system, lowering pain and fever with almost no anti-inflammatory effect in the body.",
+    "simplified": "Pain and fever relief without the stomach or bleeding problems of NSAIDs.",
+    "nursing": [
+      "Add up every source of acetaminophen the patient takes before giving a dose.",
+      "Ask about alcohol use; 3 or more drinks a day sharply raises liver risk.",
+      "Overdose symptoms are delayed: RUQ pain, jaundice, dark urine, and nausea appear 24-72 hours later.",
+      "Does not reduce inflammation or affect platelets, so it is the safer choice with anticoagulants - but regular high doses can raise INR on warfarin."
+    ]
+  },
+  {
+    "id": "ibuprofen",
+    "generic": "Ibuprofen",
+    "brands": ["Advil", "Motrin", "Caldolor"],
+    "drugClass": "NSAID",
+    "system": "Pain",
+    "diagram": "cox",
+    "mode": "nsaid",
+    "rx": false,
+    "uses": [
+      "Mild to moderate pain",
+      "Inflammation (arthritis, sprains)",
+      "Fever",
+      "Menstrual cramps"
+    ],
+    "quickTip": "Take with food and avoid in kidney disease, GI bleeding history, heart failure, and after 20 weeks of pregnancy.",
+    "administration": "PO with food, milk, or a full glass of water; IV form infuses over 30 minutes.",
+    "sideEffects": [
+      {"label": "GI bleeding", "icon": "gi_bleed"},
+      {"label": "Stomach upset", "icon": "gi_upset"},
+      {"label": "Kidney injury", "icon": "kidney"},
+      {"label": "Hypertension", "icon": "hypertension"},
+      {"label": "Fluid retention", "icon": "edema"},
+      {"label": "Bleeding risk", "icon": "bleeding"}
+    ],
+    "mechanism": "Blocks COX-1 and COX-2, cutting prostaglandin production that drives pain, fever, and inflammation - and also the prostaglandins that protect the stomach and kidney.",
+    "simplified": "Less prostaglandin means less pain and swelling, but also less stomach lining protection.",
+    "nursing": [
+      "Report black tarry stools, coffee-ground emesis, or unusual bruising.",
+      "Check BUN, creatinine, and BP with regular use; NSAIDs shrink kidney blood flow.",
+      "Avoid combining with warfarin, other NSAIDs, or corticosteroids; can blunt low-dose aspirin's heart protection.",
+      "Use the lowest dose for the shortest time; OTC use should not exceed 10 days without checking in."
+    ]
+  },
+  {
+    "id": "ketorolac",
+    "generic": "Ketorolac",
+    "brands": ["Toradol", "Sprix"],
+    "drugClass": "NSAID (parenteral)",
+    "system": "Pain",
+    "diagram": "cox",
+    "mode": "nsaid",
+    "rx": true,
+    "uses": [
+      "Short-term moderate to severe acute pain",
+      "Post-operative pain (opioid-sparing)",
+      "Renal colic"
+    ],
+    "quickTip": "Maximum 5 days total across all routes - the GI bleed and kidney injury risk climbs steeply after that.",
+    "administration": "IM, IV over at least 15 seconds, PO, or nasal spray; PO is only for continuing a course started IV/IM. Never beyond day 5.",
+    "sideEffects": [
+      {"label": "GI bleeding", "icon": "gi_bleed"},
+      {"label": "Kidney injury", "icon": "kidney"},
+      {"label": "Bleeding", "icon": "bleeding"},
+      {"label": "Fluid retention", "icon": "edema"},
+      {"label": "Headache", "icon": "headache"},
+      {"label": "Nausea", "icon": "nausea"}
+    ],
+    "mechanism": "A strong COX inhibitor that shuts down prostaglandin production, delivering opioid-level pain relief without sedation or respiratory depression.",
+    "simplified": "Opioid-strength relief from an NSAID, rationed to 5 days.",
+    "nursing": [
+      "Contraindicated with active GI bleeding, kidney impairment, before major surgery, in labor and delivery, and with other NSAIDs or aspirin.",
+      "Check creatinine and make sure the patient is hydrated before dosing.",
+      "Older adults and patients under 50 kg get the reduced 15 mg dose.",
+      "Do not give with anticoagulants; watch for bleeding at surgical sites."
+    ]
+  },
+  {
+    "id": "amoxicillin",
+    "generic": "Amoxicillin",
+    "brands": ["Amoxil"],
+    "drugClass": "Aminopenicillin antibiotic",
+    "system": "Anti-infective",
+    "diagram": "bacteria",
+    "mode": "wall",
+    "rx": true,
+    "uses": [
+      "Otitis media, sinusitis, strep throat",
+      "Community-acquired pneumonia",
+      "H. pylori eradication regimens",
+      "Endocarditis prophylaxis before dental work"
+    ],
+    "quickTip": "Ask about penicillin allergy before the first dose and teach patients to finish the entire course even once they feel better.",
+    "administration": "PO with or without food; shake the suspension well, refrigerate it, and discard after 14 days.",
+    "sideEffects": [
+      {"label": "Rash", "icon": "rash"},
+      {"label": "Diarrhea", "icon": "diarrhea"},
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Anaphylaxis", "icon": "angioedema"},
+      {"label": "C. diff / superinfection", "icon": "infection"}
+    ],
+    "mechanism": "Binds penicillin-binding proteins and blocks the cross-linking of the bacterial cell wall, so the wall weakens and the cell bursts.",
+    "simplified": "Pokes holes in the bacterial wall so it can't hold itself together.",
+    "nursing": [
+      "Hives, wheezing, or facial swelling means stop the drug and treat for anaphylaxis; a flat non-itchy rash in a patient with mono is common and not a true allergy.",
+      "About 1-2% cross-reactivity with cephalosporins; check the allergy history carefully.",
+      "Report watery or bloody diarrhea - possible C. diff; do not self-treat with antidiarrheals.",
+      "Space doses evenly around the clock and complete the full course to prevent resistance."
+    ]
+  },
+  {
+    "id": "vancomycin",
+    "generic": "Vancomycin",
+    "brands": ["Vancocin", "Firvanq"],
+    "drugClass": "Glycopeptide antibiotic",
+    "system": "Anti-infective",
+    "diagram": "bacteria",
+    "mode": "wall",
+    "rx": true,
+    "uses": [
+      "MRSA infections",
+      "Serious gram-positive sepsis, endocarditis, osteomyelitis",
+      "C. diff colitis (oral route only)"
+    ],
+    "quickTip": "Draw the trough right before the 4th dose (goal 10-20 mcg/mL) and infuse over at least 60 minutes to prevent red man syndrome.",
+    "administration": "IV over 60 minutes or longer for bigger doses; oral capsules are only for C. diff because the drug is not absorbed from the gut.",
+    "sideEffects": [
+      {"label": "Red man syndrome", "icon": "flushing"},
+      {"label": "Nephrotoxicity", "icon": "kidney"},
+      {"label": "Ototoxicity", "icon": "ototoxicity"},
+      {"label": "Hypotension (rapid infusion)", "icon": "hypotension"},
+      {"label": "Rash", "icon": "rash"}
+    ],
+    "mechanism": "Binds the building blocks of the gram-positive cell wall so they can't be assembled, and the bacterium dies.",
+    "simplified": "Grabs the bricks so the bacterial wall never gets built.",
+    "nursing": [
+      "Monitor BUN, creatinine, and urine output; avoid pairing with aminoglycosides, NSAIDs, loop diuretics, or contrast.",
+      "Ask about tinnitus or hearing loss at each shift; ototoxicity can be permanent.",
+      "Flushing and itching of the face, neck, and chest during infusion: slow or pause the drip, give diphenhydramine, then restart slower.",
+      "Assess the IV site - vancomycin is irritating and causes phlebitis.",
+      "IV vancomycin does not treat C. diff; the oral form does."
+    ]
+  },
+  {
+    "id": "gentamicin",
+    "generic": "Gentamicin",
+    "brands": ["Garamycin"],
+    "drugClass": "Aminoglycoside antibiotic",
+    "system": "Anti-infective",
+    "diagram": "bacteria",
+    "mode": "ribosome",
+    "rx": true,
+    "uses": [
+      "Serious gram-negative infections (Pseudomonas, E. coli, Klebsiella)",
+      "Sepsis",
+      "Synergy for enterococcal endocarditis",
+      "Topical and eye infections"
+    ],
+    "quickTip": "Peaks and troughs are required: trough right before the dose, peak 30 minutes after the infusion ends. A rising trough means kidney and ear damage is coming.",
+    "administration": "IV over 30-60 minutes or IM; trough goal under 2 mcg/mL with conventional dosing, or once-daily extended-interval dosing.",
+    "sideEffects": [
+      {"label": "Nephrotoxicity", "icon": "kidney"},
+      {"label": "Hearing loss, tinnitus", "icon": "ototoxicity"},
+      {"label": "Vertigo, balance loss", "icon": "ataxia"},
+      {"label": "Rash", "icon": "rash"},
+      {"label": "Nausea", "icon": "nausea"}
+    ],
+    "mechanism": "Binds the 30S ribosomal subunit so bacteria build faulty proteins; needs oxygen to enter the cell, so it does nothing against anaerobes.",
+    "simplified": "Jams the bacterial protein factory.",
+    "nursing": [
+      "Check creatinine, BUN, and urine output daily and keep the patient well hydrated.",
+      "Ask about tinnitus, hearing changes, or dizziness every shift; damage to the 8th cranial nerve is often irreversible.",
+      "Avoid other nephrotoxic or ototoxic drugs: vancomycin, loop diuretics, NSAIDs, cisplatin.",
+      "Enhances neuromuscular blockers; use with caution in myasthenia gravis.",
+      "Baseline audiogram for courses longer than a week."
+    ]
+  },
+  {
+    "id": "doxycycline",
+    "generic": "Doxycycline",
+    "brands": ["Vibramycin", "Doryx", "Monodox"],
+    "drugClass": "Tetracycline antibiotic",
+    "system": "Anti-infective",
+    "diagram": "bacteria",
+    "mode": "ribosome",
+    "rx": true,
+    "uses": [
+      "Acne and rosacea",
+      "Lyme disease and Rocky Mountain spotted fever",
+      "Chlamydia and atypical pneumonia",
+      "Malaria prophylaxis"
+    ],
+    "quickTip": "Causes photosensitivity, binds to dairy, antacids, and iron, and is avoided in pregnancy and children under 8 because it stains teeth and slows bone growth.",
+    "administration": "PO with a full glass of water, staying upright for 30 minutes to prevent esophageal burns; separate from calcium, iron, magnesium, and antacids by 2 hours.",
+    "sideEffects": [
+      {"label": "Photosensitivity", "icon": "photosensitivity"},
+      {"label": "Tooth discoloration", "icon": "teeth"},
+      {"label": "Esophagitis", "icon": "gi_upset"},
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Yeast superinfection", "icon": "infection"},
+      {"label": "Diarrhea", "icon": "diarrhea"}
+    ],
+    "mechanism": "Binds the 30S ribosome to stop bacterial protein production; it is bacteriostatic, so the immune system finishes the job.",
+    "simplified": "Pauses the bacterial protein line so the body's defenses can catch up.",
+    "nursing": [
+      "Sunscreen, hats, and long sleeves; sunburn can happen within minutes of exposure.",
+      "Taking it with food is acceptable if it upsets the stomach - just not with dairy.",
+      "Never take expired tetracyclines; breakdown products damage the kidney.",
+      "Report severe diarrhea, vaginal itching, or white patches in the mouth.",
+      "Confirm the patient is not pregnant or breastfeeding before starting."
+    ]
+  },
+  {
+    "id": "ciprofloxacin",
+    "generic": "Ciprofloxacin",
+    "brands": ["Cipro"],
+    "drugClass": "Fluoroquinolone antibiotic",
+    "system": "Anti-infective",
+    "diagram": "bacteria",
+    "mode": "dna",
+    "rx": true,
+    "uses": [
+      "Complicated UTI and pyelonephritis",
+      "Infectious diarrhea",
+      "Anthrax and plague",
+      "Bone, joint, and intra-abdominal infections"
+    ],
+    "quickTip": "Stop the drug and report tendon pain or swelling at once - Achilles rupture risk is highest in older adults and anyone on corticosteroids. Also prolongs the QT interval.",
+    "administration": "PO or IV over 60 minutes; take 2 hours before or 6 hours after antacids, calcium, iron, zinc, or dairy, and drink plenty of fluids.",
+    "sideEffects": [
+      {"label": "Tendinitis, tendon rupture", "icon": "muscle_pain"},
+      {"label": "QT prolongation", "icon": "arrhythmia"},
+      {"label": "Photosensitivity", "icon": "photosensitivity"},
+      {"label": "Confusion, CNS effects", "icon": "confusion"},
+      {"label": "Blood sugar swings", "icon": "hypoglycemia"},
+      {"label": "C. diff diarrhea", "icon": "diarrhea"}
+    ],
+    "mechanism": "Blocks DNA gyrase and topoisomerase IV so bacteria can't unwind and copy their DNA - bactericidal.",
+    "simplified": "Locks the bacterial DNA so it can't be copied.",
+    "nursing": [
+      "Avoid in myasthenia gravis, with other QT-prolonging drugs, and in patients at risk for aortic aneurysm.",
+      "Monitor blood glucose closely in diabetics; both hypo- and hyperglycemia occur.",
+      "Encourage 2-3 L of fluid a day to prevent crystals in the urine.",
+      "Report numbness, tingling, mood changes, or tendon pain - these can be lasting.",
+      "Raises theophylline and warfarin levels; not a first choice in children or pregnancy."
+    ]
+  },
+  {
+    "id": "metronidazole",
+    "generic": "Metronidazole",
+    "brands": ["Flagyl", "MetroGel"],
+    "drugClass": "Nitroimidazole antibiotic, antiprotozoal",
+    "system": "Anti-infective",
+    "diagram": "bacteria",
+    "mode": "dna",
+    "rx": true,
+    "uses": [
+      "C. diff infection",
+      "Bacterial vaginosis and trichomoniasis",
+      "Anaerobic and intra-abdominal infections",
+      "H. pylori regimens, giardiasis"
+    ],
+    "quickTip": "No alcohol during treatment and for 3 days after - a disulfiram-like reaction causes flushing, vomiting, and pounding headache. A metallic taste is expected and harmless.",
+    "administration": "PO with food to limit GI upset; IV over 30-60 minutes; extended-release tablets on an empty stomach.",
+    "sideEffects": [
+      {"label": "Metallic taste", "icon": "taste"},
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Headache", "icon": "headache"},
+      {"label": "Dark urine", "icon": "urination"},
+      {"label": "Neuropathy, seizures (prolonged use)", "icon": "seizure"}
+    ],
+    "mechanism": "Enters anaerobic bacteria and protozoa, where their low-oxygen chemistry activates it into a form that breaks DNA strands.",
+    "simplified": "Only anaerobes can switch it on, and then it shreds their DNA.",
+    "nursing": [
+      "Screen for alcohol in mouthwash, cough syrups, and tinctures - not just drinks.",
+      "Warn that dark or reddish-brown urine is harmless.",
+      "Sexual partners need treatment too for trichomoniasis; avoid intercourse until both finish.",
+      "Report numbness or tingling in the hands and feet; stop the drug if it appears.",
+      "Boosts warfarin's effect - monitor INR."
+    ]
+  },
+  {
+    "id": "rifampin",
+    "generic": "Rifampin",
+    "brands": ["Rifadin", "Rimactane"],
+    "drugClass": "Rifamycin antitubercular",
+    "system": "Anti-infective",
+    "diagram": "bacteria",
+    "mode": "rna",
+    "rx": true,
+    "uses": [
+      "Active tuberculosis (in combination)",
+      "Latent TB infection",
+      "Meningococcal carrier prophylaxis",
+      "Adjunct for prosthetic-device staph infections"
+    ],
+    "quickTip": "Red-orange urine, sweat, tears, and saliva are harmless but stain soft contact lenses. Hormonal contraceptives fail - use a backup method.",
+    "administration": "PO on an empty stomach, 1 hour before or 2 hours after meals, with a full glass of water; IV over 30 minutes to 3 hours.",
+    "sideEffects": [
+      {"label": "Orange body fluids", "icon": "orange_fluids"},
+      {"label": "Hepatotoxicity", "icon": "liver"},
+      {"label": "Stomach upset", "icon": "gi_upset"},
+      {"label": "Rash", "icon": "rash"},
+      {"label": "Flu-like syndrome", "icon": "fever"},
+      {"label": "Low platelets", "icon": "bruising"}
+    ],
+    "mechanism": "Blocks bacterial RNA polymerase so the mycobacterium can't transcribe its genes into RNA.",
+    "simplified": "Breaks the copy machine that turns bacterial DNA into RNA.",
+    "nursing": [
+      "Baseline and monthly liver tests; report jaundice, dark urine, RUQ pain, or loss of appetite.",
+      "Powerful CYP450 inducer - lowers levels of warfarin, oral contraceptives, HIV drugs, and many others; review every medication.",
+      "Never used alone for active TB; resistance develops fast. Teach adherence for the full 6-9 months.",
+      "No alcohol; it compounds the liver risk of the other TB drugs.",
+      "Remove soft contact lenses for the duration of therapy."
+    ]
+  },
+  {
+    "id": "isoniazid",
+    "generic": "Isoniazid (INH)",
+    "brands": ["Nydrazid"],
+    "drugClass": "Antitubercular",
+    "system": "Anti-infective",
+    "diagram": "bacteria",
+    "mode": "wall",
+    "rx": true,
+    "uses": [
+      "Active tuberculosis (in combination)",
+      "Latent TB infection (alone)"
+    ],
+    "quickTip": "Give pyridoxine (vitamin B6) to prevent peripheral neuropathy, watch the liver, and no alcohol.",
+    "administration": "PO on an empty stomach, 1 hour before or 2 hours after meals; separate from aluminum antacids by at least 1 hour. IM is available.",
+    "sideEffects": [
+      {"label": "Hepatotoxicity", "icon": "liver"},
+      {"label": "Peripheral neuropathy", "icon": "ataxia"},
+      {"label": "Rash", "icon": "rash"},
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Drug fever", "icon": "fever"}
+    ],
+    "mechanism": "Blocks production of mycolic acid, the waxy material the mycobacterial cell wall is built from, killing actively dividing TB bacteria.",
+    "simplified": "Stops TB from making the wax its wall is made of.",
+    "nursing": [
+      "Baseline and periodic LFTs; hold and report jaundice, dark urine, fatigue, or loss of appetite - hepatitis risk rises with age and alcohol use.",
+      "Pyridoxine 25-50 mg daily prevents numbness and tingling in the hands and feet.",
+      "Slow acetylators build higher levels and more toxicity; ask about unusual drowsiness or neuropathy.",
+      "Avoid tyramine- and histamine-rich foods (aged cheese, cured meats, tuna) - flushing, headache, and palpitations can result.",
+      "Raises phenytoin and carbamazepine levels; adherence for 6-9 months, often by directly observed therapy."
+    ]
+  },
+  {
+    "id": "albuterol",
+    "generic": "Albuterol",
+    "brands": ["ProAir", "Ventolin", "Proventil"],
+    "drugClass": "Short-acting beta-2 agonist (SABA)",
+    "system": "Respiratory",
+    "diagram": "bronchiole",
+    "mode": "beta2",
+    "rx": true,
+    "uses": [
+      "Acute bronchospasm (rescue inhaler)",
+      "Prevention of exercise-induced bronchospasm",
+      "Asthma and COPD exacerbations",
+      "Adjunct to shift potassium into cells in hyperkalemia"
+    ],
+    "quickTip": "This is the rescue inhaler and it goes first, before any inhaled steroid. Needing it more than twice a week means the asthma is not controlled.",
+    "administration": "MDI: shake, exhale fully, inhale slowly while pressing, hold breath 10 seconds, wait 1 minute between puffs; use a spacer. Nebulizer over 5-15 minutes.",
+    "sideEffects": [
+      {"label": "Tachycardia", "icon": "tachycardia"},
+      {"label": "Tremor", "icon": "tremor"},
+      {"label": "Palpitations", "icon": "palpitations"},
+      {"label": "Nervousness", "icon": "anxiety"},
+      {"label": "Hypokalemia", "icon": "hypokalemia"},
+      {"label": "Headache", "icon": "headache"}
+    ],
+    "mechanism": "Stimulates beta-2 receptors on bronchial smooth muscle, relaxing the airways within minutes.",
+    "simplified": "Flips the beta-2 switch that opens the airways fast.",
+    "nursing": [
+      "Give albuterol first, wait about 5 minutes, then the inhaled corticosteroid so it reaches opened airways.",
+      "Check heart rate before and after; report chest pain, a rate over 120, or symptoms that don't ease - paradoxical bronchospasm is possible.",
+      "Caution with heart disease, hyperthyroidism, and diabetes; limit caffeine.",
+      "Nonselective beta-blockers (propranolol) cancel its effect.",
+      "Teach dose counting so the canister isn't empty during an attack."
+    ]
+  },
+  {
+    "id": "ipratropium",
+    "generic": "Ipratropium",
+    "brands": ["Atrovent"],
+    "drugClass": "Short-acting muscarinic antagonist (SAMA)",
+    "system": "Respiratory",
+    "diagram": "bronchiole",
+    "mode": "anticholinergic",
+    "rx": true,
+    "uses": [
+      "COPD maintenance and exacerbations",
+      "Add-on to albuterol in severe asthma attacks",
+      "Runny nose (nasal spray)"
+    ],
+    "quickTip": "Onset is about 15 minutes, so it is not a stand-alone rescue inhaler. Expect dry mouth and keep the mist out of the eyes - blurred vision and glaucoma risk.",
+    "administration": "MDI or nebulizer, often mixed with albuterol; use a mouthpiece rather than a face mask when possible and rinse the mouth afterward.",
+    "sideEffects": [
+      {"label": "Dry mouth", "icon": "dry_mouth"},
+      {"label": "Cough", "icon": "cough"},
+      {"label": "Blurred vision", "icon": "vision"},
+      {"label": "Urinary retention", "icon": "urination"},
+      {"label": "Headache", "icon": "headache"},
+      {"label": "Bitter taste", "icon": "taste"}
+    ],
+    "mechanism": "Blocks muscarinic receptors in the airways so acetylcholine can't tighten bronchial muscle or drive mucus production.",
+    "simplified": "Blocks the squeeze signal so the airways stay open.",
+    "nursing": [
+      "Use with caution in narrow-angle glaucoma, BPH, or urinary retention; report eye pain or trouble urinating.",
+      "Sips of water or sugarless gum for dry mouth; rinse after each use.",
+      "Not for acute rescue on its own - pair with albuterol for fast relief.",
+      "Little systemic absorption, so it is well tolerated even with heart disease."
+    ]
+  },
+  {
+    "id": "fluticasone",
+    "generic": "Fluticasone (inhaled)",
+    "brands": ["Flovent", "Arnuity Ellipta"],
+    "drugClass": "Inhaled corticosteroid (ICS)",
+    "system": "Respiratory",
+    "diagram": "bronchiole",
+    "mode": "steroid",
+    "rx": true,
+    "uses": [
+      "Long-term asthma control",
+      "COPD (combined with a LABA)",
+      "Reducing exacerbations and rescue inhaler use"
+    ],
+    "quickTip": "Not a rescue inhaler - full effect takes 1-2 weeks. Rinse the mouth and spit after every use to prevent thrush.",
+    "administration": "Inhaled on a fixed schedule even when symptom-free; if albuterol is also due, give albuterol first, then use a spacer for the steroid, then rinse and spit.",
+    "sideEffects": [
+      {"label": "Oral thrush", "icon": "infection"},
+      {"label": "Hoarseness, cough", "icon": "cough"},
+      {"label": "Headache", "icon": "headache"},
+      {"label": "Bone loss (high doses)", "icon": "bone"},
+      {"label": "Cataracts, glaucoma (long-term)", "icon": "vision"}
+    ],
+    "mechanism": "Acts inside airway cells to switch off inflammatory gene activity, shrinking swelling, mucus, and airway twitchiness over days.",
+    "simplified": "Calms the airway inflammation so attacks happen less often.",
+    "nursing": [
+      "Inspect the mouth for white patches; a spacer plus rinse-and-spit cuts thrush and hoarseness.",
+      "Never stop abruptly when switching from oral steroids - adrenal insufficiency can follow.",
+      "Track growth in children on long-term therapy.",
+      "Report if the rescue inhaler is needed more often - the controller dose may need adjusting."
+    ]
+  },
+  {
+    "id": "omeprazole",
+    "generic": "Omeprazole",
+    "brands": ["Prilosec", "Zegerid"],
+    "drugClass": "Proton pump inhibitor (PPI)",
+    "system": "GI",
+    "diagram": "parietal",
+    "mode": "ppi",
+    "rx": false,
+    "uses": [
+      "GERD and erosive esophagitis",
+      "Peptic ulcer disease",
+      "H. pylori eradication (with antibiotics)",
+      "Zollinger-Ellison syndrome"
+    ],
+    "quickTip": "Take 30-60 minutes before breakfast and swallow capsules whole. Long-term use raises the risk of C. diff, fractures, low magnesium, and B12 deficiency.",
+    "administration": "PO before the first meal of the day; delayed-release capsules can be opened and the pellets sprinkled on applesauce, but never chewed or crushed.",
+    "sideEffects": [
+      {"label": "Headache", "icon": "headache"},
+      {"label": "Diarrhea (C. diff risk)", "icon": "diarrhea"},
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Fractures (long-term)", "icon": "bone"},
+      {"label": "Low magnesium, cramps", "icon": "cramps"},
+      {"label": "Interstitial nephritis", "icon": "kidney"}
+    ],
+    "mechanism": "Permanently shuts down the H+/K+ ATPase proton pump in stomach parietal cells - the final step in acid production - until new pumps are made.",
+    "simplified": "Unplugs the acid pump itself, so almost no acid gets made.",
+    "nursing": [
+      "Give before meals because the pump has to be active for the drug to bind it.",
+      "Reassess the need after 8 weeks and use the lowest effective dose.",
+      "Check magnesium and B12 with use beyond a year.",
+      "Blunts clopidogrel activation; pantoprazole is preferred in that combination.",
+      "Taper rather than stop cold - rebound acid is common."
+    ]
+  },
+  {
+    "id": "famotidine",
+    "generic": "Famotidine",
+    "brands": ["Pepcid", "Pepcid AC"],
+    "drugClass": "Histamine-2 receptor antagonist",
+    "system": "GI",
+    "diagram": "parietal",
+    "mode": "h2",
+    "rx": false,
+    "uses": [
+      "GERD and heartburn",
+      "Gastric and duodenal ulcers",
+      "Stress ulcer prophylaxis in critical care",
+      "Aspiration prophylaxis before anesthesia"
+    ],
+    "quickTip": "Faster but weaker than a PPI. Reduce the dose in kidney disease, where it can cause confusion - especially in older adults.",
+    "administration": "PO with or without food, often at bedtime; IV push over at least 2 minutes or infusion over 15-30 minutes.",
+    "sideEffects": [
+      {"label": "Headache", "icon": "headache"},
+      {"label": "Dizziness", "icon": "dizziness"},
+      {"label": "Constipation", "icon": "constipation"},
+      {"label": "Diarrhea", "icon": "diarrhea"},
+      {"label": "Confusion (renal, elderly)", "icon": "confusion"}
+    ],
+    "mechanism": "Blocks H2 receptors on parietal cells so histamine can't tell them to make acid, cutting output by about 70%, mostly at night.",
+    "simplified": "Blocks histamine's make-acid message to the stomach.",
+    "nursing": [
+      "Bedtime dosing best controls nighttime acid.",
+      "Dose adjustment when CrCl is under 50 mL/min; monitor mental status in older adults.",
+      "Tolerance builds with daily use, so PPIs are preferred for erosive disease.",
+      "Far fewer drug interactions than cimetidine.",
+      "OTC use beyond 2 weeks or trouble swallowing means see a provider."
+    ]
+  },
+  {
+    "id": "oxytocin",
+    "generic": "Oxytocin",
+    "brands": ["Pitocin"],
+    "drugClass": "Uterotonic (posterior pituitary hormone)",
+    "system": "Maternity & Electrolytes",
+    "diagram": "uterus",
+    "mode": "contract",
+    "rx": true,
+    "uses": [
+      "Labor induction and augmentation",
+      "Postpartum hemorrhage prevention and treatment",
+      "Uterine contraction after incomplete abortion"
+    ],
+    "quickTip": "Always a secondary line on an infusion pump, never the primary. For tachysystole (more than 5 contractions in 10 minutes) or late decelerations: stop the drip, turn mom to her side, give oxygen and a fluid bolus, notify the provider.",
+    "administration": "Dilute in isotonic fluid (e.g. 30 units in 500 mL LR) and titrate in milliunits per minute by pump; after delivery it runs faster, or 10 units IM.",
+    "sideEffects": [
+      {"label": "Water intoxication", "icon": "hyponatremia"},
+      {"label": "Hypotension (rapid IV)", "icon": "hypotension"},
+      {"label": "Tachycardia", "icon": "tachycardia"},
+      {"label": "Nausea and vomiting", "icon": "nausea"},
+      {"label": "Seizures (severe hyponatremia)", "icon": "seizure"}
+    ],
+    "mechanism": "Binds oxytocin receptors on uterine muscle, raising calcium inside the cells so contractions come stronger and more often; also triggers milk let-down.",
+    "simplified": "Tells the uterus to squeeze - and keeps saying it as long as the pump runs.",
+    "nursing": [
+      "Continuous fetal heart rate and contraction monitoring; reassess before every rate increase, usually every 30-60 minutes.",
+      "Stop for tachysystole, contractions longer than 90 seconds, resting tone above 20 mmHg, or a non-reassuring FHR.",
+      "Strict I&O; watch for headache, confusion, falling urine output, and seizures from water intoxication with prolonged high-dose infusions.",
+      "Contraindicated with placenta previa, cephalopelvic disproportion, prior classical uterine incision, or active genital herpes.",
+      "Postpartum: check fundal tone and lochia; oxytocin is given after the placenta delivers, not before."
+    ]
+  }
+]

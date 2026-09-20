@@ -1,0 +1,568 @@
+[
+  {
+    "id": "insulin_lispro",
+    "generic": "Insulin lispro",
+    "brands": ["Humalog", "Admelog", "Lyumjev"],
+    "drugClass": "Rapid-acting insulin",
+    "system": "Endocrine",
+    "diagram": "glucose",
+    "mode": "insulin",
+    "rx": true,
+    "uses": ["Mealtime glucose control in type 1 and type 2 diabetes", "Insulin pump basal-bolus therapy", "Correction dosing for high glucose readings"],
+    "quickTip": "Onset 15 min, peak 30-90 min, duration 3-5 hr. Food must be on the tray before you inject.",
+    "administration": "Subcut 0-15 min before a meal (or right after). Rotate sites within one region; clear solution, safe to mix with NPH by drawing lispro first.",
+    "sideEffects": [
+      {"label": "Hypoglycemia", "icon": "hypoglycemia"},
+      {"label": "Low potassium", "icon": "hypokalemia"},
+      {"label": "Weight gain", "icon": "weight_gain"},
+      {"label": "Injection-site lipodystrophy", "icon": "rash"},
+      {"label": "Sweating and shakiness (low sugar)", "icon": "sweating"}
+    ],
+    "mechanism": "A modified human insulin that absorbs almost immediately, unlocking cells so glucose moves out of the blood and into tissue.",
+    "simplified": "The fast key: opens the door as the meal arrives.",
+    "nursing": [
+      "Check glucose before dosing; hold and notify if the patient is NPO or not eating.",
+      "Teach the 15-15 rule: 15 g fast carbs, recheck in 15 min for glucose under 70.",
+      "Hypoglycemia risk peaks 30-90 min after the dose; watch for sweating, tremor, confusion.",
+      "Monitor potassium, especially with IV fluids or when correcting high glucose.",
+      "Unopened vials in the fridge; in-use vials at room temp for 28 days."
+    ]
+  },
+  {
+    "id": "insulin_regular",
+    "generic": "Regular insulin",
+    "brands": ["Humulin R", "Novolin R"],
+    "drugClass": "Short-acting insulin",
+    "system": "Endocrine",
+    "diagram": "glucose",
+    "mode": "insulin",
+    "rx": true,
+    "uses": ["Mealtime coverage in type 1 and type 2 diabetes", "IV infusion for DKA and HHS", "Acute hyperkalemia (with dextrose)"],
+    "quickTip": "Onset 30-60 min, peak 2-4 hr, duration 5-8 hr. The only insulin that can be given IV.",
+    "administration": "Subcut 30 min before meals. IV drip via pump for DKA; clear solution that needs no rolling and is drawn up first when mixed with NPH.",
+    "sideEffects": [
+      {"label": "Hypoglycemia", "icon": "hypoglycemia"},
+      {"label": "Low potassium", "icon": "hypokalemia"},
+      {"label": "Weight gain", "icon": "weight_gain"},
+      {"label": "Injection-site changes", "icon": "rash"},
+      {"label": "Fluid retention", "icon": "edema"}
+    ],
+    "mechanism": "Human insulin identical to what the pancreas makes; it binds insulin receptors and drives glucose and potassium into cells.",
+    "simplified": "The workhorse: slower than lispro, and the only one that runs in an IV line.",
+    "nursing": [
+      "During an IV drip, check glucose hourly and potassium every 2-4 hr; insulin pulls K+ into cells.",
+      "Hold and notify if glucose is under 70 or the patient cannot eat.",
+      "Give the subcut dose 30 min before food, then make sure the meal actually arrives.",
+      "Prime IV tubing with the insulin solution because insulin binds to plastic.",
+      "Peak at 2-4 hr is when to expect hypoglycemia; plan snacks accordingly."
+    ]
+  },
+  {
+    "id": "insulin_nph",
+    "generic": "NPH insulin (isophane)",
+    "brands": ["Humulin N", "Novolin N"],
+    "drugClass": "Intermediate-acting insulin",
+    "system": "Endocrine",
+    "diagram": "glucose",
+    "mode": "insulin",
+    "rx": true,
+    "uses": ["Basal insulin coverage, usually twice daily", "Combined with regular or lispro for full-day control", "Component of 70/30 premixed insulin"],
+    "quickTip": "Onset 1-2 hr, peak 4-12 hr, duration 12-18 hr. Cloudy insulin: roll, never shake. Draw clear before cloudy.",
+    "administration": "Subcut only, never IV. Roll the vial gently to resuspend; when mixing, inject air into NPH first, then draw regular (clear) before NPH (cloudy).",
+    "sideEffects": [
+      {"label": "Hypoglycemia (often overnight)", "icon": "hypoglycemia"},
+      {"label": "Low potassium", "icon": "hypokalemia"},
+      {"label": "Weight gain", "icon": "weight_gain"},
+      {"label": "Injection-site reactions", "icon": "rash"},
+      {"label": "Fluid retention", "icon": "edema"}
+    ],
+    "mechanism": "Regular insulin bound to protamine so it dissolves slowly under the skin, giving a delayed and prolonged glucose-lowering effect.",
+    "simplified": "The cloudy one with a peak: a morning dose peaks by afternoon, an evening dose peaks overnight.",
+    "nursing": [
+      "A bedtime NPH dose can cause 2-3 AM hypoglycemia; offer a bedtime snack and check overnight glucose if symptomatic.",
+      "Uniformly cloudy is correct; discard if clumped or frosted.",
+      "Use a mixed NPH-regular syringe within 15 min; never mix NPH with glargine.",
+      "Teach patients to eat when the insulin peaks, not only when it is injected.",
+      "Never give IV or in an insulin pump."
+    ]
+  },
+  {
+    "id": "insulin_glargine",
+    "generic": "Insulin glargine",
+    "brands": ["Lantus", "Basaglar", "Toujeo"],
+    "drugClass": "Long-acting basal insulin",
+    "system": "Endocrine",
+    "diagram": "glucose",
+    "mode": "insulin",
+    "rx": true,
+    "uses": ["Once-daily basal insulin in type 1 and type 2 diabetes", "Background coverage alongside mealtime rapid-acting insulin"],
+    "quickTip": "Onset 1-2 hr, no true peak, lasts about 24 hr. Never mix it with any other insulin.",
+    "administration": "Subcut once daily at the same time every day. Clear solution but never IV; give in its own syringe or pen, never mixed.",
+    "sideEffects": [
+      {"label": "Hypoglycemia (less than peaking insulins)", "icon": "hypoglycemia"},
+      {"label": "Low potassium", "icon": "hypokalemia"},
+      {"label": "Weight gain", "icon": "weight_gain"},
+      {"label": "Injection-site pain or lipodystrophy", "icon": "rash"},
+      {"label": "Fluid retention", "icon": "edema"}
+    ],
+    "mechanism": "Forms tiny crystals in the acidic subcut depot that release insulin at a slow, steady rate around the clock.",
+    "simplified": "The 24-hour flat line: background insulin with no spike.",
+    "nursing": [
+      "Do not hold for a missed meal; basal insulin is still needed when NPO (though the provider may reduce the dose).",
+      "Mixing it with another insulin changes the pH and ruins the slow-release effect.",
+      "Warn patients it is clear like regular insulin; label it to prevent a mix-up.",
+      "Steady fasting glucose is the target; check morning readings.",
+      "Toujeo is a concentrated U-300 product; use only its own pen to avoid dosing errors."
+    ]
+  },
+  {
+    "id": "metformin",
+    "generic": "Metformin",
+    "brands": ["Glucophage", "Fortamet", "Glumetza"],
+    "drugClass": "Biguanide oral antidiabetic",
+    "system": "Endocrine",
+    "diagram": "glucose",
+    "mode": "metformin",
+    "rx": true,
+    "uses": ["First-line drug for type 2 diabetes", "Prediabetes and PCOS (off-label)", "Gestational diabetes when diet fails"],
+    "quickTip": "Hold 48 hr before and after IV contrast dye and watch for lactic acidosis; alone, it does not cause hypoglycemia.",
+    "administration": "Take with meals to limit stomach upset; swallow extended-release tablets whole (the shell may appear in stool).",
+    "sideEffects": [
+      {"label": "GI upset and bloating", "icon": "gi_upset"},
+      {"label": "Diarrhea", "icon": "diarrhea"},
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Metallic taste", "icon": "taste"},
+      {"label": "B12 deficiency (fatigue, numbness)", "icon": "fatigue"},
+      {"label": "Kidney-related lactic acidosis risk", "icon": "kidney"}
+    ],
+    "mechanism": "Tells the liver to stop overproducing glucose and helps muscle respond to insulin, so blood sugar falls without extra insulin release.",
+    "simplified": "Turns down the liver's sugar factory and makes cells listen to insulin again.",
+    "nursing": [
+      "Check kidney function; not used when eGFR is under 30 mL/min.",
+      "Report muscle aches, deep rapid breathing, or unusual drowsiness: possible lactic acidosis.",
+      "Limit alcohol, which raises lactic acidosis risk.",
+      "Hold for surgery, dehydration, or any acute illness that could stress the kidneys.",
+      "Monitor B12 levels with long-term use."
+    ]
+  },
+  {
+    "id": "levothyroxine",
+    "generic": "Levothyroxine",
+    "brands": ["Synthroid", "Levoxyl", "Unithroid"],
+    "drugClass": "Thyroid hormone (T4) replacement",
+    "system": "Endocrine",
+    "diagram": "gland",
+    "mode": "replace",
+    "rx": true,
+    "uses": ["Hypothyroidism", "Myxedema coma (IV)", "TSH suppression after thyroid cancer"],
+    "quickTip": "Take on an empty stomach first thing in the morning, same time daily, for life. Overdose looks like hyperthyroidism.",
+    "administration": "Once daily with water 30-60 min before breakfast; separate from calcium, iron, and antacids by at least 4 hr.",
+    "sideEffects": [
+      {"label": "Rapid heart rate", "icon": "tachycardia"},
+      {"label": "Insomnia", "icon": "insomnia"},
+      {"label": "Heat intolerance and sweating", "icon": "sweating"},
+      {"label": "Tremor and nervousness", "icon": "tremor"},
+      {"label": "Temporary hair loss", "icon": "hair"},
+      {"label": "Bone loss with long-term excess", "icon": "bone"}
+    ],
+    "mechanism": "Synthetic T4 that the body converts to active T3, restoring the metabolic pace the failing thyroid could not set.",
+    "simplified": "Replaces the missing thermostat hormone; too much and the body runs hot and fast.",
+    "nursing": [
+      "Hold and notify for resting pulse over 100 or chest pain, especially in older cardiac patients.",
+      "TSH is rechecked 6-8 weeks after any dose change; symptom relief takes several weeks.",
+      "Do not switch brands without the provider; potency varies slightly.",
+      "Raises the effect of warfarin and lowers the effect of insulin; watch INR and glucose.",
+      "Missing doses returns fatigue, constipation, and cold intolerance."
+    ]
+  },
+  {
+    "id": "methimazole",
+    "generic": "Methimazole",
+    "brands": ["Tapazole"],
+    "drugClass": "Thionamide antithyroid agent",
+    "system": "Endocrine",
+    "diagram": "gland",
+    "mode": "suppress",
+    "rx": true,
+    "uses": ["Hyperthyroidism and Graves disease", "Preparation before thyroidectomy or radioactive iodine", "Thyroid storm (with beta-blocker and iodine)"],
+    "quickTip": "Report sore throat, fever, or mouth sores at once: agranulocytosis. Avoided in the first trimester; PTU is used instead.",
+    "administration": "Orally at the same time each day, with or without food; divided doses at first, then usually once daily.",
+    "sideEffects": [
+      {"label": "Rash and itching", "icon": "rash"},
+      {"label": "Fever", "icon": "fever"},
+      {"label": "Infection from low white cells", "icon": "infection"},
+      {"label": "Liver injury", "icon": "liver"},
+      {"label": "Joint pain", "icon": "muscle_pain"},
+      {"label": "Taste changes", "icon": "taste"}
+    ],
+    "mechanism": "Blocks the enzyme that attaches iodine to thyroglobulin, so the gland cannot build new T3 and T4.",
+    "simplified": "Shuts down the thyroid's assembly line; stored hormone still runs out first, so effect takes weeks.",
+    "nursing": [
+      "Baseline and periodic CBC and liver enzymes; hold and notify for fever or sore throat pending WBC count.",
+      "Full effect takes 4-8 weeks; a beta-blocker often bridges the gap for palpitations.",
+      "Teach signs of too much drug: weight gain, cold intolerance, fatigue (hypothyroidism).",
+      "Use reliable contraception; teratogenic early in pregnancy.",
+      "Avoid iodine-rich foods and OTC products that contain iodine."
+    ]
+  },
+  {
+    "id": "prednisone",
+    "generic": "Prednisone",
+    "brands": ["Deltasone", "Rayos"],
+    "drugClass": "Systemic corticosteroid (glucocorticoid)",
+    "system": "Endocrine",
+    "diagram": "inflammation",
+    "mode": "steroid",
+    "rx": true,
+    "uses": ["Asthma and COPD flares", "Autoimmune disease such as lupus and rheumatoid arthritis", "Adrenal insufficiency replacement", "Transplant rejection prevention"],
+    "quickTip": "Never stop abruptly; taper to prevent adrenal crisis. Expect high glucose, masked infection, and mood swings.",
+    "administration": "Once daily in the morning with food to mirror natural cortisol and spare the stomach; taper any course longer than about 2 weeks.",
+    "sideEffects": [
+      {"label": "High blood sugar", "icon": "hyperglycemia"},
+      {"label": "Infection (signs masked)", "icon": "infection"},
+      {"label": "Weight gain and moon face", "icon": "weight_gain"},
+      {"label": "Insomnia and mood changes", "icon": "mood"},
+      {"label": "Osteoporosis", "icon": "bone"},
+      {"label": "GI bleeding and ulcers", "icon": "gi_bleed"}
+    ],
+    "mechanism": "Mimics cortisol: it enters cells and switches off the genes that make inflammatory chemicals while quieting immune cells.",
+    "simplified": "Borrowed cortisol that calms inflammation but tells the adrenals to take a nap.",
+    "nursing": [
+      "Monitor glucose, BP, weight, and potassium; watch for edema and hypokalemia.",
+      "Fever may be blunted; report any low-grade temperature or wound change.",
+      "Teach stress dosing during illness or surgery and to carry a steroid alert card.",
+      "Encourage calcium, vitamin D, and weight-bearing exercise; report black stools.",
+      "No live vaccines while on high doses; long-term use can cause cataracts and thin skin."
+    ]
+  },
+  {
+    "id": "gabapentin",
+    "generic": "Gabapentin",
+    "brands": ["Neurontin", "Gralise", "Horizant"],
+    "drugClass": "Anticonvulsant / neuropathic pain agent",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "calciumChannel",
+    "rx": true,
+    "uses": ["Add-on therapy for partial seizures", "Postherpetic neuralgia and diabetic nerve pain", "Restless legs syndrome"],
+    "quickTip": "Drowsiness and dizziness make falls the main danger. Taper over at least a week; stopping suddenly can trigger seizures.",
+    "administration": "Orally with or without food, usually three times daily; separate from antacids by 2 hr. Doses are reduced for kidney impairment.",
+    "sideEffects": [
+      {"label": "Drowsiness", "icon": "drowsiness"},
+      {"label": "Dizziness", "icon": "dizziness"},
+      {"label": "Unsteady gait", "icon": "ataxia"},
+      {"label": "Swelling of feet and legs", "icon": "edema"},
+      {"label": "Weight gain", "icon": "weight_gain"},
+      {"label": "Fatigue", "icon": "fatigue"}
+    ],
+    "mechanism": "Binds a subunit of voltage-gated calcium channels on nerve endings, reducing the release of excitatory neurotransmitters.",
+    "simplified": "Puts a brake on overexcited nerves so they stop firing pain and seizure signals.",
+    "nursing": [
+      "Fall precautions and no driving until the response is known.",
+      "Avoid alcohol and other CNS depressants; respiratory depression is possible with opioids.",
+      "Monitor for new depression or suicidal thoughts, as with all anticonvulsants.",
+      "Check renal function; the drug is cleared unchanged by the kidneys.",
+      "Full pain relief may take 1-2 weeks; the dose is increased gradually."
+    ]
+  },
+  {
+    "id": "phenytoin",
+    "generic": "Phenytoin",
+    "brands": ["Dilantin", "Phenytek"],
+    "drugClass": "Hydantoin anticonvulsant",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "sodiumChannel",
+    "rx": true,
+    "uses": ["Tonic-clonic and focal seizures", "Status epilepticus (IV, after a benzodiazepine)", "Seizure prevention after neurosurgery"],
+    "quickTip": "Therapeutic level 10-20 mcg/mL. Toxicity shows as nystagmus first, then ataxia, slurred speech, and confusion.",
+    "administration": "IV only in normal saline through a filter at no more than 50 mg/min; use a large vein and never give IM. Oral doses with food; hold tube feeds 1-2 hr before and after.",
+    "sideEffects": [
+      {"label": "Gum overgrowth", "icon": "gum"},
+      {"label": "Excess hair growth", "icon": "hair"},
+      {"label": "Rash (possible Stevens-Johnson)", "icon": "rash"},
+      {"label": "Unsteady gait", "icon": "ataxia"},
+      {"label": "Drowsiness", "icon": "drowsiness"},
+      {"label": "Bone softening with long-term use", "icon": "bone"}
+    ],
+    "mechanism": "Keeps sodium channels in their inactive state longer, so neurons that fire too rapidly cannot sustain a seizure.",
+    "simplified": "Slows the sodium gates so a spark cannot spread into a seizure storm.",
+    "nursing": [
+      "Watch the IV site: purple discoloration and pain signal extravasation (purple glove syndrome); it is also a vesicant.",
+      "Monitor BP and ECG during IV loading; fast infusion causes hypotension and arrhythmias.",
+      "Teach meticulous oral hygiene and regular dental visits for gum overgrowth.",
+      "Reduces effectiveness of oral contraceptives and warfarin control; teratogenic.",
+      "Never stop abruptly; check levels with any change in dose, illness, or interacting drug."
+    ]
+  },
+  {
+    "id": "lorazepam",
+    "generic": "Lorazepam",
+    "brands": ["Ativan"],
+    "drugClass": "Benzodiazepine (Schedule IV)",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "gabaBoost",
+    "rx": true,
+    "uses": ["Acute anxiety and panic", "Status epilepticus (first-line IV)", "Alcohol withdrawal", "Pre-procedure sedation"],
+    "quickTip": "Antidote is flumazenil. Combining with opioids or alcohol can stop breathing; dependence develops, so taper rather than stop.",
+    "administration": "IV slowly, no faster than 2 mg/min, with resuscitation equipment nearby; IM deep into a large muscle; oral doses at bedtime or divided through the day.",
+    "sideEffects": [
+      {"label": "Drowsiness", "icon": "drowsiness"},
+      {"label": "Respiratory depression", "icon": "respiratory_depression"},
+      {"label": "Dizziness", "icon": "dizziness"},
+      {"label": "Confusion, especially in older adults", "icon": "confusion"},
+      {"label": "Physical dependence", "icon": "dependence"},
+      {"label": "Unsteady gait", "icon": "ataxia"}
+    ],
+    "mechanism": "Enhances GABA, the brain's main calming chemical, so neurons become harder to excite.",
+    "simplified": "Turns up the volume on the brain's own off switch.",
+    "nursing": [
+      "Monitor respiratory rate, oxygen saturation, and sedation level after each IV dose.",
+      "Fall precautions; keep the bed low and call light within reach.",
+      "Abrupt withdrawal after regular use can cause rebound anxiety and seizures.",
+      "Watch for paradoxical agitation in children and older adults.",
+      "No alcohol, driving, or other sedatives; count doses as a controlled substance."
+    ]
+  },
+  {
+    "id": "sertraline",
+    "generic": "Sertraline",
+    "brands": ["Zoloft"],
+    "drugClass": "Selective serotonin reuptake inhibitor (SSRI)",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "reuptakeBlock",
+    "rx": true,
+    "uses": ["Major depression", "Panic disorder, OCD, and PTSD", "Social anxiety and PMDD"],
+    "quickTip": "Full effect takes 4-6 weeks. Watch for serotonin syndrome (fever, agitation, twitching) and for suicidal thoughts in patients under 25 early in treatment.",
+    "administration": "Once daily, morning or evening, with food to reduce nausea; keep the same time. Liquid form must be diluted right before taking.",
+    "sideEffects": [
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Diarrhea", "icon": "diarrhea"},
+      {"label": "Insomnia", "icon": "insomnia"},
+      {"label": "Sexual dysfunction", "icon": "sexual"},
+      {"label": "Low sodium (older adults)", "icon": "hyponatremia"},
+      {"label": "Bleeding with NSAIDs or anticoagulants", "icon": "bleeding"}
+    ],
+    "mechanism": "Blocks the pump that pulls serotonin back into the sending neuron, leaving more serotonin in the synapse to act.",
+    "simplified": "Keeps serotonin in the conversation longer instead of recycling it.",
+    "nursing": [
+      "Never combine with an MAOI; allow a 14-day washout in either direction.",
+      "Avoid St. John's wort, tramadol, and triptans, which add serotonin risk.",
+      "Taper off slowly; sudden stopping causes dizziness, flu-like feelings, and irritability.",
+      "Energy may return before mood lifts; assess suicide risk at each visit.",
+      "Check sodium in older adults who become confused or weak."
+    ]
+  },
+  {
+    "id": "lithium",
+    "generic": "Lithium carbonate",
+    "brands": ["Lithobid"],
+    "drugClass": "Mood stabilizer",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "moodStabilize",
+    "rx": true,
+    "uses": ["Acute mania in bipolar disorder", "Long-term prevention of mood episodes", "Add-on for resistant depression"],
+    "quickTip": "Therapeutic 0.6-1.2 mEq/L; toxic above 1.5. Early toxicity: coarse tremor, vomiting, diarrhea; then ataxia and confusion. Keep salt and fluids steady.",
+    "administration": "Orally with food to cut stomach upset; swallow ER tablets whole. Drink 2-3 L of fluid daily and keep salt intake consistent.",
+    "sideEffects": [
+      {"label": "Fine hand tremor", "icon": "tremor"},
+      {"label": "Thirst", "icon": "thirst"},
+      {"label": "Frequent urination", "icon": "urination"},
+      {"label": "Weight gain", "icon": "weight_gain"},
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Diarrhea", "icon": "diarrhea"}
+    ],
+    "mechanism": "A salt handled by the kidneys like sodium; it dampens overactive signaling inside neurons to level out mood swings.",
+    "simplified": "Travels with sodium: lose salt or water and lithium climbs to toxic levels.",
+    "nursing": [
+      "Draw levels 12 hr after the last dose; every few days at first, then every 1-3 months.",
+      "Avoid NSAIDs, ACE inhibitors, and thiazide diuretics, which push levels up.",
+      "Vomiting, diarrhea, heavy sweating, or a low-salt diet can cause toxicity; hold and report.",
+      "Monitor kidney function and thyroid tests; hypothyroidism is common long term.",
+      "Teratogenic (heart defects); confirm contraception and hold for a coarse tremor or slurred speech."
+    ]
+  },
+  {
+    "id": "haloperidol",
+    "generic": "Haloperidol",
+    "brands": ["Haldol"],
+    "drugClass": "First-generation (typical) antipsychotic",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "dopamineBlock",
+    "rx": true,
+    "uses": ["Schizophrenia and acute psychosis", "Severe agitation and delirium", "Tourette syndrome tics"],
+    "quickTip": "High risk of EPS. Acute dystonia (neck or eye spasm) is treated with IM benztropine or diphenhydramine; fever plus rigidity means NMS, an emergency.",
+    "administration": "Oral doses with water or food; IM lactate for agitation; decanoate is a deep IM depot every 4 weeks using Z-track. IV use requires ECG monitoring.",
+    "sideEffects": [
+      {"label": "Extrapyramidal symptoms", "icon": "eps"},
+      {"label": "Drowsiness", "icon": "drowsiness"},
+      {"label": "QT prolongation", "icon": "arrhythmia"},
+      {"label": "Orthostatic hypotension", "icon": "hypotension"},
+      {"label": "Dry mouth", "icon": "dry_mouth"},
+      {"label": "Fever with rigidity (NMS)", "icon": "fever"}
+    ],
+    "mechanism": "Strongly blocks dopamine D2 receptors, quieting hallucinations and delusions but also the movement pathways that rely on dopamine.",
+    "simplified": "Blocks dopamine everywhere: fewer voices, stiffer muscles.",
+    "nursing": [
+      "Screen with the AIMS scale for tardive dyskinesia, which can be permanent.",
+      "Check ECG and electrolytes before IV use and with other QT-prolonging drugs.",
+      "Rise slowly; monitor orthostatic BP.",
+      "Sun protection and fluids; report constipation or trouble urinating.",
+      "Black box warning: not for dementia-related psychosis in older adults."
+    ]
+  },
+  {
+    "id": "risperidone",
+    "generic": "Risperidone",
+    "brands": ["Risperdal", "Perseris"],
+    "drugClass": "Second-generation (atypical) antipsychotic",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "dopamineBlock",
+    "rx": true,
+    "uses": ["Schizophrenia", "Bipolar mania", "Irritability in autism spectrum disorder"],
+    "quickTip": "Raises prolactin more than other atypicals (breast enlargement, milk production, missed periods) and causes weight gain and high glucose; EPS appears at higher doses.",
+    "administration": "Orally once or twice daily with or without food; dissolvable tablets go on the tongue with dry hands. Long-acting IM every 2 weeks, overlapping oral doses for the first 3 weeks.",
+    "sideEffects": [
+      {"label": "Weight gain", "icon": "weight_gain"},
+      {"label": "High blood sugar", "icon": "hyperglycemia"},
+      {"label": "Extrapyramidal symptoms", "icon": "eps"},
+      {"label": "Drowsiness", "icon": "drowsiness"},
+      {"label": "Orthostatic hypotension", "icon": "hypotension"},
+      {"label": "Prolactin-related sexual changes", "icon": "sexual"}
+    ],
+    "mechanism": "Blocks dopamine D2 and serotonin 5-HT2A receptors, easing psychosis with somewhat less movement side effect than older drugs.",
+    "simplified": "A gentler dopamine block with a serotonin twist; the trade-off is weight and prolactin.",
+    "nursing": [
+      "Track weight, waist, fasting glucose, and lipids at baseline and regularly.",
+      "Ask about breast tenderness, milk, or menstrual changes.",
+      "Orthostatic precautions; dizziness is common in the first days.",
+      "Black box warning: increased death risk in older adults with dementia.",
+      "Report fever with muscle rigidity (NMS) or new involuntary movements."
+    ]
+  },
+  {
+    "id": "carbidopa_levodopa",
+    "generic": "Carbidopa-levodopa",
+    "brands": ["Sinemet", "Rytary", "Duopa"],
+    "drugClass": "Dopamine precursor with decarboxylase inhibitor",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "dopamineRefill",
+    "rx": true,
+    "uses": ["Parkinson disease", "Parkinsonism after encephalitis or toxin exposure"],
+    "quickTip": "Improvement can take weeks; later, doses wear off early or switch on and off suddenly. High-protein meals compete with absorption.",
+    "administration": "Orally on an empty stomach or with a light snack; keep protein-heavy meals away from doses. Do not crush extended-release forms.",
+    "sideEffects": [
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Orthostatic hypotension", "icon": "hypotension"},
+      {"label": "Dizziness", "icon": "dizziness"},
+      {"label": "Sudden sleep attacks", "icon": "drowsiness"},
+      {"label": "Hallucinations and confusion", "icon": "confusion"},
+      {"label": "Dark urine, sweat, and saliva", "icon": "orange_fluids"}
+    ],
+    "mechanism": "Levodopa crosses into the brain and is converted to dopamine; carbidopa stops that conversion in the body so more drug reaches the brain with less nausea.",
+    "simplified": "Refills the brain's dopamine tank, with a bodyguard that keeps the fuel from spilling before it arrives.",
+    "nursing": [
+      "Never stop abruptly; sudden withdrawal can cause a syndrome like NMS.",
+      "Rise slowly and use fall precautions; report involuntary jerky movements (dyskinesia).",
+      "Dark body fluids are harmless; warn the patient in advance.",
+      "Ask about new gambling, shopping, or sexual urges (impulse control changes).",
+      "Not given with nonselective MAOIs; use caution in glaucoma."
+    ]
+  },
+  {
+    "id": "donepezil",
+    "generic": "Donepezil",
+    "brands": ["Aricept"],
+    "drugClass": "Cholinesterase inhibitor",
+    "system": "Neuro & Psych",
+    "diagram": "synapse",
+    "mode": "enzymeBlock",
+    "rx": true,
+    "uses": ["Mild to severe Alzheimer dementia", "Dementia with Lewy bodies (off-label)"],
+    "quickTip": "Slows decline but does not cure. Extra acetylcholine slows the heart and stirs the gut: check pulse and watch for weight loss.",
+    "administration": "Once daily at bedtime with or without food; switch to morning if vivid dreams or insomnia occur. Dissolvable tablets melt on the tongue.",
+    "sideEffects": [
+      {"label": "Nausea", "icon": "nausea"},
+      {"label": "Diarrhea", "icon": "diarrhea"},
+      {"label": "Slow heart rate", "icon": "bradycardia"},
+      {"label": "Insomnia and vivid dreams", "icon": "insomnia"},
+      {"label": "Dizziness and fainting", "icon": "dizziness"},
+      {"label": "Muscle cramps", "icon": "cramps"}
+    ],
+    "mechanism": "Blocks the enzyme that breaks down acetylcholine, so the memory chemical lasts longer in the brain circuits that dementia damages.",
+    "simplified": "Stops the cleanup crew so the little acetylcholine left keeps working.",
+    "nursing": [
+      "Check heart rate before dosing; report a pulse under 60 or fainting spells.",
+      "Increased stomach acid raises ulcer risk, especially with NSAIDs; report black stools.",
+      "Weigh regularly; nausea and poor appetite can cause weight loss.",
+      "Anticholinergic drugs (diphenhydramine, oxybutynin) cancel out the benefit.",
+      "Teach caregivers to expect gradual slowing of decline, not recovery of lost memory."
+    ]
+  },
+  {
+    "id": "magnesium_sulfate",
+    "generic": "Magnesium sulfate",
+    "brands": ["MgSO4 (generic only)"],
+    "drugClass": "Anticonvulsant electrolyte / tocolytic",
+    "system": "Maternity & Electrolytes",
+    "diagram": "synapse",
+    "mode": "calciumChannel",
+    "rx": true,
+    "uses": ["Seizure prevention in preeclampsia and eclampsia", "Short-term preterm labor suppression and fetal neuroprotection", "Hypomagnesemia and torsades de pointes"],
+    "quickTip": "Therapeutic 4-7 mEq/L. Toxicity appears in order: lost patellar reflex, RR under 12, urine under 30 mL/hr, then cardiac arrest. Antidote: calcium gluconate.",
+    "administration": "IV by infusion pump: loading dose of 4-6 g over 15-30 min, then 1-2 g/hr; usually continued 24 hr after delivery. Deep IM Z-track only if no IV access.",
+    "sideEffects": [
+      {"label": "Flushing and warmth", "icon": "flushing"},
+      {"label": "Sweating", "icon": "sweating"},
+      {"label": "Low blood pressure", "icon": "hypotension"},
+      {"label": "Drowsiness and lethargy", "icon": "drowsiness"},
+      {"label": "Respiratory depression", "icon": "respiratory_depression"},
+      {"label": "Nausea", "icon": "nausea"}
+    ],
+    "mechanism": "Competes with calcium at nerve endings and muscle, slowing nerve firing and relaxing smooth muscle, including the uterus and blood vessels.",
+    "simplified": "Calcium's rival: it quiets nerves and relaxes muscles, and calcium gluconate reverses it.",
+    "nursing": [
+      "Assess deep tendon reflexes, RR, urine output, and LOC every hour; hold and notify if any toxicity sign appears.",
+      "Keep calcium gluconate 1 g IV at the bedside for the entire infusion.",
+      "Continuous fetal monitoring; expect reduced variability, and watch the newborn for floppy tone and poor breathing.",
+      "Seizure precautions: dim quiet room, side rails padded, suction ready.",
+      "Draw serum magnesium as ordered and check for pulmonary edema (crackles, dyspnea)."
+    ]
+  },
+  {
+    "id": "ondansetron",
+    "generic": "Ondansetron",
+    "brands": ["Zofran", "Zuplenz"],
+    "drugClass": "5-HT3 receptor antagonist antiemetic",
+    "system": "GI",
+    "diagram": "synapse",
+    "mode": "serotoninBlock",
+    "rx": true,
+    "uses": ["Chemotherapy and radiation nausea", "Postoperative nausea and vomiting", "Severe pregnancy nausea (off-label)"],
+    "quickTip": "Give before the trigger, not after: 30 min before chemo or at the end of surgery. Watch QT prolongation and serotonin syndrome with SSRIs.",
+    "administration": "Oral or dissolvable tablet 30 min before chemo (place ODT on tongue with dry hands); IV over 2-5 min, or 15 min for chemo doses; single IV dose limited to 16 mg.",
+    "sideEffects": [
+      {"label": "Headache", "icon": "headache"},
+      {"label": "Constipation", "icon": "constipation"},
+      {"label": "Diarrhea", "icon": "diarrhea"},
+      {"label": "Dizziness", "icon": "dizziness"},
+      {"label": "QT prolongation", "icon": "arrhythmia"},
+      {"label": "Fatigue", "icon": "fatigue"}
+    ],
+    "mechanism": "Blocks serotonin receptors on gut nerves and in the brain's vomiting center, so the nausea signal never gets delivered.",
+    "simplified": "Cuts the serotonin phone line between the gut and the vomiting center.",
+    "nursing": [
+      "Check ECG and correct low potassium or magnesium before use in at-risk patients.",
+      "Avoid with other QT-prolonging drugs such as haloperidol or antiarrhythmics.",
+      "Report agitation, fever, or muscle twitching in patients also on serotonergic drugs.",
+      "Assess bowel pattern; encourage fluids and fiber for constipation.",
+      "Do not give with apomorphine; profound hypotension can result."
+    ]
+  }
+]

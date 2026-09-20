@@ -1,0 +1,1435 @@
+{
+  "figures": [
+    {
+      "id": "fhr-decelerations",
+      "title": "Fetal heart rate decelerations",
+      "kind": "curves",
+      "caption": "VEAL CHOP: Variable decelerations mean Cord compression, Early mean Head compression, Accelerations mean OK, and Late mean Placental insufficiency. Early ones need only watching; late and variable ones need action.",
+      "match": {
+        "topics": [
+          "Fetal Monitoring",
+          "Maternity - Fetal Monitoring",
+          "Fetal Heart Rate Patterns",
+          "Category II to III Strip",
+          "Fetal Distress"
+        ],
+        "terms": [
+          "decelerations",
+          "(early|late|variable|prolonged|recurrent|repetitive|uniform|periodic|episodic) decel\\w*",
+          "VEAL CHOP",
+          "cord compression",
+          "head compression",
+          "(utero)?placental insufficiency",
+          "V-shaped"
+        ]
+      },
+      "xLabel": "Seconds",
+      "yLabel": "Heart rate traces, contraction at bottom",
+      "xMax": 210,
+      "yMax": 1,
+      "xTicks": [
+        20,
+        50,
+        80,
+        110,
+        140,
+        170
+      ],
+      "series": [
+        {
+          "label": "Contraction",
+          "note": "Two uterine contractions. The grid lines mark each one's start, peak and end; time every deceleration against them.",
+          "dashed": true,
+          "points": [
+            [
+              0,
+              0.03
+            ],
+            [
+              10,
+              0.03
+            ],
+            [
+              20,
+              0.03
+            ],
+            [
+              27.5,
+              0.0576
+            ],
+            [
+              35.0,
+              0.1335
+            ],
+            [
+              50,
+              0.26
+            ],
+            [
+              65.0,
+              0.1335
+            ],
+            [
+              72.5,
+              0.0576
+            ],
+            [
+              80,
+              0.03
+            ],
+            [
+              95,
+              0.03
+            ],
+            [
+              110,
+              0.03
+            ],
+            [
+              117.5,
+              0.0576
+            ],
+            [
+              125.0,
+              0.1335
+            ],
+            [
+              140,
+              0.26
+            ],
+            [
+              155.0,
+              0.1335
+            ],
+            [
+              162.5,
+              0.0576
+            ],
+            [
+              170,
+              0.03
+            ],
+            [
+              190,
+              0.03
+            ],
+            [
+              210,
+              0.03
+            ]
+          ]
+        },
+        {
+          "label": "Early: head compression",
+          "note": "A mirror image of the contraction: begins, bottoms out and recovers with it. Benign; keep watching.",
+          "points": [
+            [
+              0,
+              0.47
+            ],
+            [
+              10,
+              0.47
+            ],
+            [
+              20,
+              0.47
+            ],
+            [
+              27.5,
+              0.458
+            ],
+            [
+              35.0,
+              0.425
+            ],
+            [
+              50,
+              0.37
+            ],
+            [
+              65.0,
+              0.425
+            ],
+            [
+              72.5,
+              0.458
+            ],
+            [
+              80,
+              0.47
+            ],
+            [
+              95,
+              0.47
+            ],
+            [
+              110,
+              0.47
+            ],
+            [
+              117.5,
+              0.458
+            ],
+            [
+              125.0,
+              0.425
+            ],
+            [
+              140,
+              0.37
+            ],
+            [
+              155.0,
+              0.425
+            ],
+            [
+              162.5,
+              0.458
+            ],
+            [
+              170,
+              0.47
+            ],
+            [
+              190,
+              0.47
+            ],
+            [
+              210,
+              0.47
+            ]
+          ]
+        },
+        {
+          "label": "Late: placental insufficiency",
+          "note": "Starts at the peak and recovers after the contraction ends. Stop oxytocin, turn to her side, give IV fluids and oxygen.",
+          "points": [
+            [
+              0,
+              0.7
+            ],
+            [
+              20,
+              0.7
+            ],
+            [
+              35,
+              0.7
+            ],
+            [
+              50,
+              0.7
+            ],
+            [
+              57.0,
+              0.688
+            ],
+            [
+              64.0,
+              0.655
+            ],
+            [
+              78,
+              0.6
+            ],
+            [
+              92.0,
+              0.655
+            ],
+            [
+              99.0,
+              0.688
+            ],
+            [
+              106,
+              0.7
+            ],
+            [
+              120,
+              0.7
+            ],
+            [
+              140,
+              0.7
+            ],
+            [
+              147.0,
+              0.688
+            ],
+            [
+              154.0,
+              0.655
+            ],
+            [
+              168,
+              0.6
+            ],
+            [
+              182.0,
+              0.655
+            ],
+            [
+              189.0,
+              0.688
+            ],
+            [
+              196,
+              0.7
+            ],
+            [
+              210,
+              0.7
+            ]
+          ]
+        },
+        {
+          "label": "Variable: cord compression",
+          "note": "Abrupt V-shaped drop at any time, with or without a contraction. Reposition, stop oxytocin, check for a prolapsed cord.",
+          "points": [
+            [
+              0,
+              0.93
+            ],
+            [
+              8,
+              0.93
+            ],
+            [
+              16,
+              0.93
+            ],
+            [
+              22,
+              0.93
+            ],
+            [
+              26,
+              0.93
+            ],
+            [
+              29,
+              0.82
+            ],
+            [
+              32,
+              0.74
+            ],
+            [
+              37,
+              0.83
+            ],
+            [
+              42,
+              0.93
+            ],
+            [
+              47,
+              0.93
+            ],
+            [
+              53,
+              0.93
+            ],
+            [
+              61,
+              0.93
+            ],
+            [
+              70,
+              0.93
+            ],
+            [
+              78,
+              0.93
+            ],
+            [
+              84,
+              0.93
+            ],
+            [
+              88,
+              0.93
+            ],
+            [
+              91,
+              0.82
+            ],
+            [
+              94,
+              0.75
+            ],
+            [
+              99,
+              0.84
+            ],
+            [
+              104,
+              0.93
+            ],
+            [
+              109,
+              0.93
+            ],
+            [
+              115,
+              0.93
+            ],
+            [
+              124,
+              0.93
+            ],
+            [
+              138,
+              0.93
+            ],
+            [
+              156,
+              0.93
+            ],
+            [
+              180,
+              0.93
+            ],
+            [
+              210,
+              0.93
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fhr-baseline",
+      "title": "Fetal heart rate baseline and variability",
+      "kind": "ranges",
+      "caption": "Read the baseline over 10 minutes, between contractions. Moderate variability is the most reassuring sign on the strip. A reactive nonstress test shows 2 accelerations of at least 15 beats/min lasting 15 seconds within 20 minutes.",
+      "match": {
+        "topics": [],
+        "terms": [
+          "fetal (tachycardia|bradycardia)",
+          "baseline (fetal heart rate|FHR|rate)",
+          "fetal heart rate baseline",
+          "variability",
+          "(fetal heart rate|FHR) accelerations?",
+          "accelerations? of (at least )?15",
+          "nonstress tests?",
+          "NST",
+          "nonreactive",
+          "reactive (nonstress|NST|tracing)"
+        ]
+      },
+      "scales": [
+        {
+          "name": "Baseline fetal heart rate",
+          "unit": "beats/min",
+          "min": 80,
+          "bands": [
+            {
+              "to": 110,
+              "label": "Bradycardia",
+              "tone": "danger",
+              "note": "Below 110 for 10 minutes: cord compression or prolapse, maternal hypotension, hypoxia. Reposition, notify."
+            },
+            {
+              "to": 160,
+              "label": "Normal",
+              "tone": "normal",
+              "note": ""
+            },
+            {
+              "to": 190,
+              "label": "Tachycardia",
+              "tone": "caution",
+              "note": "Above 160 for 10 minutes: maternal fever or infection, fetal hypoxia, terbutaline. Check her temperature."
+            }
+          ]
+        },
+        {
+          "name": "Baseline variability",
+          "unit": "beats/min",
+          "min": 0,
+          "bands": [
+            {
+              "to": 1,
+              "label": "Absent",
+              "tone": "danger",
+              "note": "A flat line. Ominous with recurrent late or variable decelerations: intervene and notify at once."
+            },
+            {
+              "to": 5,
+              "label": "Minimal",
+              "tone": "caution",
+              "note": "Fetal sleep, opioids or magnesium sulfate. If it lasts beyond a sleep cycle, suspect hypoxia and report."
+            },
+            {
+              "to": 25,
+              "label": "Moderate",
+              "tone": "normal",
+              "note": "The fetus is well oxygenated right now."
+            },
+            {
+              "to": 35,
+              "label": "Marked",
+              "tone": "caution",
+              "note": "Above 25: may be an early sign of hypoxia. Assess and report."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magnesium-sulfate-levels",
+      "title": "Magnesium sulfate: therapeutic and toxic",
+      "kind": "ranges",
+      "caption": "Magnesium sulfate prevents eclamptic seizures, and toxicity shows in order: reflexes fade, breathing slows, then the heart stops. Check reflexes, respirations and urine output every hour. Calcium gluconate IV is the antidote.",
+      "match": {
+        "topics": [
+          "Magnesium Sulfate"
+        ],
+        "terms": [
+          "magnesium sulfate",
+          "magnesium toxicity",
+          "hypermagnes\\w*",
+          "(absent|diminished|decreased|hypoactive|loss of) (deep tendon |patellar )?reflexes",
+          "reflexes (are |were )?(absent|diminished)",
+          "reflexes return\\w*"
+        ],
+        "exclude": [
+          "asthma",
+          "torsades",
+          "hypomagnes\\w*",
+          "spinal",
+          "Guillain",
+          "serotonin"
+        ]
+      },
+      "scales": [
+        {
+          "name": "Serum magnesium",
+          "unit": "mEq/L",
+          "min": 0,
+          "bands": [
+            {
+              "to": 4,
+              "label": "Subtherapeutic",
+              "tone": "neutral",
+              "note": "The normal serum level is 1.5 to 2.5; below 4 may not prevent seizures."
+            },
+            {
+              "to": 7,
+              "label": "Therapeutic",
+              "tone": "normal",
+              "note": "About 5 to 8.4 mg/dL. Warmth, flushing and drowsiness are expected; reflexes stay present."
+            },
+            {
+              "to": 10,
+              "label": "Reflexes lost",
+              "tone": "caution",
+              "note": "Patellar reflexes fade, then disappear: the first sign of toxicity. Stop the infusion and notify."
+            },
+            {
+              "to": 25,
+              "label": "Breathing fails",
+              "tone": "danger",
+              "note": "Respiratory depression, then arrest. Stop the infusion, support breathing, give calcium gluconate."
+            },
+            {
+              "to": 30,
+              "label": "Cardiac arrest",
+              "tone": "danger",
+              "note": "Heart block and cardiac arrest. Start CPR; give calcium gluconate IV."
+            }
+          ]
+        },
+        {
+          "name": "Respirations on magnesium",
+          "unit": "breaths/min",
+          "min": 4,
+          "bands": [
+            {
+              "to": 12,
+              "label": "Too slow",
+              "tone": "danger",
+              "note": "Below 12: stop the infusion, notify the provider, check reflexes and the magnesium level."
+            },
+            {
+              "to": 24,
+              "label": "Safe",
+              "tone": "normal",
+              "note": "At least 12 a minute. Recheck every hour."
+            }
+          ]
+        },
+        {
+          "name": "Urine output",
+          "unit": "mL/hr",
+          "min": 0,
+          "bands": [
+            {
+              "to": 30,
+              "label": "Too low",
+              "tone": "caution",
+              "note": "The kidneys clear magnesium, so it builds up. Notify the provider before it reaches toxic levels."
+            },
+            {
+              "to": 60,
+              "label": "Adequate",
+              "tone": "normal",
+              "note": "At least 30 mL/hr, measured hourly through an indwelling catheter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "preeclampsia-severe-features",
+      "title": "Preeclampsia and its severe features",
+      "kind": "table",
+      "caption": "Birth is the only cure. Headache, vision changes and epigastric pain are warning signs to report at once. Watch for HELLP syndrome (hemolysis, elevated liver enzymes, low platelets) and eclamptic seizures.",
+      "match": {
+        "topics": [
+          "Preeclampsia",
+          "Severe Preeclampsia",
+          "Hypertensive Disorders of Pregnancy",
+          "Preeclampsia Screening"
+        ],
+        "terms": [
+          "pre-?eclampsia",
+          "eclampsia",
+          "eclamptic",
+          "HELLP",
+          "severe features",
+          "gestational hypertension",
+          "hypertensive disorders? of pregnancy"
+        ]
+      },
+      "columns": [
+        "",
+        "Preeclampsia",
+        "With severe features"
+      ],
+      "rows": [
+        [
+          "Blood pressure",
+          "140/90 or higher twice, 4 hours apart, after 20 weeks",
+          "Systolic 160 or higher, or diastolic 110 or higher"
+        ],
+        [
+          "Protein in urine",
+          "Usually 300 mg or more in 24 hours",
+          "Not needed when severe features are present"
+        ],
+        [
+          "Brain and eyes",
+          "No symptoms",
+          "Severe headache that medication doesn't relieve; blurred vision or spots"
+        ],
+        [
+          "Liver",
+          "Normal",
+          "Right upper quadrant or epigastric pain; liver enzymes twice normal"
+        ],
+        [
+          "Platelets and kidneys",
+          "Normal",
+          "Platelets below 100,000; creatinine above 1.1 or doubled"
+        ],
+        [
+          "Lungs",
+          "Clear",
+          "Pulmonary edema"
+        ],
+        [
+          "Nursing care",
+          "BP and fetal checks; teach warning signs to report",
+          "Magnesium sulfate, IV labetalol or hydralazine, seizure precautions"
+        ]
+      ]
+    },
+    {
+      "id": "postpartum-hemorrhage",
+      "title": "Postpartum hemorrhage: first actions",
+      "kind": "steps",
+      "caption": "A pad soaked within 15 minutes, a rising pulse and a boggy fundus mean hemorrhage; the pulse climbs before the blood pressure falls. A firm fundus with a steady trickle of bright red blood points to a laceration instead.",
+      "match": {
+        "topics": [
+          "Postpartum Hemorrhage"
+        ],
+        "terms": [
+          "postpartum hemorrhage",
+          "PPH",
+          "boggy",
+          "(uterine )?atony",
+          "(fundal|uterine) massage",
+          "massag\\w* (the )?(fundus|uterus)",
+          "methylergonovine",
+          "Methergine",
+          "carboprost",
+          "Hemabate",
+          "(saturat|soak)\\w* (a |the |one |her )?(perineal |peri)?pads?"
+        ],
+        "exclude": [
+          "pressure injur\\w*",
+          "sacr\\w*",
+          "ulcers?"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Massage the fundus",
+          "detail": "Support the lower uterus with one hand and massage the fundus with the other until it firms. A boggy uterus (atony) causes most early bleeding."
+        },
+        {
+          "title": "Empty the bladder",
+          "detail": "A full bladder pushes the uterus up and to one side so it can't contract. Help her void, or catheterize if she can't."
+        },
+        {
+          "title": "Call for help and stay",
+          "detail": "Use the call light to summon the provider or rapid response team. Keep massaging, and weigh pads: 1 g is about 1 mL of blood."
+        },
+        {
+          "title": "Give uterotonics as prescribed",
+          "detail": "Oxytocin first. No methylergonovine with hypertension or preeclampsia; no carboprost with asthma. Misoprostol is another option."
+        },
+        {
+          "title": "Replace volume",
+          "detail": "Large-bore IV access, rapid IV fluids, then blood products. Give oxygen, check vitals every 5 to 15 minutes, and measure urine output hourly."
+        }
+      ]
+    },
+    {
+      "id": "lochia",
+      "title": "Lochia after birth",
+      "kind": "table",
+      "caption": "Lochia goes from red to pink-brown to white and should never go backward. A steady trickle of bright red blood with a firm fundus is not lochia: suspect a laceration.",
+      "match": {
+        "topics": [
+          "Postpartum Warning Signs",
+          "Postpartum Discharge Teaching"
+        ],
+        "terms": [
+          "lochia\\w*",
+          "rubra",
+          "serosa",
+          "alba",
+          "pinkish[- ]brown"
+        ],
+        "exclude": [
+          "hematoma"
+        ]
+      },
+      "columns": [
+        "",
+        "What's normal",
+        "Report if"
+      ],
+      "rows": [
+        [
+          "Rubra",
+          "Days 1 to 3: dark red, a few small clots",
+          "Clots the size of an egg or larger"
+        ],
+        [
+          "Serosa",
+          "Days 4 to 10: pinkish brown and thinner",
+          "It turns bright red again"
+        ],
+        [
+          "Alba",
+          "Day 10 to about 6 weeks: yellowish white",
+          "Red bleeding returns, or it lasts well past 6 weeks"
+        ],
+        [
+          "Amount",
+          "Scant to moderate; a gush on first standing up is normal",
+          "A pad soaked in an hour or less"
+        ],
+        [
+          "Odor",
+          "Fleshy, like a menstrual period",
+          "Foul smell, fever or a tender uterus: suspect endometritis"
+        ]
+      ]
+    },
+    {
+      "id": "stages-of-labor",
+      "title": "Stages of labor",
+      "kind": "table",
+      "caption": "Events, not the urge to push, mark the stages: the second stage starts at full dilation (10 cm) and ends with the birth. The fourth stage, the first hours after the placenta delivers, is when hemorrhage risk peaks.",
+      "match": {
+        "topics": [
+          "Stages of Labor",
+          "Labor Progress"
+        ],
+        "terms": [
+          "stages? of labor",
+          "(first|second|third|fourth) stage of labor",
+          "(latent|active|transition) phase",
+          "fully dilated",
+          "complete(ly)? (cervical )?dilat\\w*",
+          "\\d+ ?cm dilated",
+          "crowning",
+          "placental separation"
+        ]
+      },
+      "columns": [
+        "",
+        "From and to",
+        "Nursing focus"
+      ],
+      "rows": [
+        [
+          "First stage: latent",
+          "Regular contractions begin; cervix dilates to about 6 cm",
+          "Walking, fluids and comfort; teach breathing techniques"
+        ],
+        [
+          "First stage: active",
+          "About 6 cm to full dilation (10 cm); contractions every 2 to 3 minutes",
+          "Monitor fetal heart rate and contractions; pain relief; void every 2 hours"
+        ],
+        [
+          "Transition",
+          "8 to 10 cm: strongest contractions, shaking, nausea, rectal pressure",
+          "Stay with her; pant-blow breathing; no pushing before full dilation"
+        ],
+        [
+          "Second stage",
+          "Full dilation (10 cm) until the baby is born",
+          "Coach pushing with contractions; watch the fetal heart rate closely"
+        ],
+        [
+          "Third stage",
+          "Birth of the baby until the placenta delivers, usually within 30 minutes",
+          "Signs of separation: a gush of blood, the cord lengthens, the uterus rises"
+        ],
+        [
+          "Fourth stage",
+          "First 1 to 2 hours after the placenta delivers",
+          "Fundus, lochia and vitals every 15 minutes for the first hour; bleeding risk peaks"
+        ]
+      ]
+    },
+    {
+      "id": "newborn-normal-values",
+      "title": "Newborn normal values",
+      "kind": "ranges",
+      "caption": "Values for a term newborn at rest. Cold stress, low glucose and breathing trouble feed each other, so a finding in one means checking the others. Glucose cutoffs vary by nursery protocol.",
+      "match": {
+        "topics": [
+          "Newborn Transition",
+          "Newborn Assessment"
+        ],
+        "terms": [
+          "(newborn|neonat\\w*|\\d+-(hour|day)-old)[^.?]{0,80}(heart rate|apical pulse|respirat\\w*|temperature|glucose)",
+          "cold stress",
+          "periods? of reactivity",
+          "jitter\\w*",
+          "heel[- ]?sticks?",
+          "nonshivering thermogenesis",
+          "brown fat",
+          "(infant|newborn|baby) of (a )?(diabetic )?mother",
+          "neonatal hypoglycemia",
+          "large[- ]for[- ]gestational[- ]age",
+          "periodic breathing",
+          "grunting"
+        ],
+        "exclude": [
+          "toddlers?",
+          "preschool\\w*",
+          "school-age",
+          "adolescen\\w*",
+          "([2-9]|1\\d)-year-old",
+          "\\d+-month-old",
+          "surfactant"
+        ]
+      },
+      "scales": [
+        {
+          "name": "Heart rate",
+          "unit": "beats/min",
+          "min": 60,
+          "bands": [
+            {
+              "to": 100,
+              "label": "Bradycardia",
+              "tone": "danger",
+              "note": "Report now. At birth, a rate below 100 calls for positive-pressure ventilation."
+            },
+            {
+              "to": 110,
+              "label": "Low",
+              "tone": "caution",
+              "note": "Brief dips in deep sleep can be normal. Recheck while awake."
+            },
+            {
+              "to": 160,
+              "label": "Normal",
+              "tone": "normal",
+              "note": "Up to about 180 while crying."
+            },
+            {
+              "to": 200,
+              "label": "High",
+              "tone": "caution",
+              "note": "Sustained at rest: check the temperature; think sepsis or respiratory distress."
+            }
+          ]
+        },
+        {
+          "name": "Respirations",
+          "unit": "breaths/min",
+          "min": 10,
+          "bands": [
+            {
+              "to": 30,
+              "label": "Low",
+              "tone": "caution",
+              "note": "Check for cold, low glucose or maternal opioids. Pauses of 20 seconds or more are apnea."
+            },
+            {
+              "to": 60,
+              "label": "Normal",
+              "tone": "normal",
+              "note": "Irregular, abdominal breathing with brief pauses is normal."
+            },
+            {
+              "to": 90,
+              "label": "Tachypnea",
+              "tone": "caution",
+              "note": "Sustained, or with grunting, flaring or retractions: respiratory distress. Report."
+            }
+          ]
+        },
+        {
+          "name": "Axillary temperature",
+          "unit": "°C",
+          "min": 35,
+          "bands": [
+            {
+              "to": 36.5,
+              "label": "Cold stress",
+              "tone": "caution",
+              "note": "Burns glucose and oxygen. Skin-to-skin, dry the baby, add a hat, or use a radiant warmer."
+            },
+            {
+              "to": 37.5,
+              "label": "Normal",
+              "tone": "normal",
+              "note": "97.7 to 99.5 F."
+            },
+            {
+              "to": 38.5,
+              "label": "High",
+              "tone": "caution",
+              "note": "Check for overbundling. 38 C (100.4 F) or higher needs a sepsis evaluation."
+            }
+          ]
+        },
+        {
+          "name": "Blood glucose",
+          "unit": "mg/dL",
+          "min": 10,
+          "bands": [
+            {
+              "to": 40,
+              "label": "Hypoglycemia",
+              "tone": "danger",
+              "note": "Jittery, weak cry, poor feeding. Feed, recheck in 30 to 60 minutes; IV dextrose if still low."
+            },
+            {
+              "to": 80,
+              "label": "Acceptable",
+              "tone": "normal",
+              "note": "Screen infants of diabetic mothers and large, small or preterm newborns in the first hours."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pediatric-vital-signs",
+      "title": "Pediatric vital signs by age",
+      "kind": "table",
+      "caption": "Approximate ranges for a calm, awake child; sources differ by a few beats. The younger the child, the faster the rates. Crying, fever and pain raise them, and bradycardia in a sick child is an ominous late sign.",
+      "match": {
+        "topics": [],
+        "terms": [
+          "(infants?|toddlers?|preschool(er)?s?|child(ren)?|\\d+-(week|month)-old|([1-9]|1[0-7])-year-old)[^.?]{0,90}(apical pulse|heart rate|pulse|respirations|respiratory rate)(,? (is|of|at))? \\d{2,3}",
+          "(infants?|toddlers?|preschool(er)?s?|child(ren)?|\\d+-(week|month)-old|([1-9]|1[0-7])-year-old)[^.]{0,130}(beats|breaths)/min",
+          "\\d+-(week|month)-old[^?]{0,120}apical pulse",
+          "pediatric vital signs"
+        ],
+        "exclude": [
+          "newborns?",
+          "neonat\\w*",
+          "\\d+-(hour|day)-old",
+          "adult (child|children|son|daughter)"
+        ]
+      },
+      "columns": [
+        "",
+        "Heart rate (beats/min)",
+        "Respirations (per min)"
+      ],
+      "rows": [
+        [
+          "Newborn (first month)",
+          "110 to 160",
+          "30 to 60"
+        ],
+        [
+          "Infant (1 to 12 months)",
+          "100 to 160",
+          "30 to 50"
+        ],
+        [
+          "Toddler (1 to 3 years)",
+          "90 to 150",
+          "24 to 40"
+        ],
+        [
+          "Preschool (3 to 6 years)",
+          "80 to 140",
+          "22 to 34"
+        ],
+        [
+          "School-age (6 to 12 years)",
+          "70 to 120",
+          "18 to 30"
+        ],
+        [
+          "Adolescent (over 12 years)",
+          "60 to 100",
+          "12 to 20"
+        ]
+      ]
+    },
+    {
+      "id": "developmental-milestones",
+      "title": "Developmental milestones",
+      "kind": "table",
+      "caption": "Ages are typical, not deadlines, and preterm infants are judged by their corrected age. Refer any child who loses a skill already gained, has no steady head control by 6 months, or can't sit alone by 9 months.",
+      "match": {
+        "topics": [
+          "Infant Milestones",
+          "Toddler Milestones",
+          "Two-Year-Old Development",
+          "Developmental Surveillance",
+          "Language Development",
+          "One-Year Well-Child Visit"
+        ],
+        "terms": [
+          "milestones?",
+          "developmental(ly)? (delay|screening|surveillance|finding|milestone)s?",
+          "(pincer|palmar|raking) grasp",
+          "sits? (up )?(alone|without support|unsupported|with support|steadily)",
+          "pulls? to (a )?stand\\w*",
+          "cruis(es|ing)",
+          "(rolls?|rolling) (from|over)",
+          "babbl\\w*",
+          "head lag",
+          "parallel play",
+          "\\d-word (phrases?|sentences?)"
+        ]
+      },
+      "columns": [
+        "",
+        "Motor",
+        "Language and social"
+      ],
+      "rows": [
+        [
+          "2 months",
+          "Lifts head when on the stomach",
+          "Social smile; coos"
+        ],
+        [
+          "4 months",
+          "Holds head steady; rolls front to back; reaches for toys",
+          "Laughs aloud; turns toward voices"
+        ],
+        [
+          "6 months",
+          "Rolls back to front; sits with support; passes toys hand to hand",
+          "Babbles consonants (ba, da); stranger anxiety begins"
+        ],
+        [
+          "9 months",
+          "Sits alone steadily; crawls; pulls to stand",
+          "Object permanence (peekaboo); separation anxiety"
+        ],
+        [
+          "12 months",
+          "Cruises along furniture, may take first steps; neat pincer grasp",
+          "1 or 2 words with meaning; waves bye-bye"
+        ],
+        [
+          "18 months",
+          "Walks well, climbs; stacks 3 or 4 blocks; uses a spoon",
+          "About 10 to 20 words; points to body parts"
+        ],
+        [
+          "2 years",
+          "Runs, kicks a ball, walks up stairs",
+          "2-word phrases, 50 or more words; parallel play"
+        ],
+        [
+          "3 to 4 years",
+          "Rides a tricycle; hops on one foot by 4; copies a circle",
+          "Sentences strangers understand; plays with other children"
+        ]
+      ]
+    },
+    {
+      "id": "pediatric-dehydration",
+      "title": "Dehydration in infants and children",
+      "kind": "table",
+      "caption": "Weight loss sets the grade: 1 kg lost is about 1 liter of fluid. Use oral rehydration solution, not juice, soda or plain water. Aim for urine output of at least 1 mL/kg/hr, and add potassium to IV fluids only after the child voids.",
+      "match": {
+        "topics": [
+          "Pediatric Dehydration",
+          "Infant with Vomiting and Diarrhea",
+          "Pediatric Fluid Status",
+          "Pediatric Hydration",
+          "Dehydration Assessment"
+        ],
+        "terms": [
+          "(infants?|toddlers?|child(ren)?|\\d+-(week|month)-old|preschool\\w*|([1-9]|1[0-7])-year-old)[^.?]{0,100}(dehydrat\\w*|vomiting and diarrhea|diarrhea and vomiting|gastroenteritis)",
+          "(dehydrat\\w*|vomiting and diarrhea|gastroenteritis)[^.?]{0,100}(infants?|toddlers?|child(ren)?|\\d+-(week|month)-old|preschool\\w*|([1-9]|1[0-7])-year-old)",
+          "oral rehydration( solution)?",
+          "ORS",
+          "sunken (anterior )?fontanel\\w*"
+        ],
+        "exclude": [
+          "breastfe\\w*",
+          "latch",
+          "meningitis"
+        ]
+      },
+      "columns": [
+        "",
+        "Findings",
+        "Treatment"
+      ],
+      "rows": [
+        [
+          "Mild (3 to 5% weight loss)",
+          "Alert; slightly dry lips; normal pulse; slightly less urine",
+          "Oral rehydration solution in small, frequent sips; keep feeding"
+        ],
+        [
+          "Moderate (6 to 9%)",
+          "Irritable; dry mouth; few tears; fast pulse; sunken fontanel; refill 2 to 4 seconds",
+          "Oral rehydration solution, about 5 mL every few minutes; IV if vomiting prevents it"
+        ],
+        [
+          "Severe (10% or more)",
+          "Lethargic; no tears; rapid weak pulse; cool mottled skin; little or no urine",
+          "Emergency: IV normal saline bolus of 20 mL/kg, repeated as needed"
+        ]
+      ]
+    },
+    {
+      "id": "croup-vs-epiglottitis",
+      "title": "Croup vs epiglottitis",
+      "kind": "table",
+      "caption": "Epiglottitis is an airway emergency. Never examine the throat or swab it, never lay the child down, and never leave; keep intubation and tracheostomy equipment at the bedside.",
+      "match": {
+        "topics": [
+          "Epiglottitis",
+          "Croup",
+          "Pediatrics - Croup",
+          "Pediatrics - Epiglottitis",
+          "Drooling and Stridor"
+        ],
+        "terms": [
+          "croup",
+          "epiglottitis",
+          "laryngotracheobronchitis",
+          "bark(ing|y)",
+          "seal-like",
+          "tripod\\w*",
+          "muffled voice",
+          "drooling"
+        ],
+        "exclude": [
+          "clozapine",
+          "Parkinson\\w*",
+          "stroke",
+          "COPD",
+          "emphysema",
+          "chronic obstructive"
+        ]
+      },
+      "columns": [
+        "",
+        "Croup",
+        "Epiglottitis"
+      ],
+      "rows": [
+        [
+          "Cause",
+          "Virus, most often parainfluenza",
+          "Bacteria, classically H. influenzae type b"
+        ],
+        [
+          "Typical age",
+          "6 months to 3 years",
+          "2 to 5 years; older if not vaccinated"
+        ],
+        [
+          "Onset",
+          "Gradual, after a cold; worse at night",
+          "Sudden, over a few hours"
+        ],
+        [
+          "Hallmarks",
+          "Barking, seal-like cough; hoarse voice; stridor",
+          "Drooling, trouble swallowing, muffled voice, no cough; tripod position"
+        ],
+        [
+          "Fever",
+          "Low grade",
+          "High; the child looks toxic and anxious"
+        ],
+        [
+          "Care",
+          "Cool mist; oral steroid; nebulized epinephrine for stridor at rest",
+          "Keep calm and upright; no throat exam; ready for intubation; IV antibiotics"
+        ]
+      ]
+    },
+    {
+      "id": "breastfeeding-on-track",
+      "title": "Is breastfeeding going well?",
+      "kind": "table",
+      "caption": "Output shows intake. A tender lump without fever is a plugged duct: feed often and massage toward the nipple. With mastitis, keep breastfeeding or pumping, rest, drink fluids and finish the antibiotic.",
+      "match": {
+        "topics": [
+          "Breastfeeding Teaching",
+          "Breastfeeding Latch",
+          "Breastfeeding Evaluation",
+          "Lactation Support"
+        ],
+        "terms": [
+          "latch\\w*",
+          "wet diapers?",
+          "(making|getting|producing) enough (breast )?milk",
+          "milk supply",
+          "mastitis",
+          "engorge\\w*",
+          "plugged (milk )?ducts?",
+          "(lost|loss of|losing) \\d+ ?(%|percent)",
+          "breastfeeding (session|evaluation|is going well)",
+          "milk transfer",
+          "breastfeeding (client|mother)[^.?]{0,80}(breasts?|lump|nipples?)"
+        ],
+        "exclude": [
+          "HIV",
+          "formula"
+        ]
+      },
+      "columns": [
+        "",
+        "On track",
+        "Needs help"
+      ],
+      "rows": [
+        [
+          "Latch",
+          "Wide mouth, lips turned out, much of the areola inside, audible swallows",
+          "Pain past the first minute, clicking, a creased nipple after feeds"
+        ],
+        [
+          "Feedings",
+          "8 to 12 in 24 hours, started on early cues such as rooting",
+          "Fewer than 8 a day, or a newborn too sleepy to feed"
+        ],
+        [
+          "Wet diapers",
+          "About one per day of age at first; 6 or more a day by day 5",
+          "Fewer than 6 a day after day 5, or dark urine"
+        ],
+        [
+          "Stools",
+          "3 or more yellow, seedy stools a day by day 5",
+          "Still passing dark meconium after day 4"
+        ],
+        [
+          "Weight",
+          "Loses up to 7% in the first days; back to birth weight by 10 to 14 days",
+          "More than 7% lost: assess the feeding; 10% or more: notify"
+        ],
+        [
+          "Breasts",
+          "Full, firm and tender on days 3 to 5: feed often to relieve it",
+          "A hard, red, hot wedge with fever and aches: mastitis"
+        ]
+      ]
+    },
+    {
+      "id": "pyloric-stenosis-vs-intussusception",
+      "title": "Pyloric stenosis vs intussusception",
+      "kind": "table",
+      "caption": "Pyloric stenosis vomit is never bilious and the infant stays hungry; intussusception brings bouts of pain and currant jelly stool. Hirschsprung disease differs again: no meconium in the first 48 hours, then ribbon-like stools.",
+      "match": {
+        "topics": [
+          "Pyloric Stenosis",
+          "Intussusception",
+          "Pediatrics - Intussusception"
+        ],
+        "terms": [
+          "pyloric stenosis",
+          "pyloromyotomy",
+          "projectile",
+          "non-?bilious|non-bile-stained",
+          "olive[- ]shaped",
+          "intussusception",
+          "currant[- ]jelly",
+          "sausage[- ]shaped",
+          "mucus-like stools?",
+          "draw(s|ing)? (up )?the knees",
+          "Hirschsprung\\w*"
+        ],
+        "exclude": [
+          "shunt",
+          "intracranial",
+          "meningitis",
+          "hydrocephalus",
+          "colostomy",
+          "stoma"
+        ]
+      },
+      "columns": [
+        "",
+        "Pyloric stenosis",
+        "Intussusception"
+      ],
+      "rows": [
+        [
+          "Typical age",
+          "Usually 3 to 6 weeks old",
+          "Usually 3 months to 3 years"
+        ],
+        [
+          "Hallmark",
+          "Projectile, nonbilious vomiting right after feeds; hungry again at once",
+          "Sudden colicky pain: screams and draws knees to chest, calm between bouts"
+        ],
+        [
+          "Stools",
+          "Fewer and smaller",
+          "Red, mucus-filled currant jelly stool (a later sign)"
+        ],
+        [
+          "Exam",
+          "Olive-shaped mass in the upper abdomen; visible stomach waves",
+          "Sausage-shaped mass in the right upper abdomen"
+        ],
+        [
+          "Main danger",
+          "Dehydration, low potassium and chloride, metabolic alkalosis",
+          "Bowel ischemia, perforation and shock"
+        ],
+        [
+          "Treatment",
+          "Correct fluids and salts first, then surgery to split the pyloric muscle",
+          "Air or contrast enema reduces it; surgery if that fails"
+        ],
+        [
+          "Report",
+          "Signs of dehydration: fewer wet diapers, sunken fontanel",
+          "A normal brown stool: the bowel may have reduced on its own"
+        ]
+      ]
+    },
+    {
+      "id": "childhood-rashes",
+      "title": "Childhood rashes",
+      "kind": "table",
+      "caption": "Match the rash to the story. Varicella and measles spread through the air; fifth disease is contagious only before the rash; rubella and parvovirus both endanger a pregnancy. Never give aspirin to a child with a viral illness.",
+      "match": {
+        "topics": [],
+        "terms": [
+          "measles",
+          "rubeola",
+          "rubella",
+          "varicella",
+          "chicken ?pox",
+          "fifth disease",
+          "erythema infectiosum",
+          "parvovirus",
+          "slapped",
+          "roseola",
+          "scarlet fever",
+          "strawberry tongue",
+          "hand-foot-and-mouth",
+          "impetigo",
+          "honey-colored",
+          "Koplik"
+        ],
+        "exclude": [
+          "precautions?",
+          "isolation",
+          "immunizations?",
+          "unimmunized",
+          "nonimmune",
+          "vaccin\\w*",
+          "MMR",
+          "titer",
+          "zoster",
+          "shingles"
+        ]
+      },
+      "columns": [
+        "",
+        "Rash and clues",
+        "Spread and key point"
+      ],
+      "rows": [
+        [
+          "Measles (rubeola)",
+          "Cough, runny nose, red eyes, Koplik spots; blotchy rash from face down",
+          "Airborne; very contagious. Report to public health"
+        ],
+        [
+          "Rubella",
+          "Mild illness; pink rash face to trunk; swollen nodes behind the ears",
+          "Droplet; keep away from anyone pregnant (birth defects)"
+        ],
+        [
+          "Varicella",
+          "Itchy crops of spots, blisters and crusts all at once",
+          "Airborne and contact until every lesion crusts; no aspirin"
+        ],
+        [
+          "Fifth disease",
+          "Slapped-cheek face, then a lacy rash on the arms and legs",
+          "Contagious only before the rash; can harm a fetus"
+        ],
+        [
+          "Roseola",
+          "3 to 5 days of high fever, then a pink rash as the fever breaks",
+          "Febrile seizures can occur during the fever"
+        ],
+        [
+          "Scarlet fever",
+          "Sandpaper rash and strawberry tongue after strep throat",
+          "Finish all the penicillin; contagious until 24 hours of antibiotics"
+        ],
+        [
+          "Hand, foot and mouth",
+          "Painful mouth sores; blisters on hands, feet and diaper area",
+          "Handwashing; the virus stays in stool for weeks; push fluids"
+        ],
+        [
+          "Impetigo",
+          "Honey-colored crusts around the nose and mouth",
+          "Contact spread; school after 24 hours of antibiotics"
+        ]
+      ]
+    }
+  ]
+}

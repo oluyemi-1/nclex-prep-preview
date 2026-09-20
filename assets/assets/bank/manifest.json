@@ -1,0 +1,68 @@
+{
+  "version": 15,
+  "batches": [
+    {
+      "file": "batch_a1.json",
+      "batch": "a1",
+      "label": "Authored bank (original questions + NGN cases)",
+      "items": 1169,
+      "cases": 12
+    },
+    {
+      "file": "batch_a2.json",
+      "batch": "a2",
+      "label": "Authored wave 2 (NGN formats + Client Needs gaps)",
+      "items": 360,
+      "cases": 0
+    },
+    {
+      "file": "batch_a3.json",
+      "batch": "a3",
+      "label": "Authored wave 3 (blueprint rebalance)",
+      "items": 630,
+      "cases": 0
+    },
+    {
+      "file": "batch_a4.json",
+      "batch": "a4",
+      "label": "Authored wave 4 (unfolding case studies)",
+      "items": 60,
+      "cases": 10
+    },
+    {
+      "file": "batch_b1.json",
+      "batch": "b1",
+      "label": "Batch 1 (Q1-Q2000)",
+      "items": 234,
+      "cases": 3
+    },
+    {
+      "file": "batch_b2.json",
+      "batch": "b2",
+      "label": "Batch 2 (Q2001-Q4000)",
+      "items": 83,
+      "cases": 0
+    },
+    {
+      "file": "batch_b3.json",
+      "batch": "b3",
+      "label": "Batch 3 (Q4001-Q6000)",
+      "items": 117,
+      "cases": 4
+    },
+    {
+      "file": "batch_b4.json",
+      "batch": "b4",
+      "label": "Batch 4 (Q6001-Q8000)",
+      "items": 241,
+      "cases": 0
+    },
+    {
+      "file": "batch_b5.json",
+      "batch": "b5",
+      "label": "Batch 5 (Q8001-Q10000)",
+      "items": 68,
+      "cases": 0
+    }
+  ]
+}

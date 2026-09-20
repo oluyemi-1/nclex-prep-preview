@@ -1,0 +1,1306 @@
+{
+  "figures": [
+    {
+      "id": "potassium",
+      "title": "Serum potassium",
+      "kind": "ranges",
+      "caption": "Potassium has a narrow normal range, and both extremes disturb the heart's rhythm. Put the client on a cardiac monitor at either end, and never give potassium IV push.",
+      "match": {
+        "topics": [
+          "Hyperkalemia",
+          "Hypokalemia"
+        ],
+        "terms": [
+          "potassium",
+          "hyperkal\\w*",
+          "hypokal\\w*",
+          "K\\+",
+          "peaked T waves?",
+          "U waves?"
+        ]
+      },
+      "scales": [
+        {
+          "name": "Potassium",
+          "unit": "mEq/L",
+          "min": 2.0,
+          "bands": [
+            {
+              "to": 2.5,
+              "label": "Critical",
+              "tone": "danger",
+              "note": "Risk of respiratory muscle weakness and dysrhythmias. Replace IV on a pump with monitoring."
+            },
+            {
+              "to": 3.5,
+              "label": "Low",
+              "tone": "caution",
+              "note": "Weakness, leg cramps, flat T waves, U waves. Raises the risk of digoxin toxicity."
+            },
+            {
+              "to": 5.0,
+              "label": "Normal",
+              "tone": "normal",
+              "note": ""
+            },
+            {
+              "to": 6.5,
+              "label": "High",
+              "tone": "caution",
+              "note": "Muscle weakness, peaked T waves. Hold potassium supplements and potassium-sparing drugs."
+            },
+            {
+              "to": 7.5,
+              "label": "Critical",
+              "tone": "danger",
+              "note": "Wide QRS, heart block, ventricular fibrillation. Calcium gluconate protects the heart first."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hypoglycemia-rule-of-15",
+      "title": "Treating hypoglycemia: the rule of 15",
+      "kind": "steps",
+      "caption": "Fast sugar first, recheck, then a snack with protein so the glucose doesn't fall again. A client who cannot swallow safely gets nothing by mouth.",
+      "match": {
+        "topics": [
+          "Hypoglycemia",
+          "Hypoglycemia Management",
+          "Severe Hypoglycemia"
+        ],
+        "terms": [
+          "hypoglycemi\\w*",
+          "low blood (glucose|sugar)",
+          "glucose (tablets?|gel)",
+          "rule of 15",
+          "15 g(rams)? of (fast|simple|rapid)",
+          "shaky and (sweaty|diaphoretic)",
+          "(sweaty|diaphoretic) and shaky",
+          "glucagon",
+          "50% dextrose|dextrose 50%|D50W?"
+        ],
+        "exclude": [
+          "newborns?",
+          "neonat\\w*",
+          "infants?",
+          "overdos\\w*",
+          "ingest\\w*",
+          "poison\\w*"
+        ]
+      },
+      "steps": [
+        {
+          "title": "Confirm the glucose",
+          "detail": "Below 70 mg/dL, or classic signs (shaky, sweaty, confused) and no meter at hand: treat now, don't wait."
+        },
+        {
+          "title": "Give 15 g of fast carbohydrate",
+          "detail": "4 oz of juice or regular soda, or 3 to 4 glucose tablets, only if the client is awake and can swallow."
+        },
+        {
+          "title": "Recheck in 15 minutes",
+          "detail": "Still below 70 mg/dL? Give another 15 g and recheck again."
+        },
+        {
+          "title": "Add protein and a complex carbohydrate",
+          "detail": "Once above 70 mg/dL, a snack or the next meal keeps it from dropping again."
+        },
+        {
+          "title": "Can't swallow? Nothing by mouth",
+          "detail": "Give glucagon IM or subcut, or dextrose 50% IV, per protocol. Turn the client on their side."
+        }
+      ]
+    },
+    {
+      "id": "iv-fluid-tonicity",
+      "title": "IV fluids by tonicity",
+      "kind": "table",
+      "caption": "Tonicity decides where the water goes: isotonic fluid stays in the vessels, hypotonic moves into the cells, and hypertonic pulls water out of them. D5W is isotonic in the bag but acts hypotonic once the dextrose is used.",
+      "match": {
+        "topics": [],
+        "terms": [
+          "isotonic",
+          "hypotonic",
+          "hypertonic",
+          "tonicity",
+          "0\\.45% (sodium chloride|saline|NaCl)",
+          "half[- ]normal saline",
+          "3% (sodium chloride|saline|NaCl)",
+          "D5W",
+          "dextrose 5% in water",
+          "5% dextrose in water",
+          "D5 ?(0\\.45|1/2|half)",
+          "lactated Ringer\\w*",
+          "normal saline",
+          "0\\.9% (sodium chloride|saline|NaCl)",
+          "(stop|discontinue)\\w* the (hypotonic|dextrose|D5W|IV|intravenous)[^.]{0,20}(infusion|fluids?)"
+        ],
+        "exclude": [
+          "(at )?how many",
+          "round(ed)? to",
+          "drop factor",
+          "gtt",
+          "units/h(r|our)",
+          "mcg/(kg/)?min",
+          "mg/h(r|our)",
+          "packed red",
+          "red blood cells",
+          "transfus\\w*",
+          "blood products?",
+          "PRBCs?",
+          "seps\\w*",
+          "septic",
+          "enema",
+          "irrigat\\w*",
+          "enteral",
+          "tube feed\\w*",
+          "formula",
+          "nebuliz\\w*",
+          "flush\\w*"
+        ]
+      },
+      "columns": [
+        "",
+        "Examples and effect",
+        "Watch for"
+      ],
+      "rows": [
+        [
+          "Isotonic",
+          "0.9% saline, lactated Ringer’s. Stays in the vessels, so it expands blood volume",
+          "Fluid overload (crackles, distended neck veins), most of all in heart or kidney failure"
+        ],
+        [
+          "Hypotonic",
+          "0.45% saline. Leaves the vessels and moves into cells, rehydrating them",
+          "Can drop BP and swell brain cells; avoid with head injury, stroke, burns or low sodium"
+        ],
+        [
+          "Hypertonic",
+          "3% saline, D5 in 0.45% saline, D10W. Pulls water from the cells into the vessels",
+          "Overload and cell dehydration; 3% saline runs slowly on a pump with frequent sodium checks"
+        ],
+        [
+          "D5W",
+          "Isotonic in the bag; once the dextrose is used, it acts like free water",
+          "Adds no sodium; can lower serum sodium and worsen brain swelling"
+        ]
+      ]
+    },
+    {
+      "id": "sodium",
+      "title": "Serum sodium",
+      "kind": "ranges",
+      "caption": "Sodium problems show up in the brain, so watch mental status and take seizure precautions at either extreme. Correct a chronic imbalance slowly: raising a long-standing low sodium too fast causes osmotic demyelination.",
+      "match": {
+        "topics": [
+          "Hyponatremia",
+          "Postoperative Hyponatremia",
+          "Electrolytes - Sodium"
+        ],
+        "terms": [
+          "hyponatr(a)?emi\\w*",
+          "hypernatr(a)?emi\\w*",
+          "serum sodium",
+          "sodium (level )?(of |is |was )?1[0-7]\\d",
+          "osmotic demyelination",
+          "central pontine",
+          "3% (sodium chloride|saline|NaCl)",
+          "hypertonic saline",
+          "water intoxication"
+        ]
+      },
+      "scales": [
+        {
+          "name": "Sodium",
+          "unit": "mEq/L",
+          "min": 110,
+          "bands": [
+            {
+              "to": 120,
+              "label": "Critical",
+              "tone": "danger",
+              "note": "Seizures, coma, respiratory arrest from brain swelling. ICU care; hypertonic 3% saline given slowly."
+            },
+            {
+              "to": 135,
+              "label": "Low",
+              "tone": "caution",
+              "note": "Headache, nausea, confusion, weakness. Restrict fluids if it is dilutional; replace sodium if it was lost."
+            },
+            {
+              "to": 145,
+              "label": "Normal",
+              "tone": "normal",
+              "note": ""
+            },
+            {
+              "to": 160,
+              "label": "High",
+              "tone": "caution",
+              "note": "Thirst, dry sticky mucous membranes, restlessness, agitation. Replace water gradually."
+            },
+            {
+              "to": 170,
+              "label": "Critical",
+              "tone": "danger",
+              "note": "Lethargy, seizures, coma. Lower it slowly as ordered; dropping it too fast causes cerebral edema."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calcium-magnesium",
+      "title": "Serum calcium and magnesium",
+      "kind": "ranges",
+      "caption": "Both minerals calm nerves and muscles. When either falls, muscles overreact (tingling, tetany, seizures); when either rises, reflexes and breathing slow. A low magnesium keeps potassium and calcium low until it is replaced.",
+      "match": {
+        "topics": [
+          "Hypomagnesemia",
+          "Post-Thyroidectomy Hypocalcemia",
+          "Corrected Calcium"
+        ],
+        "terms": [
+          "hypocalc(a)?emi\\w*",
+          "hypercalc(a)?emi\\w*",
+          "hypomagnes(a)?emi\\w*",
+          "hypermagnes(a)?emi\\w*",
+          "serum calcium",
+          "serum magnesium",
+          "(calcium|magnesium) (level )?(of |is |was )?\\d+(\\.\\d+)? (mg/dL|mEq/L)",
+          "corrected calcium",
+          "Chvostek\\w*",
+          "Trousseau\\w*",
+          "tetany",
+          "carp(al|opedal) spasms?",
+          "(perioral|circumoral) (numbness|tingling)",
+          "tingling (around|of) the (mouth|lips)",
+          "hypoparathyroid\\w*"
+        ],
+        "exclude": [
+          "magnesium sulfate",
+          "pre-?eclamp\\w*",
+          "eclamp\\w*",
+          "preterm",
+          "tocoly\\w*",
+          "pregnan\\w*",
+          "overdos\\w*"
+        ]
+      },
+      "scales": [
+        {
+          "name": "Total calcium",
+          "unit": "mg/dL",
+          "min": 5.0,
+          "bands": [
+            {
+              "to": 7.0,
+              "label": "Critical",
+              "tone": "danger",
+              "note": "Laryngospasm, seizures, long QT. Seizure precautions; IV calcium gluconate slowly, on a monitor."
+            },
+            {
+              "to": 9.0,
+              "label": "Low",
+              "tone": "caution",
+              "note": "Tingling around the mouth and fingers, cramps, brisk reflexes, positive Chvostek and Trousseau signs."
+            },
+            {
+              "to": 10.5,
+              "label": "Normal",
+              "tone": "normal",
+              "note": ""
+            },
+            {
+              "to": 12.0,
+              "label": "High",
+              "tone": "caution",
+              "note": "Weakness, sluggish reflexes, constipation, confusion, kidney stones. IV saline, walk, stop thiazides."
+            }
+          ]
+        },
+        {
+          "name": "Magnesium",
+          "unit": "mEq/L",
+          "min": 0.6,
+          "bands": [
+            {
+              "to": 1.3,
+              "label": "Low",
+              "tone": "caution",
+              "note": "Tremors, brisk reflexes, Chvostek and Trousseau signs, torsades. Seizure precautions; replace magnesium."
+            },
+            {
+              "to": 2.1,
+              "label": "Normal",
+              "tone": "normal",
+              "note": ""
+            },
+            {
+              "to": 3.0,
+              "label": "High",
+              "tone": "danger",
+              "note": "Flushing, low BP, weak or absent reflexes, slow breathing, heart block. Calcium gluconate reverses it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "abg-values",
+      "title": "Reading an arterial blood gas",
+      "kind": "ranges",
+      "caption": "ROME: in Respiratory problems, pH and PaCO2 move in Opposite directions; in Metabolic problems, pH and bicarbonate move the same way (Equal). If the other value has shifted to offset it, compensation has begun; a normal pH means full compensation.",
+      "match": {
+        "topics": [
+          "ABG",
+          "ABG Interpretation"
+        ],
+        "terms": [
+          "ABGs?",
+          "arterial blood gas(es)?",
+          "PaCO2",
+          "PCO2",
+          "HCO3",
+          "pH (of |is )?[67]\\.\\d+",
+          "ROME",
+          "(fully |partially )?(un)?compensated (respiratory|metabolic)"
+        ],
+        "exclude": [
+          "Allen'?s? test",
+          "specimen"
+        ]
+      },
+      "scales": [
+        {
+          "name": "pH",
+          "unit": "",
+          "min": 7.2,
+          "bands": [
+            {
+              "to": 7.35,
+              "label": "Acidosis",
+              "tone": "caution",
+              "note": "Too much acid: a high PaCO2 (respiratory) or a low bicarbonate (metabolic)."
+            },
+            {
+              "to": 7.45,
+              "label": "Normal",
+              "tone": "normal",
+              "note": ""
+            },
+            {
+              "to": 7.6,
+              "label": "Alkalosis",
+              "tone": "caution",
+              "note": "Too little acid: a low PaCO2 (respiratory) or a high bicarbonate (metabolic)."
+            }
+          ]
+        },
+        {
+          "name": "PaCO2: the lungs",
+          "unit": "mm Hg",
+          "min": 20,
+          "bands": [
+            {
+              "to": 35,
+              "label": "Low: alkalotic",
+              "tone": "caution",
+              "note": "Breathing off too much CO2: respiratory alkalosis, or the lungs offsetting a metabolic acidosis."
+            },
+            {
+              "to": 45,
+              "label": "Normal",
+              "tone": "normal",
+              "note": ""
+            },
+            {
+              "to": 60,
+              "label": "High: acidotic",
+              "tone": "caution",
+              "note": "Retaining CO2 from hypoventilation: respiratory acidosis, or the lungs offsetting a metabolic alkalosis."
+            }
+          ]
+        },
+        {
+          "name": "HCO3: the kidneys",
+          "unit": "mEq/L",
+          "min": 12,
+          "bands": [
+            {
+              "to": 22,
+              "label": "Low: acidotic",
+              "tone": "caution",
+              "note": "Base lost or used up: metabolic acidosis, or the kidneys offsetting a respiratory alkalosis."
+            },
+            {
+              "to": 26,
+              "label": "Normal",
+              "tone": "normal",
+              "note": ""
+            },
+            {
+              "to": 36,
+              "label": "High: alkalotic",
+              "tone": "caution",
+              "note": "Base gained or acid lost: metabolic alkalosis, or the kidneys offsetting a respiratory acidosis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acid-base-imbalances",
+      "title": "The four acid-base imbalances",
+      "kind": "table",
+      "caption": "Start from the cause: breathing problems change CO2 (respiratory), while acid or base gained or lost elsewhere changes bicarbonate (metabolic). The lungs compensate within minutes; the kidneys take days. Acidosis tends to raise potassium, alkalosis to lower it.",
+      "match": {
+        "topics": [
+          "Respiratory Acidosis",
+          "Metabolic Alkalosis"
+        ],
+        "terms": [
+          "(respiratory|metabolic|lactic) (acidosis|alkalosis)",
+          "acidosis",
+          "alkalosis",
+          "Kussmaul",
+          "hyperventilat\\w*",
+          "hypoventilat\\w*",
+          "retain(s|ing)? (carbon dioxide|CO2)",
+          "CO2 (retention|narcosis)"
+        ]
+      },
+      "columns": [
+        "",
+        "Common causes",
+        "Key signs"
+      ],
+      "rows": [
+        [
+          "Respiratory acidosis",
+          "Hypoventilation: COPD, opioid or sedative overdose, airway blockage, weak chest muscles",
+          "Slow shallow breathing, drowsiness, headache, confusion; potassium may rise"
+        ],
+        [
+          "Respiratory alkalosis",
+          "Hyperventilation: anxiety or panic, pain, fever, early hypoxia, high ventilator rate",
+          "Rapid deep breathing, lightheadedness, tingling around the mouth and fingers, palpitations"
+        ],
+        [
+          "Metabolic acidosis",
+          "DKA, severe diarrhea, kidney failure, lactic acid from shock or sepsis, aspirin overdose",
+          "Kussmaul breathing as the lungs blow off CO2, headache, confusion, warm flushed skin"
+        ],
+        [
+          "Metabolic alkalosis",
+          "Vomiting, nasogastric suction, loop or thiazide diuretics, too much antacid or bicarbonate",
+          "Low potassium, muscle cramps, tingling, tetany; slow shallow breathing to retain CO2"
+        ]
+      ]
+    },
+    {
+      "id": "siadh-vs-di",
+      "title": "SIADH and diabetes insipidus",
+      "kind": "table",
+      "caption": "Mirror images of antidiuretic hormone (ADH). SIADH holds water, so urine is scant and concentrated while sodium falls; DI loses water, so urine is huge and dilute while sodium rises. Track daily weight and intake and output in both.",
+      "match": {
+        "topics": [
+          "SIADH",
+          "Diabetes Insipidus"
+        ],
+        "terms": [
+          "SIADH",
+          "syndrome of inappropriate antidiuretic hormone",
+          "inappropriate ADH",
+          "diabetes insipidus",
+          "antidiuretic hormone",
+          "ADH",
+          "desmopressin",
+          "DDAVP",
+          "tolvaptan",
+          "(concentrated|dilute) urine"
+        ]
+      },
+      "columns": [
+        "",
+        "SIADH",
+        "Diabetes insipidus"
+      ],
+      "rows": [
+        [
+          "ADH",
+          "Too much: the kidneys hold on to water",
+          "Too little, or the kidneys ignore it: water pours out"
+        ],
+        [
+          "Urine",
+          "Scant and concentrated; specific gravity above 1.030",
+          "Large volumes, pale and dilute; specific gravity below 1.005"
+        ],
+        [
+          "Serum sodium",
+          "Low (diluted), below 135 mEq/L",
+          "High, above 145 mEq/L, if intake cannot keep up"
+        ],
+        [
+          "Osmolality",
+          "Low (blood diluted)",
+          "High (blood concentrated)"
+        ],
+        [
+          "Client shows",
+          "Weight gain without edema; headache, confusion, seizures as sodium falls",
+          "Intense thirst, dehydration, weight loss, low BP"
+        ],
+        [
+          "Common causes",
+          "Lung cancer (small cell), head injury, meningitis, some drugs such as SSRIs",
+          "Head injury or pituitary surgery (central); lithium (kidney type)"
+        ],
+        [
+          "Treatment",
+          "Restrict fluids, daily weights, seizure precautions; hypertonic saline if severe",
+          "Replace fluids; desmopressin for central DI, then watch for water retention"
+        ]
+      ]
+    },
+    {
+      "id": "dka-vs-hhs",
+      "title": "DKA and HHS",
+      "kind": "table",
+      "caption": "Both are high-glucose emergencies with severe dehydration; only DKA adds ketones and acidosis. IV fluids come first in both, and potassium is checked before insulin starts, because insulin drives potassium into the cells.",
+      "match": {
+        "topics": [
+          "DKA",
+          "Diabetic Ketoacidosis",
+          "HHS"
+        ],
+        "terms": [
+          "DKA",
+          "(diabetic )?ketoacidosis",
+          "HHS",
+          "HHNS",
+          "hyperosmolar( hyperglycemic)?( state| nonketotic\\w*| syndrome)?",
+          "Kussmaul",
+          "fruity",
+          "acetone"
+        ],
+        "exclude": [
+          "hyperemesis",
+          "pregnan\\w*"
+        ]
+      },
+      "columns": [
+        "",
+        "DKA",
+        "HHS"
+      ],
+      "rows": [
+        [
+          "Typical client",
+          "Type 1 diabetes, often younger; infection or missed insulin",
+          "Type 2 diabetes, often older; infection or poor fluid intake"
+        ],
+        [
+          "Onset",
+          "Fast: hours to a day",
+          "Slow: days to weeks"
+        ],
+        [
+          "Glucose",
+          "Above 250 mg/dL",
+          "Above 600 mg/dL, often far higher"
+        ],
+        [
+          "Ketones",
+          "Present in blood and urine",
+          "Absent or minimal"
+        ],
+        [
+          "pH",
+          "Below 7.30, with low bicarbonate: metabolic acidosis",
+          "Above 7.30: little or no acidosis"
+        ],
+        [
+          "Hallmark signs",
+          "Kussmaul breathing, fruity breath, abdominal pain, vomiting",
+          "Extreme dehydration, confusion, seizures, coma; serum osmolality above 320 mOsm/kg"
+        ],
+        [
+          "First priority",
+          "IV 0.9% saline, then IV regular insulin once potassium is 3.3 mEq/L or higher",
+          "IV 0.9% saline, often more than in DKA, then IV regular insulin"
+        ],
+        [
+          "During treatment",
+          "Potassium falls fast; add dextrose to the IV as glucose nears 200 to 250 mg/dL",
+          "Lower glucose and sodium gradually; watch neuro status for cerebral edema"
+        ]
+      ]
+    },
+    {
+      "id": "thyroid-hypo-hyper",
+      "title": "Hypothyroidism and hyperthyroidism",
+      "kind": "table",
+      "caption": "Everything slows in hypothyroidism and speeds up in hyperthyroidism. Too much levothyroxine produces hyperthyroid signs: rapid pulse, tremor, insomnia, heat intolerance. Give sedatives and opioids cautiously to a hypothyroid client.",
+      "match": {
+        "topics": [
+          "Thyroid Storm",
+          "Thyroid Medications"
+        ],
+        "terms": [
+          "hypothyroid\\w*",
+          "hyperthyroid\\w*",
+          "Graves'?",
+          "myxedema\\w*",
+          "thyroid storm",
+          "thyroid crisis",
+          "thyrotoxic\\w*",
+          "levothyroxine",
+          "Synthroid",
+          "methimazole",
+          "propylthiouracil",
+          "PTU",
+          "TSH",
+          "free T4",
+          "exophthalmos",
+          "goiter"
+        ],
+        "exclude": [
+          "thyroidectomy",
+          "radioactive",
+          "I-131",
+          "spinal cord",
+          "how many (tablets?|mL)"
+        ]
+      },
+      "columns": [
+        "",
+        "Hypothyroid",
+        "Hyperthyroid"
+      ],
+      "rows": [
+        [
+          "Metabolism",
+          "Slowed: fatigue, weight gain, cold intolerance",
+          "Racing: weight loss despite hunger, heat intolerance, sweating"
+        ],
+        [
+          "Heart",
+          "Slow pulse, low body temperature",
+          "Rapid pulse, palpitations, atrial fibrillation"
+        ],
+        [
+          "Skin, hair, eyes",
+          "Dry cool skin, coarse hair, puffy face",
+          "Warm moist skin, fine hair, bulging eyes (Graves)"
+        ],
+        [
+          "Mind and bowels",
+          "Slow thinking, depression, constipation",
+          "Anxiety, tremor, insomnia, frequent stools"
+        ],
+        [
+          "Labs (thyroid cause)",
+          "TSH high, free T4 low",
+          "TSH low, free T4 high"
+        ],
+        [
+          "Treatment",
+          "Levothyroxine for life, on an empty stomach, same time daily",
+          "Methimazole or PTU, a beta-blocker for symptoms, radioactive iodine or surgery"
+        ],
+        [
+          "Emergency",
+          "Myxedema coma: hypothermia, slow breathing, stupor; airway, gentle warming, IV hormone",
+          "Thyroid storm: fever, severe tachycardia, agitation; cool, beta-blocker, antithyroid drug"
+        ]
+      ]
+    },
+    {
+      "id": "adrenal-addison-cushing",
+      "title": "Addison disease and Cushing syndrome",
+      "kind": "table",
+      "caption": "Opposite pictures of cortisol. Long-term steroids cause Cushing features and shut down the adrenals, so they are tapered, never stopped abruptly. Clients with Addison disease need extra (stress) doses for illness, injury or surgery.",
+      "match": {
+        "topics": [
+          "Addison Disease",
+          "Adrenal Insufficiency",
+          "Adrenal Crisis",
+          "Emergency Management of Adrenal Crisis",
+          "Corticosteroid Stress Dosing",
+          "Fluid Resuscitation Response"
+        ],
+        "terms": [
+          "Addison'?s?",
+          "addisonian",
+          "Cushing'?s?",
+          "adrenal (insufficiency|crisis)",
+          "adrenocortical",
+          "moon face",
+          "buffalo hump",
+          "stress[- ]dos(e|es|ing)",
+          "cortisol",
+          "fludrocortisone",
+          "hydrocortisone",
+          "(long[- ]term|daily|chronic) (prednisone|corticosteroids?|steroids?|glucocorticoids?)",
+          "taper\\w* (the |a |their )?(prednisone|steroids?|corticosteroids?)",
+          "(prednisone|steroids?|corticosteroids?)( is| are)?( being)? taper\\w*",
+          "(no|missed|stopp(ed|ing)|skipp(ed|ing)) (\\w+ ){0,2}(prednisone|steroids?|corticosteroids?|hydrocortisone)",
+          "glucocorticoid (deficiency|replacement)"
+        ],
+        "exclude": [
+          "pheochromocytoma"
+        ]
+      },
+      "columns": [
+        "",
+        "Addison disease",
+        "Cushing syndrome"
+      ],
+      "rows": [
+        [
+          "Problem",
+          "Too little cortisol and aldosterone",
+          "Too much cortisol, most often from long-term steroids"
+        ],
+        [
+          "Appearance",
+          "Weight loss, darkened (bronzed) skin",
+          "Moon face, buffalo hump, thin skin, purple striae"
+        ],
+        [
+          "Fluid and BP",
+          "Dehydration, low BP, salt craving",
+          "Fluid retention, high BP"
+        ],
+        [
+          "Labs",
+          "Sodium low, potassium high, glucose low",
+          "Sodium high, potassium low, glucose high"
+        ],
+        [
+          "Main risks",
+          "Adrenal crisis with any stress: shock, confusion",
+          "Infection, poor healing, bone loss, mood swings"
+        ],
+        [
+          "Treatment",
+          "Lifelong hydrocortisone and fludrocortisone; wear medical ID",
+          "Taper steroids to the lowest dose; surgery for a tumor"
+        ],
+        [
+          "Emergency or key care",
+          "Crisis: IV hydrocortisone and 0.9% saline with dextrose, fast",
+          "Check glucose and weight, protect from infection and falls"
+        ]
+      ]
+    },
+    {
+      "id": "fluid-volume-deficit-excess",
+      "title": "Fluid volume deficit and excess",
+      "kind": "table",
+      "caption": "A deficit concentrates the blood and urine; an excess dilutes them and backs fluid into the lungs and tissues. Daily weight is the most sensitive measure of change: same time, same scale, similar clothing. One kilogram is about 1 liter.",
+      "match": {
+        "topics": [
+          "Fluid Balance",
+          "Fluid Volume Status",
+          "Dehydration Assessment",
+          "Fluid Restriction",
+          "Hydration",
+          "Oral Hydration in Older Adults"
+        ],
+        "terms": [
+          "fluid volume (deficit|excess)",
+          "hypovolemi(a|c)",
+          "hypervolemi\\w*",
+          "fluid overload",
+          "overhydrat\\w*",
+          "dehydrat\\w*",
+          "(poor |decreased )?skin turgor",
+          "daily weights?",
+          "weigh(s|ed)? (the client )?daily",
+          "weight gain of",
+          "specific gravity",
+          "fluid (retention|restriction)",
+          "retaining fluid",
+          "strict intake and output"
+        ],
+        "exclude": [
+          "shock",
+          "infants?",
+          "toddlers?",
+          "child(ren)?",
+          "pediatric",
+          "\\d+-month-old",
+          "newborns?",
+          "pregnan\\w*",
+          "hyperemesis",
+          "DKA",
+          "HHS",
+          "hyperosmolar",
+          "dialys\\w*",
+          "diabetes insipidus",
+          "SIADH",
+          "transplant\\w*",
+          "TPN",
+          "parenteral nutrition"
+        ]
+      },
+      "columns": [
+        "",
+        "Deficit (hypovolemia)",
+        "Excess (hypervolemia)"
+      ],
+      "rows": [
+        [
+          "Common causes",
+          "Vomiting, diarrhea, bleeding, fever, burns, diuretics, poor intake",
+          "Heart or kidney failure, too much IV fluid or sodium, SIADH, cirrhosis"
+        ],
+        [
+          "Weight",
+          "Rapid loss",
+          "Rapid gain; report more than 2 to 3 lb (1 kg) in a day or 5 lb in a week"
+        ],
+        [
+          "Pulse and BP",
+          "Rapid weak pulse, low BP, dizziness on standing, flat neck veins",
+          "Bounding pulse, high BP, distended neck veins"
+        ],
+        [
+          "Lungs and skin",
+          "Clear lungs, dry mucous membranes, poor skin turgor",
+          "Crackles, shortness of breath, pitting edema"
+        ],
+        [
+          "Urine",
+          "Scant and dark; specific gravity above 1.030",
+          "Dilute if the kidneys work; low specific gravity"
+        ],
+        [
+          "Labs",
+          "Hematocrit and BUN high (concentrated); sodium may rise",
+          "Hematocrit and BUN low (diluted)"
+        ],
+        [
+          "Nursing care",
+          "Oral or isotonic IV fluids, strict intake and output, fall precautions",
+          "Restrict fluid and sodium, diuretics, raise the head of the bed, strict intake and output"
+        ]
+      ]
+    },
+    {
+      "id": "dialysis-hd-vs-pd",
+      "title": "Hemodialysis and peritoneal dialysis",
+      "kind": "table",
+      "caption": "Both remove waste, fluid and potassium. Hemodialysis works fast, so its risks are low BP and disequilibrium; peritoneal dialysis is gentler and daily, and its big risk is peritonitis, first seen as cloudy effluent.",
+      "match": {
+        "topics": [
+          "Peritoneal Dialysis",
+          "Hemodialysis",
+          "Hemodialysis Access",
+          "Hemodialysis Catheter Care",
+          "Hemodialysis Session Monitoring",
+          "Hemodialysis Laboratory Review",
+          "Inpatient Dialysis Coordination",
+          "Peritoneal Dialysis Coordination",
+          "Arteriovenous Fistula",
+          "Vascular Access Protection"
+        ],
+        "terms": [
+          "h(a)?emodialys\\w*",
+          "peritoneal dialys\\w*",
+          "dialys\\w*",
+          "dialyz\\w*",
+          "dialysate",
+          "effluent",
+          "(arteriovenous|AV) (fistula|graft)s?",
+          "fistula",
+          "thrill",
+          "disequilibrium",
+          "CAPD"
+        ],
+        "exclude": [
+          "withdraw\\w*",
+          "goals[- ]of[- ]care"
+        ]
+      },
+      "columns": [
+        "",
+        "Hemodialysis",
+        "Peritoneal dialysis"
+      ],
+      "rows": [
+        [
+          "How it works",
+          "Blood runs through an outside filter, about 3 to 4 hours, 3 times a week",
+          "Dialysate fills the abdomen, dwells, then drains; exchanges daily, often at home"
+        ],
+        [
+          "Access",
+          "Arteriovenous fistula or graft in the arm, or a central dialysis catheter",
+          "Catheter tunneled into the abdomen"
+        ],
+        [
+          "Protect it",
+          "Feel a thrill, hear a bruit; no BP, IV or blood draws in that arm",
+          "Mask and sterile technique for every connection; keep the exit site clean and dry"
+        ],
+        [
+          "Before and after",
+          "Weigh before and after; hold antihypertensives and dialyzable drugs as ordered",
+          "Warm dialysate with dry heat, never a microwave; outflow should at least equal inflow"
+        ],
+        [
+          "Complications",
+          "Low BP, cramps, bleeding; disequilibrium (headache, nausea, confusion)",
+          "Peritonitis, poor outflow (kinks, full bowel), hernia, high glucose from the dialysate"
+        ],
+        [
+          "Report at once",
+          "No thrill or bruit: the access may be clotted",
+          "Cloudy effluent, abdominal pain, fever: send the effluent for culture"
+        ]
+      ]
+    },
+    {
+      "id": "kidney-function-labs",
+      "title": "Kidney function labs",
+      "kind": "ranges",
+      "caption": "Creatinine is the most reliable kidney marker. BUN also rises with dehydration and GI bleeding, so a BUN rising much faster than creatinine (ratio above 20 to 1) points away from the kidney. Check both before contrast or nephrotoxic drugs.",
+      "match": {
+        "topics": [
+          "Contrast-Induced Kidney Injury",
+          "Contrast-Induced Nephropathy",
+          "Hourly Urine Output",
+          "Urine Output",
+          "Metformin and Contrast Studies",
+          "Contrast Risk Screening"
+        ],
+        "terms": [
+          "creatinine",
+          "BUN",
+          "blood urea nitrogen",
+          "eGFR",
+          "(estimated )?glomerular filtration rate",
+          "GFR",
+          "urine output (of |is |has been |was |averag\\w+ )?(\\d|less than|below|under)",
+          "oliguri\\w*",
+          "anuri\\w*",
+          "mL/kg/h(r|our)",
+          "iodinated contrast",
+          "contrast[- ](induced|enhanced|dye|media|medium|nephropathy|agent|stud(y|ies)|procedure)",
+          "with (IV |intravenous )?contrast",
+          "gadolinium",
+          "nephrotoxi\\w*",
+          "acute kidney injury",
+          "AKI",
+          "(pre|intra|post)renal",
+          "(oliguric|diuretic) phase"
+        ],
+        "exclude": [
+          "peaked T waves?",
+          "hyperkal\\w*",
+          "magnesium sulfate",
+          "pre-?eclamp\\w*",
+          "pregnan\\w*",
+          "postpartum",
+          "infants?",
+          "toddlers?",
+          "child(ren)?",
+          "pediatric",
+          "\\d+-month-old",
+          "newborns?",
+          "seps\\w*",
+          "septic",
+          "shock",
+          "dialys\\w*",
+          "fontanel\\w*",
+          "diapers?",
+          "isotonic"
+        ]
+      },
+      "scales": [
+        {
+          "name": "Creatinine",
+          "unit": "mg/dL",
+          "min": 0.2,
+          "bands": [
+            {
+              "to": 0.6,
+              "label": "Low",
+              "tone": "neutral",
+              "note": "Usually low muscle mass; rarely a concern."
+            },
+            {
+              "to": 1.2,
+              "label": "Normal",
+              "tone": "normal",
+              "note": ""
+            },
+            {
+              "to": 3.0,
+              "label": "High",
+              "tone": "caution",
+              "note": "Filtration is falling. A rise of 0.3 or more within 48 hours signals acute kidney injury."
+            }
+          ]
+        },
+        {
+          "name": "BUN",
+          "unit": "mg/dL",
+          "min": 0,
+          "bands": [
+            {
+              "to": 10,
+              "label": "Low",
+              "tone": "neutral",
+              "note": "Overhydration, liver failure or a low-protein diet."
+            },
+            {
+              "to": 20,
+              "label": "Normal",
+              "tone": "normal",
+              "note": ""
+            },
+            {
+              "to": 60,
+              "label": "High",
+              "tone": "caution",
+              "note": "Kidney failure, or dehydration, GI bleeding or a high-protein load if creatinine is normal."
+            }
+          ]
+        },
+        {
+          "name": "eGFR",
+          "unit": "mL/min/1.73 m²",
+          "min": 0,
+          "bands": [
+            {
+              "to": 30,
+              "label": "Severe",
+              "tone": "danger",
+              "note": "Below 15 is kidney failure. Metformin is contraindicated; avoid contrast and nephrotoxic drugs."
+            },
+            {
+              "to": 60,
+              "label": "Reduced",
+              "tone": "caution",
+              "note": "Adjust drug doses. Hold metformin at the time of iodinated contrast and for 48 hours after."
+            },
+            {
+              "to": 90,
+              "label": "Mildly low",
+              "tone": "neutral",
+              "note": "Common with aging; a concern only with signs of kidney damage."
+            },
+            {
+              "to": 110,
+              "label": "Normal",
+              "tone": "normal",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "name": "Adult urine output",
+          "unit": "mL/hr",
+          "min": 0,
+          "bands": [
+            {
+              "to": 30,
+              "label": "Low",
+              "tone": "danger",
+              "note": "Oliguria: below 0.5 mL/kg/hr, about 30 mL/hr, for 2 hours or more. Report it."
+            },
+            {
+              "to": 120,
+              "label": "Adequate",
+              "tone": "normal",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glucose-a1c",
+      "title": "Fasting glucose and A1c",
+      "kind": "ranges",
+      "caption": "A1c reflects average glucose over the past 2 to 3 months, so it needs no fasting and a week of careful eating will not change it. Fasting glucose needs at least 8 hours without food. A 2-hour glucose tolerance reading of 200 or more also diagnoses diabetes.",
+      "match": {
+        "topics": [
+          "Glycemic Control",
+          "Adult Metabolic Screening"
+        ],
+        "terms": [
+          "A1c",
+          "HbA1c",
+          "glyc(at|osyl)ated h(a)?emoglobin",
+          "glucose tolerance( test)?",
+          "OGTT",
+          "fasting (blood |plasma |serum )?glucose",
+          "prediabet\\w*",
+          "impaired fasting glucose"
+        ],
+        "exclude": [
+          "pregnan\\w*",
+          "gestation\\w*",
+          "Somogyi",
+          "dawn phenomenon",
+          "3:00 AM",
+          "0300",
+          "newborns?",
+          "child(ren)?",
+          "pediatric",
+          "adolescents?"
+        ]
+      },
+      "scales": [
+        {
+          "name": "Fasting glucose",
+          "unit": "mg/dL",
+          "min": 50,
+          "bands": [
+            {
+              "to": 70,
+              "label": "Low",
+              "tone": "danger",
+              "note": "Hypoglycemia: give 15 g of fast carbohydrate if the client can swallow."
+            },
+            {
+              "to": 100,
+              "label": "Normal",
+              "tone": "normal",
+              "note": ""
+            },
+            {
+              "to": 126,
+              "label": "Prediabetes",
+              "tone": "caution",
+              "note": "Weight loss and activity can delay or prevent diabetes."
+            },
+            {
+              "to": 170,
+              "label": "Diabetes",
+              "tone": "caution",
+              "note": "126 or more on two tests. Many adults with diabetes aim for 80 to 130 before meals."
+            }
+          ]
+        },
+        {
+          "name": "Hemoglobin A1c",
+          "unit": "%",
+          "min": 4.5,
+          "bands": [
+            {
+              "to": 5.7,
+              "label": "Normal",
+              "tone": "normal",
+              "note": ""
+            },
+            {
+              "to": 6.5,
+              "label": "Prediabetes",
+              "tone": "caution",
+              "note": "Lifestyle change now; recheck at least yearly."
+            },
+            {
+              "to": 7.0,
+              "label": "Diabetes range",
+              "tone": "neutral",
+              "note": "6.5% or more diagnoses diabetes. Below 7% is the usual goal for adults with diabetes."
+            },
+            {
+              "to": 8.5,
+              "label": "Above goal",
+              "tone": "danger",
+              "note": "Glucose has run high for months. Explore barriers and expect treatment to intensify."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diabetic-foot-care",
+      "title": "Diabetic foot care",
+      "kind": "table",
+      "caption": "Neuropathy takes away the warning pain gives, and poor circulation slows healing, so an unnoticed blister can become an ulcer, infection or amputation. Daily inspection is the most important habit.",
+      "match": {
+        "topics": [
+          "Diabetic Foot Care",
+          "Diabetic Foot Ulcer"
+        ],
+        "terms": [
+          "diabetic foot",
+          "foot care",
+          "foot ulcers?",
+          "plantar (surface|ulcer|foot ulcer)",
+          "diabet\\w* (peripheral )?neuropathy",
+          "peripheral neuropathy",
+          "calluse?s?",
+          "toenails?",
+          "monofilament",
+          "barefoot"
+        ],
+        "exclude": [
+          "isoniazid",
+          "pyridoxine",
+          "chemotherap\\w*",
+          "vincristine",
+          "B12",
+          "Guillain",
+          "refus\\w*",
+          "bulimi\\w*",
+          "knuckles?"
+        ]
+      },
+      "columns": [
+        "",
+        "Do",
+        "Never"
+      ],
+      "rows": [
+        [
+          "Inspect",
+          "Check both feet daily, soles and between the toes, with a mirror or a helper",
+          "Count on pain to reveal an injury"
+        ],
+        [
+          "Wash",
+          "Lukewarm water, temperature checked first; dry well between the toes",
+          "Soak the feet or use hot water"
+        ],
+        [
+          "Skin",
+          "Moisturize the tops and soles",
+          "Put lotion between the toes"
+        ],
+        [
+          "Nails and calluses",
+          "Trim nails straight across; a podiatrist handles thick nails and calluses",
+          "Cut calluses or corns, or use razor blades or chemical removers"
+        ],
+        [
+          "Shoes and socks",
+          "Closed, well-fitting shoes and clean cotton socks; check shoes inside first",
+          "Go barefoot, even at home, or break in new shoes for long stretches"
+        ],
+        [
+          "Cold feet",
+          "Wear warm socks",
+          "Use heating pads, hot water bottles or electric blankets"
+        ],
+        [
+          "Report",
+          "Any cut, blister, redness, swelling, drainage or odor",
+          "Wait for a sore to heal on its own"
+        ]
+      ]
+    }
+  ]
+}
